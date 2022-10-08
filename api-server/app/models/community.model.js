@@ -30,7 +30,6 @@ module.exports = mongoose => {
           });
           onSuccess(items);
         });   
-        
       },
       getById: function(id, onSuccess, onError) {
         Communities.findOne({id:id}, {projection: {_id: 0}}, function (error, data) {

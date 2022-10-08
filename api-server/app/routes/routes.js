@@ -56,9 +56,11 @@ module.exports = app => {
     const express = require("express");
 
     var router = express.Router();
+    var visAPI = require("../controllers/communitiesVisualization.js")
     var jobsRouter = require("../controllers/jobsRoute/jobsRoute.js")
 
     // Adds jobs and api routes to the server
+    app.use('/visualizationAPI', visAPI); // if we add /v1.1/ to this path, it will go through validation of the openapi.yml spec file
     app.use('/v1.1/jobs', jobsRouter);
     initRouters(router);
     app.use('/', express.static('api'));

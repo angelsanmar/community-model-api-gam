@@ -6,6 +6,7 @@ const db = {};
 db.mongoose = mongoose;
 db.url = dbConfig.url;
 db.communityDAO = require("./community.model.js")(mongoose);
+db.CommunitiesVisualizationDAO = require("./communitiesVisualization.model")(mongoose);
 db.similarityDAO = require("./similarity.model.js")(mongoose);
 db.usersDAO = require("./users.model.js")(mongoose);
 db.perspectivesDAO = require("./perspective.model.js")(mongoose);
@@ -30,6 +31,7 @@ module.exports = {
             });
     },
     communities: db.communityDAO,
+    communitiesVisualization: db.CommunitiesVisualizationDAO,
     similarities: db.similarityDAO,
     users: db.usersDAO,
     perspectives: db.perspectivesDAO,

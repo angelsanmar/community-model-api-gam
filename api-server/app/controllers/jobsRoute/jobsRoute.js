@@ -14,8 +14,6 @@ const { communities } = require('../../models/index.js');
 var router = express.Router();
 
 
-// en desarrollo
-
 /**Response templates */
 var jobStarted_Template = {
     "job": {
