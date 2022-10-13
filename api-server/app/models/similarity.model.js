@@ -7,35 +7,35 @@ module.exports = mongoose => {
       value: Number
     }
   );
-  
-  schema.method("toJSON", function() {
+
+  schema.method("toJSON", function () {
     const { __v, _id, ...object } = this.toObject();
     return object;
   });
 
   const Similarity = mongoose.model("Similarities", schema);
-  
+
   // Access mongobd and retrieve requested data
   return {
-    allForId: function(communityId, onSuccess, onError) {
-      Similarity.find({ "target-community-id": communityId }, function(error, data){
-        if (error || data.length === 0 ) {
+    allForId: function (communityId, onSuccess, onError) {
+      Similarity.find({ "target-community-id": communityId }, function (error, data) {
+        if (error || data.length === 0) {
           onError(error);
         } else {
-          let items= [];
-          let i=0;
+          let items = [];
+          let i = 0;
           data.forEach(element => {
             items[i] = element.toJSON();
             i++;
           });
           onSuccess(items);
         }
-      }).sort({value: -1});   
-      
+      }).sort({ value: -1 });
+
     },
-    getByIds: function(targetCommunityId, otherCommunityId, onSuccess, onError) {
-      Similarity.find({ "target-community-id": targetCommunityId, "other-community-id": otherCommunityId  }, function (error, data) {
-        if (error || data.length === 0 ) {
+    getByIds: function (targetCommunityId, otherCommunityId, onSuccess, onError) {
+      Similarity.find({ "target-community-id": targetCommunityId, "other-community-id": otherCommunityId }, function (error, data) {
+        if (error || data.length === 0) {
           onError(error);
         } else {
           onSuccess(data[0].toJSON());
@@ -53,4 +53,3 @@ module.exports = mongoose => {
 //   value: 0.893
 // });
 // example.save();
-  

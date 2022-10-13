@@ -27,7 +27,7 @@ module.exports = mongoose => {
 
   return {
     update: function (user, onSuccess, onError) {
-     // 
+      // 
 
 
     }
