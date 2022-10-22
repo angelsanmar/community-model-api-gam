@@ -7,12 +7,12 @@ from socketserver import ForkingMixIn
 import logging
 
 from context import dao
-from dao.dao_db_perspectives import DAO_db_perspectives
 from dao.dao_db_users import DAO_db_users
 from dao.dao_db_communities import DAO_db_community
+from dao.dao_db_similarities import DAO_db_similarity
+from dao.dao_db_perspectives import DAO_db_perspectives
 from dao.dao_db_flags import DAO_db_flags
 from dao.dao_json import DAO_json
-#from dao.deleteAndLoadDefaultData import deleteAndLoad
 import time
 
 from communityModel.communityModel import CommunityModel
@@ -33,48 +33,48 @@ class Handler(BaseHTTPRequestHandler):
     # - create thread for each connection/request
     # - refactor code
 
-    # def do_GET(self):
-    #     """
-    #     _get handler_
-    #     API doc:
-    #     - GET:
-    #     http://localhost:8090/file/all                                      -> return all files -- List
-    #     http://localhost:8090/file/{fileId}                                 -> return the first file with name equal to "fileId" -- JSON
-    #     http://localhost:8090/perspectives/all                              -> ... -- List
-    #     http://localhost:8090/perspectives/{perspectiveId}                  -> ... -- JSON
-    #     http://localhost:8090/perspectives/{perspectiveId}/communities      -> Communities with the same "perspectiveId" -- List
-    #     http://localhost:8090/index                                         -> return json files index (returns only files id) -- list
-    #     - POST:
-    #     Used only for redirection of POST requests from API Spice and access DB from here
-    #     """
-    #     logging.info("GET request,\nPath: %s\nHeaders:\n%s\n",
-    #                  str(self.path), str(self.headers))
-    #     try:
-    #         request = self.path.split("/")
-    #         print("Request GET: ", request)
-    #         first_arg = request[1]
-    #         if first_arg == "file":
-    #             self.__getFile(request[2])
-    #         elif first_arg == "perspectives":
-    #             self.__getPerspertives(request)
-    #         elif first_arg == "index":
-    #             self.__getIndex()
-    #         else:
-    #             print("-Error-")
-    #             self.__set_response(404)
-    #             self.wfile.write(
-    #                 "-Error-\nThis GET request is not defined.\nGET request for {}".format(self.path).encode('utf-8'))
-    #     except Exception as e:
-    #         print("-Error-")
-    #         print(e)
-    #         if str(e) != "pymongo.errors.ServerSelectionTimeoutError":
-    #             self.__set_response(500)
-    #             self.wfile.write("-Error-\nGET request for {}".format(self.path).encode('utf-8'))
-    #             # raise
-    #         else:
-    #             self.__set_response(500)
-    #             self.wfile.write(
-    #                 "-MongoDB connection timeout error-\nGET request for {}".format(self.path).encode('utf-8'))
+    def do_GET(self):
+        """
+        _get handler_
+        API doc:
+        - GET:
+        http://localhost:8090/file/all                                      -> return all files -- List
+        http://localhost:8090/file/{fileId}                                 -> return the first file with name equal to "fileId" -- JSON
+        http://localhost:8090/perspectives/all                              -> ... -- List
+        http://localhost:8090/perspectives/{perspectiveId}                  -> ... -- JSON
+        http://localhost:8090/perspectives/{perspectiveId}/communities      -> Communities with the same "perspectiveId" -- List
+        http://localhost:8090/index                                         -> return json files index (returns only files id) -- list
+        - POST:
+        Used only for redirection of POST requests from API Spice and access DB from here
+        """
+        logging.info("GET request,\nPath: %s\nHeaders:\n%s\n",
+                     str(self.path), str(self.headers))
+        try:
+            request = self.path.split("/")
+            print("Request GET: ", request)
+            first_arg = request[1]
+            if first_arg == "file":
+                self.__getFile(request[2])
+            elif first_arg == "perspectives":
+                self.__getPerspertives(request)
+            elif first_arg == "index":
+                self.__getIndex()
+            else:
+                print("-Error-")
+                self.__set_response(404)
+                self.wfile.write(
+                    "-Error-\nThis GET request is not defined.\nGET request for {}".format(self.path).encode('utf-8'))
+        except Exception as e:
+            print("-Error-")
+            print(e)
+            if str(e) != "pymongo.errors.ServerSelectionTimeoutError":
+                self.__set_response(500)
+                self.wfile.write("-Error-\nGET request for {}".format(self.path).encode('utf-8'))
+                # raise
+            else:
+                self.__set_response(500)
+                self.wfile.write(
+                    "-MongoDB connection timeout error-\nGET request for {}".format(self.path).encode('utf-8'))
 
     def do_POST(self):
         """
@@ -234,24 +234,35 @@ def run(server_class=HTTPServer, handler_class=Handler):
     httpd.server_close()
     logging.info('Stopping server-loader...\n')
 
+def removeData():
+    daoP = DAO_db_perspectives()
+    daoP.drop()
+    daoC = DAO_db_community()
+    daoC.drop()
+    daoC.dropFullList()
+    daoS = DAO_db_similarity()
+    daoS.drop()
 
-# def importData():
-#     json5 = DAO_json("data/5.json")
-#     json5 = json5.getData()
-#     json6 = DAO_json("data/6.json").getData()
-#     jsonAll = DAO_json("data/Allperspectives.json").getData()
+def importData():
 
-#     daoC = DAO_db_community(db_host, db_port, db_user, db_password, db_name)
-#     daoC.insertFileList("5", json5)
-#     daoC.insertFileList("6", json6)
-#     daoP = DAO_db_perspectives(db_host, db_port, db_user, db_password, db_name)
-#     daoP.insertPerspective(jsonAll)
+
+
+    json5 = DAO_json("app/prototype-clustering/api_server/data/5.json").getData()
+    json6 = DAO_json("app/prototype-clustering/api_server/data/6.json").getData()
+
+    daoC = DAO_db_community()
+    daoC.insertFileList("5", json5)
+    daoC.insertFileList("6", json6)
+    
+    # jsonAll = DAO_json("app/prototype-clustering/api_server/data/Allperspectives.json").getData()
+    # daoP = DAO_db_perspectives()
+    # daoP.insertPerspective(jsonAll)
 
 if __name__ == '__main__':
     from sys import argv
 
-    # deleteAndLoad()
-    # importData()
+    removeData()
+    importData()
 
     if len(argv) == 2:
         run(port=int(argv[1]))

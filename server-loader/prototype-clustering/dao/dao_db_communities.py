@@ -189,4 +189,4 @@ class DAO_db_community(DAO_db):
         """
             Mongo DB Drop all documents in db_fullListCommunities collection
         """
-        self.db_fullListCommunities.delete_one(dropFilter)
+        self.db_fullListCommunities.delete_many(dropFilter)

@@ -2,10 +2,9 @@ module.exports = mongoose => {
   var schema = mongoose.Schema(
     {
       id: String,
-      "community-type": String,
-      perspectiveId: String,
       name: String,
       explanation: String,
+      perspectiveId: String,
       users: [String]
     }
   );
@@ -15,9 +14,9 @@ module.exports = mongoose => {
     // object.id = _id.toString();
     return object;
   });
-
+  
   const Communities = mongoose.model("Communities", schema);
-
+  
   // Access mongobd and retrieve requested data
   return {
     all: function (onSuccess) {

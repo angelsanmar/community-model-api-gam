@@ -21,7 +21,11 @@ module.exports = mongoose => {
           },
           weight: Number
         }
-      }]
+      }],
+      user_attributes: [{
+        att_name: String,
+        att_type: String
+      }],
     }
   );
 
@@ -37,7 +41,7 @@ module.exports = mongoose => {
   return {
     all: function (onSuccess) {
       let items = [];
-      Perspectives.find({}, {projection: {_id: 0}}, function (error, data) {
+      Perspectives.find({}, { projection: { _id: 0 } }, function (error, data) {
         let i = 0;
         data.forEach(element => {
           items[i] = element.toJSON();
@@ -48,7 +52,7 @@ module.exports = mongoose => {
 
     },
     getById: function (id, onSuccess, onError) {
-      Perspectives.findOne({ "id": id }, {projection: {_id: 0}}, function (error, data) {
+      Perspectives.findOne({ "id": id }, { projection: { _id: 0 } }, function (error, data) {
         if (error) {
           onError(error);
         } else {

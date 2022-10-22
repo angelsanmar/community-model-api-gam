@@ -162,7 +162,28 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "scettico",
+                    "extracted_emotions": {
+                        "Serenity": 0.7,
+                        "Trust": 0.3,
+                        "Fear": 0.5
+                    }
+                },
+                {
+                    "artwork_id": "2",
+                    "feelings": "Vociare, odori, curiosità, calore",
+                    "extracted_emotions": {
+                        "Surprise": 0.622342,
+                        "Anger": 1,
+                        "Disgust": 1,
+                        "Love": 1
+                    }
+                }
+            ]
         },
         {
             "id": "6",
@@ -171,7 +192,32 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "rispecchia bene la sotuazione del momento. Ciascuno di noi e costretto nella propria casa / uffcio a svolgere il proprio lavoro. Le sedie vuote rafforzano la sensazione di solitudine, tuttavia il numero di finestre permette di espandere questo interno al di fuori verso un paesaggio che infonde grande serenita'. Spazi aperti e un cielo (che occupa tutta la visuale, di un azzurro intenso. Quindi un messaggio di positivita' e grande speranza",
+                    "extracted_emotions": {
+                        "Serenity": 0.53106874,
+                        "Anticipation": 2,
+                        "Trust": 2,
+                        "Joy": 2,
+                        "Fear": 1,
+                        "Anger": 1,
+                        "Surprise": 1
+                    }
+                },
+                {
+                    "artwork_id": "2",
+                    "feelings": "Vociare, odori, curiosità, calore",
+                    "extracted_emotions": {
+                        "Surprise": 0.622342,
+                        "Anger": 1,
+                        "Disgust": 1,
+                        "Love": 1
+                    }
+                }
+            ]
         },
         {
             "id": "7",
@@ -180,7 +226,22 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "solitudine e tranquillita",
+                    "extracted_emotions": {
+                        "Serenity": 0.99208987,
+                        "Fear": 1
+                    }
+                },
+                {
+                    "artwork_id": "2",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "8",
@@ -189,7 +250,16 @@
             "explicit_community": {
                 "ageGroup": "",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "mi fa sentire libera",
+                    "extracted_emotions": {
+                        "Joy": 1
+                    }
+                }
+            ]
         },
         {
             "id": "9",
@@ -198,7 +268,16 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "libero di esplorare",
+                    "extracted_emotions": {
+                        "Joy": 1
+                    }
+                }
+            ]
         },
         {
             "id": "11",
@@ -207,7 +286,16 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "il vento aria caldo troppo estate",
+                    "extracted_emotions": {
+                        "Sadness": 0.5490846
+                    }
+                }
+            ]
         },
         {
             "id": "12",
@@ -216,7 +304,17 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "sereno",
+                    "extracted_emotionsextracted_emotions": {
+                        "Joy": 0.981668,
+                        "Serenity": 0.9667546
+                    }
+                }
+            ]
         },
         {
             "id": "13",
@@ -225,7 +323,16 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "felice",
+                    "extracted_emotions": {
+                        "Joy": 0.7947353000000001
+                    }
+                }
+            ]
         },
         {
             "id": "14",
@@ -234,7 +341,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "aria",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "15",
@@ -243,7 +357,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "16",
@@ -252,7 +373,14 @@
             "explicit_community": {
                 "ageGroup": "elderly",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "17",
@@ -261,7 +389,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "18",
@@ -270,7 +405,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "19",
@@ -279,7 +421,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "20",
@@ -288,7 +437,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "21",
@@ -297,7 +453,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "23",
@@ -306,7 +469,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "24",
@@ -315,7 +485,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "25",
@@ -324,7 +501,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "26",
@@ -333,7 +517,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "27",
@@ -342,7 +533,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "28",
@@ -351,7 +549,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "29",
@@ -360,7 +565,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "30",
@@ -369,7 +581,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "31",
@@ -378,7 +597,14 @@
             "explicit_community": {
                 "ageGroup": "",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "32",
@@ -387,7 +613,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "34",
@@ -396,7 +629,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "35",
@@ -405,7 +645,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "36",
@@ -414,7 +661,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "EN"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "37",
@@ -423,7 +677,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "ES"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "39",
@@ -432,7 +693,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "ES"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "41",
@@ -441,7 +709,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "ES"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotionsextracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "44",
@@ -450,7 +725,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "ES"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "45",
@@ -459,7 +741,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "ES"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "54",
@@ -468,7 +757,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "FI"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "58",
@@ -477,7 +773,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "FI"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "61",
@@ -486,7 +789,14 @@
             "explicit_community": {
                 "ageGroup": "",
                 "language": "FI"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "63",
@@ -495,7 +805,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "64",
@@ -504,7 +821,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "65",
@@ -513,7 +837,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "66",
@@ -522,7 +853,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "67",
@@ -531,7 +869,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "68",
@@ -540,7 +885,14 @@
             "explicit_community": {
                 "ageGroup": "elderly",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "69",
@@ -549,7 +901,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "70",
@@ -558,7 +917,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "71",
@@ -567,7 +933,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "72",
@@ -576,7 +949,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "73",
@@ -585,7 +965,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "74",
@@ -594,7 +981,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "75",
@@ -603,7 +997,14 @@
             "explicit_community": {
                 "ageGroup": "elderly",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "76",
@@ -612,7 +1013,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "77",
@@ -621,7 +1029,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "78",
@@ -630,7 +1045,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "79",
@@ -639,7 +1061,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "80",
@@ -648,7 +1077,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "81",
@@ -657,7 +1093,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "82",
@@ -666,7 +1109,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "84",
@@ -675,7 +1125,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotionsextracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "85",
@@ -684,7 +1141,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "87",
@@ -693,7 +1157,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "88",
@@ -702,7 +1173,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "89",
@@ -711,7 +1189,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "90",
@@ -720,7 +1205,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "91",
@@ -729,7 +1221,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "92",
@@ -738,7 +1237,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "HE"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "93",
@@ -747,7 +1253,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "94",
@@ -756,7 +1269,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "95",
@@ -765,7 +1285,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotionsextracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "96",
@@ -774,7 +1301,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "97",
@@ -783,7 +1317,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "98",
@@ -792,7 +1333,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "99",
@@ -801,7 +1349,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "101",
@@ -810,7 +1365,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "102",
@@ -819,7 +1381,14 @@
             "explicit_community": {
                 "ageGroup": "elderly",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "103",
@@ -828,7 +1397,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "104",
@@ -837,7 +1413,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotionsextracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "105",
@@ -846,7 +1429,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "106",
@@ -855,7 +1445,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "107",
@@ -864,7 +1461,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "108",
@@ -873,7 +1477,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotionsextracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "109",
@@ -882,7 +1493,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "110",
@@ -891,7 +1509,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "111",
@@ -900,7 +1525,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "112",
@@ -909,7 +1541,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "113",
@@ -918,7 +1557,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "114",
@@ -927,7 +1573,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "115",
@@ -936,7 +1589,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "116",
@@ -945,7 +1605,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "117",
@@ -954,7 +1621,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "118",
@@ -963,7 +1637,14 @@
             "explicit_community": {
                 "ageGroup": "elderly",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "119",
@@ -972,7 +1653,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "120",
@@ -981,7 +1669,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotionsextracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "121",
@@ -990,7 +1685,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "122",
@@ -999,7 +1701,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "123",
@@ -1008,7 +1717,14 @@
             "explicit_community": {
                 "ageGroup": "young",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "124",
@@ -1017,7 +1733,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         },
         {
             "id": "126",
@@ -1026,7 +1749,14 @@
             "explicit_community": {
                 "ageGroup": "adult",
                 "language": "IT"
-            }
+            },
+            "interactions": [
+                {
+                    "artwork_id": "1",
+                    "feelings": "",
+                    "extracted_emotions": {}
+                }
+            ]
         }
     ],
     "similarity": [
@@ -24309,6 +25039,22 @@
             "u1": "124",
             "u2": "126",
             "value": 0.5
+        }
+    ],
+    "artworks": [
+        {
+            "id": "1",
+            "tittle": "Le tre finestre, La pianura della torre",
+            "author": "Jessie Boswell Leeds",
+            "year": "1924",
+            "image": "https%3A%2F%2Fwww.gamtorino.it%2Fsites%2Fdefault%2Ffiles%2Fopere%2FMALINCONIA-%2520BOSWELL%2520Le%2520tre%2520finestre.jpg"
+        },
+        {
+            "id": "2",
+            "tittle": "Mercato Vecchio",
+            "author": "Antonio Fontanesi Reggio Emilia",
+            "year": "1867",
+            "image": "https://www.gamtorino.it/sites/default/files/opere/FONTANESI_P_790.jpg"
         }
     ]
 }
