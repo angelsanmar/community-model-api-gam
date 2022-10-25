@@ -641,6 +641,7 @@ components:
         - name
         - algorithm
         - similarity_functions
+        - user_attributes
       type: object
       properties:
         id:
@@ -670,11 +671,26 @@ components:
           description: similarity_functions
           items: 
             $ref: '#/components/schemas/sim_function'
+        user_attributes:
+          type: array
+          items:
+            type: object
+            title: user_attributes
+            properties:
+              att_name:
+                type: string
+                description: att_name
+                example: att_name
+              att_type:
+                type: string
+                description: att_type
+                example: att_type
     community:
       required:
-        - community-type
         - id
         - name
+        - explanation
+        - perspectiveId
         - users
       type: object
       properties:
@@ -684,10 +700,6 @@ components:
           type: string
           description: Community name
           example: elderly
-        jobId:
-          type: string
-          description: jobId
-          example: jobId
         perspectiveId:
           type: string
           description: perspectiveId
@@ -696,13 +708,6 @@ components:
           type: string
           description: community description (maybe empty). It can be computed by the explanation module
           example: People whose age is above 65
-        community-type:
-          type: string
-          description: Type of community. Implicit communities are computed by the community model. Explicit communities are provided by the user model
-          example: explicit
-          enum:
-          - explicit
-          - implicit
         users:
           type: array
           description: A list with the users who belong to the community
@@ -712,7 +717,6 @@ components:
           items:
             $ref: '#/components/schemas/id'
       example:
-        community-type: explicit
         name: elderly
         id: d290f1ee-6c54-4b01-90e6-d701748f0851
         explanation: People whose age is above 65

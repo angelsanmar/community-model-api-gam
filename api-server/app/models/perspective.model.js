@@ -12,14 +12,14 @@ module.exports = mongoose => {
       similarity_functions: [{
         sim_function: {
           name: String,
+          weight: Number,
           params: [
             String
           ],
           on_attribute: {
             att_name: String,
             att_type: String
-          },
-          weight: Number
+          }
         }
       }],
       user_attributes: [{
