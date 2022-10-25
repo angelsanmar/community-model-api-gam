@@ -103,8 +103,8 @@ class Handler(BaseHTTPRequestHandler):
                 "perspectiveId": perspective["id"],
                 "userId": ""
             }
-            daoFlags = DAO_db_flags()
-            daoFlags.updateFlag(newFlag)
+            # daoFlags = DAO_db_flags()
+            # daoFlags.updateFlag(newFlag)
 
         elif first_arg == "updateUsers":
             # add or update user
@@ -113,17 +113,17 @@ class Handler(BaseHTTPRequestHandler):
             ok = daoUsers.insertUser_API(users)
             
             # Activate flags associated to user/perspective pair (perspective makes use of one of the user's attributes (pname))
-            daoPerspectives = DAO_db_perspectives()
-            daoFlags = DAO_db_flags()
+            # daoPerspectives = DAO_db_perspectives()
+            # daoFlags = DAO_db_flags()
             
-            perspectives = daoPerspectives.getPerspectives()
+            # perspectives = daoPerspectives.getPerspectives()
             
-            for user in users:
-                for perspective in perspectives:
-                    for similarityFunction in perspective['similarity_functions']:
-                        if (similarityFunction['sim_function']['on_attribute']['att_name'] == user['pname']):
-                            flag = {'perspectiveId': perspective['id'], 'userid': user['userid'], 'flag': True}
-                            daoFlags.updateFlag(flag)
+            # for user in users:
+            #     for perspective in perspectives:
+            #         for similarityFunction in perspective['similarity_functions']:
+            #             if (similarityFunction['sim_function']['on_attribute']['att_name'] == user['pname']):
+            #                 flag = {'perspectiveId': perspective['id'], 'userid': user['userid'], 'flag': True}
+            #                 daoFlags.updateFlag(flag)
 
         elif first_arg == "update_CM":
             #data = loads(post_data.decode('utf-8'))
@@ -135,7 +135,7 @@ class Handler(BaseHTTPRequestHandler):
             self.__set_response(204)
             self.wfile.write("POST request for {}".format(
                 self.path).encode('utf-8'))
-            self.__updateCM(post_data)
+            # self.__updateCM(post_data)
         elif ok:
             self.__set_response(204)
             self.wfile.write("POST request for {}".format(
