@@ -1,0 +1,115 @@
+user_interactions:
+  required:
+    - parts
+  type: object
+  properties:
+    _datasetid:
+      type: string
+      description: _datasetid
+      example: 816c8fb3-6c73-4405-bf71-b1c765c4a79e
+    _id:
+      type: string
+      description: _datasetid
+      example: 816c8fb3-6c73-4405-bf71-b1c765c4a79e
+    _timestamp:
+      type: number
+      description: _timestamp
+      example: 1664641503
+    _timestamp_day:
+      type: number
+      description: _timestamp_day
+      example: 1
+    _timestamp_hour:
+      type: number
+      description: _timestamp_hour
+      example: 17
+    _timestamp_minute:
+      type: number
+      description: _timestamp_minute
+      example: 25
+    _timestamp_month:
+      type: number
+      description: _timestamp_month
+      example: 10
+    _timestamp_second:
+      type: number
+      description: _timestamp_second
+      example: 3
+    _timestamp_year:
+      type: number
+      description: _timestamp_year
+      example: 2022
+    activityId:
+      type: string
+      description: activityId
+      example: 62cc4f819f7c9c7e6739a46b
+    authorUsername:
+      type: string
+      description: authorUsername
+      example: RQ4a2nIG
+    authorId:
+      type: string
+      description: authorId
+      example: RQ4a2nIG
+    parts:
+      type: array
+      items:
+        type: object
+        title: parts
+        properties:
+          artworkId:
+              type: string
+              description: artworkId
+              example: 39416
+          emotions:
+            type: object
+            additionalProperties: 
+              type: number
+          multimediaData:
+            type: object
+            title: multimediaData
+            properties:
+              answersToTemplates:
+                type: object
+                title: answersToTemplates
+                properties:
+                  itMakesMeFeel:
+                    type: string
+                  itMakesMeThinkAbout:
+                    type: string
+                  itRemindsMeOf:
+                    type: string
+              emojis:
+                type: array
+                items:
+                  $ref: '#/emojis' 
+              tags:
+                type: array
+                items:
+                  $ref: '#/tags' 
+    sessionName:
+      type: string
+      description: authorUsername
+      example: notte
+    title:
+      type: string
+      description: authorUsername
+      example: Gli scacchi
+emojis:
+  type: object
+  properties:
+    emoji:
+      type: string
+    locationX:
+      type: number
+    locationY:
+      type: number
+tags:
+  type: object
+  properties:
+    locationX:
+      type: number
+    locationY:
+      type: number
+    tag:
+      type: string

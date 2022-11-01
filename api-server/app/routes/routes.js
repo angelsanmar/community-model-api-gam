@@ -7,7 +7,8 @@ module.exports = app => {
         Communities: require("../controllers/communities.js"),
         Similarity: require("../controllers/similarity.js"),
         Users: require("../controllers/users.js"),
-        Perspectives: require("../controllers/perspectives.js")
+        Perspectives: require("../controllers/perspectives.js"),
+        PostDataInput: require("../controllers/dataInput.js")
     };
 
     function initRouters(router) {

@@ -17,7 +17,7 @@ const apiSpec = path.resolve(__dirname, './api/openapi.yaml');
 async function initServer() {
   const app = express();
   app.use(bodyParser.urlencoded({ extended: true }));
-  app.use(bodyParser.json());
+  app.use(bodyParser.json({ limit:  10 * 1024 * 1024})); //10 Mb
   app.set("apiSpec", apiSpec);
 
 
@@ -37,8 +37,8 @@ async function initServer() {
     //   resolver: resolvers.modulePathResolver,
     // },
   });
-  app.use( middleware);
-  
+  app.use(middleware);
+
 
   // Catch errors
   // enforcerMiddleware.on('error', err => {
@@ -68,9 +68,9 @@ async function initDatabaseConnection(onReady) {
 module.exports = {
   run: async function (onReady) {
     const app = await initServer();
-    app.on ( "ready",()=> {
+    app.on("ready", () => {
       const PORT = process.env.NODE_DOCKER_PORT || 3000;
-      app.listen(PORT, ()=> {
+      app.listen(PORT, () => {
         console.log(`Server is running on port ${PORT}.`);
         if (onReady) {
           onReady(app);
@@ -81,7 +81,7 @@ module.exports = {
   },
   test: async function (onReady) {
     const app = await initServer();
-    app.on ( "ready",()=> {
+    app.on("ready", () => {
       onReady(app);
     });
     await initDatabaseConnection(() => app.emit("ready"));

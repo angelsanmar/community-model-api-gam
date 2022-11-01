@@ -26,6 +26,7 @@ db_password = os.environ['DB_PASSWORD']
 db_name = os.environ['DB_NAME']
 db_port = os.environ['DB_PORT']
 
+
 class Handler(BaseHTTPRequestHandler):
 
     # TODO:
@@ -69,7 +70,8 @@ class Handler(BaseHTTPRequestHandler):
             print(e)
             if str(e) != "pymongo.errors.ServerSelectionTimeoutError":
                 self.__set_response(500)
-                self.wfile.write("-Error-\nGET request for {}".format(self.path).encode('utf-8'))
+                self.wfile.write(
+                    "-Error-\nGET request for {}".format(self.path).encode('utf-8'))
                 # raise
             else:
                 self.__set_response(500)
@@ -98,7 +100,7 @@ class Handler(BaseHTTPRequestHandler):
             daoPerspective = DAO_db_perspectives(
                 db_host, db_port, db_user, db_password, db_name)
             ok = daoPerspective.insertPerspective(perspective)
-            
+
             newFlag = {
                 "perspectiveId": perspective["id"],
                 "userId": ""
@@ -111,13 +113,13 @@ class Handler(BaseHTTPRequestHandler):
             users = loads(post_data)
             daoUsers = DAO_db_users()
             ok = daoUsers.insertUser_API(users)
-            
+
             # Activate flags associated to user/perspective pair (perspective makes use of one of the user's attributes (pname))
             # daoPerspectives = DAO_db_perspectives()
             # daoFlags = DAO_db_flags()
-            
+
             # perspectives = daoPerspectives.getPerspectives()
-            
+
             # for user in users:
             #     for perspective in perspectives:
             #         for similarityFunction in perspective['similarity_functions']:
@@ -130,13 +132,27 @@ class Handler(BaseHTTPRequestHandler):
             data = "1000"
             print("update_CM")
             ok = "updateCM"
-            
-        if ok == "updateCM":
-            self.__set_response(204)
-            self.wfile.write("POST request for {}".format(
-                self.path).encode('utf-8'))
-            # self.__updateCM(post_data)
-        elif ok:
+
+        elif first_arg == "postData":
+            ok = True
+            perspectiveId = loads(post_data)["perspectiveId"]
+            print("perspectiveId:", perspectiveId)
+
+            daoFlags = DAO_db_flags()
+            data = daoFlags.getFlag(perspectiveId)
+            print("data:", data)
+            # handler for input data:
+            # - create perspective with inputData
+            # - when finished remove flag with {perspectiveId} from mongodb
+            daoFlags.deleteFlagById(perspectiveId)
+            pass
+
+        # if ok == "updateCM":
+        #     self.__set_response(204)
+        #     self.wfile.write("POST request for {}".format(
+        #         self.path).encode('utf-8'))
+        #     # self.__updateCM(post_data)
+        if ok != False:
             self.__set_response(204)
             self.wfile.write("POST request for {}".format(
                 self.path).encode('utf-8'))
@@ -155,12 +171,12 @@ class Handler(BaseHTTPRequestHandler):
             perspective = daoPerspectives.getPerspective(flag["perspectiveId"])
 
             # Call to the community model
-            communityModel = CommunityModel(perspective,flag)
+            communityModel = CommunityModel(perspective, flag)
             communityModel.start()
 
             # Remove flag
             daoFlags.deleteFlag(flag)
-        
+
     def __set_response(self, code, dataType='text/html'):
         self.send_response(code)
         self.send_header('Content-type', dataType)
@@ -199,7 +215,8 @@ class Handler(BaseHTTPRequestHandler):
                     self.wfile.write(dumps(data).encode(encoding='utf_8'))
                 else:
                     self.__set_response(404)
-                    self.wfile.write("File not found\nGET request for {}".format(self.path).encode('utf-8'))
+                    self.wfile.write("File not found\nGET request for {}".format(
+                        self.path).encode('utf-8'))
 
     def __getFile(self, fileId):
         dao = DAO_db_community(db_host, db_port, db_user, db_password, db_name)
@@ -214,13 +231,15 @@ class Handler(BaseHTTPRequestHandler):
                 self.wfile.write(dumps(data).encode(encoding='utf_8'))
             else:
                 self.__set_response(404)
-                self.wfile.write("File not found\nGET request for {}".format(self.path).encode('utf-8'))
+                self.wfile.write("File not found\nGET request for {}".format(
+                    self.path).encode('utf-8'))
 
 
 class ForkingHTTPServer(ForkingMixIn, HTTPServer):
     def finish_request(self, request, client_address):
         request.settimeout(30)
         HTTPServer.finish_request(self, request, client_address)
+
 
 def run(server_class=HTTPServer, handler_class=Handler):
     logging.basicConfig(level=logging.INFO)
@@ -234,6 +253,7 @@ def run(server_class=HTTPServer, handler_class=Handler):
     httpd.server_close()
     logging.info('Stopping server-loader...\n')
 
+
 def removeData():
     daoP = DAO_db_perspectives()
     daoP.drop()
@@ -243,20 +263,21 @@ def removeData():
     daoS = DAO_db_similarity()
     daoS.drop()
 
+
 def importData():
 
-
-
-    json5 = DAO_json("app/prototype-clustering/api_server/data/5.json").getData()
-    json6 = DAO_json("app/prototype-clustering/api_server/data/6.json").getData()
+    json5 = DAO_json(
+        "app/prototype-clustering/api_server/data/5.json").getData()
+    # json6 = DAO_json("app/prototype-clustering/api_server/data/6.json").getData()
 
     daoC = DAO_db_community()
     daoC.insertFileList("5", json5)
-    daoC.insertFileList("6", json6)
-    
+    # daoC.insertFileList("6", json6)
+
     # jsonAll = DAO_json("app/prototype-clustering/api_server/data/Allperspectives.json").getData()
     # daoP = DAO_db_perspectives()
     # daoP.insertPerspective(jsonAll)
+
 
 if __name__ == '__main__':
     from sys import argv

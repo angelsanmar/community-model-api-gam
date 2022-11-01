@@ -2,6 +2,7 @@ module.exports = mongoose => {
   var schema = mongoose.Schema(
     {
       perspectiveId: String,
+      data: mongoose.Mixed,
       flag: Boolean
     }
   );
@@ -16,6 +17,18 @@ module.exports = mongoose => {
 
   // Access mongobd and retrieve requested flag
   return {
+    insertFlag: function (data, onSuccess, onError) {
+      // console.log(json);
+      Flags.create(data, function (err, res) {
+        if (err) {
+          console.log("insertFlag: error");
+          onError(user);
+        }
+        else {
+          onSuccess(null);
+        }
+      });
+    },
     checkFlag: function (onSuccess, onError) {
       Flags.findOne({}, function (error, data) {
         // var res = JSON.stringify(data)

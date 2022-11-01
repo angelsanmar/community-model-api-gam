@@ -22,73 +22,15 @@ from bson.json_util import dumps, loads
 
 
 def main():
-    daoUsers = DAO_db_users("localhost", 27018, "spice", "spicepassword")
-    daoUsers.drop()
 
-    user = [
-        {
-            "id": "11541",
-            "userid": "1",
-            "origin": "90e6d701748f08514b01",
-            "source_id": "90e6d701748f08514b01",
-            "source": "Content description",
-            "pname": "DemographicGender",
-            "pvalue": "F (for Female value)",
-            "context": "application P:DemographicsPrep",
-            "datapoints": 0
-        },
-        {
-            "id": "11541",
-            "userid": "1",
-            "origin": "90e6d701748f08514b01",
-            "source_id": "90e6d701748f08514b01",
-            "source": "Content description",
-            "pname": "Age",
-            "pvalue": "22",
-            "context": "application P:DemographicsPrep",
-            "datapoints": 0
-        }
-    ]
+    route = r"test/data/annotated-stories.json"
+    # route = r"test/data/generated.json"
+    data = DAO_json(route).getData()
 
-    perspective = {
-          "id": "99",
-          "name": "Perspective_99",
-          "algorithm": {
-            "name": "String",
-            "params": [
-              "param_a",
-              "param_b"
-            ]
-          },
-          "similarity_functions": [
-            {
-              "sim_function": {
-                "name": "String",
-                "params": [
-                  "param_a",
-                  "param_b"
-                ],
-                "on_attribute": {
-                  "att_name": "String",
-                  "att_type": "String"
-                },
-                "weight": 100
-              }
-            }
-          ]
-        }
-
-    dao = DAO_api()
-    # Hacemos post a la API. La API lo guarda en la db
-    # response = dao.updateUser(1, user)
-    response = dao.addPerspective(perspective)
-    # response = dao.updateUser("1", user)
-    print(response.status_code)
-
-
-    # Pedimos los datos desde la DAO Users, la DAO lee de db
-    # daoUsers = DAO_db_users("localhost", 27018, "spice", "spicepassword")
-    # print(daoUsers.getUser("1"))
-
+    api = DAO_api()
+    x = api.addPerspective({})
+    # x = requests.post("http://localhost:8090/postData", json = data)
+    x = requests.post("http://localhost:8080/v1.1/dataInput", json = data)
+    print(x.text)
 
 main()

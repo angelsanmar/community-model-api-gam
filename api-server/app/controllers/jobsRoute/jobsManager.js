@@ -6,6 +6,9 @@
 var jobsList = []
 
 
+/**
+ * Create job and return path to job
+ */
 createJob = function (perspectiveId, requestTypeName) {
     var jobId = generateId()
     console.log("<JobsQueue> generateId: " + jobId)

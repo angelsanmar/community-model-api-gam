@@ -147,16 +147,21 @@ router.get('/:job_id', function (req, res, next) {
             Flags.getFlagsById(param)
                 .then(function (data) {
                     if (data == null) {
-                        var data = {};
-                        // Get data from mongodb if flag is positive
-                        getData(request, param)
-                            .then(function (data) {
-                                jobManager.removeJob(jobId);
-                                res.status(200).send(generateCompletedResponse(jobId, data));
-                            })
-                            .catch(function (data) {
-                                res.status(404).send("JobsManager: getData exception");
-                            });
+                        try {
+                            var data = {};
+                            // Get data from mongodb if flag is positive
+
+                            getData(request, param)
+                                .then(function (data) {
+                                    jobManager.removeJob(jobId);
+                                    res.status(200).send(generateCompletedResponse(jobId, data));
+                                })
+                                .catch(function (data) {
+                                    res.status(404).send("JobsManager: getData exception");
+                                });
+                        } catch (error) {
+                            console.log(error)
+                        }
                     }
                     else {
                         res.send(generateProgressResponse(jobId));
@@ -195,6 +200,11 @@ function getData(request, param) {
             break;
         case "listCommunityUsers":
             return Communities.listCommunityUsers(param);
+            break;
+        case "postDataInput":
+            return new Promise(function (resolve, reject) {
+                resolve(param);
+            });
             break;
         default:
             break;
