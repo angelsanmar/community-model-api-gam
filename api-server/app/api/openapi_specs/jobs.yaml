@@ -13,7 +13,7 @@ jobStarted:
         path:
           type: string
           description: path
-          example: /jobs/4351
+          example: /v1.1/jobs/4351
         jobId:
           $ref: '#/jobId'
         name:
@@ -42,7 +42,7 @@ jobCompleted:
         path:
           type: string
           description: path
-          example: /jobs/4351
+          example: /v1.1/jobs/4351
         jobId:
           $ref: '#/jobId'
         name:
@@ -83,4 +83,4 @@ job:
     path:
       type: string
       description: job
-      example: /jobs/{jobId}
+      example: /v1.1/jobs/{jobId}

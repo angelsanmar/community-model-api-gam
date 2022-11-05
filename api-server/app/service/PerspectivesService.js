@@ -4,6 +4,7 @@ var postData = require('./postData.js');
 
 const PerspectiveDAO = db.perspectives;
 const CommunityDAO = db.communities;
+const FlagDAO = db.flag;
 
 
 /**
@@ -110,12 +111,30 @@ const http = require('http');
  * body perspective object that will be added to the model
  * no response value expected for this operation
  */
-exports.PostPerspective = function (body) {
+exports.PostPerspective = function (body, generatedId) {
   // return new Promise(function (resolve, reject) {
-  // try {
-  return postData.post_data(body, "/perspective")
-  // } catch (error) {
-  //   console.log(error)
-  // }
+  try {
+    var json = {
+      perspectiveId: generatedId,
+      data: body
+    };
+
+    // create flag
+    FlagDAO.insertFlag(json,
+      data => {
+        // resolve(data)
+      },
+      error => {
+        console.log("FlagDAO.insertFlag error1: " + error);
+        // reject(error)
+      })
+
+    var json2 = body
+    json2["perspectiveId"] = generatedId
+
+  } catch (error) {
+    console.log(error)
+  }
+  return postData.post_data(json2, "/perspective")
   // });
 }

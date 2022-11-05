@@ -27,8 +27,8 @@ async function initServer() {
   //app.use(enforcerMiddleware.init());
   const middleware = openApiMiddleware({
     apiSpec,
-    validateRequests: true,
-    validateResponses: true, // default false
+    validateRequests: false,
+    validateResponses: false, // default false
     // operationHandlers: {
     //   // 3. Provide the path to the controllers directory
     //   basePath: path.join(__dirname, 'controllers'),

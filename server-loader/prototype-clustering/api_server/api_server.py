@@ -12,6 +12,7 @@ from dao.dao_db_communities import DAO_db_community
 from dao.dao_db_similarities import DAO_db_similarity
 from dao.dao_db_perspectives import DAO_db_perspectives
 from dao.dao_db_flags import DAO_db_flags
+from dao.dao_db_interactionData import DAO_db_interactionDatas
 from dao.dao_json import DAO_json
 import time
 
@@ -95,43 +96,36 @@ class Handler(BaseHTTPRequestHandler):
         print("Request POST: ", request)
         first_arg = request[1]
         if first_arg == "perspective":
-            # add new perspective
-            perspective = loads(post_data)
-            daoPerspective = DAO_db_perspectives(
-                db_host, db_port, db_user, db_password, db_name)
-            ok = daoPerspective.insertPerspective(perspective)
+            post_data = loads(post_data)
+            # retrive from postRequest perspective
+            perspectiveId = post_data["perspectiveId"]
+            perspective = post_data
 
-            newFlag = {
-                "perspectiveId": perspective["id"],
-                "userId": ""
-            }
+            # save perspective into db
+            
+            daoPerspective = DAO_db_perspectives()
+            ok = daoPerspective.insertPerspective(perspective)
+            print("perspectiveId: ", perspectiveId)
+            print("perspective: ", perspective)
+            
+            # retrive interactionData
+            daoInteractionData = DAO_db_interactionDatas()
+            interactionData = daoInteractionData.getInteractionData()["data"]
+            # print("Interaction Data: ", interactionData) # muy largo
+
+
+            # _CM_
+
+
+            # remove perspective flag (user gets the persepectiveId) 
             # daoFlags = DAO_db_flags()
-            # daoFlags.updateFlag(newFlag)
+            # daoFlags.deleteFlagById(perspectiveId)
 
         elif first_arg == "updateUsers":
             # add or update user
             users = loads(post_data)
             daoUsers = DAO_db_users()
             ok = daoUsers.insertUser_API(users)
-
-            # Activate flags associated to user/perspective pair (perspective makes use of one of the user's attributes (pname))
-            # daoPerspectives = DAO_db_perspectives()
-            # daoFlags = DAO_db_flags()
-
-            # perspectives = daoPerspectives.getPerspectives()
-
-            # for user in users:
-            #     for perspective in perspectives:
-            #         for similarityFunction in perspective['similarity_functions']:
-            #             if (similarityFunction['sim_function']['on_attribute']['att_name'] == user['pname']):
-            #                 flag = {'perspectiveId': perspective['id'], 'userid': user['userid'], 'flag': True}
-            #                 daoFlags.updateFlag(flag)
-
-        elif first_arg == "update_CM":
-            #data = loads(post_data.decode('utf-8'))
-            data = "1000"
-            print("update_CM")
-            ok = "updateCM"
 
         elif first_arg == "postData":
             ok = True
@@ -140,12 +134,18 @@ class Handler(BaseHTTPRequestHandler):
 
             daoFlags = DAO_db_flags()
             data = daoFlags.getFlag(perspectiveId)
-            print("data:", data)
+            # print("data:", data)
             # handler for input data:
             # - create perspective with inputData
             # - when finished remove flag with {perspectiveId} from mongodb
             daoFlags.deleteFlagById(perspectiveId)
             pass
+
+        elif first_arg == "update_CM":
+            #data = loads(post_data.decode('utf-8'))
+            data = "1000"
+            print("update_CM")
+            ok = "updateCM"
 
         # if ok == "updateCM":
         #     self.__set_response(204)

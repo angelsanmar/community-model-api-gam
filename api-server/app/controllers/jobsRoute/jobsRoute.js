@@ -17,7 +17,7 @@ var router = express.Router();
 /**Response templates */
 var jobStarted_Template = {
     "job": {
-        "@uri": "/jobs/xxxxxxxx",
+        "@uri": "/v1.1/jobs/xxxxxxxx",
         "id": "2130040",
         "name": "Update Community Model",
         "job-state": "STARTED",
@@ -32,7 +32,7 @@ var jobStarted_Template = {
 }
 var jobCompleted_Template = {
     "job": {
-        "@uri": "/api/company/job-management/jobs/2130040",
+        "@uri": "/v1.1/jobs/xxxxxxxx",
         "id": "2130040",
         "name": "Update Resource",
         "job-state": "COMPLETED",
@@ -75,7 +75,7 @@ var jobCompleted = {
  */
 function generateCompletedResponse(jobId, data) {
     var response = jobCompleted;
-    response["job"]["path"] = "/jobs/" + jobId;
+    response["job"]["path"] = "/v1.1/jobs/" + jobId;
     response["job"]["jobId"] = jobId;
     response["job"]["data"] = data
     return response
@@ -88,7 +88,7 @@ function generateCompletedResponse(jobId, data) {
  */
 function generateProgressResponse(jobId) {
     var response = jobStarted;
-    response["job"]["path"] = "/jobs/" + jobId;
+    response["job"]["path"] = "/v1.1/jobs/" + jobId;
     response["job"]["jobId"] = jobId;
     return response
 }
@@ -201,7 +201,7 @@ function getData(request, param) {
         case "listCommunityUsers":
             return Communities.listCommunityUsers(param);
             break;
-        case "postDataInput":
+        case "postPerspective":
             return new Promise(function (resolve, reject) {
                 resolve(param);
             });

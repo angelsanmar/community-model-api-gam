@@ -2,8 +2,7 @@
 const db = require("../models");
 var postData = require('./postData.js');
 
-const PerspectiveDAO = db.perspectives;
-const CommunityDAO = db.communities;
+const InteractionData = db.interactionData;
 const FlagDAO = db.flag;
 
 
@@ -14,29 +13,49 @@ const FlagDAO = db.flag;
  * body perspective object that will be added to the model
  * no response value expected for this operation
  */
-exports.PostDataInput = function (generatedId, body) {
-    // return new Promise(function (resolve, reject) {
-    // try {
-    var json = {
-        perspectiveId: generatedId,
-        data: body
-    };
-    FlagDAO.insertFlag(json,
-        data => {
-            // resolve(data)
-        },
-        error => {
-            console.log("DataInput error: " + error);
-            // reject(error)
-        })
+exports.PostDataInput = function (body) {
+    return new Promise(function (resolve, reject) {
+        try {
 
-    var newBody = {
-        perspectiveId: generatedId
-    }
+            var json = { data: body }
+            // save data
+            InteractionData.insertData(json,
+                data => {
+                    resolve(data)
+                },
+                error => {
+                    console.log("DataInput error2: " + error);
+                    reject(error)
+                })
 
-    return postData.post_data(newBody, "/postData")
-    // } catch (error) {
-    //     console.log(error)
-    // }
-    // });
+            // var newBody = {
+            //     perspectiveId: generatedId
+            // }
+
+            // post data to api_server.py
+            // return postData.post_data(newBody, "/postData")
+        } catch (error) {
+            console.log("PostDataInput:" + error)
+        }
+    });
 }
+
+exports.getSeed = function () {
+    return new Promise(function (resolve, reject) {
+
+        //   let result = {};
+        //   CommunityDAO.getById(communityId, 
+        //     data => {
+        //       result['application/json'] = data;
+        //       if (Object.keys(result).length > 0) {
+        //         resolve(result[Object.keys(result)[0]]);
+        //       } else {
+        //         resolve();
+        //       }
+        //     },
+        //     error => {
+        //       reject(error);
+        //     }
+        //   );    
+    });
+};

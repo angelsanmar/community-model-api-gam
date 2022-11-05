@@ -2,8 +2,7 @@ module.exports = mongoose => {
   var schema = mongoose.Schema(
     {
       perspectiveId: String,
-      data: mongoose.Mixed,
-      flag: Boolean
+      data: mongoose.Mixed
     }
   );
 
@@ -54,7 +53,7 @@ module.exports = mongoose => {
           onError(error);
         } else {
           if (data) {
-            console.log(data.toJSON())
+            // console.log(data.toJSON())
             onSuccess(data.toJSON());
           }
           else {

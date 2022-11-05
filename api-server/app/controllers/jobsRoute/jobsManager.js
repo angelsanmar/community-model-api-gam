@@ -14,7 +14,7 @@ createJob = function (perspectiveId, requestTypeName) {
     console.log("<JobsQueue> generateId: " + jobId)
     console.log("<JobsQueue> perspectiveId: " + perspectiveId)
     addJob(jobId, requestTypeName, perspectiveId);
-    var path = "/jobs/" + jobId
+    var path = "/v1.1/jobs/" + jobId
     var data = {
         "path": path
     }

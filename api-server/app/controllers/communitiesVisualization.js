@@ -9,8 +9,9 @@ var router = express.Router();
 
 
 /**
-    http://localhost:8090/file/{fileId}                                 -> return the first file with name equal to "fileId" -- JSON
-    http://localhost:8090/index                                         -> return json files index (returns only files id) -- list
+    http://localhost:8080/visualizationAPI/....
+    http://localhost:8080/visualizationAPI/file/{fileId}                                 -> return the first file with name equal to "fileId" -- JSON
+    http://localhost:8080/visualizationAPI/index                                         -> return json files index (returns only fileId and fileName) -- list[JSON]
  */
 
 router.get('/index', function (req, res, next) {

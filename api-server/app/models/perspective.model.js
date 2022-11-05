@@ -39,6 +39,18 @@ module.exports = mongoose => {
 
   // Access mongobd and retrieve requested data
   return {
+    insertPerspective: function (data, onSuccess, onError) {
+      // console.log(json);
+      Perspectives.create(data, function (err, res) {
+        if (err) {
+          console.log("insertPerspective: error");
+          onError(user);
+        }
+        else {
+          onSuccess(null);
+        }
+      });
+    },
     all: function (onSuccess) {
       let items = [];
       Perspectives.find({}, { projection: { _id: 0 } }, function (error, data) {

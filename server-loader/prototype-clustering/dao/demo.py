@@ -23,14 +23,19 @@ from bson.json_util import dumps, loads
 
 def main():
 
-    route = r"test/data/annotated-stories.json"
-    # route = r"test/data/generated.json"
-    data = DAO_json(route).getData()
+    route1 = r"test/data/annotated-stories.json"
+    route2 = r"test/data/parser_output.json"
+    annotatedStories = DAO_json(route1).getData()
+    perspective = DAO_json(route2).getData()
 
-    api = DAO_api()
-    x = api.addPerspective({})
-    # x = requests.post("http://localhost:8090/postData", json = data)
-    x = requests.post("http://localhost:8080/v1.1/dataInput", json = data)
-    print(x.text)
+    # api = DAO_api()
+
+    a = requests.post("http://localhost:8080/v1.1/dataInput", json = annotatedStories)
+    print(a)
+    print(a.text)
+
+    b = requests.post("http://localhost:8080/v1.1/perspective", json = perspective)
+    print(b)
+    print(b.text)
 
 main()

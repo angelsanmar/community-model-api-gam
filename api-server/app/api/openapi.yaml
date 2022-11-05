@@ -48,10 +48,27 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './openapi_specs/jobs.yaml#/job'
+                $ref: './openapi_specs/schemas.yaml#/id'
         "400":
           description: Error
-      x-swagger-router-controller: PostDataInput
+      x-swagger-router-controller: DataInput
+  /seed:
+    get:
+      tags:
+      - data input
+      summary: Get seed
+      description: Returns seed config gile
+      operationId: getSeed
+      responses:
+        "200":
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: './openapi_specs/schemas.yaml#/id'
+        "400":
+          description: invalid seed id
+      x-swagger-router-controller: DataInput
   /jobs/{jobId}:
     get:
       tags:
