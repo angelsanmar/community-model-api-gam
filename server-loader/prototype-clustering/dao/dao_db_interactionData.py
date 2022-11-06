@@ -9,6 +9,10 @@ from copy import copy, deepcopy
 import pymongo
 from pymongo import MongoClient
 
+import json
+import pandas as pd
+import os
+
 
 class DAO_db_interactionDatas(DAO_db):
     """
@@ -84,3 +88,57 @@ class DAO_db_interactionDatas(DAO_db):
 
     def deleteAllInteractionData(self):
         self.db_interactionData.delete_many({})
+    
+    
+    def getPandasDataframe(self):
+        """
+        Interaction Pandas DataFrame
+
+        Parameters
+        ----------
+
+
+        Returns
+        -------
+        pd.DataFrame
+            Pandas dataframe with the interaction data.
+        """
+        dbData = self.getInteractionData()['data']
+        data = json.dumps(dbData)
+        annotated_stories_df = pd.read_json(data)
+        
+        # Prepare interaction data for clustering
+        df = annotated_stories_df.explode('parts')
+        df = df.reset_index()
+        
+        df2 = pd.json_normalize(df["parts"], max_level = 0)
+        df3 = pd.concat([df,df2], axis=1, join='inner')
+        
+        # Set default values
+        """
+        values = {'emotions':  {}}
+        df3 = df3.fillna(value=values)
+        """
+        df3['emotions'] = df3['emotions'].apply(lambda x: {} if x != x else x)
+        
+        df4 = df3.groupby("authorUsername").agg(list)
+        df4 = df4.reset_index()
+        df5 = df4.rename(columns = {'authorUsername':'userName'})
+        
+        # Combine with user data
+        users = pd.read_json(self.userDataRoute())  
+        user_interactions = pd.merge(df5, users, on='userName', how='left')
+        
+        # Set default values
+        values = {'relationship_with_arts': '', 'relationship_with_museums': ''}
+        user_interactions = user_interactions.fillna(value=values)
+
+        return user_interactions
+        
+    def userDataRoute(self):
+        abspath = os.path.dirname(__file__)
+        relpath = "../communityModel/data/GAMGame_users_RN_UNITO.json"
+        route = os.path.normpath(os.path.join(abspath, relpath))
+        
+        return route
+        

@@ -11,12 +11,14 @@ class DAO_csv(DAO):
     """
     DAO for extracting data from csv files
     """
-    def __init__(self, path):
+    def __init__(self, path, delimiter = ","):
         """
         :Parameters:
             path: path to file, Type: <class 'str'>
         """
         super().__init__(path)
+        self.delimiter = delimiter
+        self.data = pd.read_csv(self.route,delimiter= self.delimiter)
 
     def extractData(self):
         pass
@@ -31,7 +33,6 @@ class DAO_csv(DAO):
         """
     
     def getPandasDataframe(self):
-        self.data = pd.read_csv(self.route,delimiter=';')
         return self.data
         
 

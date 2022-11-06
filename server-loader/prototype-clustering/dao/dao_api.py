@@ -10,7 +10,6 @@ from dao.dao_class import DAO
 class DAO_api(DAO):
     """
     DAO used only for test Spice API
-
     Usada solo para hacer pruebas
     Es la DAO para acceder a la API oficial de Spice.
     """
@@ -85,5 +84,4 @@ class DAO_api(DAO):
     def dissimilarityCommunities(self,communityId,otherCommunityId):
         response = requests.get("http://localhost:8080/v1.1/communities/{}/dissimilarity/{}".format(communityId,otherCommunityId))
         self.responseProcessing(response)
-        return self.data, response
-        
+        return self.data, 

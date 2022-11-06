@@ -1,6 +1,7 @@
 import json
 
 import os, sys
+import pandas as pd
 
 
 from dao.dao_class import DAO
@@ -39,4 +40,6 @@ class DAO_json(DAO):
 
     def __search(self, id, users):
         return [element for element in users if element['id'] == id]
-
+    
+    def getPandasDataframe(self):
+        return pd.DataFrame(data = self.data)
