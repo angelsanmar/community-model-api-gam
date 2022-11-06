@@ -1,0 +1,62 @@
+[
+{
+  "id": "1000-dbscan",
+  "name": "HEHCT Perspective (dbscan)",
+  "algorithm": {
+    "name": "agglomerative",
+    "params": [
+    ]
+  },
+  "similarity_functions": [
+    {
+      "sim_function": {
+        "name": "TableSimilarityDAO",
+        "params": [
+        ],
+        "on_attribute": {
+          "att_name": "beleifR",
+          "att_type": "String"
+        },
+        "weight": 0.8
+      }
+    },
+    {
+      "sim_function": {
+        "name": "TableSimilarityDAO",
+        "params": [
+        ],
+        "on_attribute": {
+          "att_name": "beliefJ",
+          "att_type": "String"
+        },
+        "weight": 0.6
+      }
+    },
+    {
+      "sim_function": {
+        "name": "TableSimilarityDAO",
+        "params": [
+        ],
+        "on_attribute": {
+          "att_name": "DemographicReligous",
+          "att_type": "String"
+        },
+        "weight": 0.2
+      }
+    },
+    {
+      "sim_function": {
+        "name": "TableSimilarityDAO",
+        "params": [
+        ],
+        "on_attribute": {
+          "att_name": "Iconclass_subjects_curators",
+          "att_type": "String"
+        },
+        "weight": 0.2
+      }
+    }
+  ],
+  "user_attributes": ["DemographicReligous","DemographicPolitics"]
+}
+]

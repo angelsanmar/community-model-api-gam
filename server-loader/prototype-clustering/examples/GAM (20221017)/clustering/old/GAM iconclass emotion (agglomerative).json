@@ -1,0 +1,4729 @@
+{
+    "communities": [
+        {
+            "id": "GAM author-0",
+            "perspectiveId": "GAM author",
+            "community-type": "implicit",
+            "name": "Community 0",
+            "explanation": [
+                {
+                    "medoid": "x2AUnHqw"
+                },
+                {
+                    "implicit_attributes": "Minimum percentage of users with the representative properties: 50.0 %; Representative Properties: {'community_emotions': ''}"
+                }
+            ],
+            "users": [
+                "0bAAwK14",
+                "61f29227b9936b5c047f362a",
+                "6rK3p7za",
+                "8sAIqaGe",
+                "B3N0HGw4",
+                "BTKF72et",
+                "FVhf7OMw",
+                "KQTGApjD",
+                "L11lvHun",
+                "LW3Klzvx",
+                "LvIeXwcT",
+                "N72IRgFy",
+                "RQ4a2nIG",
+                "Sz5Wx2XD",
+                "WYCImqGm",
+                "WsK2A1ab",
+                "Y0WXF1LR",
+                "ZWrgWx9o",
+                "anonymous",
+                "cBjFhvjx",
+                "e4aM9WL7",
+                "fqybaAk8",
+                "hFithZVD",
+                "loEoYm9R",
+                "onDqgFnI",
+                "ox8G7avH",
+                "q2BDj1os",
+                "qJRlrtio",
+                "x1MyQX2C",
+                "x2AUnHqw",
+                "yjlouq5U"
+            ]
+        },
+        {
+            "id": "GAM author-1",
+            "perspectiveId": "GAM author",
+            "community-type": "implicit",
+            "name": "Community 1",
+            "explanation": [
+                {
+                    "medoid": "zZbRbDHJ"
+                },
+                {
+                    "implicit_attributes": "Users without community"
+                }
+            ],
+            "users": [
+                "zZbRbDHJ"
+            ]
+        }
+    ],
+    "users": [
+        {
+            "id": "0bAAwK14",
+            "label": "0bAAwK14",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35288",
+                    "emotions": {
+                        "emotion:Disapproval": 0.6491296,
+                        "emotion:Interest": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35230",
+                    "emotions": {
+                        "emotion:Fear": 1.0,
+                        "emotion:Interest": 1.0,
+                        "emotion:Love": 1.0,
+                        "emotion:Sadness": 1.0,
+                        "marl:Positive": 0.6741344
+                    }
+                },
+                {
+                    "IdArtefact": "35450",
+                    "emotions": {
+                        "emotion:Interest": 1.0,
+                        "emotion:Joy": 1.0,
+                        "emotion:Sadness": 1.0,
+                        "marl:Negative": 0.96962714,
+                        "toxicity:toxicity": 0.6063079
+                    }
+                },
+                {
+                    "IdArtefact": "35215",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "marl:Mixed": 0.5894577999999999,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35225",
+                    "emotions": {
+                        "emotion:Anticipation": 1.0,
+                        "emotion:Interest": 1.0,
+                        "emotion:Sadness": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35330",
+                    "emotions": {
+                        "marl:Negative": 0.63380194,
+                        "marl:Positive": 0.5719200000000001
+                    }
+                },
+                {
+                    "IdArtefact": "35287",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Trust": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35323",
+                    "emotions": {
+                        "emotion:Anticipation": 1.0,
+                        "emotion:Interest": 1.0,
+                        "emotion:Joy": 1.0,
+                        "emotion:Sadness": 1.0,
+                        "marl:Negative": 1.0,
+                        "marl:Positive": 0.5114767
+                    }
+                },
+                {
+                    "IdArtefact": "39416",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "marl:Negative": 0.9785429
+                    }
+                },
+                {
+                    "IdArtefact": "35456",
+                    "emotions": {
+                        "emotion:Interest": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "61f29227b9936b5c047f362a",
+            "label": "61f29227b9936b5c047f362a",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "marl:Positive": 0.8795295
+                    }
+                },
+                {
+                    "IdArtefact": "41209",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "emotion:Joy": 0.99601984,
+                        "marl:Positive": 0.99596715
+                    }
+                },
+                {
+                    "IdArtefact": "39416",
+                    "emotions": {
+                        "marl:Negative": 0.69429266
+                    }
+                },
+                {
+                    "IdArtefact": "35400",
+                    "emotions": {
+                        "marl:Negative": 0.96548957
+                    }
+                },
+                {
+                    "IdArtefact": "39416",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "38595",
+                    "emotions": {
+                        "marl:Positive": 0.61431324
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6rK3p7za",
+            "label": "6rK3p7za",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35398",
+                    "emotions": {
+                        "emotion:Anticipation": 0.9862143999999999,
+                        "emotion:Fear": 0.9116713999999999,
+                        "emotion:Sadness": 0.6375510999999999,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35321",
+                    "emotions": {
+                        "marl:Negative": 0.887695
+                    }
+                },
+                {
+                    "IdArtefact": "35288",
+                    "emotions": {
+                        "emotion:Sadness": 0.73365736,
+                        "marl:Negative": 0.88485485
+                    }
+                },
+                {
+                    "IdArtefact": "35450",
+                    "emotions": {
+                        "emotion:Interest": 0.50939375,
+                        "emotion:Joy": 0.6086303,
+                        "emotion:Serenity": 0.52489346,
+                        "marl:Positive": 0.82005787
+                    }
+                },
+                {
+                    "IdArtefact": "35208",
+                    "emotions": {
+                        "marl:Negative": 0.6110068
+                    }
+                },
+                {
+                    "IdArtefact": "39416",
+                    "emotions": {
+                        "marl:Positive": 0.7818501
+                    }
+                },
+                {
+                    "IdArtefact": "35217",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39200",
+                    "emotions": {
+                        "marl:Negative": 0.73870564
+                    }
+                },
+                {
+                    "IdArtefact": "35287",
+                    "emotions": {
+                        "emotion:Anger": 0.7438475,
+                        "emotion:Fear": 0.6438967999999999,
+                        "emotion:Joy": 0.5135409,
+                        "marl:Negative": 0.9836926500000001,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35221",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "39347",
+                    "emotions": {
+                        "marl:Mixed": 0.67948514,
+                        "marl:Positive": 0.7362418
+                    }
+                },
+                {
+                    "IdArtefact": "35360",
+                    "emotions": {
+                        "marl:Mixed": 0.6098804,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35307",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35323",
+                    "emotions": {
+                        "emotion:Sadness": 0.8106162,
+                        "marl:Mixed": 0.65753406,
+                        "marl:Negative": 0.5348461
+                    }
+                },
+                {
+                    "IdArtefact": "35215",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35571",
+                    "emotions": {
+                        "marl:Positive": 0.5381642999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35374",
+                    "emotions": {
+                        "emotion:Disgust": 1.0,
+                        "emotion:Joy": 0.8515836999999999,
+                        "emotion:Sadness": 0.5277288,
+                        "marl:Mixed": 0.8207892,
+                        "marl:Negative": 1.0,
+                        "marl:Positive": 0.8490525
+                    }
+                },
+                {
+                    "IdArtefact": "35376",
+                    "emotions": {
+                        "marl:Positive": 0.6484215999999999
+                    }
+                },
+                {
+                    "IdArtefact": "39426",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35567",
+                    "emotions": {
+                        "marl:Negative": 0.6803083400000001
+                    }
+                },
+                {
+                    "IdArtefact": "35222",
+                    "emotions": {
+                        "emotion:Interest": 0.712847,
+                        "marl:Mixed": 0.5685541,
+                        "marl:Negative": 0.53096473
+                    }
+                },
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {
+                        "emotion:Sadness": 0.72628325,
+                        "marl:Negative": 0.6861096999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35246",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "39427",
+                    "emotions": {
+                        "marl:Positive": 0.7796906
+                    }
+                },
+                {
+                    "IdArtefact": "35459",
+                    "emotions": {
+                        "marl:Negative": 0.86256546,
+                        "marl:Positive": 0.51743233
+                    }
+                },
+                {
+                    "IdArtefact": "39138",
+                    "emotions": {
+                        "marl:Negative": 0.7530861999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35362",
+                    "emotions": {
+                        "emotion:Fear": 0.8545212999999999,
+                        "emotion:Sadness": 0.9205646,
+                        "marl:Negative": 0.9556602999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35249",
+                    "emotions": {
+                        "emotion:Sadness": 0.709042,
+                        "marl:Negative": 0.7489311
+                    }
+                },
+                {
+                    "IdArtefact": "39182",
+                    "emotions": {
+                        "marl:Positive": 0.5138673
+                    }
+                },
+                {
+                    "IdArtefact": "35465",
+                    "emotions": {
+                        "marl:Positive": 0.87303054
+                    }
+                },
+                {
+                    "IdArtefact": "35380",
+                    "emotions": {
+                        "emotion:Sadness": 0.5242095,
+                        "marl:Negative": 0.52469957
+                    }
+                }
+            ]
+        },
+        {
+            "id": "8sAIqaGe",
+            "label": "8sAIqaGe",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Ho un forte interesse per l'arte",
+                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35215",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "B3N0HGw4",
+            "label": "B3N0HGw4",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Ho un forte interesse per l'arte",
+                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35288",
+                    "emotions": {
+                        "marl:Positive": 0.8998411
+                    }
+                },
+                {
+                    "IdArtefact": "35360",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35445",
+                    "emotions": {
+                        "emotion:Serenity": 1.0,
+                        "marl:Negative": 0.95488745,
+                        "marl:Positive": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "BTKF72et",
+            "label": "BTKF72et",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35330",
+                    "emotions": {
+                        "emotion:Sadness": 0.7365448,
+                        "marl:Mixed": 0.67296207
+                    }
+                },
+                {
+                    "IdArtefact": "39138",
+                    "emotions": {
+                        "emotion:False": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35222",
+                    "emotions": {
+                        "emotion:False": 1.0,
+                        "emotion:Fear": 0.8773061999999999,
+                        "marl:Negative": 0.9538091
+                    }
+                },
+                {
+                    "IdArtefact": "35208",
+                    "emotions": {
+                        "marl:Mixed": 0.50099057
+                    }
+                },
+                {
+                    "IdArtefact": "35221",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35465",
+                    "emotions": {
+                        "emotion:Fear": 0.55327827
+                    }
+                },
+                {
+                    "IdArtefact": "39347",
+                    "emotions": {
+                        "emotion:Sadness": 0.71960527,
+                        "marl:Negative": 0.85102296
+                    }
+                },
+                {
+                    "IdArtefact": "35459",
+                    "emotions": {
+                        "marl:Mixed": 0.58224654,
+                        "marl:Positive": 0.8125051999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35224",
+                    "emotions": {}
+                }
+            ]
+        },
+        {
+            "id": "FVhf7OMw",
+            "label": "FVhf7OMw",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Ho un forte interesse per l'arte",
+                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35330",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "39200",
+                    "emotions": {
+                        "emotion:Joy": 0.7974498,
+                        "marl:Positive": 0.6180661
+                    }
+                },
+                {
+                    "IdArtefact": "35225",
+                    "emotions": {
+                        "marl:Positive": 0.9099123
+                    }
+                }
+            ]
+        },
+        {
+            "id": "KQTGApjD",
+            "label": "KQTGApjD",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "L'arte mi interessa poco",
+                "relationship_with_museums": "Visito raramente musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35221",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35459",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Sadness": 0.6123872,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {
+                        "marl:Positive": 0.66458505
+                    }
+                }
+            ]
+        },
+        {
+            "id": "L11lvHun",
+            "label": "L11lvHun",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35450",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35224",
+                    "emotions": {
+                        "emotion:Disapproval": 0.55938447,
+                        "marl:Negative": 0.73523605
+                    }
+                }
+            ]
+        },
+        {
+            "id": "LW3Klzvx",
+            "label": "LW3Klzvx",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "L'arte mi interessa poco",
+                "relationship_with_museums": "Visito raramente musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35330",
+                    "emotions": {
+                        "emotion:Trust": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39175",
+                    "emotions": {
+                        "marl:Positive": 0.6536978
+                    }
+                },
+                {
+                    "IdArtefact": "39427",
+                    "emotions": {
+                        "emotion:Sadness": 0.81103146,
+                        "emotion:Surprise": 1.0,
+                        "marl:Positive": 0.69820523
+                    }
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "marl:Positive": 0.76203746
+                    }
+                },
+                {
+                    "IdArtefact": "35364",
+                    "emotions": {
+                        "marl:Negative": 0.9388350999999999
+                    }
+                }
+            ]
+        },
+        {
+            "id": "LvIeXwcT",
+            "label": "LvIeXwcT",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Non provo nessun interesse per l'arte",
+                "relationship_with_museums": "Visito raramente musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35360",
+                    "emotions": {
+                        "emotion:Joy": 0.8159862999999999,
+                        "marl:Positive": 0.6438219
+                    }
+                },
+                {
+                    "IdArtefact": "39175",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35279",
+                    "emotions": {
+                        "emotion:Anger": 1.0,
+                        "marl:Negative": 1.0,
+                        "marl:Positive": 0.6500022
+                    }
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Sadness": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39182",
+                    "emotions": {
+                        "emotion:Joy": 0.6038792
+                    }
+                },
+                {
+                    "IdArtefact": "35362",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Love": 1.0,
+                        "emotion:Sadness": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Mixed": 0.5554312,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35445",
+                    "emotions": {
+                        "emotion:Interest": 1.0,
+                        "emotion:Sadness": 1.0,
+                        "marl:Positive": 0.57405955
+                    }
+                },
+                {
+                    "IdArtefact": "35323",
+                    "emotions": {
+                        "emotion:Sadness": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "N72IRgFy",
+            "label": "N72IRgFy",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "L'arte mi interessa poco",
+                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "39416",
+                    "emotions": {
+                        "marl:Mixed": 0.5303834
+                    }
+                },
+                {
+                    "IdArtefact": "35362",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "marl:Positive": 0.63975936
+                    }
+                }
+            ]
+        },
+        {
+            "id": "RQ4a2nIG",
+            "label": "RQ4a2nIG",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Non provo nessun interesse per l'arte",
+                "relationship_with_museums": "Visito raramente musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "39416",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Serenity": 0.72991085,
+                        "marl:Positive": 0.5606517999999999
+                    }
+                },
+                {
+                    "IdArtefact": "39416",
+                    "emotions": {
+                        "emotion:Interest": 1.0,
+                        "emotion:Joy": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39426",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35381",
+                    "emotions": {
+                        "emotion:Fear": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35567",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "marl:Mixed": 0.5446536
+                    }
+                },
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {
+                        "emotion:Anticipation": 1.0,
+                        "emotion:Fear": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35227",
+                    "emotions": {
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39648",
+                    "emotions": {
+                        "marl:Negative": 0.7526827500000001
+                    }
+                },
+                {
+                    "IdArtefact": "35380",
+                    "emotions": {
+                        "emotion:Joy": 0.9871738600000001,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35567",
+                    "emotions": {
+                        "emotion:Disgust": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35230",
+                    "emotions": {
+                        "emotion:Love": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35208",
+                    "emotions": {
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39138",
+                    "emotions": {
+                        "emotion:Joy": 0.75160944,
+                        "emotion:Love": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35381",
+                    "emotions": {
+                        "emotion:Anger": 1.0,
+                        "emotion:Disgust": 1.0,
+                        "emotion:Fear": 1.0,
+                        "emotion:Interest": 0.75683784,
+                        "marl:Negative": 1.0,
+                        "marl:Positive": 0.79171735
+                    }
+                },
+                {
+                    "IdArtefact": "39347",
+                    "emotions": {
+                        "emotion:Joy": 0.5106531,
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35360",
+                    "emotions": {
+                        "marl:Positive": 0.7206345
+                    }
+                },
+                {
+                    "IdArtefact": "35380",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35310",
+                    "emotions": {
+                        "emotion:Interest": 0.7594964,
+                        "emotion:Joy": 0.54123336,
+                        "marl:Positive": 0.7543075
+                    }
+                },
+                {
+                    "IdArtefact": "39175",
+                    "emotions": {
+                        "emotion:Joy": 0.66874546,
+                        "emotion:Trust": 1.0,
+                        "marl:Positive": 0.9119554
+                    }
+                },
+                {
+                    "IdArtefact": "35360",
+                    "emotions": {
+                        "emotion:Interest": 1.0,
+                        "emotion:Sadness": 0.8762023,
+                        "marl:Negative": 0.9312568,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39648",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "marl:Positive": 0.7133807
+                    }
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "marl:Positive": 0.6186566
+                    }
+                },
+                {
+                    "IdArtefact": "39138",
+                    "emotions": {
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35445",
+                    "emotions": {
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 0.8587689
+                    }
+                },
+                {
+                    "IdArtefact": "35459",
+                    "emotions": {
+                        "emotion:Anticipation": 1.0,
+                        "emotion:Joy": 1.0,
+                        "emotion:Surprise": 1.0,
+                        "marl:Negative": 0.6893243,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35227",
+                    "emotions": {
+                        "emotion:Fear": 0.8893998999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35412",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35445",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35227",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35398",
+                    "emotions": {
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35567",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "39347",
+                    "emotions": {
+                        "emotion:Interest": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35227",
+                    "emotions": {
+                        "emotion:Trust": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39182",
+                    "emotions": {
+                        "emotion:Fear": 1.0,
+                        "emotion:Interest": 1.0,
+                        "marl:Negative": 0.9582474,
+                        "marl:Neutral": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35249",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35222",
+                    "emotions": {
+                        "marl:Negative": 1.0,
+                        "marl:Positive": 0.52359825
+                    }
+                },
+                {
+                    "IdArtefact": "35230",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35380",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Negative": 0.58557254,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35310",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35445",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "39347",
+                    "emotions": {
+                        "emotion:Interest": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39426",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35310",
+                    "emotions": {
+                        "emotion:Interest": 0.9661183400000001,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35330",
+                    "emotions": {
+                        "marl:Positive": 0.8393752600000001
+                    }
+                },
+                {
+                    "IdArtefact": "35465",
+                    "emotions": {
+                        "emotion:Interest": 0.5838167,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35412",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35330",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35249",
+                    "emotions": {
+                        "marl:Positive": 0.9099123
+                    }
+                },
+                {
+                    "IdArtefact": "35230",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "marl:Positive": 0.9099123
+                    }
+                },
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35459",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35412",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35208",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35230",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "39426",
+                    "emotions": {
+                        "marl:Positive": 0.75854474
+                    }
+                },
+                {
+                    "IdArtefact": "39138",
+                    "emotions": {
+                        "marl:Positive": 0.9073401
+                    }
+                },
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "39364",
+                    "emotions": {
+                        "marl:Positive": 0.9073401
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Sz5Wx2XD",
+            "label": "Sz5Wx2XD",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Ho un forte interesse per l'arte",
+                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35571",
+                    "emotions": {
+                        "marl:Positive": 0.8301699
+                    }
+                },
+                {
+                    "IdArtefact": "35245",
+                    "emotions": {
+                        "emotion:Serenity": 0.93730426,
+                        "marl:Positive": 0.96760535
+                    }
+                }
+            ]
+        },
+        {
+            "id": "WYCImqGm",
+            "label": "WYCImqGm",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Ho un forte interesse per l'arte",
+                "relationship_with_museums": "Visito spesso i musei"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35230",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35380",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "marl:Positive": 0.5068795700000001
+                    }
+                }
+            ]
+        },
+        {
+            "id": "WsK2A1ab",
+            "label": "WsK2A1ab",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "L'arte mi interessa poco",
+                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35221",
+                    "emotions": {
+                        "emotion:Fear": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39352",
+                    "emotions": {
+                        "emotion:Sadness": 0.6311597999999999,
+                        "marl:Negative": 0.92951244
+                    }
+                },
+                {
+                    "IdArtefact": "39347",
+                    "emotions": {
+                        "emotion:Anticipation": 1.0,
+                        "emotion:Fear": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35412",
+                    "emotions": {}
+                }
+            ]
+        },
+        {
+            "id": "Y0WXF1LR",
+            "label": "Y0WXF1LR",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Il mio lavoro riguarda l'arte",
+                "relationship_with_museums": "Visito spesso i musei"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35230",
+                    "emotions": {
+                        "emotion:Joy": 0.6704142,
+                        "marl:Positive": 0.9855657
+                    }
+                },
+                {
+                    "IdArtefact": "35288",
+                    "emotions": {
+                        "marl:Positive": 0.57145786
+                    }
+                },
+                {
+                    "IdArtefact": "35323",
+                    "emotions": {
+                        "emotion:Fear": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ZWrgWx9o",
+            "label": "ZWrgWx9o",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Ho un forte interesse per l'arte",
+                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35330",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "39138",
+                    "emotions": {}
+                }
+            ]
+        },
+        {
+            "id": "anonymous",
+            "label": "anonymous",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35288",
+                    "emotions": {
+                        "marl:Negative": 1.0,
+                        "marl:Positive": 0.635625
+                    }
+                },
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "marl:Negative": 1.0,
+                        "marl:Positive": 0.5556437
+                    }
+                },
+                {
+                    "IdArtefact": "35307",
+                    "emotions": {
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35450",
+                    "emotions": {
+                        "emotion:Interest": 0.87319684,
+                        "marl:Positive": 0.7580291
+                    }
+                },
+                {
+                    "IdArtefact": "35221",
+                    "emotions": {
+                        "marl:Positive": 0.58706605
+                    }
+                },
+                {
+                    "IdArtefact": "35222",
+                    "emotions": {
+                        "emotion:Anticipation": 1.0,
+                        "emotion:Fear": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39175",
+                    "emotions": {
+                        "emotion:Fear": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35217",
+                    "emotions": {
+                        "emotion:Fear": 0.82077193
+                    }
+                },
+                {
+                    "IdArtefact": "35215",
+                    "emotions": {
+                        "emotion:Joy": 0.53726906,
+                        "marl:Negative": 1.0,
+                        "marl:Positive": 0.9155464
+                    }
+                },
+                {
+                    "IdArtefact": "35571",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "marl:Positive": 0.8964321
+                    }
+                },
+                {
+                    "IdArtefact": "35380",
+                    "emotions": {
+                        "marl:Positive": 0.9073403
+                    }
+                },
+                {
+                    "IdArtefact": "35307",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35288",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35571",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35374",
+                    "emotions": {
+                        "emotion:Interest": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35376",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "marl:Negative": 0.68420714
+                    }
+                },
+                {
+                    "IdArtefact": "35307",
+                    "emotions": {
+                        "marl:Positive": 0.54614264
+                    }
+                },
+                {
+                    "IdArtefact": "35246",
+                    "emotions": {
+                        "emotion:Love": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35230",
+                    "emotions": {
+                        "emotion:Love": 1.0,
+                        "marl:Negative": 0.9879992,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39384",
+                    "emotions": {
+                        "emotion:Joy": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35225",
+                    "emotions": {
+                        "marl:Positive": 0.9584258999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35227",
+                    "emotions": {
+                        "marl:Negative": 0.9773611999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {
+                        "emotion:Joy": 0.6165876
+                    }
+                },
+                {
+                    "IdArtefact": "39352",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35288",
+                    "emotions": {
+                        "marl:Positive": 0.5436754
+                    }
+                },
+                {
+                    "IdArtefact": "35217",
+                    "emotions": {
+                        "marl:Negative": 0.77129704
+                    }
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "marl:Positive": 0.89892954
+                    }
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "marl:Positive": 0.8785780999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35400",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35400",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "41215",
+                    "emotions": {
+                        "marl:Negative": 0.8217386999999999
+                    }
+                },
+                {
+                    "IdArtefact": "41214",
+                    "emotions": {
+                        "emotion:Fear": 0.5271871,
+                        "emotion:Interest": 0.79253805,
+                        "marl:Positive": 0.8656005
+                    }
+                },
+                {
+                    "IdArtefact": "39416",
+                    "emotions": {
+                        "marl:Negative": 0.70966935
+                    }
+                },
+                {
+                    "IdArtefact": "41210",
+                    "emotions": {
+                        "emotion:Sadness": 0.9673313,
+                        "marl:Negative": 0.98464346
+                    }
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "emotion:Sadness": 0.5489368,
+                        "marl:Negative": 0.9280919999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35400",
+                    "emotions": {
+                        "marl:Negative": 0.9828304999999999
+                    }
+                },
+                {
+                    "IdArtefact": "38595",
+                    "emotions": {
+                        "emotion:Fear": 0.8421835,
+                        "marl:Negative": 0.9716939
+                    }
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "emotion:Interest": 0.5533755,
+                        "emotion:Serenity": 0.5243822,
+                        "marl:Positive": 0.70871896
+                    }
+                },
+                {
+                    "IdArtefact": "35400",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "38595",
+                    "emotions": {
+                        "marl:Positive": 0.8854107
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cBjFhvjx",
+            "label": "cBjFhvjx",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Ho un forte interesse per l'arte",
+                "relationship_with_museums": "Visito spesso i musei"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "marl:Positive": 0.5899884
+                    }
+                },
+                {
+                    "IdArtefact": "39648",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "39200",
+                    "emotions": {
+                        "marl:Positive": 0.8667031,
+                        "toxicity:sexual_explicit": 0.9333459,
+                        "toxicity:toxicity": 0.95016867
+                    }
+                },
+                {
+                    "IdArtefact": "39175",
+                    "emotions": {
+                        "emotion:Fear": 0.5490408
+                    }
+                }
+            ]
+        },
+        {
+            "id": "e4aM9WL7",
+            "label": "e4aM9WL7",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35308",
+                    "emotions": {
+                        "marl:Positive": 0.5367516
+                    }
+                },
+                {
+                    "IdArtefact": "35321",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "emotion:Serenity": 0.9878439999999999,
+                        "marl:Positive": 0.76816034
+                    }
+                },
+                {
+                    "IdArtefact": "35330",
+                    "emotions": {
+                        "emotion:Serenity": 1.0,
+                        "marl:Neutral": 1.0,
+                        "marl:Positive": 0.7393474
+                    }
+                }
+            ]
+        },
+        {
+            "id": "fqybaAk8",
+            "label": "fqybaAk8",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "39426",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "marl:Positive": 0.5588839999999999
+                    }
+                },
+                {
+                    "IdArtefact": "39425",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "39427",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35256",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "marl:Positive": 0.551545
+                    }
+                },
+                {
+                    "IdArtefact": "35288",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35360",
+                    "emotions": {
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35215",
+                    "emotions": {
+                        "marl:Positive": 0.5149829
+                    }
+                },
+                {
+                    "IdArtefact": "35445",
+                    "emotions": {
+                        "marl:Positive": 0.7298895
+                    }
+                },
+                {
+                    "IdArtefact": "39138",
+                    "emotions": {
+                        "emotion:Love": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35224",
+                    "emotions": {
+                        "marl:Negative": 0.6333803
+                    }
+                },
+                {
+                    "IdArtefact": "35450",
+                    "emotions": {
+                        "marl:Positive": 0.5812191999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35287",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35571",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35362",
+                    "emotions": {
+                        "emotion:Joy": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39175",
+                    "emotions": {
+                        "emotion:Trust": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35330",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35456",
+                    "emotions": {
+                        "marl:Positive": 0.7640458
+                    }
+                },
+                {
+                    "IdArtefact": "35380",
+                    "emotions": {
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 0.7861037
+                    }
+                },
+                {
+                    "IdArtefact": "35217",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35224",
+                    "emotions": {
+                        "emotion:Love": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35230",
+                    "emotions": {
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39138",
+                    "emotions": {
+                        "marl:Positive": 0.86832047
+                    }
+                }
+            ]
+        },
+        {
+            "id": "hFithZVD",
+            "label": "hFithZVD",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "41211",
+                    "emotions": {
+                        "marl:Negative": 0.7941329500000001
+                    }
+                },
+                {
+                    "IdArtefact": "41212",
+                    "emotions": {
+                        "marl:Negative": 0.794133
+                    }
+                }
+            ]
+        },
+        {
+            "id": "loEoYm9R",
+            "label": "loEoYm9R",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "L'arte mi interessa poco",
+                "relationship_with_museums": "Visito raramente musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "39138",
+                    "emotions": {
+                        "marl:Positive": 0.6911794
+                    }
+                },
+                {
+                    "IdArtefact": "35308",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35310",
+                    "emotions": {
+                        "emotion:Fear": 1.0,
+                        "emotion:Joy": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Negative": 0.99228,
+                        "marl:Neutral": 1.0,
+                        "marl:Positive": 0.8372267
+                    }
+                }
+            ]
+        },
+        {
+            "id": "onDqgFnI",
+            "label": "onDqgFnI",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Il mio lavoro riguarda l'arte",
+                "relationship_with_museums": "Visito spesso i musei"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35362",
+                    "emotions": {
+                        "emotion:Joy": 0.8450278999999999,
+                        "marl:Positive": 0.9756315400000001
+                    }
+                },
+                {
+                    "IdArtefact": "39416",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35229",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ox8G7avH",
+            "label": "ox8G7avH",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35571",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "35398",
+                    "emotions": {
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35308",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35380",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35381",
+                    "emotions": {
+                        "emotion:Disgust": 1.0,
+                        "emotion:Fear": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39347",
+                    "emotions": {
+                        "emotion:Interest": 1.0,
+                        "marl:Negative": 0.9843914500000001,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35374",
+                    "emotions": {
+                        "marl:Positive": 0.75854474
+                    }
+                },
+                {
+                    "IdArtefact": "35323",
+                    "emotions": {
+                        "emotion:Anticipation": 1.0,
+                        "emotion:Interest": 1.0,
+                        "marl:Negative": 0.54808664
+                    }
+                },
+                {
+                    "IdArtefact": "35330",
+                    "emotions": {
+                        "emotion:Anticipation": 1.0,
+                        "emotion:Trust": 1.0,
+                        "marl:Positive": 0.8820197
+                    }
+                },
+                {
+                    "IdArtefact": "35376",
+                    "emotions": {
+                        "emotion:Anger": 1.0,
+                        "emotion:Surprise": 1.0,
+                        "marl:Negative": 1.0,
+                        "marl:Positive": 0.5139587
+                    }
+                },
+                {
+                    "IdArtefact": "35256",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35249",
+                    "emotions": {
+                        "marl:Positive": 0.6126454
+                    }
+                },
+                {
+                    "IdArtefact": "35221",
+                    "emotions": {
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {
+                        "emotion:Sadness": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39182",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "39384",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "39138",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35362",
+                    "emotions": {
+                        "emotion:Joy": 0.981938
+                    }
+                },
+                {
+                    "IdArtefact": "35208",
+                    "emotions": {
+                        "emotion:Joy": 0.90660733,
+                        "marl:Positive": 0.9800647
+                    }
+                },
+                {
+                    "IdArtefact": "35450",
+                    "emotions": {
+                        "marl:Positive": 0.7620372999999999
+                    }
+                },
+                {
+                    "IdArtefact": "39427",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35465",
+                    "emotions": {
+                        "marl:Positive": 0.73194224
+                    }
+                },
+                {
+                    "IdArtefact": "35256",
+                    "emotions": {
+                        "emotion:Anticipation": 1.0,
+                        "emotion:Surprise": 1.0,
+                        "marl:Negative": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35249",
+                    "emotions": {
+                        "marl:Positive": 0.9099123
+                    }
+                },
+                {
+                    "IdArtefact": "35321",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35215",
+                    "emotions": {
+                        "emotion:Anger": 1.0,
+                        "marl:Positive": 0.5307843
+                    }
+                },
+                {
+                    "IdArtefact": "39352",
+                    "emotions": {
+                        "emotion:Surprise": 1.0,
+                        "marl:Negative": 0.9160689
+                    }
+                },
+                {
+                    "IdArtefact": "35246",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "39389",
+                    "emotions": {}
+                },
+                {
+                    "IdArtefact": "39427",
+                    "emotions": {
+                        "emotion:Interest": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "q2BDj1os",
+            "label": "q2BDj1os",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Ho un forte interesse per l'arte",
+                "relationship_with_museums": "Visito spesso i musei"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "39384",
+                    "emotions": {
+                        "marl:Positive": 0.66850865
+                    }
+                },
+                {
+                    "IdArtefact": "39138",
+                    "emotions": {
+                        "emotion:Love": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "qJRlrtio",
+            "label": "qJRlrtio",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "41213",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "41213",
+                    "emotions": {
+                        "marl:Positive": 0.9073401
+                    }
+                }
+            ]
+        },
+        {
+            "id": "x1MyQX2C",
+            "label": "x1MyQX2C",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "",
+                "relationship_with_museums": ""
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "41213",
+                    "emotions": {
+                        "marl:Positive": 0.9099123
+                    }
+                },
+                {
+                    "IdArtefact": "41213",
+                    "emotions": {}
+                }
+            ]
+        },
+        {
+            "id": "x2AUnHqw",
+            "label": "x2AUnHqw",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "L'arte mi interessa poco",
+                "relationship_with_museums": "Visito raramente musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35459",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "emotion:Serenity": 1.0,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35445",
+                    "emotions": {
+                        "emotion:Joy": 1.0,
+                        "marl:Positive": 0.9811489999999999
+                    }
+                },
+                {
+                    "IdArtefact": "35456",
+                    "emotions": {
+                        "emotion:Fear": 1.0,
+                        "emotion:Interest": 0.6185307999999999,
+                        "marl:Negative": 1.0,
+                        "marl:Positive": 0.8425270300000001
+                    }
+                }
+            ]
+        },
+        {
+            "id": "yjlouq5U",
+            "label": "yjlouq5U",
+            "group": 0,
+            "explicit_community": {
+                "relationship_with_arts": "Ho un forte interesse per l'arte",
+                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "35330",
+                    "emotions": {
+                        "emotion:Interest": 1.0,
+                        "marl:Negative": 0.9712573,
+                        "marl:Positive": 1.0
+                    }
+                },
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {}
+                }
+            ]
+        },
+        {
+            "id": "zZbRbDHJ",
+            "label": "zZbRbDHJ",
+            "group": 1,
+            "explicit_community": {
+                "relationship_with_arts": "Ho un forte interesse per l'arte",
+                "relationship_with_museums": "Visito spesso i musei"
+            },
+            "interactions": [
+                {
+                    "IdArtefact": "39347",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35445",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                },
+                {
+                    "IdArtefact": "35433",
+                    "emotions": {
+                        "marl:Positive": 0.9099117
+                    }
+                }
+            ]
+        }
+    ],
+    "similarity": [
+        {
+            "u1": "0bAAwK14",
+            "u2": "61f29227b9936b5c047f362a",
+            "value": 0.1
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "6rK3p7za",
+            "value": 0.07
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "8sAIqaGe",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "B3N0HGw4",
+            "value": 0.1
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "BTKF72et",
+            "value": 0.15
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "FVhf7OMw",
+            "value": 0.18
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "KQTGApjD",
+            "value": 0.4
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "L11lvHun",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "LW3Klzvx",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "LvIeXwcT",
+            "value": 0.22
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "N72IRgFy",
+            "value": 0.1
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "RQ4a2nIG",
+            "value": 0.08
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "WsK2A1ab",
+            "value": 0.22
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "Y0WXF1LR",
+            "value": 0.2
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "anonymous",
+            "value": 0.05
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "cBjFhvjx",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "e4aM9WL7",
+            "value": 0.08
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "fqybaAk8",
+            "value": 0.05
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "loEoYm9R",
+            "value": 0.2
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "onDqgFnI",
+            "value": 0.2
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "ox8G7avH",
+            "value": 0.12
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "x2AUnHqw",
+            "value": 0.35
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "0bAAwK14",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "6rK3p7za",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "8sAIqaGe",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "B3N0HGw4",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "BTKF72et",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "FVhf7OMw",
+            "value": 0.14
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "KQTGApjD",
+            "value": 0.14
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "L11lvHun",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "LW3Klzvx",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "LvIeXwcT",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "N72IRgFy",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "RQ4a2nIG",
+            "value": 0.03
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "WsK2A1ab",
+            "value": 0.07
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "Y0WXF1LR",
+            "value": 0.07
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "anonymous",
+            "value": 0.02
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "cBjFhvjx",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "e4aM9WL7",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "fqybaAk8",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "loEoYm9R",
+            "value": 0.07
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "ox8G7avH",
+            "value": 0.04
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "x2AUnHqw",
+            "value": 0.07
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "61f29227b9936b5c047f362a",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "8sAIqaGe",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "B3N0HGw4",
+            "value": 0.02
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "BTKF72et",
+            "value": 0.08
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "FVhf7OMw",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "KQTGApjD",
+            "value": 0.02
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "L11lvHun",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "LW3Klzvx",
+            "value": 0.07
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "LvIeXwcT",
+            "value": 0.06
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "N72IRgFy",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "RQ4a2nIG",
+            "value": 0.05
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "WsK2A1ab",
+            "value": 0.15
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "Y0WXF1LR",
+            "value": 0.06
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "anonymous",
+            "value": 0.04
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "cBjFhvjx",
+            "value": 0.04
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "e4aM9WL7",
+            "value": 0.16
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "fqybaAk8",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "loEoYm9R",
+            "value": 0.07
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "ox8G7avH",
+            "value": 0.04
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "x2AUnHqw",
+            "value": 0.06
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "6rK3p7za",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "B3N0HGw4",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "BTKF72et",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "FVhf7OMw",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "KQTGApjD",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "L11lvHun",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "LW3Klzvx",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "LvIeXwcT",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "N72IRgFy",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "RQ4a2nIG",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "WsK2A1ab",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "Y0WXF1LR",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "anonymous",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "cBjFhvjx",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "e4aM9WL7",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "fqybaAk8",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "loEoYm9R",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "ox8G7avH",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "x2AUnHqw",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "8sAIqaGe",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "BTKF72et",
+            "value": 0.06
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "FVhf7OMw",
+            "value": 0.33
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "KQTGApjD",
+            "value": 0.33
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "L11lvHun",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "LW3Klzvx",
+            "value": 0.2
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "LvIeXwcT",
+            "value": 0.19
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "N72IRgFy",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "RQ4a2nIG",
+            "value": 0.08
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "WsK2A1ab",
+            "value": 0.19
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "Y0WXF1LR",
+            "value": 0.17
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "anonymous",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "cBjFhvjx",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "e4aM9WL7",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "fqybaAk8",
+            "value": 0.04
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "loEoYm9R",
+            "value": 0.17
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "ox8G7avH",
+            "value": 0.06
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "x2AUnHqw",
+            "value": 0.33
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "B3N0HGw4",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "FVhf7OMw",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "KQTGApjD",
+            "value": 0.06
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "L11lvHun",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "LW3Klzvx",
+            "value": 0.17
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "LvIeXwcT",
+            "value": 0.06
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "N72IRgFy",
+            "value": 0.06
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "RQ4a2nIG",
+            "value": 0.06
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "WsK2A1ab",
+            "value": 0.14
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "Y0WXF1LR",
+            "value": 0.06
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "anonymous",
+            "value": 0.05
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "cBjFhvjx",
+            "value": 0.11
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "e4aM9WL7",
+            "value": 0.22
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "fqybaAk8",
+            "value": 0.03
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "loEoYm9R",
+            "value": 0.17
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "ox8G7avH",
+            "value": 0.05
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "x2AUnHqw",
+            "value": 0.06
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "BTKF72et",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "KQTGApjD",
+            "value": 0.33
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "L11lvHun",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "LW3Klzvx",
+            "value": 0.15
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "LvIeXwcT",
+            "value": 0.5
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "N72IRgFy",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "RQ4a2nIG",
+            "value": 0.15
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "WsK2A1ab",
+            "value": 0.19
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "Y0WXF1LR",
+            "value": 0.33
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "anonymous",
+            "value": 0.09
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "cBjFhvjx",
+            "value": 0.12
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "e4aM9WL7",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "fqybaAk8",
+            "value": 0.12
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "loEoYm9R",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "ox8G7avH",
+            "value": 0.17
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "x2AUnHqw",
+            "value": 0.17
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "FVhf7OMw",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "L11lvHun",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "LW3Klzvx",
+            "value": 0.05
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "LvIeXwcT",
+            "value": 0.31
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "N72IRgFy",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "RQ4a2nIG",
+            "value": 0.14
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "WsK2A1ab",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "Y0WXF1LR",
+            "value": 0.33
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "anonymous",
+            "value": 0.08
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "cBjFhvjx",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "e4aM9WL7",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "fqybaAk8",
+            "value": 0.04
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "loEoYm9R",
+            "value": 0.17
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "ox8G7avH",
+            "value": 0.11
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "x2AUnHqw",
+            "value": 0.17
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "KQTGApjD",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "LW3Klzvx",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "LvIeXwcT",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "N72IRgFy",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "RQ4a2nIG",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "WsK2A1ab",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "Y0WXF1LR",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "anonymous",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "cBjFhvjx",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "e4aM9WL7",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "fqybaAk8",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "loEoYm9R",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "ox8G7avH",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "x2AUnHqw",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "L11lvHun",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "LvIeXwcT",
+            "value": 0.19
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "N72IRgFy",
+            "value": 0.05
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "RQ4a2nIG",
+            "value": 0.02
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "WsK2A1ab",
+            "value": 0.15
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "Y0WXF1LR",
+            "value": 0.2
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "anonymous",
+            "value": 0.03
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "cBjFhvjx",
+            "value": 0.15
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "e4aM9WL7",
+            "value": 0.05
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "fqybaAk8",
+            "value": 0.01
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "loEoYm9R",
+            "value": 0.15
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "onDqgFnI",
+            "value": 0.15
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "ox8G7avH",
+            "value": 0.04
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "x2AUnHqw",
+            "value": 0.2
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "LW3Klzvx",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "N72IRgFy",
+            "value": 0.0
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "RQ4a2nIG",
+            "value": 0.13
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "WsK2A1ab",
+            "value": 0.31
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "Y0WXF1LR",
+            "value": 0.31
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "anonymous",
+            "value": 0.1
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "cBjFhvjx",
+            "value": 0.12
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "e4aM9WL7",
+            "value": 0.19
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "fqybaAk8",
+            "value": 0.12
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "loEoYm9R",
+            "value": 0.19
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "onDqgFnI",
+            "value": 0.25
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "ox8G7avH",
+            "value": 0.12
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "x2AUnHqw",
+            "value": 0.5
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "LvIeXwcT",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "RQ4a2nIG",
+            "value": 0.04
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "WsK2A1ab",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "Y0WXF1LR",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "anonymous",
+            "value": 0.02
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "cBjFhvjx",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "e4aM9WL7",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "fqybaAk8",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "loEoYm9R",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "ox8G7avH",
+            "value": 0.04
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "x2AUnHqw",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "N72IRgFy",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "Sz5Wx2XD",
+            "value": 0.0
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "WsK2A1ab",
+            "value": 0.13
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "Y0WXF1LR",
+            "value": 0.16
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "anonymous",
+            "value": 0.07
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "cBjFhvjx",
+            "value": 0.04
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "e4aM9WL7",
+            "value": 0.06
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "fqybaAk8",
+            "value": 0.05
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "loEoYm9R",
+            "value": 0.07
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "onDqgFnI",
+            "value": 0.07
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "ox8G7avH",
+            "value": 0.08
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "x2AUnHqw",
+            "value": 0.16
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "RQ4a2nIG",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "WYCImqGm",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "WsK2A1ab",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "Y0WXF1LR",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "anonymous",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "cBjFhvjx",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "e4aM9WL7",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "fqybaAk8",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "loEoYm9R",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "ox8G7avH",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "x2AUnHqw",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "Sz5Wx2XD",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "WsK2A1ab",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "Y0WXF1LR",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "anonymous",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "cBjFhvjx",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "e4aM9WL7",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "fqybaAk8",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "loEoYm9R",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "ox8G7avH",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "x2AUnHqw",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "WYCImqGm",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "Y0WXF1LR",
+            "value": 0.31
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "anonymous",
+            "value": 0.1
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "cBjFhvjx",
+            "value": 0.06
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "e4aM9WL7",
+            "value": 0.31
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "fqybaAk8",
+            "value": 0.09
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "loEoYm9R",
+            "value": 0.19
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "onDqgFnI",
+            "value": 0.19
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "ox8G7avH",
+            "value": 0.1
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "x2AUnHqw",
+            "value": 0.31
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "WsK2A1ab",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "ZWrgWx9o",
+            "value": 0.0
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "anonymous",
+            "value": 0.13
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "cBjFhvjx",
+            "value": 0.25
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "e4aM9WL7",
+            "value": 0.17
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "fqybaAk8",
+            "value": 0.08
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "loEoYm9R",
+            "value": 0.5
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "onDqgFnI",
+            "value": 0.5
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "ox8G7avH",
+            "value": 0.15
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "x2AUnHqw",
+            "value": 0.5
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "Y0WXF1LR",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "anonymous",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "cBjFhvjx",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "e4aM9WL7",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "fqybaAk8",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "loEoYm9R",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "ox8G7avH",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "x2AUnHqw",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "ZWrgWx9o",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "anonymous",
+            "u2": "cBjFhvjx",
+            "value": 0.05
+        },
+        {
+            "u1": "anonymous",
+            "u2": "e4aM9WL7",
+            "value": 0.05
+        },
+        {
+            "u1": "anonymous",
+            "u2": "fqybaAk8",
+            "value": 0.07
+        },
+        {
+            "u1": "anonymous",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "anonymous",
+            "u2": "loEoYm9R",
+            "value": 0.07
+        },
+        {
+            "u1": "anonymous",
+            "u2": "onDqgFnI",
+            "value": 0.07
+        },
+        {
+            "u1": "anonymous",
+            "u2": "ox8G7avH",
+            "value": 0.02
+        },
+        {
+            "u1": "anonymous",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "anonymous",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "anonymous",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "anonymous",
+            "u2": "x2AUnHqw",
+            "value": 0.1
+        },
+        {
+            "u1": "anonymous",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "anonymous",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "e4aM9WL7",
+            "value": 0.0
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "fqybaAk8",
+            "value": 0.05
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "loEoYm9R",
+            "value": 0.0
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "onDqgFnI",
+            "value": 0.12
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "ox8G7avH",
+            "value": 0.04
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "x2AUnHqw",
+            "value": 0.12
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "cBjFhvjx",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "e4aM9WL7",
+            "u2": "fqybaAk8",
+            "value": 0.0
+        },
+        {
+            "u1": "e4aM9WL7",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "e4aM9WL7",
+            "u2": "loEoYm9R",
+            "value": 0.0
+        },
+        {
+            "u1": "e4aM9WL7",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "e4aM9WL7",
+            "u2": "ox8G7avH",
+            "value": 0.1
+        },
+        {
+            "u1": "e4aM9WL7",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "e4aM9WL7",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "e4aM9WL7",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "e4aM9WL7",
+            "u2": "x2AUnHqw",
+            "value": 0.17
+        },
+        {
+            "u1": "e4aM9WL7",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "e4aM9WL7",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "fqybaAk8",
+            "u2": "hFithZVD",
+            "value": 0.0
+        },
+        {
+            "u1": "fqybaAk8",
+            "u2": "loEoYm9R",
+            "value": 0.04
+        },
+        {
+            "u1": "fqybaAk8",
+            "u2": "onDqgFnI",
+            "value": 0.08
+        },
+        {
+            "u1": "fqybaAk8",
+            "u2": "ox8G7avH",
+            "value": 0.03
+        },
+        {
+            "u1": "fqybaAk8",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "fqybaAk8",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "fqybaAk8",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "fqybaAk8",
+            "u2": "x2AUnHqw",
+            "value": 0.1
+        },
+        {
+            "u1": "fqybaAk8",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "fqybaAk8",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "hFithZVD",
+            "u2": "loEoYm9R",
+            "value": 0.0
+        },
+        {
+            "u1": "hFithZVD",
+            "u2": "onDqgFnI",
+            "value": 0.0
+        },
+        {
+            "u1": "hFithZVD",
+            "u2": "ox8G7avH",
+            "value": 0.0
+        },
+        {
+            "u1": "hFithZVD",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "hFithZVD",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "hFithZVD",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "hFithZVD",
+            "u2": "x2AUnHqw",
+            "value": 0.0
+        },
+        {
+            "u1": "hFithZVD",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "hFithZVD",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "loEoYm9R",
+            "u2": "onDqgFnI",
+            "value": 0.17
+        },
+        {
+            "u1": "loEoYm9R",
+            "u2": "ox8G7avH",
+            "value": 0.05
+        },
+        {
+            "u1": "loEoYm9R",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "loEoYm9R",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "loEoYm9R",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "loEoYm9R",
+            "u2": "x2AUnHqw",
+            "value": 0.17
+        },
+        {
+            "u1": "loEoYm9R",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "loEoYm9R",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "onDqgFnI",
+            "u2": "ox8G7avH",
+            "value": 0.08
+        },
+        {
+            "u1": "onDqgFnI",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "onDqgFnI",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "onDqgFnI",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "onDqgFnI",
+            "u2": "x2AUnHqw",
+            "value": 0.33
+        },
+        {
+            "u1": "onDqgFnI",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "onDqgFnI",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "ox8G7avH",
+            "u2": "q2BDj1os",
+            "value": 0.0
+        },
+        {
+            "u1": "ox8G7avH",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "ox8G7avH",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "ox8G7avH",
+            "u2": "x2AUnHqw",
+            "value": 0.17
+        },
+        {
+            "u1": "ox8G7avH",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "ox8G7avH",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "q2BDj1os",
+            "u2": "qJRlrtio",
+            "value": 0.0
+        },
+        {
+            "u1": "q2BDj1os",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "q2BDj1os",
+            "u2": "x2AUnHqw",
+            "value": 0.0
+        },
+        {
+            "u1": "q2BDj1os",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "q2BDj1os",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "qJRlrtio",
+            "u2": "x1MyQX2C",
+            "value": 0.0
+        },
+        {
+            "u1": "qJRlrtio",
+            "u2": "x2AUnHqw",
+            "value": 0.0
+        },
+        {
+            "u1": "qJRlrtio",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "qJRlrtio",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "x1MyQX2C",
+            "u2": "x2AUnHqw",
+            "value": 0.0
+        },
+        {
+            "u1": "x1MyQX2C",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "x1MyQX2C",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "x2AUnHqw",
+            "u2": "yjlouq5U",
+            "value": 0.0
+        },
+        {
+            "u1": "x2AUnHqw",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        },
+        {
+            "u1": "yjlouq5U",
+            "u2": "zZbRbDHJ",
+            "value": 0.0
+        }
+    ],
+    "artworks": []
+}

@@ -1,0 +1,5728 @@
+[
+    {
+        "userName": "0bAAwK14",
+        "artworkId": [
+            "35288",
+            "35230",
+            "35450",
+            "35215",
+            "35225",
+            "35330",
+            "35287",
+            "35323",
+            "39416",
+            "35456"
+        ],
+        "emotions": [
+            {
+                "emotion:Disapproval": 0.6491296,
+                "emotion:Interest": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Fear": 1.0,
+                "emotion:Interest": 1.0,
+                "emotion:Love": 1.0,
+                "emotion:Sadness": 1.0,
+                "marl:Positive": 0.6741344
+            },
+            {
+                "emotion:Interest": 1.0,
+                "emotion:Joy": 1.0,
+                "emotion:Sadness": 1.0,
+                "marl:Negative": 0.96962714,
+                "toxicity:toxicity": 0.6063079
+            },
+            {
+                "emotion:Sadness": 1.0,
+                "marl:Mixed": 0.5894577999999999,
+                "marl:Negative": 1.0
+            },
+            {
+                "emotion:Anticipation": 1.0,
+                "emotion:Interest": 1.0,
+                "emotion:Sadness": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Negative": 0.63380194,
+                "marl:Positive": 0.5719200000000001
+            },
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Trust": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Anticipation": 1.0,
+                "emotion:Interest": 1.0,
+                "emotion:Joy": 1.0,
+                "emotion:Sadness": 1.0,
+                "marl:Negative": 1.0,
+                "marl:Positive": 0.5114767
+            },
+            {
+                "emotion:Joy": 1.0,
+                "marl:Negative": 0.9785429
+            },
+            {
+                "emotion:Interest": 1.0
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "mi sento impegnato nel cercare quello che pi\u00f9 mi interessa!",
+                    "itMakesMeThinkAbout": "allo shopping per le vie del centro",
+                    "itRemindsMeOf": "mi ricorda una domenica mattina al mercato"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#shopping"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": " pensieroso come l'uomo e abbandonato come la donna",
+                    "itMakesMeThinkAbout": "la passione degli amanti nascosti",
+                    "itRemindsMeOf": "mi ricorda il bacio di Klimt"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "mi fa sentire malinconico",
+                    "itMakesMeThinkAbout": "mi fa pensare ad una donna sola e malinconica ",
+                    "itRemindsMeOf": "le tipiche donne etrusche "
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#malinconia"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "desoato e malinconico",
+                    "itMakesMeThinkAbout": "un paesaggio autunnale, spoglio, triste e desolato",
+                    "itRemindsMeOf": "mi ricorda le campagne dopo una lunga siccit\u00e0 come quest'anno"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "riflessivo, pensieroso",
+                    "itMakesMeThinkAbout": "donna in attesa, pensierosa con uno sguardo spento\n",
+                    "itRemindsMeOf": "mi ricorda chi rimane assorto dai pensieri"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.21941489361702102,
+                        "locationY": 0.32471264367816005
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#overthinker"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "mi fa sentire rigenerato ",
+                    "itMakesMeThinkAbout": "un sabato in una casa con vista sulle colline del monferrato",
+                    "itRemindsMeOf": "i week end con gli amici"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#sunday"
+                    },
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#monferrato"
+                    },
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#friends"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "fiducioso perch\u00e8 c'\u00e8 chi ha saputo discernere la sua vocazione",
+                    "itMakesMeThinkAbout": "una sorella in preghiera",
+                    "itRemindsMeOf": "mi ricorda suor chiara delle apostole del sacro cuore"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.371010638297872,
+                        "locationY": 0.195402298850574
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#pray"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "questa immagine mi fa sentire lontano dalla vita quotidiana, in uno spazio libero e lontano dai rumori della citt\u00e0",
+                    "itMakesMeThinkAbout": "Donna pensierosa",
+                    "itRemindsMeOf": "Mi ricorda l'attesa, una giornata in collina"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "mi fa sentire incuriosito e concentrato",
+                    "itMakesMeThinkAbout": "gioco degli scacchi",
+                    "itRemindsMeOf": "mi ricorda le serate con gli amici a giocare a scacchi!"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "mi fa pensare alla lettura",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "61f29227b9936b5c047f362a",
+        "artworkId": [
+            "35229",
+            "41209",
+            "35229",
+            "39416",
+            "35400",
+            "39416",
+            "38595"
+        ],
+        "emotions": [
+            {
+                "marl:Positive": 0.8795295
+            },
+            {},
+            {
+                "emotion:Joy": 0.99601984,
+                "marl:Positive": 0.99596715
+            },
+            {
+                "marl:Negative": 0.69429266
+            },
+            {
+                "marl:Negative": 0.96548957
+            },
+            {},
+            {
+                "marl:Positive": 0.61431324
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "sample answer",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.8785220342260871,
+                        "locationY": 0.8139491262529791
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#interesting"
+                    }
+                ],
+                "text": "sample answer",
+                "textTemplate": "It makes me think about"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "sample",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.814726183026613,
+                        "locationY": 0.6493555356256461
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#sample"
+                    }
+                ],
+                "text": "sample",
+                "textTemplate": "It makes me feel"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "happy",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.20573040165034,
+                        "locationY": 0.6159920655506691
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "happy"
+                    }
+                ],
+                "text": "happy",
+                "textTemplate": "It makes me feel"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "chess"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.6820103725942781,
+                        "locationY": 0.5004935532599181
+                    }
+                ],
+                "tags": [],
+                "text": "chess",
+                "textTemplate": "It reminds me of"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "sss",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "sss",
+                "textTemplate": "It makes me think about"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "s",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "s",
+                "textTemplate": "It makes me feel"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "e",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "e",
+                "textTemplate": "It makes me think about"
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "6rK3p7za",
+        "artworkId": [
+            "35398",
+            "35321",
+            "35288",
+            "35450",
+            "35208",
+            "39416",
+            "35217",
+            "39200",
+            "35287",
+            "35221",
+            "39347",
+            "35360",
+            "35307",
+            "35323",
+            "35215",
+            "35571",
+            "35374",
+            "35376",
+            "39426",
+            "35567",
+            "35222",
+            "35433",
+            "35246",
+            "39427",
+            "35459",
+            "39138",
+            "35362",
+            "35249",
+            "39182",
+            "35465",
+            "35380"
+        ],
+        "emotions": [
+            {
+                "emotion:Anticipation": 0.9862143999999999,
+                "emotion:Fear": 0.9116713999999999,
+                "emotion:Sadness": 0.6375510999999999,
+                "marl:Negative": 1.0
+            },
+            {
+                "marl:Negative": 0.887695
+            },
+            {
+                "emotion:Sadness": 0.73365736,
+                "marl:Negative": 0.88485485
+            },
+            {
+                "emotion:Interest": 0.50939375,
+                "emotion:Joy": 0.6086303,
+                "emotion:Serenity": 0.52489346,
+                "marl:Positive": 0.82005787
+            },
+            {
+                "marl:Negative": 0.6110068
+            },
+            {
+                "marl:Positive": 0.7818501
+            },
+            {
+                "emotion:Sadness": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "marl:Negative": 0.73870564
+            },
+            {
+                "emotion:Anger": 0.7438475,
+                "emotion:Fear": 0.6438967999999999,
+                "emotion:Joy": 0.5135409,
+                "marl:Negative": 0.9836926500000001,
+                "marl:Positive": 1.0
+            },
+            {},
+            {
+                "marl:Mixed": 0.67948514,
+                "marl:Positive": 0.7362418
+            },
+            {
+                "marl:Mixed": 0.6098804,
+                "marl:Positive": 1.0
+            },
+            {},
+            {
+                "emotion:Sadness": 0.8106162,
+                "marl:Mixed": 0.65753406,
+                "marl:Negative": 0.5348461
+            },
+            {},
+            {
+                "marl:Positive": 0.5381642999999999
+            },
+            {
+                "emotion:Disgust": 1.0,
+                "emotion:Joy": 0.8515836999999999,
+                "emotion:Sadness": 0.5277288,
+                "marl:Mixed": 0.8207892,
+                "marl:Negative": 1.0,
+                "marl:Positive": 0.8490525
+            },
+            {
+                "marl:Positive": 0.6484215999999999
+            },
+            {},
+            {
+                "marl:Negative": 0.6803083400000001
+            },
+            {
+                "emotion:Interest": 0.712847,
+                "marl:Mixed": 0.5685541,
+                "marl:Negative": 0.53096473
+            },
+            {
+                "emotion:Sadness": 0.72628325,
+                "marl:Negative": 0.6861096999999999
+            },
+            {},
+            {
+                "marl:Positive": 0.7796906
+            },
+            {
+                "marl:Negative": 0.86256546,
+                "marl:Positive": 0.51743233
+            },
+            {
+                "marl:Negative": 0.7530861999999999
+            },
+            {
+                "emotion:Fear": 0.8545212999999999,
+                "emotion:Sadness": 0.9205646,
+                "marl:Negative": 0.9556602999999999
+            },
+            {
+                "emotion:Sadness": 0.709042,
+                "marl:Negative": 0.7489311
+            },
+            {
+                "marl:Positive": 0.5138673
+            },
+            {
+                "marl:Positive": 0.87303054
+            },
+            {
+                "emotion:Sadness": 0.5242095,
+                "marl:Negative": 0.52469957
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "anxious",
+                    "itMakesMeThinkAbout": "sufference",
+                    "itRemindsMeOf": "field hospitals during wars"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.033244680851063,
+                        "locationY": 0.060624284019865006
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#trauma"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "scared",
+                    "itMakesMeThinkAbout": "poverty",
+                    "itRemindsMeOf": "stories from after World War Second"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.017287234042553,
+                        "locationY": 0.075058637357928
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#hunger"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "sad and scared",
+                    "itMakesMeThinkAbout": "poverty",
+                    "itRemindsMeOf": "people begging in the streets"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.042553191489361,
+                        "locationY": 0.254044618749911
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#beggar"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "solemn",
+                    "itMakesMeThinkAbout": "ancien greek",
+                    "itRemindsMeOf": "Ovid's Metamorphosis"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.037234042553191,
+                        "locationY": 0.05485054268463901
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#flammeum"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "nothing in particula",
+                    "itMakesMeThinkAbout": "Saffo...",
+                    "itRemindsMeOf": "the Napoleonic era"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.037234042553191,
+                        "locationY": 0.046189930681802
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#queer"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "neat",
+                    "itMakesMeThinkAbout": "simmetry",
+                    "itRemindsMeOf": "a greek temple or a board game"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.035904255319148,
+                        "locationY": 0.063511154687477
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#simmetry"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "sick",
+                    "itMakesMeThinkAbout": "an hangover morning",
+                    "itRemindsMeOf": "a book, \"\"Le ore dell'inutile pentimento\""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd22",
+                        "locationX": 0.050531914893617004,
+                        "locationY": 0.20496781740049602
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#hangover"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "uneasy",
+                    "itMakesMeThinkAbout": "abuse",
+                    "itRemindsMeOf": "Thomas Mann and his relationship with his sons"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd22",
+                        "locationX": 0.055851063829787,
+                        "locationY": 0.043303060014189
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#thomasmann"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "bored (and a bit annoyed)",
+                    "itMakesMeThinkAbout": "school",
+                    "itRemindsMeOf": "Alessandro Manzoni and his unbearable \"buoni sentimenti\""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.050531914893617004,
+                        "locationY": 0.40416189346576803
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#chepalle"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "tenderness",
+                    "itMakesMeThinkAbout": "childhood",
+                    "itRemindsMeOf": "the smell of my kids"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.049202127659574005,
+                        "locationY": 0.652432770880454
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#guanciotte"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "in a good mood",
+                    "itMakesMeThinkAbout": "a dreamy world",
+                    "itRemindsMeOf": "chassidic short stories"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.038563829787234,
+                        "locationY": 0.6813014775565801
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#bluemoon"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "energetic",
+                    "itMakesMeThinkAbout": "a stroll in the city",
+                    "itRemindsMeOf": "Saturday morning in New York"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.043882978723404006,
+                        "locationY": 0.11547482670450501
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#frizzante"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "tenderness",
+                    "itMakesMeThinkAbout": "Vercelli",
+                    "itRemindsMeOf": "\"counting sheeps\" for sleeping"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.045212765957446006,
+                        "locationY": 0.678414606888967
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#insonnia"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "nostalgic",
+                    "itMakesMeThinkAbout": "September",
+                    "itRemindsMeOf": "Vignale Monferrato"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.07047872340425501,
+                        "locationY": 0.635111546874778
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#vineyard"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "cold",
+                    "itMakesMeThinkAbout": "poetry",
+                    "itRemindsMeOf": "The Wast Land...April is the cruellest month"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.027925531914893,
+                        "locationY": 0.600469098863426
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#TSEliot"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "benevolent",
+                    "itMakesMeThinkAbout": "dust",
+                    "itRemindsMeOf": "old aunts' homes"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.131648936170212,
+                        "locationY": 0.574487262854913
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#pastello"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "nostalgic",
+                    "itMakesMeThinkAbout": "\"le piccole cose di pessimo gusto\"",
+                    "itRemindsMeOf": "Signorina Felicita"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd22",
+                        "locationX": 0.08776595744680801,
+                        "locationY": 0.213628429403334
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#kitsch"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "in no particular way",
+                    "itMakesMeThinkAbout": "something sliding down",
+                    "itRemindsMeOf": " the Titanic"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.08111702127659501,
+                        "locationY": 0.586034745525363
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#pianoinclinato"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "jolly",
+                    "itMakesMeThinkAbout": "oranges",
+                    "itRemindsMeOf": "nothing particular"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\uddd0",
+                        "locationX": 0.077127659574468,
+                        "locationY": 0.588921616192976
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#sinistra"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "bored",
+                    "itMakesMeThinkAbout": "how a clich\u00e9 Andy Warhol is",
+                    "itRemindsMeOf": "the way images lose their power once they're so common"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd22",
+                        "locationX": 0.045212765957446006,
+                        "locationY": 0.248270877414686
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#boring"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "sad",
+                    "itMakesMeThinkAbout": "how studip men can be",
+                    "itRemindsMeOf": "a pediatric emergency room"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.08111702127659501,
+                        "locationY": 0.536957944175949
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#ops"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "cold",
+                    "itMakesMeThinkAbout": "San Carlo di Tigliole",
+                    "itRemindsMeOf": "il giorno dei morti"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.014627659574468,
+                        "locationY": 0.542731685511174
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#dampness"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "cozy",
+                    "itMakesMeThinkAbout": "cuddles",
+                    "itRemindsMeOf": "my bunny"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.058510638297872,
+                        "locationY": 0.158777886718694
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#hug"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "happy",
+                    "itMakesMeThinkAbout": "San Francesco d'Assisi",
+                    "itRemindsMeOf": "my parents feedings birds"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.08111702127659501,
+                        "locationY": 0.36085883345157804
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#happiness"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "relaxed",
+                    "itMakesMeThinkAbout": "the countryside",
+                    "itRemindsMeOf": "Little Women novel"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.055851063829787,
+                        "locationY": 0.606242840198652
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#tardopomeriggio"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "sad",
+                    "itMakesMeThinkAbout": "cautionary tales",
+                    "itRemindsMeOf": "lost hopes"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.047872340425531006,
+                        "locationY": 0.12124856803973001
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#green"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "lonely",
+                    "itMakesMeThinkAbout": "fall",
+                    "itRemindsMeOf": "empty spaces"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.054521276595744,
+                        "locationY": 0.652432770880454
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#loneliness"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "kind of sturm und drang",
+                    "itMakesMeThinkAbout": "a storm on the sea",
+                    "itRemindsMeOf": "thhunders"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.038563829787234,
+                        "locationY": 0.09526673203121601
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#thunder"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "proud",
+                    "itMakesMeThinkAbout": "defiance",
+                    "itRemindsMeOf": "my grandmother"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\uddd0",
+                        "locationX": 0.228723404255319,
+                        "locationY": 0.040416189346576
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#mitologia"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "hopeful",
+                    "itMakesMeThinkAbout": "adolescense",
+                    "itRemindsMeOf": "Immortal Beloved (the movie)"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.136968085106382,
+                        "locationY": 0.138569792045406
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#Hair"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "sleepy",
+                    "itMakesMeThinkAbout": "not feel guilty about being lazy",
+                    "itRemindsMeOf": "summer"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.082446808510638,
+                        "locationY": 0.07794550802554001
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#laziness"
+                    }
+                ]
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "8sAIqaGe",
+        "artworkId": [
+            "35433",
+            "35215"
+        ],
+        "emotions": [
+            {},
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "a casa",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": " pace",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Ho un forte interesse per l'arte",
+        "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+    },
+    {
+        "userName": "B3N0HGw4",
+        "artworkId": [
+            "35288",
+            "35360",
+            "35445"
+        ],
+        "emotions": [
+            {
+                "marl:Positive": 0.8998411
+            },
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Serenity": 1.0,
+                "marl:Negative": 0.95488745,
+                "marl:Positive": 1.0
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "un caldo pomeriggio",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "serena",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "rilassata",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Ho un forte interesse per l'arte",
+        "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+    },
+    {
+        "userName": "BTKF72et",
+        "artworkId": [
+            "35330",
+            "39138",
+            "35222",
+            "35208",
+            "35221",
+            "35465",
+            "39347",
+            "35459",
+            "35224"
+        ],
+        "emotions": [
+            {
+                "emotion:Sadness": 0.7365448,
+                "marl:Mixed": 0.67296207
+            },
+            {
+                "emotion:False": 1.0
+            },
+            {
+                "emotion:False": 1.0,
+                "emotion:Fear": 0.8773061999999999,
+                "marl:Negative": 0.9538091
+            },
+            {
+                "marl:Mixed": 0.50099057
+            },
+            {},
+            {
+                "emotion:Fear": 0.55327827
+            },
+            {
+                "emotion:Sadness": 0.71960527,
+                "marl:Negative": 0.85102296
+            },
+            {
+                "marl:Mixed": 0.58224654,
+                "marl:Positive": 0.8125051999999999
+            },
+            {}
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "nostalgic",
+                    "itMakesMeThinkAbout": "suspended time ",
+                    "itRemindsMeOf": "afternoons in the countryside "
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "involved in the deep green of the water ",
+                    "itMakesMeThinkAbout": "love and loss",
+                    "itRemindsMeOf": "an ancient tale"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "worried",
+                    "itMakesMeThinkAbout": "fear",
+                    "itRemindsMeOf": "bygone days"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "close to her feelings ",
+                    "itMakesMeThinkAbout": "untouched beauty",
+                    "itRemindsMeOf": "romantic heroines' purity"
+                },
+                "emojis": [],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#romantic_beauty"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "involved in the red of her hair ",
+                    "itMakesMeThinkAbout": "an angry little girl",
+                    "itRemindsMeOf": "quarrels between children"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "n the force expressed by his fingers even without a piano",
+                    "itMakesMeThinkAbout": "the power of talented young people",
+                    "itRemindsMeOf": "an insecure young man "
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "nostalgic  ",
+                    "itMakesMeThinkAbout": "a soffused dream ",
+                    "itRemindsMeOf": "mirrored images in water viewed from a bridge "
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.45212765957446804,
+                        "locationY": 0.8092595528777541
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#dreamy_night"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "quiet",
+                    "itMakesMeThinkAbout": "windless quiet",
+                    "itRemindsMeOf": "a quiet summer afternoon"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.46143617021276506,
+                        "locationY": 0.8346281908990011
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#quietness "
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "empathic",
+                    "itMakesMeThinkAbout": "someone trying to hold on to something they no longer possess ",
+                    "itRemindsMeOf": "lost memories "
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.46143617021276506,
+                        "locationY": 0.814333280482004
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#lost_memories"
+                    }
+                ]
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "FVhf7OMw",
+        "artworkId": [
+            "35330",
+            "39200",
+            "35225"
+        ],
+        "emotions": [
+            {},
+            {
+                "emotion:Joy": 0.7974498,
+                "marl:Positive": 0.6180661
+            },
+            {
+                "marl:Positive": 0.9099123
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "Montepulciano",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "a Marechiaro",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Ho un forte interesse per l'arte",
+        "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+    },
+    {
+        "userName": "KQTGApjD",
+        "artworkId": [
+            "35221",
+            "35459",
+            "35433"
+        ],
+        "emotions": [
+            {},
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Sadness": 0.6123872,
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Positive": 0.66458505
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": " solo",
+                    "itMakesMeThinkAbout": "infanzia",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "allegro",
+                    "itMakesMeThinkAbout": "estate",
+                    "itRemindsMeOf": "nonni"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "freddo",
+                    "itMakesMeThinkAbout": "vita rurale",
+                    "itRemindsMeOf": "pirati dei caraibi"
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "L'arte mi interessa poco",
+        "relationship_with_museums": "Visito raramente musei e mostre"
+    },
+    {
+        "userName": "L11lvHun",
+        "artworkId": [
+            "35450",
+            "35224"
+        ],
+        "emotions": [
+            {},
+            {
+                "emotion:Disapproval": 0.55938447,
+                "marl:Negative": 0.73523605
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "nnn",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "bbbbb",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "LW3Klzvx",
+        "artworkId": [
+            "35330",
+            "39175",
+            "39427",
+            "35229",
+            "35364"
+        ],
+        "emotions": [
+            {
+                "emotion:Trust": 1.0
+            },
+            {
+                "marl:Positive": 0.6536978
+            },
+            {
+                "emotion:Sadness": 0.81103146,
+                "emotion:Surprise": 1.0,
+                "marl:Positive": 0.69820523
+            },
+            {
+                "marl:Positive": 0.76203746
+            },
+            {
+                "marl:Negative": 0.9388350999999999
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "due amici che erano a parlare guardando il panorama ma hanno deciso di uscire e correre nel prato ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "post serata ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "festa scout",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "sopraffatta",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "L'arte mi interessa poco",
+        "relationship_with_museums": "Visito raramente musei e mostre"
+    },
+    {
+        "userName": "LvIeXwcT",
+        "artworkId": [
+            "35360",
+            "39175",
+            "35279",
+            "35229",
+            "39182",
+            "35362",
+            "35445",
+            "35323"
+        ],
+        "emotions": [
+            {
+                "emotion:Joy": 0.8159862999999999,
+                "marl:Positive": 0.6438219
+            },
+            {},
+            {
+                "emotion:Anger": 1.0,
+                "marl:Negative": 1.0,
+                "marl:Positive": 0.6500022
+            },
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Sadness": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Joy": 0.6038792
+            },
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Love": 1.0,
+                "emotion:Sadness": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Mixed": 0.5554312,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Interest": 1.0,
+                "emotion:Sadness": 1.0,
+                "marl:Positive": 0.57405955
+            },
+            {
+                "emotion:Sadness": 1.0
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "viva",
+                    "itMakesMeThinkAbout": "altri luoghi, altre suggestioni, alla letteratura ",
+                    "itRemindsMeOf": "un viaggio a Parigi di quando ero ragazza"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Giovent\u00f9 "
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "sazia",
+                    "itMakesMeThinkAbout": "un banchetto proibito",
+                    "itRemindsMeOf": "i pranzi di Natale"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.094557361338497,
+                        "locationY": 0.665604294221253
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "solenne",
+                    "itMakesMeThinkAbout": "un silenzio assordante ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Solennit\u00e0 "
+                    },
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Tragedia"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "una storia a lieto fine ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.6874575729744831,
+                        "locationY": 0.6360815231066
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "negli Anni 30",
+                    "itMakesMeThinkAbout": "morbosit\u00e0 ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.209559557560995,
+                        "locationY": 0.6951270653359051
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Morboso"
+                    },
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Spavento"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "malinconica Emma tranquilla ",
+                    "itMakesMeThinkAbout": "una giornata tranquilla ",
+                    "itRemindsMeOf": "la mia infanzia "
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Dolcezza"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "pensierosa ",
+                    "itMakesMeThinkAbout": "un pomeriggio di autunno sul fiume ",
+                    "itRemindsMeOf": "quando studiavo "
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.22233757936349402,
+                        "locationY": 0.6280298582571501
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "assonnata ",
+                    "itMakesMeThinkAbout": "una persona sola",
+                    "itRemindsMeOf": "la primavera "
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Non provo nessun interesse per l'arte",
+        "relationship_with_museums": "Visito raramente musei e mostre"
+    },
+    {
+        "userName": "N72IRgFy",
+        "artworkId": [
+            "39416",
+            "35362"
+        ],
+        "emotions": [
+            {
+                "marl:Mixed": 0.5303834
+            },
+            {
+                "emotion:Joy": 1.0,
+                "marl:Positive": 0.63975936
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "una scacchiera ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "una localit\u00e0 di mare "
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "L'arte mi interessa poco",
+        "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+    },
+    {
+        "userName": "RQ4a2nIG",
+        "artworkId": [
+            "39416",
+            "39416",
+            "39426",
+            "35381",
+            "35567",
+            "35433",
+            "35227",
+            "39648",
+            "35380",
+            "35567",
+            "35230",
+            "35208",
+            "39138",
+            "35433",
+            "35381",
+            "39347",
+            "35360",
+            "35380",
+            "35310",
+            "39175",
+            "35360",
+            "39648",
+            "35229",
+            "39138",
+            "35445",
+            "35459",
+            "35227",
+            "35412",
+            "35445",
+            "35227",
+            "35398",
+            "35567",
+            "39347",
+            "35227",
+            "39182",
+            "35249",
+            "35222",
+            "35230",
+            "35380",
+            "35310",
+            "35445",
+            "39347",
+            "39426",
+            "35310",
+            "35330",
+            "35465",
+            "35412",
+            "35330",
+            "35249",
+            "35230",
+            "35229",
+            "35433",
+            "35459",
+            "35412",
+            "35208",
+            "35230",
+            "39426",
+            "39138",
+            "35433",
+            "39364"
+        ],
+        "emotions": [
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Serenity": 0.72991085,
+                "marl:Positive": 0.5606517999999999
+            },
+            {
+                "emotion:Interest": 1.0,
+                "emotion:Joy": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Fear": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "emotion:Sadness": 1.0,
+                "marl:Mixed": 0.5446536
+            },
+            {
+                "emotion:Anticipation": 1.0,
+                "emotion:Fear": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Negative": 0.7526827500000001
+            },
+            {
+                "emotion:Joy": 0.9871738600000001,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Disgust": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "emotion:Love": 1.0
+            },
+            {
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Joy": 0.75160944,
+                "emotion:Love": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Anger": 1.0,
+                "emotion:Disgust": 1.0,
+                "emotion:Fear": 1.0,
+                "emotion:Interest": 0.75683784,
+                "marl:Negative": 1.0,
+                "marl:Positive": 0.79171735
+            },
+            {
+                "emotion:Joy": 0.5106531,
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Positive": 0.7206345
+            },
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Interest": 0.7594964,
+                "emotion:Joy": 0.54123336,
+                "marl:Positive": 0.7543075
+            },
+            {
+                "emotion:Joy": 0.66874546,
+                "emotion:Trust": 1.0,
+                "marl:Positive": 0.9119554
+            },
+            {
+                "emotion:Interest": 1.0,
+                "emotion:Sadness": 0.8762023,
+                "marl:Negative": 0.9312568,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Joy": 1.0,
+                "marl:Positive": 0.7133807
+            },
+            {
+                "marl:Positive": 0.6186566
+            },
+            {
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 0.8587689
+            },
+            {
+                "emotion:Anticipation": 1.0,
+                "emotion:Joy": 1.0,
+                "emotion:Surprise": 1.0,
+                "marl:Negative": 0.6893243,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Fear": 0.8893998999999999
+            },
+            {},
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Negative": 1.0
+            },
+            {},
+            {
+                "emotion:Interest": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Trust": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "emotion:Fear": 1.0,
+                "emotion:Interest": 1.0,
+                "marl:Negative": 0.9582474,
+                "marl:Neutral": 1.0
+            },
+            {},
+            {
+                "marl:Negative": 1.0,
+                "marl:Positive": 0.52359825
+            },
+            {},
+            {
+                "emotion:Sadness": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Negative": 0.58557254,
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "emotion:Interest": 1.0,
+                "marl:Positive": 1.0
+            },
+            {},
+            {
+                "emotion:Interest": 0.9661183400000001,
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Positive": 0.8393752600000001
+            },
+            {
+                "emotion:Interest": 0.5838167,
+                "marl:Positive": 1.0
+            },
+            {},
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9099123
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9099123
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.75854474
+            },
+            {
+                "marl:Positive": 0.9073401
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9073401
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "gli scacchi quando giocavo con mia nonna e mio nonno \n\n\n"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "quando giocavo con la nonna e il nonno a scacchi,.\nEd era bellissimo e quando vincevo perch\u00e9 mi faceva sentire un professionista .",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "serena\n",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "paura e inquietudine ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "nostalgia",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "ansia",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "Riposo",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "appartenenza",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "bene",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "un brutto incidente",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "lle diverse forme della passione",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "lla bellezza folgorante delle donne",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "lla bellezza e alla leggerezza dell\u2019amore",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "IN PACE",
+                    "itMakesMeThinkAbout": "CASA",
+                    "itRemindsMeOf": "LA MIA INFANZIA"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "INCERTO",
+                    "itMakesMeThinkAbout": "ALL\u2019UOMO",
+                    "itRemindsMeOf": "UNA CATTIVA INFLUENZA"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\uddd0",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.30319148936170204,
+                        "locationY": 0.871308016877637
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "CALMO",
+                    "itMakesMeThinkAbout": "ALLA FELIUCITA",
+                    "itRemindsMeOf": "CASA "
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "mio figlio\nChe abita a pARIGI",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.003989361702127,
+                        "locationY": 0.09493670886075901
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": " IN PACE, RILASSATA",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "LE MIE PASSEGGIATE  IN INVERNO CION GLI SCI DA FONDO"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "PRANZI DI FAMIGLIA",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "placida",
+                    "itMakesMeThinkAbout": "un pomeriggio rilassante",
+                    "itRemindsMeOf": "un viaggio a Parigi"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "al settimo cielo",
+                    "itMakesMeThinkAbout": "un paese di montagna eremitico",
+                    "itRemindsMeOf": "le vacanze nei boschi"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "pensieri vari che vagano",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "leggerezza",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "relax",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "gioia",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "saziet\u00e0 ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "un cavallo esausto"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.21010638297872303,
+                        "locationY": 0.26371308016877604
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "tranquillo, sereno",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.49734042553191404,
+                        "locationY": 0.042194092827004
+                    },
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.111702127659574,
+                        "locationY": 0.5717299578059071
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "una giornata tranquilla e in pace con la natura",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "guerra, denuncia",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "velocit\u00e0, consumismo",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "sogni, Freud ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "realt\u00e0, racconto, povert\u00e0 ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "sogni, spavento",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "una persona che ha la testa tra le nuvole ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.397606382978723,
+                        "locationY": 0.569620253164557
+                    },
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.32845744680851,
+                        "locationY": 0.7426160337552741
+                    },
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.6875,
+                        "locationY": 0.8312236286919831
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "una lotta contro il bullismo ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.5372340425531911,
+                        "locationY": 0.151898734177215
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "una delle coppie,innamorarti ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "che lei sia rilassata e che sta riflettendo",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "sogno",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "pensieri",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "I like these places to visit in my free time. Here I can find a lot peace, comfort, my time and much more related to my memories. I have no idea where this place is but I really want to visit.",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.006648936170212,
+                        "locationY": 0.023206751054852003
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "this is where I want to sit with someone close to me and have a cup of coffee and can chit chat with them about my thoughts and related stuff. Thanks ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "I feel this piece of art, the guy in the art is feeling exhausted, worried about the world. He thinks that World is going in the wrong direction.",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "Even Animals thinks the same, They want to get rid out of this.",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\uddd0",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Non provo nessun interesse per l'arte",
+        "relationship_with_museums": "Visito raramente musei e mostre"
+    },
+    {
+        "userName": "Sz5Wx2XD",
+        "artworkId": [
+            "35571",
+            "35245"
+        ],
+        "emotions": [
+            {
+                "marl:Positive": 0.8301699
+            },
+            {
+                "emotion:Serenity": 0.93730426,
+                "marl:Positive": 0.96760535
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "staticit\u00e0 ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.043393176661024005,
+                        "locationY": 0.7273215720796411
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "forza in potenza ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Ho un forte interesse per l'arte",
+        "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+    },
+    {
+        "userName": "WYCImqGm",
+        "artworkId": [
+            "35230",
+            "35380",
+            "35229"
+        ],
+        "emotions": [
+            {
+                "marl:Positive": 0.9099117
+            },
+            {},
+            {
+                "marl:Positive": 0.5068795700000001
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "ranquillit\u00e0 ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "il Mondo che mi circonda fatto di alti e bassi ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Ho un forte interesse per l'arte",
+        "relationship_with_museums": "Visito spesso i musei"
+    },
+    {
+        "userName": "WsK2A1ab",
+        "artworkId": [
+            "35221",
+            "39352",
+            "39347",
+            "35412"
+        ],
+        "emotions": [
+            {
+                "emotion:Fear": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "emotion:Sadness": 0.6311597999999999,
+                "marl:Negative": 0.92951244
+            },
+            {
+                "emotion:Anticipation": 1.0,
+                "emotion:Fear": 1.0,
+                "marl:Negative": 1.0
+            },
+            {}
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": " solitudine",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "ordine",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "ansia",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "guerra",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "L'arte mi interessa poco",
+        "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+    },
+    {
+        "userName": "Y0WXF1LR",
+        "artworkId": [
+            "35230",
+            "35288",
+            "35323"
+        ],
+        "emotions": [
+            {
+                "emotion:Joy": 0.6704142,
+                "marl:Positive": 0.9855657
+            },
+            {
+                "marl:Positive": 0.57145786
+            },
+            {
+                "emotion:Fear": 1.0,
+                "marl:Negative": 1.0
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "  tango",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "passato"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "solitudine",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Il mio lavoro riguarda l'arte",
+        "relationship_with_museums": "Visito spesso i musei"
+    },
+    {
+        "userName": "ZWrgWx9o",
+        "artworkId": [
+            "35330",
+            "39138"
+        ],
+        "emotions": [
+            {},
+            {}
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "storie misteriose",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "leggende",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Ho un forte interesse per l'arte",
+        "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+    },
+    {
+        "userName": "anonymous",
+        "artworkId": [
+            "35288",
+            "35433",
+            "35307",
+            "35450",
+            "35221",
+            "35222",
+            "39175",
+            "35217",
+            "35215",
+            "35571",
+            "35380",
+            "35307",
+            "35288",
+            "35571",
+            "35374",
+            "35376",
+            "35307",
+            "35246",
+            "35230",
+            "39384",
+            "35225",
+            "35227",
+            "35433",
+            "39352",
+            "35288",
+            "35217",
+            "35229",
+            "35229",
+            "35229",
+            "35400",
+            "35400",
+            "41215",
+            "41214",
+            "39416",
+            "41210",
+            "35229",
+            "35400",
+            "38595",
+            "35229",
+            "35400",
+            "38595"
+        ],
+        "emotions": [
+            {
+                "marl:Negative": 1.0,
+                "marl:Positive": 0.635625
+            },
+            {
+                "emotion:Sadness": 1.0,
+                "marl:Negative": 1.0,
+                "marl:Positive": 0.5556437
+            },
+            {
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Interest": 0.87319684,
+                "marl:Positive": 0.7580291
+            },
+            {
+                "marl:Positive": 0.58706605
+            },
+            {
+                "emotion:Anticipation": 1.0,
+                "emotion:Fear": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "emotion:Fear": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "emotion:Fear": 0.82077193
+            },
+            {
+                "emotion:Joy": 0.53726906,
+                "marl:Negative": 1.0,
+                "marl:Positive": 0.9155464
+            },
+            {
+                "emotion:Sadness": 1.0,
+                "marl:Positive": 0.8964321
+            },
+            {
+                "marl:Positive": 0.9073403
+            },
+            {},
+            {},
+            {
+                "emotion:Sadness": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "emotion:Interest": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Sadness": 1.0,
+                "marl:Negative": 0.68420714
+            },
+            {
+                "marl:Positive": 0.54614264
+            },
+            {
+                "emotion:Love": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Love": 1.0,
+                "marl:Negative": 0.9879992,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Joy": 1.0
+            },
+            {
+                "marl:Positive": 0.9584258999999999
+            },
+            {
+                "marl:Negative": 0.9773611999999999
+            },
+            {
+                "emotion:Joy": 0.6165876
+            },
+            {},
+            {
+                "marl:Positive": 0.5436754
+            },
+            {
+                "marl:Negative": 0.77129704
+            },
+            {},
+            {
+                "marl:Positive": 0.89892954
+            },
+            {
+                "emotion:Joy": 1.0,
+                "marl:Positive": 0.8785780999999999
+            },
+            {
+                "emotion:Sadness": 1.0,
+                "marl:Negative": 1.0
+            },
+            {},
+            {
+                "marl:Negative": 0.8217386999999999
+            },
+            {
+                "emotion:Fear": 0.5271871,
+                "emotion:Interest": 0.79253805,
+                "marl:Positive": 0.8656005
+            },
+            {
+                "marl:Negative": 0.70966935
+            },
+            {
+                "emotion:Sadness": 0.9673313,
+                "marl:Negative": 0.98464346
+            },
+            {
+                "emotion:Sadness": 0.5489368,
+                "marl:Negative": 0.9280919999999999
+            },
+            {
+                "marl:Negative": 0.9828304999999999
+            },
+            {
+                "emotion:Fear": 0.8421835,
+                "marl:Negative": 0.9716939
+            },
+            {
+                "emotion:Interest": 0.5533755,
+                "emotion:Serenity": 0.5243822,
+                "marl:Positive": 0.70871896
+            },
+            {},
+            {
+                "marl:Positive": 0.8854107
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "annoiata",
+                    "itMakesMeThinkAbout": "lla tradizione ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.571797929323246,
+                        "locationY": 0.622929887871817
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "mondo contadino",
+                    "itRemindsMeOf": "l'autunno"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.674189651550897,
+                        "locationY": 0.542675117041706
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#tristezza"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "tranquilla",
+                    "itMakesMeThinkAbout": "pecore, pecore e ancora pecore",
+                    "itRemindsMeOf": "la pianura padana"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.19281558081830302,
+                        "locationY": 0.573248363072224
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#pecore"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "preraffaelliti",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.285898964661623,
+                        "locationY": 0.24649679612105602
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#preraffaelliti"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "sognante",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "Renoir"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.630307484881904,
+                        "locationY": 0.6343948551332621
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "un grande terrore",
+                    "itRemindsMeOf": "la casa dei nonni"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.745996833372886,
+                        "locationY": 0.663057273286873
+                    },
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.424194277800268,
+                        "locationY": 0.51019104313428
+                    },
+                    {
+                        "emoji": "\ud83e\udd22",
+                        "locationX": 0.27659062627729103,
+                        "locationY": 0.6477706502716141
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#terrore"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "angosciata",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.643605111145235,
+                        "locationY": 0.632484027256354
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "un romanzo d'appendice",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Murder! she wrote"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "un vecchio"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.056457304163726005,
+                        "locationY": 0.331851851851851
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Albero"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "nostalgico",
+                    "itMakesMeThinkAbout": "armadio della nonna",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.23271276595744603,
+                        "locationY": 0.29755554921703403
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "che beeello"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "\nUna gita a firenze"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nalla noia e alla polvere",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "non mi piace"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nops sto cadendo",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "Una gita a Volpedo"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "un uomo che ama gli animali",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "innamorata ",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "quando andavo al mare"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "gr",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "ngdn",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "gre",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "r",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "hhhh"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": [],
+                "text": "hhhh",
+                "textTemplate": "itRemindsMeOf"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "gggg"
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "gggg",
+                "textTemplate": "itRemindsMeOf"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "m",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "m",
+                "textTemplate": "It makes me think about"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "jut",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "jut",
+                "textTemplate": "It makes me think about"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "al mare",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "al mare",
+                "textTemplate": "It makes me think about"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "triste",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.13430851063829702,
+                        "locationY": 0.31653853271200905
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "tag di prova"
+                    }
+                ],
+                "text": "triste",
+                "textTemplate": "It makes me feel"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "ttttt"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd22",
+                        "locationX": 0.17952127659574402,
+                        "locationY": 0.355298353044092
+                    }
+                ],
+                "tags": [],
+                "text": "ttttt",
+                "textTemplate": "It reminds me of"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "rrrr",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "rrrr",
+                "textTemplate": "It makes me think about"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "mmm",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\uddd0",
+                        "locationX": 0.6516791119274841,
+                        "locationY": 0.41600268388828304
+                    },
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.13033582238549601,
+                        "locationY": 0.316698817411725
+                    },
+                    {
+                        "emoji": "\ud83e\uddd0",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.46256438925048904,
+                        "locationY": 0.7783276021135621
+                    },
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Ooo"
+                    },
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Uuu"
+                    }
+                ],
+                "text": "mmm",
+                "textTemplate": "It makes me think about"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "bbbbb"
+                },
+                "emojis": [],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Mmm"
+                    }
+                ],
+                "text": "bbbbb",
+                "textTemplate": "It reminds me of"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "sad ",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "sad ",
+                "textTemplate": "It makes me feel"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "ddedef"
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "ddedef",
+                "textTemplate": "itMakesMeFeel"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "gegterg"
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "gegterg",
+                "textTemplate": "itMakesMeThinkAbout"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "ergergerge"
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "ergergerge",
+                "textTemplate": "itMakesMeFeel"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "nosisejhhjj"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.49601063829787206,
+                        "locationY": 0.46281138395332805
+                    },
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.35505319148936104,
+                        "locationY": 0.39750671014396305
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "sdfdsd"
+                    }
+                ],
+                "text": "nosisejhhjj",
+                "textTemplate": "It reminds me of"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "dsaas",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "dsaas",
+                "textTemplate": "It makes me think about"
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "asdas",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": [],
+                "text": "asdas",
+                "textTemplate": "It makes me think about"
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "cBjFhvjx",
+        "artworkId": [
+            "35229",
+            "39648",
+            "39200",
+            "39175"
+        ],
+        "emotions": [
+            {
+                "marl:Positive": 0.5899884
+            },
+            {},
+            {
+                "marl:Positive": 0.8667031,
+                "toxicity:sexual_explicit": 0.9333459,
+                "toxicity:toxicity": 0.95016867
+            },
+            {
+                "emotion:Fear": 0.5490408
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "LSD ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\uddd0",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "Casa",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "Sesso",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "Vecchiaia",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Ho un forte interesse per l'arte",
+        "relationship_with_museums": "Visito spesso i musei"
+    },
+    {
+        "userName": "e4aM9WL7",
+        "artworkId": [
+            "35308",
+            "35321",
+            "35330"
+        ],
+        "emotions": [
+            {
+                "marl:Positive": 0.5367516
+            },
+            {
+                "emotion:Sadness": 1.0,
+                "emotion:Serenity": 0.9878439999999999,
+                "marl:Positive": 0.76816034
+            },
+            {
+                "emotion:Serenity": 1.0,
+                "marl:Neutral": 1.0,
+                "marl:Positive": 0.7393474
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "un pomeriggio di un buio giorno invernale ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "perduta",
+                    "itMakesMeThinkAbout": "un periodo particolare della vita, la prima giovinezza ",
+                    "itRemindsMeOf": "una casa vuota e solitaria, che riecheggia di suoni di tubature e scricchiolii "
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.6976799904164831,
+                        "locationY": 0.574352092594145
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Malinconia "
+                    },
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Noia"
+                    },
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Tranquillit\u00e0 "
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "tranquilla ma non allegra ",
+                    "itMakesMeThinkAbout": "una giornata di mezza stagione quieta e senza emozioni ",
+                    "itRemindsMeOf": "le gite in collina"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.14055823982749602,
+                        "locationY": 0.5958231988593471
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Vuoto"
+                    },
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Solitudine "
+                    }
+                ]
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "fqybaAk8",
+        "artworkId": [
+            "39426",
+            "35229",
+            "39425",
+            "39427",
+            "35256",
+            "35288",
+            "35360",
+            "35215",
+            "35445",
+            "39138",
+            "35224",
+            "35450",
+            "35287",
+            "35571",
+            "35362",
+            "39175",
+            "35330",
+            "35456",
+            "35380",
+            "35217",
+            "35224",
+            "35230",
+            "39138"
+        ],
+        "emotions": [
+            {},
+            {
+                "emotion:Joy": 1.0,
+                "marl:Positive": 0.5588839999999999
+            },
+            {},
+            {},
+            {
+                "emotion:Joy": 1.0,
+                "marl:Positive": 0.551545
+            },
+            {},
+            {
+                "marl:Negative": 1.0
+            },
+            {
+                "marl:Positive": 0.5149829
+            },
+            {
+                "marl:Positive": 0.7298895
+            },
+            {
+                "emotion:Love": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Negative": 0.6333803
+            },
+            {
+                "marl:Positive": 0.5812191999999999
+            },
+            {
+                "emotion:Sadness": 1.0,
+                "marl:Negative": 1.0
+            },
+            {},
+            {
+                "emotion:Joy": 1.0
+            },
+            {
+                "emotion:Trust": 1.0
+            },
+            {},
+            {
+                "marl:Positive": 0.7640458
+            },
+            {
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 0.7861037
+            },
+            {},
+            {
+                "emotion:Love": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Positive": 0.86832047
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "dei giochi per bambini",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "un giullare che gioca"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "tante case colorate",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "quell'artista di strada che suonava i Beatles "
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "dei giocolieri che lanciano dei nastri colorati",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "quando i mercati della citt\u00e0 sono pieni",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "le strade affollate di gente"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "all'inizio dell'inverno nella campagna pavese",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "le lunghe giornate con gli amici in riva al fiume a pescare"
+                },
+                "emojis": [],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#natura"
+                    },
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#fiume"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "quanto l'amore sia fluido e non abbia confini ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.8843085106382971,
+                        "locationY": 0.7364446027787671
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#liberidiamare"
+                    },
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#amoresenzabarriere"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "quando quella notte a Parigi..."
+                },
+                "emojis": [],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "#primoamore"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "ad una sarcedotessa greca che chiede qualcosa agli dei ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "triste perch\u00e9 mi ricordo la storia della Monaca ",
+                    "itMakesMeThinkAbout": "ad",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.034574468085106,
+                        "locationY": 0.15276095475596702
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "agli oggetti della mia dispensa",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "quando andavamo al mare a casa dei nonni"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "come dopo il pranzo di Natale in famiglia",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd22",
+                        "locationX": 0.170212765957446,
+                        "locationY": 0.041040256501603006
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "alle vacanze tra le colline della Toscana",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "una gita in campagna con mai zia che dipinge"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "un momento di relax",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "una donna che riposa",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "ad un amore passionale",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "romantica e passionale",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "un episodio della mitologia classica che studiavo a scuola"
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.031914893617021,
+                        "locationY": 0.1459209120057
+                    }
+                ],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "hFithZVD",
+        "artworkId": [
+            "41211",
+            "41212"
+        ],
+        "emotions": [
+            {
+                "marl:Negative": 0.7941329500000001
+            },
+            {
+                "marl:Negative": 0.794133
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "kk",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "kk"
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "loEoYm9R",
+        "artworkId": [
+            "39138",
+            "35308",
+            "35310"
+        ],
+        "emotions": [
+            {
+                "marl:Positive": 0.6911794
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "emotion:Fear": 1.0,
+                "emotion:Joy": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Negative": 0.99228,
+                "marl:Neutral": 1.0,
+                "marl:Positive": 0.8372267
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.8394906324056831,
+                        "locationY": -0.020989779673567
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.848283366612783,
+                        "locationY": 0.772176653238354
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.28261925545466604,
+                        "locationY": 1.103304563159829
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.713461703344596,
+                        "locationY": 0.8091399984477621
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.527349547706178,
+                        "locationY": 1.3743672017223751
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\uddd0",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "sensazione di pace ed inquietudine insieme",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "L'arte mi interessa poco",
+        "relationship_with_museums": "Visito raramente musei e mostre"
+    },
+    {
+        "userName": "onDqgFnI",
+        "artworkId": [
+            "35362",
+            "39416",
+            "35229"
+        ],
+        "emotions": [
+            {
+                "emotion:Joy": 0.8450278999999999,
+                "marl:Positive": 0.9756315400000001
+            },
+            {},
+            {
+                "marl:Positive": 0.9099117
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "Mare"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": [
+                    {
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004,
+                        "tag": "No"
+                    }
+                ]
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Il mio lavoro riguarda l'arte",
+        "relationship_with_museums": "Visito spesso i musei"
+    },
+    {
+        "userName": "ox8G7avH",
+        "artworkId": [
+            "35571",
+            "35398",
+            "35308",
+            "35380",
+            "35381",
+            "39347",
+            "35374",
+            "35323",
+            "35330",
+            "35376",
+            "35256",
+            "35249",
+            "35221",
+            "35433",
+            "39182",
+            "39384",
+            "39138",
+            "35362",
+            "35208",
+            "35450",
+            "39427",
+            "35465",
+            "35256",
+            "35249",
+            "35321",
+            "35215",
+            "39352",
+            "35246",
+            "39389",
+            "39427"
+        ],
+        "emotions": [
+            {},
+            {
+                "marl:Negative": 1.0
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "emotion:Disgust": 1.0,
+                "emotion:Fear": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "emotion:Interest": 1.0,
+                "marl:Negative": 0.9843914500000001,
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Positive": 0.75854474
+            },
+            {
+                "emotion:Anticipation": 1.0,
+                "emotion:Interest": 1.0,
+                "marl:Negative": 0.54808664
+            },
+            {
+                "emotion:Anticipation": 1.0,
+                "emotion:Trust": 1.0,
+                "marl:Positive": 0.8820197
+            },
+            {
+                "emotion:Anger": 1.0,
+                "emotion:Surprise": 1.0,
+                "marl:Negative": 1.0,
+                "marl:Positive": 0.5139587
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.6126454
+            },
+            {
+                "marl:Negative": 1.0
+            },
+            {
+                "emotion:Sadness": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "emotion:Joy": 0.981938
+            },
+            {
+                "emotion:Joy": 0.90660733,
+                "marl:Positive": 0.9800647
+            },
+            {
+                "marl:Positive": 0.7620372999999999
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.73194224
+            },
+            {
+                "emotion:Anticipation": 1.0,
+                "emotion:Surprise": 1.0,
+                "marl:Negative": 1.0
+            },
+            {
+                "marl:Positive": 0.9099123
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "emotion:Anger": 1.0,
+                "marl:Positive": 0.5307843
+            },
+            {
+                "emotion:Surprise": 1.0,
+                "marl:Negative": 0.9160689
+            },
+            {},
+            {},
+            {
+                "emotion:Interest": 1.0,
+                "marl:Positive": 1.0
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nQualcosa del passato",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nVecchi indumenti\n",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "\nMi ricorda un incubo"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nSogno",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nMi fa pensare all'attesa",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nA nuove prospettive guardare oltre",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nRumore di bicchieri rotti",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude31",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": "\nForti temporali"
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nEssere sgridati",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "\nTriste",
+                    "itMakesMeThinkAbout": "\n",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "\nSensazione di serenit\u00e0",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\uddd0",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nProfumo",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nLa Grecia",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "\n",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nIl momento della creazione",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "\nConfuso",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\uddd0",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nSilenzio",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nInfinito",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "\nMi ricorda il mio gatto",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "\nSembra che si formi la figura di un animale stilizzato",
+                    "itMakesMeThinkAbout": "\nSembra che so formi la figura di un animale stilizzato",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd29",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "\nBella l'immagine del passero che accompagna il musicista",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    },
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "q2BDj1os",
+        "artworkId": [
+            "39384",
+            "39138"
+        ],
+        "emotions": [
+            {
+                "marl:Positive": 0.66850865
+            },
+            {
+                "emotion:Love": 1.0,
+                "marl:Positive": 1.0
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "un aquilone in spiaggia ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "due persone che fanno l\u2019amore",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Ho un forte interesse per l'arte",
+        "relationship_with_museums": "Visito spesso i musei"
+    },
+    {
+        "userName": "qJRlrtio",
+        "artworkId": [
+            "41213",
+            "41213"
+        ],
+        "emotions": [
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9073401
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude22",
+                        "locationX": 0.766557112998528,
+                        "locationY": 0.011846002331205
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.14936590804750702,
+                        "locationY": 0.5686081118978701
+                    },
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.15500235740779,
+                        "locationY": 0.14215202797446702
+                    }
+                ],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "x1MyQX2C",
+        "artworkId": [
+            "41213",
+            "41213"
+        ],
+        "emotions": [
+            {
+                "marl:Positive": 0.9099123
+            },
+            {}
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.162147788465329,
+                        "locationY": 0.523091959253992
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "sample",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": NaN,
+        "relationship_with_museums": NaN
+    },
+    {
+        "userName": "x2AUnHqw",
+        "artworkId": [
+            "35459",
+            "35445",
+            "35456"
+        ],
+        "emotions": [
+            {
+                "emotion:Joy": 1.0,
+                "emotion:Serenity": 1.0,
+                "marl:Positive": 1.0
+            },
+            {
+                "emotion:Joy": 1.0,
+                "marl:Positive": 0.9811489999999999
+            },
+            {
+                "emotion:Fear": 1.0,
+                "emotion:Interest": 0.6185307999999999,
+                "marl:Negative": 1.0,
+                "marl:Positive": 0.8425270300000001
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "serenit\u00e0 ",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "momenti di spensieratezza",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "attimi di riflessione in solitudine",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "L'arte mi interessa poco",
+        "relationship_with_museums": "Visito raramente musei e mostre"
+    },
+    {
+        "userName": "yjlouq5U",
+        "artworkId": [
+            "35330",
+            "35433"
+        ],
+        "emotions": [
+            {
+                "emotion:Interest": 1.0,
+                "marl:Negative": 0.9712573,
+                "marl:Positive": 1.0
+            },
+            {}
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "una cosa rilassante",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "  ritorno a casa",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Ho un forte interesse per l'arte",
+        "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+    },
+    {
+        "userName": "zZbRbDHJ",
+        "artworkId": [
+            "39347",
+            "35445",
+            "35433"
+        ],
+        "emotions": [
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9099117
+            },
+            {
+                "marl:Positive": 0.9099117
+            }
+        ],
+        "multimediaData": [
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude0c",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83d\ude34",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "answersToTemplates": {
+                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
+                    "itRemindsMeOf": ""
+                },
+                "emojis": [
+                    {
+                        "emoji": "\ud83e\udd70",
+                        "locationX": 0.375,
+                        "locationY": 0.30000000000000004
+                    }
+                ],
+                "tags": []
+            }
+        ],
+        "relationship_with_arts": "Ho un forte interesse per l'arte",
+        "relationship_with_museums": "Visito spesso i musei"
+    }
+]
