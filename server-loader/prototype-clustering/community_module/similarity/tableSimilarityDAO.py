@@ -24,32 +24,31 @@ class TableSimilarityDAO(SimilarityDAO):
             att_name: name of the attribute (column) the similarity measure is used upon
             weight: weight of the similarity measure
         """
-        super().__init__(dao)
-        self.similarityCol = similarityFunction['on_attribute']['att_name']
+        super().__init__(dao, similarityFunction)
 
-        dao_csv = DAO_csv(os.path.dirname(os.path.abspath(getsourcefile(lambda:0))) + "/distanceTables/" + self.similarityCol + ".csv")
+        dao_csv = DAO_csv(os.path.dirname(os.path.abspath(getsourcefile(lambda:0))) + "/distanceTables/" + self.similarityColumn + ".csv", ";")
+        print(dao_csv.getPandasDataframe())
         self.similarityTable = dao_csv.getPandasDataframe().set_index('Key')
         
     
-    def distance(self,elemA, elemB):
+    def distanceValues(self, valueA, valueB):
         """
-        Method to obtain the distance between two element.
+        Method to obtain the distance between two valid values given by the similarity measure.
+        e.g., sadness vs fear in plutchickEmotionSimilarity
 
         Parameters
         ----------
-        elemA : int
-            Id of first element. This id should be in self.data.
-        elemB : int
-            Id of second element. This id should be in self.data.
+        valueA : object
+            Value of first element corresponding to elemA in self.data
+        valueB : object
+            Value of first element corresponding to elemB in self.data
 
         Returns
         -------
         double
-            Distance between the two elements.
+            Distance between the two values.
         """
-        valueA = self.data.loc[elemA][self.similarityCol]
-        valueB = self.data.loc[elemB][self.similarityCol]
-        
         distance = self.similarityTable.loc[valueA][valueB]
         return distance
-
+        
+    

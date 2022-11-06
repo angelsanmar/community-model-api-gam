@@ -5,6 +5,12 @@
 import numpy as np
 
 from community_module.similarity.similarity import Similarity
+"""
+serenity (higher joy)
+loive (trust, joy)
+interest (higher anticipation)
+disapproval (sadness, surprise)
+"""
 
 # Arent them in the wrong order???
 #PLUTCHIK_EMOTIONS = ['anger', 'anticipation', 'joy', 'disgust', 'fear', 'sadness', 'surprise', 'trust'] # Falta incluir 'joy'
@@ -55,15 +61,17 @@ class EmotionSimilarity(Similarity):
         double
             Distance value between emotions.
         """
+        try: 
+            indexA = PLUTCHIK_EMOTIONS.index(emotionA)
+            indexB = PLUTCHIK_EMOTIONS.index(emotionB)
 
-        indexA = PLUTCHIK_EMOTIONS.index(emotionA)
-        indexB = PLUTCHIK_EMOTIONS.index(emotionB)
+            if indexB > indexA:
+                indexA, indexB = indexB, indexA
 
-        if indexB > indexA:
-            indexA, indexB = indexB, indexA
-
-        return min( (indexA - indexB) / 4, (indexB - indexA + 8) / 4)
-
+            return min( (indexA - indexB) / 4, (indexB - indexA + 8) / 4)
+        except ValueError:
+            return 1.0
+            
     def distance(self, elemA, elemB, numEmotions = 3):
         """Method to obtain the distance between two element based on the array of emotions.
 

@@ -5,7 +5,7 @@ import pandas as pd
 # Import math library
 import math
 
-import importlib
+
 
 from community_module.similarity.similarityDAO import SimilarityDAO
 
@@ -14,7 +14,7 @@ HECHT_BELIEFS_R = ['ANatPridePro','BReligousPro','CRealisticPro','DExtremistNeg'
 
 class ComplexSimilarityDAO(SimilarityDAO):
 
-    def __init__(self,dao,similarityDict):
+    def __init__(self,dao,similarity_functions):
         """Construct of Similarity objects.
 
         Parameters
@@ -26,14 +26,12 @@ class ComplexSimilarityDAO(SimilarityDAO):
         """
         super().__init__(dao)
         
+        # similarity_functions
         self.similarityDict = {}
-        for similarityFunction in similarityDict:
-            similarityName = similarityFunction['sim_function']['name']
-            similarityFile = "community_module.similarity." + similarityName[0].lower() + similarityName[1:]
-            similarityModule = importlib.import_module(similarityFile)
-            similarityClass = getattr(similarityModule,similarityName)
-            similarityMeasure = similarityClass(dao,similarityFunction['sim_function'])
+        for similarityFunction in similarity_functions:
+            similarityMeasure = self.initializeFromPerspective(dao,similarityFunction)
             self.similarityDict[similarityMeasure] = similarityFunction['sim_function']['weight']
+        
         
     def distance(self,elemA, elemB):
         """Method to obtain the distance between two element.

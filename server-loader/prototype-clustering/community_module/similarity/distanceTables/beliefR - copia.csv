@@ -1,4 +1,4 @@
-Key;ANatPridePro;BReligousPro;CRealisticPro;DExtremistNeg;EReligousNeg;FRealisticNeg;NoOpinion
+;ANatPridePro;BReligousPro;CRealisticPro;DExtremistNeg;EReligousNeg;FRealisticNeg;NoOpinion
 ANatPridePro;0.0;0.2;0.4;1.0;0.9;1.0;0.5
 BReligousPro;0.2;0.0;0.4;0.9;1.0;1.0;0.5
 CRealisticPro;0.4;0.4;0.0;1.0;1.0;1.0;0.5

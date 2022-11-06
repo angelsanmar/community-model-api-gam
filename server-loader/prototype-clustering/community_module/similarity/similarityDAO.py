@@ -2,6 +2,8 @@
 
 from itertools import product
 import numpy as np
+import importlib
+import json
 
 
 class SimilarityDAO:
@@ -9,7 +11,7 @@ class SimilarityDAO:
     the similarity between elements.
     """
     
-    def __init__(self,dao):
+    def __init__(self, dao, similarityFunction = {}):
         """Construct of Similarity objects.
 
         Parameters
@@ -19,10 +21,34 @@ class SimilarityDAO:
         
         """
         self.dao = dao
+        if (len(similarityFunction) > 0):
+            self.similarityColumn = similarityFunction['on_attribute']['att_name']
+        else:
+            self.similarityColumn = ""
+
         #self.data = self.dao.pandasData()
 
         self.data = self.dao.getPandasDataframe()
         #self.data = self.data.dropna()
+        
+    def distanceValues(self, valueA, valueB):
+        """
+        Method to obtain the distance between two valid values given by the similarity measure.
+        e.g., sadness vs fear in plutchickEmotionSimilarity
+
+        Parameters
+        ----------
+        valueA : object
+            Value of first element corresponding to elemA in self.data
+        valueB : object
+            Value of first element corresponding to elemB in self.data
+
+        Returns
+        -------
+        double
+            Distance between the two values.
+        """
+        pass
         
 
     def distance(self,elemA, elemB):
@@ -40,7 +66,10 @@ class SimilarityDAO:
         double
             Distance between the two elements.
         """
-        pass
+        valueA = self.data.loc[elemA][self.similarityColumn]
+        valueB = self.data.loc[elemB][self.similarityColumn]
+        
+        return self.distanceValues(valueA, valueB)
 
     def similarity(self,elemA, elemB):
         """Method to obtain the similarity between two element.
@@ -164,4 +193,34 @@ class SimilarityDAO:
 
         return matrix
     
+#-------------------------------------------------------------------------------------------------------------------------------
+#   Auxiliar functions
+#-------------------------------------------------------------------------------------------------------------------------------
+
+    def initializeFromPerspective(self, dao, similarityFunction):
+        similarityName = similarityFunction['sim_function']['name']
+        similarityFile = "community_module.similarity." + similarityName[0].lower() + similarityName[1:]
+        similarityModule = importlib.import_module(similarityFile)
+        similarityClass = getattr(similarityModule,similarityName)
+        similarityMeasure = similarityClass(dao,similarityFunction['sim_function'])
+        
+        return similarityMeasure
     
+    def exchangeElements(self, elemA, elemB):
+        aux = elemA
+        elemA = elemB
+        elemB = aux
+        
+        return elemA, elemB
+    
+    def exportDistanceMatrix(self, distanceMatrix, exportFile):
+        distanceMatrix = distanceMatrix.tolist()
+        
+        with open(exportFile, "w") as outfile:
+            json.dump(distanceMatrix, outfile, indent=4)    
+    
+    def importDistanceMatrix(self, importFile):
+        with open(importFile, 'r', encoding='utf8') as f:
+            distanceMatrix = json.load(f)
+                
+        return np.asarray(distanceMatrix)
