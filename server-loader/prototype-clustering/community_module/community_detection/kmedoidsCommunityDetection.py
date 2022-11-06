@@ -32,4 +32,9 @@ class KmedoidsCommunityDetection:
         kmedoids = KMedoids(metric='precomputed',method='pam', n_clusters=n_clusters, init='k-medoids++')
         kmedoids.fit(distanceMatrix)
         
+        print("kmedoids")
+        print(n_clusters)
+        print(kmedoids.labels_)
+        print("\n")
+        
         return kmedoids.labels_

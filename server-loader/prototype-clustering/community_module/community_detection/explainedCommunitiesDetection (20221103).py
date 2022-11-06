@@ -18,7 +18,7 @@ class ExplainedCommunitiesDetection:
             technique. Defaults to 'euclidean'.
         """
         self.algorithm = algorithm
-        self.data = data.copy()
+        self.data = data
         self.distanceMatrix = distanceMatrix
         self.perspective = perspective
         
@@ -97,7 +97,7 @@ class ExplainedCommunitiesDetection:
         
         return communityDict
     
-    def simplifyInteractionAttributes(self, community, printing = False):
+    def simplifyInteractionAttributes(self, community):
         """
         Method to obtain the dominant value in the list of interaction attribute values with the other community members.
         
@@ -112,41 +112,21 @@ class ExplainedCommunitiesDetection:
             Updated dataframe including the dominant value for each user-interaction attribute pair in new columns.
             Column name = community_ + 'interaction attribute label'
         """
-        df = community.copy()
         for col in self.explanaible_attributes:
             col2 = col + 'DominantInteractionGenerated'
             
-            
-            
             # Get row index of community members
             communityMemberIndexes = np.nonzero(np.in1d(self.data.index,community.index))[0]
-            communityMemberIndexes = np.nonzero(np.in1d(self.data.index,self.data.index))[0]
-            
-            if (printing):
-                print("col2: " + str(col2))
-                print(df[col2])
-                print("self.data.index: " + str(self.data.index))
-                print("community.index: " + str(community.index))
-                print("community member indexes: " + str(communityMemberIndexes))
-                print("\n\n")
-                
             
             # From the attribute list, consider only the ones between the members of the community
             # https://stackoverflow.com/questions/23763591/python-selecting-elements-in-a-list-by-indices
             # Transform attribute list to fit community members
-            df.loc[:, ('community_' + col)] = community.apply(lambda row: self.extractDominantInteractionAttribute(row, col2, communityMemberIndexes), axis = 1)
-            # df.loc[:, ('community_' + col)] = community.apply(lambda row: statistics.mode([row[col2][i] for i in communityMemberIndexes if row[col2][i] != '']), axis = 1)
-
-        return df
-    
-    def extractDominantInteractionAttribute(self, row, col2, communityMemberIndexes):
-        communityMembers_interactionAttributeList = [row[col2][i] for i in communityMemberIndexes if row[col2][i] != '']
-        if (len(communityMembers_interactionAttributeList) > 0):
-            return statistics.mode(communityMembers_interactionAttributeList)
-        else:
-            return ''
+            #community['community_' + col] = community.apply(lambda row: statistics.mode([row[col2][i] for i in communityMemberIndexes]), axis = 1)
+            #community['community_' + col] = community_dominantAttributeList
+            print("aaaaaaaaaaaaaaaa")
+            
+        return community
         
-    
         
     def is_explainable(self, community, answer_binary=False, percentage=1.0):
         explainable_community = False
@@ -161,7 +141,6 @@ class ExplainedCommunitiesDetection:
                 if answer_binary:
                     explainable_community |= (len(community[col]) * percentage)  <= community[col].sum()
                 else:
-                    """
                     print("is_explainable")
                     print("col: " + str(col))
                     print("aaaa")
@@ -172,7 +151,6 @@ class ExplainedCommunitiesDetection:
                     print("sdffd")
                     print("value_counts: " + str(community[col].value_counts()))
                     print("dsnskdlfj")
-                    """
                     explainable_community |= (len(community[col]) * percentage) <= community[col].value_counts().max()
         
         return explainable_community
@@ -244,8 +222,6 @@ class ExplainedCommunitiesDetection:
                     the common value in this column.
         """
         community = self.communities.get_group(id_community)
-        community = self.simplifyInteractionAttributes(community)
-
         community_user_attributes = community[self.user_attributes]
 
         community_data = {'name': id_community}
@@ -268,14 +244,7 @@ class ExplainedCommunitiesDetection:
                 else:
                     
                     if (len(community[col]) * percentage) <= community[col].value_counts().max():
-                        # Returns dominant one
-                        # explainedCommunityProperties[col] = community[col].value_counts().index[0]
-                        
-                        # Returns the values for each of them
-                        percentageColumn = community[col].value_counts(normalize=True) * 100
-                        explainedCommunityProperties[col] = percentageColumn.to_string()
-                        
-                        
+                        explainedCommunityProperties[col] = community[col].value_counts().index[0]
                         # Add the predominant emotion
                         #print('-', col, community[col].value_counts().index[0])
                         
