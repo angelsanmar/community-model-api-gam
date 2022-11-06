@@ -20,11 +20,16 @@ from requests.auth import HTTPBasicAuth
 from bson.json_util import dumps, loads
 
 
+# Daos
+from dao.dao_db_interactionData import DAO_db_interactionDatas
+
+
 
 def main():
 
-    route1 = r"test/data/annotated-stories.json"
+    route1 = r"../communityModel/data/new-annotated-stories.json"
     route2 = r"test/data/parser_output.json"
+    route2 = r"test/perspectives/GAM similar user sentiment in similar artworks (iconclass) annotated-stories.json"
     annotatedStories = DAO_json(route1).getData()
     perspective = DAO_json(route2).getData()
 
@@ -39,3 +44,4 @@ def main():
     print(b.text)
 
 main()
+

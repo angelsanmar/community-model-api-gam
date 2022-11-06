@@ -97,6 +97,9 @@ class Handler(BaseHTTPRequestHandler):
         first_arg = request[1]
         if first_arg == "perspective":
             post_data = loads(post_data)
+            print("post_data perspective api_server.py")
+            print(post_data)
+            print("\n\n")
             # retrive from postRequest perspective
             perspectiveId = post_data["perspectiveId"]
             perspective = post_data
@@ -112,10 +115,17 @@ class Handler(BaseHTTPRequestHandler):
             daoInteractionData = DAO_db_interactionDatas()
             interactionData = daoInteractionData.getInteractionData()["data"]
             # print("Interaction Data: ", interactionData) # muy largo
+            
+            
 
 
             # _CM_
+            communityModel = CommunityModel(perspective, dao = daoInteractionData)
+            communityModel.start()
 
+            # Delete previous interaction data
+            daoInteractionData = DAO_db_interactionDatas()
+            daoInteractionData.drop()
 
             # remove perspective flag (user gets the persepectiveId) 
             # daoFlags = DAO_db_flags()
