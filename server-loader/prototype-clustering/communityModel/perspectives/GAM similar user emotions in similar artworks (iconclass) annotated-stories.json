@@ -43,8 +43,7 @@
         },
         "interaction_object": {
           "att_name": "artworkId",
-          "att_type": "String",
-          "mode": "similar"
+          "att_type": "String"
         }
       }
     }

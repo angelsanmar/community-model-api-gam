@@ -1,7 +1,7 @@
 
 {
-  "id": "GAM similar user sentiment in similar artworks (iconclass)",
-  "name": "GAM similar user sentiment in similar artworks (iconclass)",
+  "id": "GAM similar user emotions in similar artworks (artist country)",
+  "name": "GAM similar user emotions in similar artworks (artist country)",
   "algorithm": {
     "name": "agglomerative",
     "params": [
@@ -10,11 +10,11 @@
   "similarity_functions": [
     {
       "sim_function": {
-        "name": "IconClassSimilarityDAO",
+        "name": "EqualSimilarityDAO",
         "params": [
         ],
         "on_attribute": {
-          "att_name": "Iconclass_subjects_curators",
+          "att_name": "Artist_country",
           "att_type": "String"
         },
         "weight": 0.8
