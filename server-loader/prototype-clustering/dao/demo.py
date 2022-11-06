@@ -29,7 +29,7 @@ def main():
 
     route1 = r"../communityModel/data/new-annotated-stories.json"
     route2 = r"test/data/parser_output.json"
-    route2 = r"test/perspectives/GAM similar user sentiment in similar artworks (iconclass) annotated-stories.json"
+    route2 = r"../communityModel/perspectives/GAM similar user emotions in similar artworks (iconclass) annotated-stories.json"
     annotatedStories = DAO_json(route1).getData()
     perspective = DAO_json(route2).getData()
 

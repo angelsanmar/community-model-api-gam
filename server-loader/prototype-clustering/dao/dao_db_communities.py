@@ -7,14 +7,13 @@ from context import dao
 from dao.dao_db import DAO_db
 
 
-
 class DAO_db_community(DAO_db):
     """
     DAO for accessing community related data in MongoDB
     Contains basics CRUD operations and some operations to manage 'Files'
     """
 
-    #def __init__(self, db_host="mongodb", db_port=27017, db_user="spice", db_password="spicepassword", db_name="spiceComMod"):
+    # def __init__(self, db_host="mongodb", db_port=27017, db_user="spice", db_password="spicepassword", db_name="spiceComMod"):
     def __init__(self):
         """
         :Parameters:
@@ -49,8 +48,6 @@ class DAO_db_community(DAO_db):
             self.db_communities.insert_many(temp)
         else:
             self.db_communities.insert_one(temp)
-
-
 
     def insertFileList(self, fileId, dataJSON):
         """
@@ -124,7 +121,8 @@ class DAO_db_community(DAO_db):
         :Return:
             Community users, Type: list[<class 'dict'>]
         """
-        data = self.db_communities.find({"id": communityId}, {"users": 1, "_id": 0})
+        data = self.db_communities.find(
+            {"id": communityId}, {"users": 1, "_id": 0})
         return loads(dumps(list(data)))[0]
 
     def addUserToCommunity(self, communityId, newUser):
@@ -179,14 +177,20 @@ class DAO_db_community(DAO_db):
         self.drop()
         self.dropFullList()
 
-    def drop(self,dropFilter = {}):
+    def drop(self, dropFilter={}):
         """
             Mongo DB Drop all documents in db_communities collection
         """
         self.db_communities.delete_many(dropFilter)
 
-    def dropFullList(self,dropFilter = {}):
+    def dropFullList(self, dropFilter):
         """
             Mongo DB Drop all documents in db_fullListCommunities collection
         """
         self.db_fullListCommunities.delete_one(dropFilter)
+
+    def dropFullListAll(self):
+        """
+            Mongo DB Drop all documents in db_fullListCommunities collection
+        """
+        self.db_fullListCommunities.delete_many({})

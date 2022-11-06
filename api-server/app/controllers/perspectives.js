@@ -87,19 +87,16 @@ module.exports.listPerspectiveCommunities = function listPerspectiveCommunities(
 // redirect post request to api_loader
 module.exports.PostPerspective = function PostPerspective(req, res, next) {
   try {
-    // Gets current time, then converts it to number and then to base 36 ==> "l9x53lur"
-    var generatedPerspectiveId = (+new Date).toString(36);
-
-    Perspectives.PostPerspective(req.body, generatedPerspectiveId)
-      .then(function (response) {
-        var data = jobManager.createJob(generatedPerspectiveId, "postPerspective")
-        res.status(202).send(data);
+    Perspectives.PostPerspective(req.body)
+      .then(function (perspectiveId) {
+        var jobPath = jobManager.createJob(perspectiveId, "postPerspective")
+        res.status(202).send(jobPath);
       })
       .catch(function (response) {
         res.status(501);
         res.send(response);
       });
   } catch (error) {
-    console.error(error)
+    console.error("PostPerspective: " + error)
   }
 };

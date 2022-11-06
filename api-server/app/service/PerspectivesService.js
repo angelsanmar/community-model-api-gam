@@ -5,7 +5,7 @@ var postData = require('./postData.js');
 const PerspectiveDAO = db.perspectives;
 const CommunityDAO = db.communities;
 const FlagDAO = db.flag;
-
+var jobManager = require('../controllers/jobsRoute/jobsManager.js');
 
 /**
 * Perspectives in the model
@@ -111,30 +111,44 @@ const http = require('http');
  * body perspective object that will be added to the model
  * no response value expected for this operation
  */
-exports.PostPerspective = function (body, generatedId) {
+exports.PostPerspective = function (body) {
   // return new Promise(function (resolve, reject) {
   try {
-    var json = {
-      perspectiveId: generatedId,
-      data: body
-    };
+    return new Promise(function (resolve, reject) {
+      // insert perspective
+      PerspectiveDAO.insertPerspective(body,
+        data => {
+          resolve(data);
+        },
+        error => {
+          console.error("PostPerspective-PerspectiveDAO.insertPerspective error: " + error);
+          reject(error)
+        })
+    })
+      .then((perspectiveId) => {
+        // create flag
+        var json = {
+          data: body,
+          perspectiveId: perspectiveId
+        };
+        FlagDAO.insertFlag(json,
+          data => {
+          },
+          error => {
+            console.log("PostPerspective-FlagDAO.insertFlag error: " + error);
+          })
 
-    // create flag
-    FlagDAO.insertFlag(json,
-      data => {
-        // resolve(data)
-      },
-      error => {
-        console.log("FlagDAO.insertFlag error1: " + error);
-        // reject(error)
+        // post request to api_server with "perspectiveId"
+        return postData.post_data(perspectiveId, "/perspective")
       })
+      .catch(function (error) {
+        console.error("PerspectiveDAO.insertPerspective.promise1: " + error)
+      });
 
-    var json2 = body
-    json2["perspectiveId"] = generatedId
 
   } catch (error) {
-    console.log(error)
+    console.error("Perspectives.PostPerspective: " + error)
   }
-  return postData.post_data(json2, "/perspective")
+
   // });
 }

@@ -24,7 +24,7 @@ module.exports = mongoose => {
           onError(user);
         }
         else {
-          onSuccess(null);
+          onSuccess(res._id.toString());
         }
       });
     },

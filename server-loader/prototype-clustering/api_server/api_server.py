@@ -3,6 +3,8 @@ import pymongo
 from bson.json_util import dumps, loads
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from socketserver import ForkingMixIn
+from bson.objectid import ObjectId
+
 
 import logging
 
@@ -96,27 +98,18 @@ class Handler(BaseHTTPRequestHandler):
         print("Request POST: ", request)
         first_arg = request[1]
         if first_arg == "perspective":
-            post_data = loads(post_data)
-            print("post_data perspective api_server.py")
-            print(post_data)
+            perspectiveId = loads(post_data)
+            print(perspectiveId)
             print("\n\n")
-            # retrive from postRequest perspective
-            perspectiveId = post_data["perspectiveId"]
-            perspective = post_data
 
-            # save perspective into db
-            
+            # retrive perspective from db
             daoPerspective = DAO_db_perspectives()
-            ok = daoPerspective.insertPerspective(perspective)
-            print("perspectiveId: ", perspectiveId)
+            perspective = daoPerspective.getPerspective(ObjectId(perspectiveId))
             print("perspective: ", perspective)
             
             # retrive interactionData
             daoInteractionData = DAO_db_interactionDatas()
             interactionData = daoInteractionData.getInteractionData()["data"]
-            # print("Interaction Data: ", interactionData) # muy largo
-            
-            
 
 
             # _CM_
@@ -124,8 +117,10 @@ class Handler(BaseHTTPRequestHandler):
             communityModel.start()
 
             # Delete previous interaction data
-            daoInteractionData = DAO_db_interactionDatas()
-            daoInteractionData.drop()
+            # daoInteractionData = DAO_db_interactionDatas()
+            # daoInteractionData.drop()
+
+            ok = True
 
             # remove perspective flag (user gets the persepectiveId) 
             # daoFlags = DAO_db_flags()
@@ -269,19 +264,25 @@ def removeData():
     daoP.drop()
     daoC = DAO_db_community()
     daoC.drop()
-    daoC.dropFullList()
+    daoC.dropFullListAll()
     daoS = DAO_db_similarity()
     daoS.drop()
+    daoF = DAO_db_flags()
+    daoF.drop()
+    daoID = DAO_db_interactionDatas()
+    daoID.drop()
+    daoU = DAO_db_users()
+    daoU.drop()
 
 
 def importData():
-
-    json5 = DAO_json(
-        "app/prototype-clustering/api_server/data/5.json").getData()
+    pass
+    # json5 = DAO_json(
+    #     "app/prototype-clustering/api_server/data/5.json").getData()
     # json6 = DAO_json("app/prototype-clustering/api_server/data/6.json").getData()
 
-    daoC = DAO_db_community()
-    daoC.insertFileList("5", json5)
+    # daoC = DAO_db_community()
+    # daoC.insertFileList("5", json5)
     # daoC.insertFileList("6", json6)
 
     # jsonAll = DAO_json("app/prototype-clustering/api_server/data/Allperspectives.json").getData()

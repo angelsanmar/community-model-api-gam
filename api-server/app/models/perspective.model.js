@@ -26,6 +26,22 @@ module.exports = mongoose => {
         att_name: String,
         att_type: String
       }],
+      interaction_similarity_functions: [{
+        sim_function: {
+          name: String,
+          params: [
+            String
+          ],
+          on_attribute: {
+            att_name: String,
+            att_type: String
+          },
+          interaction_object: {
+            att_name: String,
+            att_type: String
+          }
+        }
+      }]
     }
   );
 
@@ -44,10 +60,10 @@ module.exports = mongoose => {
       Perspectives.create(data, function (err, res) {
         if (err) {
           console.log("insertPerspective: error");
-          onError(user);
+          onError(err);
         }
         else {
-          onSuccess(null);
+          onSuccess(res._id.toString());
         }
       });
     },

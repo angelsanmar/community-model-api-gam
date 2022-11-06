@@ -23,11 +23,12 @@ from bson.json_util import dumps, loads
 
 def main():
     
-    filename = 'GAM similar user sentiment in similar artworks (iconclass).json'
+    filename = 'GAM similar user sentiments in similar artworks (iconclass) annotated-stories.json'
     route = r"test/perspectives/" + filename
     perspective = DAO_json(route).getData()
 
-    x = requests.post("http://localhost:8080/v1.1/dataInput", json = perspective)
+    x = requests.post("http://localhost:8080/v1.1/perspective", json = perspective)
+    print(x)
     print(x.text)
 
 main()
