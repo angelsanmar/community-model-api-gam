@@ -23,7 +23,7 @@ def main():
     # Fill NaN values with default ones (center value or dont know if exists)
     df['beliefR'].fillna('DK',inplace=True)
     df['beliefJ'].fillna('CantJudge',inplace=True)
-    df['beliefE'].fillna('NoOpinion',inplace=True)
+    df['beliefE'].fillna('Balanced',inplace=True)
     df['DemographicsPolitics'].fillna('DK',inplace=True)
     df['DemographicsReligous'].fillna('R',inplace=True)
     

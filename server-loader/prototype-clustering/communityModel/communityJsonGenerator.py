@@ -4,21 +4,157 @@ import numpy as np
 import json
 import math
 
-
+import uuid
+"""
+86ca1aa0-34aa-4e8b-a509-50c905bae2a2
+86ca1aa0-34aa-4e8b-a509-50c905bae2a2
+"""
 class CommunityJsonGenerator:
 
-    def __init__(self, data, communityDetection, n_communities, percentageDefault, distanceMatrix, perspectiveId, medoids_communities, answer_binary=False, skipPropertyValue = False):
-        self.json_df = data
-        self.community_detection = communityDetection
-        self.n_communities = n_communities
-        self.medoids_communities = medoids_communities
-        self.percentageDefault = percentageDefault
+    def __init__(self, interactionObjectData, data, distanceMatrix, communityDict, community_detection, perspective):
+        self.io_df = interactionObjectData
+        self.json_df = data.copy()
         self.distanceMatrix = distanceMatrix
-        self.perspectiveId = perspectiveId
-        self.answerBinary = answer_binary
-        self.skipPropertyValue = skipPropertyValue
+        self.communityDict = communityDict
+        self.community_detection = community_detection
+        self.perspective = perspective
+        
+        # Adapt self.json_df
+        #print(self.json_df)
+        self.json_df['id'] = self.json_df['userName']
+        self.json_df['label'] = self.json_df['userName']
+        self.json_df['group'] = communityDict['users'].values()
+        self.json_df['explicit_community'] = self.json_df[communityDict['userAttributes']].to_dict(orient='records')
+        #self.generateUserInteractionColumnMaster()
+        self.generateUserInteractionColumn()
+        
+        # Extra to make it work with Marco Visualization
+        self.io_df['Year'] = self.io_df['Year'].astype(str)
+        
+        self.io_df.rename(columns = {'_id':'id'}, inplace = True)
+        self.io_df.rename(columns = {'Title':'tittle'}, inplace = True)
+        self.io_df.rename(columns = {'Author':'author'}, inplace = True)
+        self.io_df.rename(columns = {'Year':'year'}, inplace = True)
+        self.io_df.rename(columns = {'Link':'image'}, inplace = True)
+        
         
     
+    def generateDict(self, element):
+        return {'IdArtefact': element[0], 'emotions': element[1]} 
+        #return {'artwork_id': str(element[0]), 'feelings': "scettico", 'extracted_emotions': element[1]} 
+        #return {
+    
+    def generateUserInteractionColumnMaster(self):
+        # Get IO_attributes
+        IO_id = self.perspective['interaction_similarity_functions'][0]['sim_function']['interaction_object']['att_name']
+        IO_similarityFeatures = [IO_id]
+        for similarity_function in self.perspective['interaction_similarity_functions']:
+            IO_similarityFeature = similarity_function['sim_function']['on_attribute']['att_name']
+            IO_similarityFeatures.append(IO_similarityFeature)
+            
+        # https://stackoverflow.com/questions/34066053/from-list-of-dictionaries-to-np-array-of-arrays-and-vice-versa
+        # https://stackoverflow.com/questions/8372399/zip-with-list-output-instead-of-tuple
+        # Testing 2
+        json_df2 = self.json_df[IO_similarityFeatures].head(2)
+        IO_columnList = []
+        for i in list(json_df2):
+            IO_columnList.append(json_df2[i].tolist())
+        user_interactions = [list(a) for a in zip(*IO_columnList)]
+        
+        print("user_interactions: " + str(user_interactions))
+        print("\n\n\n")
+        
+        
+        """
+        for i in list(json_df2):
+        
+        list1 = json_df2['IdArtefact', 'sentiment'].tolist()
+        print("List1: " + str(list1))
+            
+        """   
+            
+            
+        # Testing
+        json_df2 = self.json_df.head(2)
+        print("testing")
+        print(json_df2[IO_id])
+        print(json_df2[IO_similarityFeatures])
+        print("\n")
+        print(json_df2[IO_similarityFeatures].values[0][0])
+        print("\n\n\n")
+        
+        list1 = [[1,2],[3,4],[5,6]]
+        result = list(zip(*list1))
+        print("result: " + str(result))
+        
+        list1 = json_df2[IO_similarityFeatures].values
+        list1 = [json_df2['IdArtefact'], json_df2['sentiment']]
+        print("List1: " + str(list1))
+        result = list(zip(*list1))
+        print("result: " + str(result))
+        
+        json_df3 = json_df2.copy()
+        json_df3['interactions'] = zip(*json_df2[IO_similarityFeatures])
+        print("json_df3")
+        print(json_df3['interactions'])
+        print("\n\n\n")
+            
+        # Generate user_interactions
+        user_interactions = self.json_df.apply(lambda row: type(row), axis = 1)
+        print(user_interactions)
+        
+        #user_interactions = self.json_df.apply(lambda row: list(map(self.generateDict, list(zip(row[IO_id], row['emotions'])))), axis = 1)
+        self.json_df['interactions'] = user_interactions
+        
+        
+    def generateUserInteractionColumn(self):
+        # Get interaction columns
+        IO_id = self.perspective['interaction_similarity_functions'][0]['sim_function']['interaction_object']['att_name']
+        IO_similarityFeatures = []
+        for similarity_function in self.perspective['interaction_similarity_functions']:
+            IO_similarityFeature = similarity_function['sim_function']['on_attribute']['att_name']
+            IO_similarityFeatures.append(IO_similarityFeature)
+                                                           
+        # Generate interaction info column
+        IO_columns = []
+        IO_columns.append(IO_id)
+        IO_columns.extend(IO_similarityFeatures)
+        print("IO_columns: " + str(IO_columns))
+            
+        user_interactions = self.json_df.apply(lambda row: list(map(self.generateDict, list(zip(row[IO_id], row[IO_similarityFeatures[0]])))), axis = 1)
+        #user_interactions = self.json_df.apply(lambda row: list(map(self.generateDict, list(zip(row[IO_id], row['emotions'])))), axis = 1)
+        
+        self.json_df['interactions'] = user_interactions
+        
+        
+        """
+        user_df3 = json_df2.apply(lambda row: {key: value for key, value in zip(row)}, axis = 1)
+        print("user_df3")
+        print(user_df3)
+        print("\n")
+        """
+        
+        """
+        # https://stackoverflow.com/questions/48011404/pandas-how-to-combine-multiple-columns-into-an-array-column
+        user_interactions = self.json_df[['IdArtefact','emotions']].head(3).values.tolist()
+        print(user_interactions)
+        """
+        
+        
+        """
+        user_interactions = self.json_df[['IdArtefact','emotions']].apply(lambda row: list({stocks: prices for stocks,
+            prices in zip(row)}), axis=1)
+        
+        
+        print("user_interactions")
+        print(self.json_df[['IdArtefact','emotions']].head(2))
+        print("\n")
+        print(user_interactions.head(2))
+        """
+       
+        
+        
+        
     def generateJSON(self,filename):
         # Export community information to JSON format
         self.communityJson = {}
@@ -26,42 +162,61 @@ class CommunityJsonGenerator:
         self.communityJSON()
         self.userJSON()
         self.similarityJSON()
+        self.interactionObjectJSON()
+                                     
+        self.communityJson['fileId'] = str(uuid.uuid1())
+        self.communityJson['fileName'] = self.communityDict['perspective']['name']
+        
+        # Remove parts to work with Marco visualization
+        #self.communityJson.pop('perspectiveId')
+        #self.communityJson.pop('numberOfCommunities')
+        #self.communityJson['communities'].pop('community-type')
+        #self.communityJson['communities'].pop('medoid')
         
         print("\n\n")
         print("generate json " + filename)
-        print(self.communityJson)
+        #print(self.communityJson)
         print("\n\n")
         
-        """
+        
         with open(filename, "w") as outfile:
             json.dump(self.communityJson, outfile, indent=4)
+        """
         """
         
         return self.communityJson
         
     def communityJSON(self):
+        self.skipPropertyValue = False
+        
+        # Users without community
+        usersWithoutCommunity = []
+        
         # Community Data
-        self.communityJson['perspectiveId'] = self.perspectiveId
+        self.communityJson['perspectiveId'] = self.communityDict['perspective']['id']
+        self.communityJson['numberOfCommunities'] = self.communityDict['number']
         self.communityJson['communities'] = []
 
-
-        for c in range(self.n_communities):
-            community_data = self.community_detection.get_community(c, answer_binary=self.answerBinary, percentage=self.percentageDefault)
+        for c in range(self.communityDict['number']):
+            community_data = self.community_detection.get_community(c, answer_binary=False, percentage=self.communityDict['percentage'])
             
-            print("\n")
-            print("json generator")
-            print(self.medoids_communities[c])
-            
-            communityDictionary = {}
-            communityDictionary['id'] = self.perspectiveId + "-" + str(c)
-            communityDictionary['perspectiveId'] = self.perspectiveId
-            communityDictionary['community-type'] = 'implicit'
-            communityDictionary['name'] = 'Community ' + str(c)
-            communityDictionary['medoid'] = self.medoids_communities[c]
-            
-            # communityDictionary['representative'] = self.medoids_communities[c].iloc[0]['user']
-            
+            # Check if the community is a valid one (more than one member); otherwise the only member doesn't have a community
             if len(community_data['members']) > 1:
+                # basic information
+                communityDictionary = {}
+                communityDictionary['id'] = self.communityDict['perspective']['id'] + "-" + str(len(self.communityJson['communities']))
+                communityDictionary['perspectiveId'] = self.communityDict['perspective']['id']
+                communityDictionary['community-type'] = 'implicit'
+                communityDictionary['name'] = 'Community ' + str(len(self.communityJson['communities']))
+            
+                # Explanations
+                communityDictionary['explanation'] = []
+            
+                # medoid
+                medoidJson = {'medoid': self.communityDict['medoids'][c]}
+                communityDictionary['explanation'].append(medoidJson)
+            
+                # Implicit community explanation
                 communityPropertiesList = []
                 for k in community_data['explanation'][0].keys():
                     #print('\t\t-', k)
@@ -80,27 +235,37 @@ class CommunityJsonGenerator:
                 communityProperties += '; '.join(communityPropertiesList)
                 communityProperties += '}'
                 
-            else:
-                communityProperties = 'Users without community'
+                implicitAttributesJson = {'implicit_attributes': communityProperties}
+                communityDictionary['explanation'].append(implicitAttributesJson)
                 
-            communityDictionary['explanation'] = []
-            communityDictionary['explanation'].append(communityProperties)
-            communityDictionary['explanation'].append(community_data['explanation'][1])
-            #communityDictionary[name]['users'] = 
-            
-            
-            communityDictionary['users'] = []
-            for user in community_data['members']:
-                communityDictionary['users'].append(str(user))
-            
-            #print(communityDictionary)
-            self.communityJson['communities'].append(communityDictionary)
-            
+                # Get members
+                communityDictionary['users'] = []
+                for user in community_data['members']:
+                    communityDictionary['users'].append(str(user))
+                
+                # add it to communities
+                self.communityJson['communities'].append(communityDictionary)
+                    
+            else:
+                usersWithoutCommunity.extend(community_data['members'])
+        
+        self.communityJson['numberOfCommunities'] = len(self.communityJson['communities'])
+        
+        # Add users without community
+        communityJson = {}
+        communityJson['id'] = self.communityDict['perspective']['id'] + "-" + str(len(self.communityJson['communities'])) + ' (Users without community)'
+        communityJson['perspectiveId'] = self.communityDict['perspective']['id']
+        communityJson['community-type'] = 'inexistent'
+        communityJson['name'] = 'Community ' + str(len(self.communityJson['communities'])) + ' (Users without community)'
+        communityJson['explanation'] = []
+        
+        self.communityJson['communities'].append(communityJson)
+        
             
     def userJSON(self):
         # User Data
         self.communityJson["users"] = []
-        self.communityJson['users'] = self.json_df[['id','label','group','explicit_community']].to_dict('records')
+        self.communityJson['users'] = self.json_df[['id','label','group','explicit_community','interactions']].to_dict('records')
         #self.communityJson
     
     def similarityJSON(self):
@@ -116,7 +281,21 @@ class CommunityJsonGenerator:
                 dicti['value'] = round(1 - self.distanceMatrix[i][j],2)
                 self.communityJson['similarity'].append(dicti)           
                     
-            
+    def interactionObjectJSON(self):
+        # https://www.leocon.dev/blog/2021/09/how-to-flatten-a-python-list-array-and-which-one-should-you-use/
+        # self.io_df2 = self.io_df.filter(regex = '^(?!.*timestamp).*$')
+        # key = 'IdArtefact'
+        #key = 'artworkId'
+        key = self.perspective['interaction_similarity_functions'][0]['sim_function']['interaction_object']['att_name']
+        
+        interactedIO = self.json_df[key].tolist()
+        interactedIO = list(sum(interactedIO, []))
+        io_df2 = self.io_df[self.io_df['@id'].isin(interactedIO)]
+        self.communityJson['artworks'] = io_df2.to_dict('records')
+        
+
+        
+    
             
             
             

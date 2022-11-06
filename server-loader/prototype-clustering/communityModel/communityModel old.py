@@ -8,10 +8,6 @@ import pandas as pd
 import numpy as np
 import importlib
 
-from inspect import getsourcefile
-from os.path import abspath
-import sys
-
 #--------------------------------------------------------------------------------------------------------------------------
 #    Custom Class
 #--------------------------------------------------------------------------------------------------------------------------
@@ -23,19 +19,13 @@ from community_module.similarity.interactionSimilarityDAO import InteractionSimi
 from communityModel.communityJsonGenerator import CommunityJsonGenerator
 from community_module.community_detection.explainedCommunitiesDetection import ExplainedCommunitiesDetection
 
-# dao
-from dao.dao_db_users import DAO_db_users
-from dao.dao_db_distanceMatrixes import DAO_db_distanceMatrixes
-from dao.dao_db_communities import DAO_db_community
-
 #--------------------------------------------------------------------------------------------------------------------------
 #    Class
 #--------------------------------------------------------------------------------------------------------------------------
 
 class CommunityModel():
 
-    # def __init__(self,perspective,flag = {}, daoRoute = 'data/processed/GAM user_interactions.json'):
-    def __init__(self, perspective, dao, flag = {}):
+    def __init__(self,perspective,flag = {}, daoRoute = 'data/processed/GAM user_interactions.json'):
         """
         Construct of Community Model objects.
 
@@ -49,21 +39,10 @@ class CommunityModel():
                 perspectiveId
                 userid: user to update
         """
-        """
-        print("current path with sys")
-        print(os.getcwd())
-        """
         self.perspective = perspective
         self.flag = flag
-        
-        """
-        self.daoRoute = os.path.normpath(os.path.join(os.path.dirname(__file__), daoRoute)) 
-        print("route: " + self.daoRoute)
-        """
-        self.dao = dao
-        
-        
-          
+        self.daoRoute = daoRoute
+  
     def start(self):
         """
         Compute community model
@@ -78,24 +57,15 @@ class CommunityModel():
         ----------
 
         """
-        self.initializeSimilarityMeasure(self.dao)
+        self.initializeSimilarityMeasure()
 
         self.computeDistanceMatrix()   
         
         self.clustering()
         
-    # def initializeSimilarityMeasure(self, daoRoute = 'data/processed/GAM user_interactions.json'):
-    def initializeSimilarityMeasure(self, dao):
-        #daoJson = DAO_json(self.daoRoute)
-        daoJson = dao
+    def initializeSimilarityMeasure(self, daoRoute = 'data/processed/GAM user_interactions.json'):
+        daoJson = DAO_json(self.daoRoute)
         self.similarityMeasure = InteractionSimilarityDAO(daoJson, self.perspective)
-        
-    def distanceMatrixRoute(self):
-        abspath = os.path.dirname(__file__)
-        relpath = "distanceMatrix/" + self.perspective['name'] + ".json"
-        route = os.path.normpath(os.path.join(abspath, relpath))
-        
-        return route
         
     def computeDistanceMatrix(self):
         """
@@ -111,9 +81,7 @@ class CommunityModel():
         #self.similarityMeasure.distance(2,10)
         
         # import it
-        print("distance matrix route")
-        distanceMatrixFileRoute = self.distanceMatrixRoute()
-        print(distanceMatrixFileRoute)
+        distanceMatrixFileRoute = "distanceMatrix/" + self.perspective['name'] + ".json"
         file_exists = os.path.exists(distanceMatrixFileRoute)
         if file_exists and 1 == 2:
             print("distance matrix clustering file exists")
@@ -124,15 +92,6 @@ class CommunityModel():
             self.similarityMeasure.exportDistanceMatrix(self.distanceMatrix, distanceMatrixFileRoute)
     
         return self.distanceMatrix
-        
-    def clusteringExportFileRoute(self, percentageExplainability):
-        abspath = os.path.dirname(__file__)
-        relpath = "clustering/" + self.perspective['name'] + " " + "(" + self.perspective['algorithm']['name'] + ")" 
-        relpath += " (" + str(percentageExplainability) + ")"
-        relpath += ".json"
-        route = os.path.normpath(os.path.join(abspath, relpath))
-        
-        return route
         
     def clustering(self, percentageExplainability = 0.5, exportFile = "clustering.json"):
         """
@@ -161,12 +120,14 @@ class CommunityModel():
         
         # Export to json
         data.reset_index(inplace=True)
-        exportFile = self.clusteringExportFileRoute(percentageExplainability)
+        exportFile = "clustering/" + self.perspective['name'] + " " + "(" + self.perspective['algorithm']['name'] + ")" 
+        exportFile += " (" + str(percentageExplainability) + ")"
+        exportFile += ".json"
         jsonGenerator = CommunityJsonGenerator(interactionObjectData, data, self.distanceMatrix, communityDict, community_detection, self.perspective)
         jsonCommunity = jsonGenerator.generateJSON(exportFile)       
         
         # Save data to database
-        self.saveDatabase(jsonCommunity)
+        # self.saveDatabase(jsonCommunity)
 
     def initializeAlgorithm(self):
         algorithmName = self.perspective['algorithm']['name'] + "CommunityDetection"
@@ -188,13 +149,11 @@ class CommunityModel():
         daoCommunityModelVisualization.insertJSON(jsonCommunity)
         """
         
-        """
         # Store distance matrix data
         # https://pynative.com/python-serialize-numpy-ndarray-into-json/
         daoDistanceMatrixes = DAO_db_distanceMatrixes()
         #daoDistanceMatrixes.drop()
         daoDistanceMatrixes.updateDistanceMatrix({'perspectiveId': self.perspective['id'], 'distanceMatrix': self.similarityMeasure.distanceMatrix.tolist()})
-        """
         
         # Store community data
         daoCommunityModelCommunity = DAO_db_community()
