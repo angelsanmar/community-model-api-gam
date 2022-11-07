@@ -62,8 +62,6 @@ class CommunityModel():
         """
         self.dao = dao
         
-        self.percentageExplainability = 0.8
-        
         
           
     def start(self, percentageExplainability = 0.8):
@@ -173,7 +171,7 @@ class CommunityModel():
         jsonCommunity = jsonGenerator.generateJSON(exportFile)       
         
         # Save data to database
-        self.saveDatabase(jsonCommunity)
+        #self.saveDatabase(jsonCommunity)
 
     def initializeAlgorithm(self):
         algorithmName = self.perspective['algorithm']['name'] + "CommunityDetection"

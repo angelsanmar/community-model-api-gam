@@ -40,8 +40,8 @@ class CommunityJsonGenerator:
         
     
     def generateDict(self, element):
-        return {'IdArtefact': element[0], 'emotions': element[1]} 
-        #return {'artwork_id': str(element[0]), 'feelings': "scettico", 'extracted_emotions': element[1]} 
+        # return {'IdArtefact': element[0], 'emotions': element[1]} 
+        return {'artwork_id': str(element[0]), 'feelings': "scettico", 'extracted_emotions': element[1]} 
         #return {
     
     def generateUserInteractionColumnMaster(self):
@@ -163,9 +163,11 @@ class CommunityJsonGenerator:
         self.userJSON()
         self.similarityJSON()
         self.interactionObjectJSON()
-                                     
+        
+        """
         self.communityJson['fileId'] = str(uuid.uuid1())
         self.communityJson['fileName'] = self.communityDict['perspective']['name']
+        """
         
         # Remove parts to work with Marco visualization
         #self.communityJson.pop('perspectiveId')
@@ -193,8 +195,9 @@ class CommunityJsonGenerator:
         usersWithoutCommunity = []
         
         # Community Data
+        self.communityJson['name'] = self.communityDict['perspective']['name']
         self.communityJson['perspectiveId'] = self.communityDict['perspective']['id']
-        self.communityJson['numberOfCommunities'] = self.communityDict['number']
+        #self.communityJson['numberOfCommunities'] = self.communityDict['number']
         self.communityJson['communities'] = []
 
         for c in range(self.communityDict['number']):
@@ -205,16 +208,17 @@ class CommunityJsonGenerator:
                 # basic information
                 communityDictionary = {}
                 communityDictionary['id'] = self.communityDict['perspective']['id'] + "-" + str(len(self.communityJson['communities']))
-                communityDictionary['perspectiveId'] = self.communityDict['perspective']['id']
+                #communityDictionary['perspectiveId'] = self.communityDict['perspective']['id']
                 communityDictionary['community-type'] = 'implicit'
                 communityDictionary['name'] = 'Community ' + str(len(self.communityJson['communities']))
             
                 # Explanations
-                communityDictionary['explanation'] = []
+                communityDictionary['explanations'] = []
             
                 # medoid
                 medoidJson = {'medoid': self.communityDict['medoids'][c]}
-                communityDictionary['explanation'].append(medoidJson)
+                medoidJson = {'explanation_type': 'medoid', 'explanation_data': {'id': self.communityDict['medoids'][c]}, 'visible': True}
+                communityDictionary['explanations'].append(medoidJson)
             
                 # Implicit community explanation
                 communityPropertiesList = []
@@ -236,7 +240,22 @@ class CommunityJsonGenerator:
                 communityProperties += '}'
                 
                 implicitAttributesJson = {'implicit_attributes': communityProperties}
-                communityDictionary['explanation'].append(implicitAttributesJson)
+                
+                
+                explanationJson = {}
+                explanationJson['explanation_type'] = 'implicit_attributes'
+                explanationJson['explanation_data'] = implicitAttributesJson
+                explanationJson['visible'] = False
+                
+                communityDictionary['explanations'].append(explanationJson)
+                
+                # Explicit attributes
+                explanationJson = {}
+                explanationJson['explanation_type'] = 'explicit_attributes'
+                explanationJson['explanation_data'] = {}
+                explanationJson['visible'] = True
+                
+                communityDictionary['explanations'].append(explanationJson)
                 
                 # Get members
                 communityDictionary['users'] = []
@@ -254,12 +273,16 @@ class CommunityJsonGenerator:
         # Add users without community
         communityJson = {}
         communityJson['id'] = self.communityDict['perspective']['id'] + "-" + str(len(self.communityJson['communities'])) + ' (Users without community)'
-        communityJson['perspectiveId'] = self.communityDict['perspective']['id']
+        #communityJson['perspectiveId'] = self.communityDict['perspective']['id']
         communityJson['community-type'] = 'inexistent'
         communityJson['name'] = 'Community ' + str(len(self.communityJson['communities'])) + ' (Users without community)'
-        communityJson['explanation'] = []
+        communityJson['explanations'] = []
+        communityJson['users'] = usersWithoutCommunity
         
         self.communityJson['communities'].append(communityJson)
+        
+        # Update the group value for the users not belonging to any community
+        self.json_df.loc[ self.json_df['id'].isin(usersWithoutCommunity), 'group'] = len(self.communityJson['communities']) - 1
         
             
     def userJSON(self):
@@ -288,9 +311,19 @@ class CommunityJsonGenerator:
         #key = 'artworkId'
         key = self.perspective['interaction_similarity_functions'][0]['sim_function']['interaction_object']['att_name']
         
+        """
+        print("interaction object json part")
+        print("key: " + str(key))
+        """
+
+
+        
         interactedIO = self.json_df[key].tolist()
         interactedIO = list(sum(interactedIO, []))
-        io_df2 = self.io_df[self.io_df['@id'].isin(interactedIO)]
+        interactedIO = list(map(str, interactedIO))
+        
+        # @id is for ints
+        io_df2 = self.io_df[self.io_df['id'].isin(interactedIO)]
         self.communityJson['artworks'] = io_df2.to_dict('records')
         
 
