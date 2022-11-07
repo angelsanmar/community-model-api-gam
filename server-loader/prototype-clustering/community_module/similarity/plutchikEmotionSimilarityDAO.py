@@ -65,6 +65,7 @@ class PlutchikEmotionSimilarityDAO(SimilarityDAO):
         double
             Distance between the two combination of emotions.
         """
+        
         """
         print("distanceValues plutchik: ")
         print(type(emotionsDictA))
@@ -72,6 +73,7 @@ class PlutchikEmotionSimilarityDAO(SimilarityDAO):
         print(emotionsDictA)
         print(emotionsDictB)
         print("\n\n\n")
+        
         """
         
         emotionsDictA = dict([(x.replace("emotion:",""), y) for x, y in emotionsDictA.items() if x.startswith('emotion:')])

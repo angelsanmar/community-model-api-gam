@@ -17,58 +17,48 @@ graph [
   ]
   node [
     id 3
-    label "None"
-    layer 1
+    label "France"
+    layer 2
   ]
   node [
     id 4
-    label "Lithuania"
+    label "Ireland"
     layer 2
   ]
   node [
     id 5
-    label "Italy"
+    label "UK"
     layer 2
   ]
   node [
     id 6
-    label "Greece"
-    layer 2
+    label "Wales"
+    layer 3
   ]
   node [
     id 7
-    label "France"
+    label "England"
     layer 3
   ]
   node [
     id 8
-    label "Russian Federation"
+    label "USA"
     layer 2
   ]
   node [
     id 9
-    label "Austria"
+    label "Brazil"
     layer 2
   ]
   node [
     id 10
-    label "United Kingdom"
-    layer 2
-  ]
-  node [
-    id 11
     label "Germany"
     layer 2
   ]
   node [
-    id 12
-    label "United States"
-    layer 2
-  ]
-   node [
-    id 13
-    label ""
-    layer 2
+    id 11
+    label "Scotland"
+    layer 3
   ]
   edge [
     source 0
@@ -79,7 +69,7 @@ graph [
     target 2
   ]
   edge [
-    source 0
+    source 1
     target 3
   ]
   edge [
@@ -92,34 +82,26 @@ graph [
   ]
   edge [
     source 1
-    target 6
-  ]
-  edge [
-    source 1
-    target 7
-  ]
-  edge [
-    source 1
-    target 8
-  ]
-  edge [
-    source 1
-    target 9
-  ]
-  edge [
-    source 1
     target 10
   ]
   edge [
-    source 1
-    target 11
+    source 2
+    target 8
   ]
   edge [
     source 2
-    target 12
+    target 9
   ]
-   edge [
-    source 3
-    target 13
+  edge [
+    source 5
+    target 6
+  ]
+  edge [
+    source 5
+    target 7
+  ]
+  edge [
+    source 5
+    target 11
   ]
 ]

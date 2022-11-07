@@ -13,6 +13,10 @@ class Taxonomy:
         ----------
         taxonomyId : taxonomy identifier (e.g. country)
         """
+        print("\ntaxonomy")
+        print(str(type(taxonomyId)))
+        print(str(taxonomyId))
+        
         self.graph = nx.read_gml(os.path.join(os.path.dirname(__file__), 'taxonomyGraphs\\' + taxonomyId + '.gml'))      
     
     def getGraph(self):

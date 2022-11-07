@@ -36,15 +36,19 @@ class SentimentSimilarityDAO(TableSimilarityDAO):
         if len(sentimentsDictA) <= 0 or len(sentimentsDictB) <= 0:
             return 1.0
         else:
+            """
             print("sentimentDictA: " + str(sentimentsDictA))
             print("sentimentDictB: " + str(sentimentsDictB))
+            """
             
             sentimentA = max(sentimentsDictA, key=sentimentsDictA.get).lower()
             sentimentB = max(sentimentsDictB, key=sentimentsDictB.get).lower()
             
+            """
             print("sentimentA: " + str(sentimentA))
             print("sentimentB: " + str(sentimentB))
             print("distance: " + str(super().distanceValues(sentimentA, sentimentB)))
+            """
             
             return super().distanceValues(sentimentA, sentimentB)
         
