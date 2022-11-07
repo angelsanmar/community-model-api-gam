@@ -1,7 +1,7 @@
 
 {
-  "id": "GAM similar user sentiments in similar artworks (artist country)",
-  "name": "GAM similar user sentiments in similar artworks (artist country)",
+  "id": "GAM similar user sentiments in similar artworks (Size_width)",
+  "name": "GAM similar user sentiments in similar artworks (Size_width)",
   "algorithm": {
     "name": "agglomerative",
     "params": [
@@ -10,11 +10,11 @@
   "similarity_functions": [
     {
       "sim_function": {
-        "name": "EqualSimilarityDAO",
+        "name": "Similarity",
         "params": [
         ],
         "on_attribute": {
-          "att_name": "Artist_country",
+          "att_name": "Size_width",
           "att_type": "String"
         },
         "weight": 0.8

@@ -1,7 +1,7 @@
 
 {
-  "id": "GAM similar user sentiments in similar artworks (artist country)",
-  "name": "GAM similar user sentiments in similar artworks (artist country)",
+  "id": "GAM similar user sentiments in similar artworks (Artwork_Artistic_Movement)",
+  "name": "GAM similar user sentiments in similar artworks (Artwork_Artistic_Movement)",
   "algorithm": {
     "name": "agglomerative",
     "params": [
@@ -14,7 +14,7 @@
         "params": [
         ],
         "on_attribute": {
-          "att_name": "Artist_country",
+          "att_name": "Artwork_Artistic_Movement",
           "att_type": "String"
         },
         "weight": 0.8

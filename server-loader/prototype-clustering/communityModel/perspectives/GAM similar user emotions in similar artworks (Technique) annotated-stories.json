@@ -1,7 +1,7 @@
 
 {
-  "id": "GAM similar user sentiments in similar artworks (artist country)",
-  "name": "GAM similar user sentiments in similar artworks (artist country)",
+  "id": "GAM similar user emotions in similar artworks (Technique)",
+  "name": "GAM similar user emotions in similar artworks (Technique)",
   "algorithm": {
     "name": "agglomerative",
     "params": [
@@ -14,7 +14,7 @@
         "params": [
         ],
         "on_attribute": {
-          "att_name": "Artist_country",
+          "att_name": "Technique",
           "att_type": "String"
         },
         "weight": 0.8
@@ -34,11 +34,11 @@
   "interaction_similarity_functions": [
     {
       "sim_function": {
-        "name": "SentimentSimilarityDAO",
+        "name": "PlutchikEmotionSimilarityDAO",
         "params": [
         ],
         "on_attribute": {
-          "att_name": "sentiments",
+          "att_name": "emotions",
           "att_type": "dict"
         },
         "interaction_object": {
