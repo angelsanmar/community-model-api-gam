@@ -57,8 +57,8 @@ class Handler(BaseHTTPRequestHandler):
             request = self.path.split("/")
             print("Request GET: ", request)
             first_arg = request[1]
-            if first_arg == "file":
-                self.__getFile(request[2])
+            if first_arg == "seed":
+                self.__getSeed()
             elif first_arg == "perspectives":
                 self.__getPerspertives(request)
             elif first_arg == "index":
@@ -104,16 +104,17 @@ class Handler(BaseHTTPRequestHandler):
 
             # retrive perspective from db
             daoPerspective = DAO_db_perspectives()
-            perspective = daoPerspective.getPerspective(ObjectId(perspectiveId))
+            perspective = daoPerspective.getPerspective(
+                ObjectId(perspectiveId))
             print("perspective: ", perspective)
-            
+
             # retrive interactionData
             daoInteractionData = DAO_db_interactionDatas()
             interactionData = daoInteractionData.getInteractionData()["data"]
 
-
             # _CM_
-            communityModel = CommunityModel(perspective, dao = daoInteractionData)
+            communityModel = CommunityModel(
+                perspective, dao=daoInteractionData)
             communityModel.start()
 
             # Delete previous interaction data
@@ -122,7 +123,7 @@ class Handler(BaseHTTPRequestHandler):
 
             ok = True
 
-            # remove perspective flag (user gets the persepectiveId) 
+            # remove perspective flag (user gets the persepectiveId)
             # daoFlags = DAO_db_flags()
             # daoFlags.deleteFlagById(perspectiveId)
 
@@ -205,8 +206,7 @@ class Handler(BaseHTTPRequestHandler):
             if len(request) == 4 and request[3] == "communities":
                 # perspectives/{perspectiveId}/communities
                 result = []
-                coms = DAO_db_community(
-                    db_host, db_port, db_user, db_password, db_name).getCommunities()
+                coms = DAO_db_community().getCommunities()
                 for com in coms:
                     if com["perspectiveId"] == perspectiveId:
                         result.append(com)
@@ -223,21 +223,11 @@ class Handler(BaseHTTPRequestHandler):
                     self.wfile.write("File not found\nGET request for {}".format(
                         self.path).encode('utf-8'))
 
-    def __getFile(self, fileId):
-        dao = DAO_db_community(db_host, db_port, db_user, db_password, db_name)
-        if fileId == "all":
-            data = dao.getFileLists()
-            self.__set_response(200, 'application/json')
-            self.wfile.write(dumps(data).encode(encoding='utf_8'))
-        else:
-            data = dao.getFileList(fileId)
-            if data:
-                self.__set_response(200, 'application/json')
-                self.wfile.write(dumps(data).encode(encoding='utf_8'))
-            else:
-                self.__set_response(404)
-                self.wfile.write("File not found\nGET request for {}".format(
-                    self.path).encode('utf-8'))
+    def __getSeed(self):
+        # dao = DAO_db_community()
+        data = {"test": "test"}
+        self.__set_response(200, 'application/json')
+        self.wfile.write(dumps(data).encode(encoding='utf_8'))
 
 
 class ForkingHTTPServer(ForkingMixIn, HTTPServer):

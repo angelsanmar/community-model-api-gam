@@ -24,10 +24,9 @@ module.exports.getSeed = function getSeed(req, res, next) {
     DataInput.getSeed()
         .then(function (response) {
             var seed = response
-
             res.status(200).send(seed);
         })
         .catch(function (response) {
-            res.status(400).send("invalid community id");
+            res.status(400).send("seed error");
         });
 };
