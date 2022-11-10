@@ -265,8 +265,11 @@ def removeData():
     daoU.drop()
 
 
-def importData():
-    pass
+def initData():
+
+    annotatedStories = DAO_json("app/prototype-clustering/communityModel/data/new-annotated-stories.json").getData()
+    daoInteractionData = DAO_db_interactionDatas()
+    daoInteractionData.insertInteractionData({"data": annotatedStories})
     # json5 = DAO_json(
     #     "app/prototype-clustering/api_server/data/5.json").getData()
     # json6 = DAO_json("app/prototype-clustering/api_server/data/6.json").getData()
@@ -284,7 +287,7 @@ if __name__ == '__main__':
     from sys import argv
 
     removeData()
-    importData()
+    initData()
 
     if len(argv) == 2:
         run(port=int(argv[1]))

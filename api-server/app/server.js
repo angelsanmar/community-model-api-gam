@@ -17,9 +17,13 @@ const apiSpec = path.resolve(__dirname, './api/openapi.yaml');
 async function initServer() {
   const app = express();
   app.use(bodyParser.urlencoded({ extended: true }));
-  app.use(bodyParser.json({ limit:  10 * 1024 * 1024})); //10 Mb
+  app.use(bodyParser.json({ limit: 10 * 1024 * 1024 })); //10 Mb
   app.set("apiSpec", apiSpec);
 
+
+
+  const cors = require('cors');
+  app.use(cors());
 
   // Any paths defined in your openapi.yml will validate and parse the request
   // before it calls your route code.
@@ -48,6 +52,7 @@ async function initServer() {
 
   //app.set("enforcer", enforcerMiddleware);
   require("./routes/routes.js")(app);
+
 
   app.use((err, req, res, next) => {
     // format errors
