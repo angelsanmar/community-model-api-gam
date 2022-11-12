@@ -41,36 +41,6 @@ function getExampleSeed() {
                     "name": "equalSimilarity",
                     "params": [],
                     "on_attribute": {
-                        "att_name": "@id",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "DateOfLastModify",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Title",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
                         "att_name": "Inventary",
                         "att_type": "String"
                     }
@@ -82,16 +52,6 @@ function getExampleSeed() {
                     "params": [],
                     "on_attribute": {
                         "att_name": "Collection",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Sumbject",
                         "att_type": "String"
                     }
                 }
@@ -118,100 +78,10 @@ function getExampleSeed() {
             },
             {
                 "sim_function": {
-                    "name": "taxonomySimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Material_ and_echnique",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Dimension",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Definizione",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Acquisizione",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Link",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "description",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
                     "name": "equalSimilarity",
                     "params": [],
                     "on_attribute": {
                         "att_name": "Artwork_start_date",
-                        "att_type": "Number"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Artwork_end_date",
-                        "att_type": "Number"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Artist_birth_date",
-                        "att_type": "Number"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Artist_death_date",
                         "att_type": "Number"
                     }
                 }
@@ -238,30 +108,10 @@ function getExampleSeed() {
             },
             {
                 "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Artist_secondary_country",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
                     "name": "taxonomySimilarity",
                     "params": [],
                     "on_attribute": {
                         "att_name": "Artwork_Artistic_Movement",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "taxonomySimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Secondary_Artwork_Artistic_Movement",
                         "att_type": "String"
                     }
                 }
@@ -291,16 +141,6 @@ function getExampleSeed() {
                     "name": "equalSimilarity",
                     "params": [],
                     "on_attribute": {
-                        "att_name": "Size_unity",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
                         "att_name": "Size_height",
                         "att_type": "Number"
                     }
@@ -313,16 +153,6 @@ function getExampleSeed() {
                     "on_attribute": {
                         "att_name": "Size_width",
                         "att_type": "Number"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "Size_depth",
-                        "att_type": "String"
                     }
                 }
             },
@@ -343,26 +173,6 @@ function getExampleSeed() {
                     "on_attribute": {
                         "att_name": "Iconclass_subjects_curators",
                         "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "iconclassIDString",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "iconclassArrayIDs",
-                        "att_type": "List"
                     }
                 }
             }
@@ -388,151 +198,11 @@ function getExampleSeed() {
         "interaction_similarity_functions": [
             {
                 "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "artworkId",
-                        "att_type": "String"
-                    },
-                    "interaction_object": {
-                        "att_name": "artworkId",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
                     "name": "emotionSimilarity",
                     "params": [],
                     "on_attribute": {
                         "att_name": "emotions",
                         "att_type": "String"
-                    },
-                    "interaction_object": {
-                        "att_name": "artworkId",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "itMakesMeFeel",
-                        "att_type": "String"
-                    },
-                    "interaction_object": {
-                        "att_name": "artworkId",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "itMakesMeThinkAbout",
-                        "att_type": "String"
-                    },
-                    "interaction_object": {
-                        "att_name": "artworkId",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "itRemindsMeOf",
-                        "att_type": "String"
-                    },
-                    "interaction_object": {
-                        "att_name": "artworkId",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "emoji",
-                        "att_type": "String"
-                    },
-                    "interaction_object": {
-                        "att_name": "artworkId",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "locationX",
-                        "att_type": "Number"
-                    },
-                    "interaction_object": {
-                        "att_name": "artworkId",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "locationY",
-                        "att_type": "Number"
-                    },
-                    "interaction_object": {
-                        "att_name": "artworkId",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "tag",
-                        "att_type": "String"
-                    },
-                    "interaction_object": {
-                        "att_name": "artworkId",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "locationX",
-                        "att_type": "Number"
-                    },
-                    "interaction_object": {
-                        "att_name": "artworkId",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "equalSimilarity",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "locationY",
-                        "att_type": "Number"
                     },
                     "interaction_object": {
                         "att_name": "artworkId",
