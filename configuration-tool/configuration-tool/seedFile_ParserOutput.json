@@ -177,6 +177,20 @@
                     "att_type": "String"
                 }
             }
+        },
+        {
+            "sim_function": {
+                "name": "sentimentSimilarity",
+                "params": [],
+                "on_attribute": {
+                    "att_name": "sentiments",
+                    "att_type": "String"
+                },
+                "interaction_object": {
+                    "att_name": "artworkId",
+                    "att_type": "String"
+                }
+            }
         }
     ]
 }

@@ -21,7 +21,7 @@ def insert(value, key):
 
 
 if __name__ == "__main__":
-    route = "example1.json"
+    route = "initialFile.json"
 
     f = open(route)
     data = json.load(f)
@@ -47,7 +47,7 @@ if __name__ == "__main__":
     lista_interactions = []
     for key in data["interactions"]["parts"]:
         value = data["interactions"]["parts"][key]
-        if key == "emotions":
+        if key in ["emotions", "sentiments"] :
             sim_function = insert(value, key)
             lista_interactions.append(sim_function)
         else:
@@ -87,5 +87,5 @@ if __name__ == "__main__":
         "interaction_similarity_functions": lista_interactions
     }
 
-    with open("parser_output.json", "w") as outfile:
+    with open("seedFile_ParserOutput.json", "w") as outfile:
         outfile.write(json.dumps(config, indent=4))

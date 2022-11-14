@@ -85,9 +85,8 @@ const user_prefix = "citizen";
 document.addEventListener("DOMContentLoaded", function (event) {
 
   //http://localhost:8080/v1.1/seed
-  // ./config.json
-  // ./parser_output.json
-  fetch("./parser_output.json") // Call the fetch function passing the url of the API as a parameter
+  // ./seedFile_ParserOutput.json
+  fetch("./seedFile_ParserOutput.json") // Call the fetch function passing the url of the API as a parameter
     .then(configObj => configObj.json())
     .then(function (configObj) {
       // First, hide artwork attribute selection
@@ -113,7 +112,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
       // Create and configure the citizen attribute selector
       createAttributeSelector("citizen-attribs", configObj.user_attributes, user_prefix);
-      console.log(configObj)
+
+      createSelect(configObj)
 
       // Add form submit listener to create the new config file
       let form_config = document.getElementById("form-config");
@@ -131,51 +131,22 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
 });
 
+
+/**
+ * Create a selector using original config object
+ * @param {object} configObj Original config object to create the new one 
+ */
 function createSelect(configObj) {
-  for (const elem of attDescription) {
-    const newElement = document.createElement('label');
-    newElement.innerHTML = `<label><input type="checkbox" name="${prefix}-${elem.att_name}" value="${elem.att_name}" /> ${elem.att_name}</label>`;
-    attributeContainer.appendChild(newElement);
+  // Default option
+  options = '<option value="invalid" selected>Select option</option>'
+  let i = 0;
+  for (const elem of configObj.interaction_similarity_functions) {
+    // Use as value array index and not elem.sim_function.name
+    options += "<option value='" + i + "'>" + elem.sim_function.on_attribute.att_name + "</option>";
+    i++;
   }
-
-  let selectId = "similarity-1";
-  var i = 0;
-  for (const elem of select) {
-    option = ""
-    if (i == 0) {
-      options += "<option selected>Select option</option>";
-      i++;
-    } else {
-      options += "<option value=" + option + ">" + option + "</option>";
-    }
-  }
-  document.getElementById("selectId").innerHTML = options;
-
   selectId = "similarity-object-1";
-  i = 0;
-  for (const elem of select) {
-    option = ""
-    if (i == 0) {
-      options += "<option selected>Select option</option>";
-      i++;
-    } else {
-      options += "<option value=" + option + ">" + option + "</option>";
-    }
-  }
-  document.getElementById("selectId").innerHTML = options;
-
-  selectId = "similarity-2";
-  i = 0;
-  for (const elem of select) {
-    option = ""
-    if (i == 0) {
-      options += "<option selected>Select option</option>";
-      i++;
-    } else {
-      options += "<option value=" + option + ">" + option + "</option>";
-    }
-  }
-  document.getElementById("selectId").innerHTML = options;
+  document.getElementById(selectId).innerHTML = options;
 }
 
 
@@ -227,10 +198,16 @@ function createConfigObjWithForm(ev, configObj) {
   }
 
   // Which method is employed for emotion/values
-  newConfigObj["interaction_similarity_functions"] = {
-    "method": objData["sim-1"],
-    "on": objData["sim-obj-1"],
-  };
+  newConfigObj["interaction_similarity_functions"] = [];
+  simFunctionIndex = objData["sim-obj-1"];
+  if (simFunctionIndex == "invalid") {
+    window.alert("Invalid option detected, please select one of the available options in the 2nd selector.");
+    throw "Error: Default option selected in 'sim-obj-1' selector";
+  }
+
+  let interactionAttributes = [];
+  interactionAttributes.push(configObj.interaction_similarity_functions[simFunctionIndex]);
+  newConfigObj.interaction_similarity_functions = interactionAttributes;
 
   // Update user attributes with the ones selected by the user
   let newUserAttributes = [];
@@ -244,10 +221,7 @@ function createConfigObjWithForm(ev, configObj) {
 
   // Create a new objet to configure the artwork method because 
   // we need to add if they will be the same, similar or different
-  newConfigObj["similarity_functions"] = {
-    "method": objData["sim-2"],
-    "artwork_attributes": [],
-  };
+  newConfigObj["similarity_functions"] = [];
 
   // Update artwork attributes if similar is selected
   let newArtworkAttributes = [];
@@ -260,49 +234,50 @@ function createConfigObjWithForm(ev, configObj) {
     }
   }
 
-  newConfigObj.similarity_functions.artwork_attributes = newArtworkAttributes;
+  newConfigObj.similarity_functions = newArtworkAttributes;
 
   //Create name for the config file
   //   GAM SIM-E-SIM-A agglomerative (artist_country, iconclass)
 
-  // SIM: similar
-  // SA: Same
-  // DIF: Different
+  // S: similar
+  // E: Same
+  // D: Different
 
   // E: Emotions
   // S: Sentiments
 
   // A: Artworks
-  let configName = "GAM";
+  // let configName = "GAM";
+  let configName = "";
   let param;
 
   param = "sim-1";
-  configName = configName + " ";
   if (objData[param] == "same")
-    configName = configName + "SA";
+    configName = configName + "E";
   else if (objData[param] == "similar")
-    configName = configName + "SIM";
+    configName = configName + "S";
   else if (objData[param] == "different")
-    configName = configName + "DIF";
+    configName = configName + "D";
 
   param = "sim-obj-1";
   configName = configName + "-";
-  if (objData[param] == "emotions")
-    configName = configName + "E";
-  else if (objData[param] == "sentiments")
-    configName = configName + "S";
+  configName = configName + configObj.interaction_similarity_functions[objData[param]].sim_function.on_attribute.att_name
+
+  // if (objData[param] == "emotions")
+  //   configName = configName + "Emotions";
+  // else if (objData[param] == "sentiments")
+  //   configName = configName + "Sentiments";
 
   param = "sim-2";
   configName = configName + "-";
   if (objData[param] == "same")
-    configName = configName + "SA";
+    configName = configName + "E";
   else if (objData[param] == "similar")
-    configName = configName + "SIM";
+    configName = configName + "S";
   else if (objData[param] == "different")
-    configName = configName + "DIF";
+    configName = configName + "D";
 
-  configName = configName + " A"; // Artwork
-  configName = configName + " agglomerative"; // Artwork
+  configName = configName + "-artworks"; // Artwork
 
   let artwork_attributesName = [];
   for (const att of configObj.artwork_attributes) {
@@ -319,6 +294,11 @@ function createConfigObjWithForm(ev, configObj) {
 
   newConfigObj["fileName"] = configName;
   newConfigObj["fileId"] = configName;
+
+  newConfigObj["algorithm"] = {
+    "name": "agglomerative",
+    "params": []
+  };
 
 
   // Remove the old artwork_attributes object

@@ -153,6 +153,10 @@
 				"type": "String",
 				"similarity": "emotionSimilarity"
 			},
+			"sentiments": {
+				"type": "String",
+				"similarity": "sentimentSimilarity"
+			},
 			"multimediaData": {
 				"answersToTemplates": {
 					"itMakesMeFeel": {
