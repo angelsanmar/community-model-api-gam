@@ -1,31 +1,9 @@
 # Authors: José Ángel Sánchez Martín
-
-import numpy as np
-import pandas as pd
-# Import math library
-import math
-
 from community_module.similarity.similarityDAO import SimilarityDAO
 
 class IntersectionSimilarityDAO(SimilarityDAO):
 
-    def __init__(self,dao,col):
-        """Construct of Similarity objects.
-
-        Parameters
-        ----------
-        dao : dao object class
-            DAO which processes and provides the data required by the similarity measure.
-        
-        """
-        super().__init__(dao)
-        
-        self.col = col
-
     def distance(self,elemA, elemB):
-        
-            
-        #print(self.data)
         """Method to obtain the distance between two element.
 
         Parameters
@@ -42,8 +20,8 @@ class IntersectionSimilarityDAO(SimilarityDAO):
         """
         
         # Get string separated by ,
-        valueA = self.data.loc[elemA][self.col]
-        valueB = self.data.loc[elemB][self.col]
+        valueA = self.data.loc[elemA][self.similarityColumn]
+        valueB = self.data.loc[elemB][self.similarityColumn]
         
         # Convert to list
         listA = valueA.split(", ")
@@ -60,18 +38,5 @@ class IntersectionSimilarityDAO(SimilarityDAO):
         union = setA.union(setB)
         
         # Similarity = size intersection / size union
-        """
-        print("\n")
-        print(elemA)
-        print(elemB)
-        print("\n")
-        print(setA)
-        print(setB)
-        print(intersection)
-        print(union)
-        print("\n")
-        
-        """
-        
         return 1 - (len(intersection) / len(union))
         

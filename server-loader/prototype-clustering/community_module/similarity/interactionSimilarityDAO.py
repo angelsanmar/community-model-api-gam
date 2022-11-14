@@ -1,6 +1,7 @@
 # Authors: José Ángel Sánchez Martín
 import os
 import json
+import pandas as pd
 
 import numpy as np
 
@@ -39,75 +40,162 @@ class InteractionSimilarityDAO(SimilarityDAO):
         #print(self.interactionSimilarityMeasure)
         
         
-        
-        # Remove the interactions with emotion with interactionSimilarityMeasure empty
-        IOColumn = self.similarityFunction['sim_function']['interaction_object']['att_name']
-        df = self.data.copy()
-        df2 = df.explode([self.similarityColumn, IOColumn])
-        df3 = df2.loc[ df2[self.similarityColumn].str.len() != 0 ]
-        
-        """
-        print("\n")
-        df3_check = df3[df3['userName'] == 'RQ4a2nIG']
-        print(df3_check[['userName', IOColumn, self.similarityColumn]])
+        if (self.similarityFunction['sim_function']['name'] != 'NoInteractionSimilarityDAO'):
         
         
-        df3 = df2.copy()
-        """
-        
-        """
-        df3_1 = df3.drop(IOColumn, axis=1)
-        df3_2 = df3.copy()
+            # Remove the interactions with emotion with interactionSimilarityMeasure empty
+            IOColumn = self.similarityFunction['sim_function']['interaction_object']['att_name']
+            df = self.data.copy()
+            df2 = df.explode([self.similarityColumn, IOColumn])
+            df3 = df2.loc[ df2[self.similarityColumn].str.len() != 0 ]
+            
+            """
+            print("\n")
+            print(df3[['userName', IOColumn, self.similarityColumn, 'ItMakesMeFeel', 'relationship_with_arts', 'relationship_with_museums']])
+            print("\n")
+            
+            df4b = df3.groupby(['userName', 'relationship_with_arts']).agg(list)         
+            df4b = df4b.reset_index() 
+            """
+            
+            """
+            print("\n")
+            print("df4b")
+            print(df4b[['userName', IOColumn, self.similarityColumn, 'ItMakesMeFeel', 'relationship_with_arts', 'relationship_with_museums']])
+            print("\n")
+            """
+            
+            """
+            print("\n")
+            df3_check = df3[df3['userName'] == 'RQ4a2nIG']
+            print(df3_check[['userName', IOColumn, self.similarityColumn]])
+            
+            
+            df3 = df2.copy()
+            """
+            
+            """
+            df3_1 = df3.drop(IOColumn, axis=1)
+            df3_2 = df3.copy()
 
-        
-        keys = lambda x: (x.userName,x.relationship_with_arts, x.relationship_with_museums, x.IdArtefact)
-        """
+            
+            keys = lambda x: (x.userName,x.relationship_with_arts, x.relationship_with_museums, x.IdArtefact)
+            """
 
-        df4 = df3.groupby(['userName', 'relationship_with_arts', 'relationship_with_museums']).agg(list)         
-        df4 = df4.reset_index() 
+            df4 = df3.groupby(['userName', 'relationship_with_arts', 'relationship_with_museums']).agg(list)         
+            df4 = df4.reset_index() 
+            
+            itMakesMeFeel = df4.apply(lambda row: row['ItMakesMeFeel'][0], axis = 1)
+            df4['ItMakesMeFeel'] = itMakesMeFeel
+            
+            """
+            print("\n")
+            print("df4")
+            print(df4[['userName', IOColumn, self.similarityColumn, 'ItMakesMeFeel']])
+            print("\n")
+            """
+            
+            """
+            idArtefacts = df4.apply(lambda row: row[IOColumn][0], axis = 1)
+            df4[IOColumn] = idArtefacts
+            """
         
-        """
-        idArtefacts = df4.apply(lambda row: row[IOColumn][0], axis = 1)
-        df4[IOColumn] = idArtefacts
-        """
-    
-   
-        # Add column to save dominant interaction attribute
-        df4[self.similarityColumn + 'DominantInteractionGenerated'] = [[] for _ in range(len(df4))]
-        
-        
-        #print(self.data[['userName',self.similarityColumn, 'relationship_with_arts']])
-        
-        self.data = df4.copy()
-        
-        """
-        print(self.data[['userName', IOColumn, self.similarityColumn]])
-        print(len(self.data[IOColumn][3]))
-        print(len(self.data[self.similarityColumn][3]))
-        """
-        
-        
-        """
-        print("df4")
-        print(df4[['userName',self.similarityColumn, 'relationship_with_arts']])
-        """
-        
-        
-        """
-        print("df2 exploded")
+       
+            # Add column to save dominant interaction attribute
+            df4[self.similarityColumn + 'DominantInteractionGenerated'] = [[] for _ in range(len(df4))]
+            
+            
+            #print(self.data[['userName',self.similarityColumn, 'relationship_with_arts']])
+            
+            """
+            print("\n")
+            print(self.data[['userName', IOColumn, self.similarityColumn, 'ItMakesMeFeel']])
+            print("\n")
+            """
+            
+            self.data = df4.copy()
+            
+            
+            """
+            print("\n")
+            print(self.data[['userName', IOColumn, self.similarityColumn, 'ItMakesMeFeel']])
+            print("\n")
+            """
+            
+            
+            
+            
+            
+            """
+            
+            # 1 for emotions
+            print("IOColumn size: " + str(len(self.data[IOColumn][1])))
+            print("similarityColumn (" + str(self.similarityColumn) + ") size: " + str(len(self.data[self.similarityColumn][1])))
 
-        print(df2[['userName',self.similarityColumn]])
-        
-        print("\n\n\n")
-        
-        print("df3")
-        print(df3[['userName',self.similarityColumn]])
-        
-        print("\n\n\n")
-        
-        print("df4")
-        print(df4[['userName',self.similarityColumn]])
-        """
+
+            # 3 for sentiments
+            print("IOColumn size: " + str(len(self.data[IOColumn][3])))
+            print("similarityColumn (" + str(self.similarityColumn) + ") size: " + str(len(self.data[self.similarityColumn][3])))
+            """
+            
+            """
+            # Check the ones with plutchik emotion == plutchik_emotions {
+                    "anger": 0,
+                    "anticipation": 0,
+                    "disgust": 0,
+                    "fear": 0,
+                    "joy": 0,
+                    "sadness": 0,
+                    "surprise": 0,
+                    "trust": 0
+                },
+            """
+            """
+            testPlutchik = {
+                    "anger": 0,
+                    "anticipation": 0,
+                    "disgust": 0,
+                    "fear": 0,
+                    "joy": 0,
+                    "sadness": 0,
+                    "surprise": 0,
+                    "trust": 0
+                }
+                
+            #dfPlutchik = self.data.loc[ self.data['plutchik_emotions'] == testPlutchik ]
+            dfPlutchik = pd.json_normalize(self.data['plutchik_emotions'])
+            
+            print("dfPlutchik")
+            print(dfPlutchik)
+            
+            """
+            
+            
+            """
+            """
+            
+            
+            """
+            print("df4")
+            print(df4[['userName',self.similarityColumn, 'relationship_with_arts']])
+            """
+            
+            
+            """
+            print("df2 exploded")
+
+            print(df2[['userName',self.similarityColumn]])
+            
+            print("\n\n\n")
+            
+            print("df3")
+            print(df3[['userName',self.similarityColumn]])
+            
+            print("\n\n\n")
+            
+            print("df4")
+            print(df4[['userName',self.similarityColumn]])
+            """
         
         # Get IO distance matrix
         file = self.interactionObjectDistanceMatrixRoute()
@@ -120,10 +208,40 @@ class InteractionSimilarityDAO(SimilarityDAO):
         self.IO_distanceIndex = self.distanceDict['index']
         self.IO_distanceMatrix = np.asarray(self.distanceDict['distanceMatrix'])
         
+        
         """
         print("artwork distance matrix")
         print(self.IO_distanceIndex)
         print(self.IO_distanceMatrix)
+        
+        """
+        
+        
+        # Copy previous array
+        #print(self.IO_distanceMatrix)
+        
+        
+        
+        matrix = self.IO_distanceMatrix.copy()
+        matrix[matrix == 0.0] = 1.0
+        matrix[matrix == 0.12] = 1.0
+
+        """
+        print("\n\n")
+        print(matrix)
+        """
+        
+        # Get the two artworks with the highest similarity (In order to get high similarity artworks in iconclass)
+        ind = np.unravel_index(np.argmin(matrix, axis=None), matrix.shape)
+        """
+        print(matrix[ind[0]][ind[1]])
+        print("first artwork: " + str(self.IO_distanceIndex[ind[0]]))
+        print("second artwork: " + str(self.IO_distanceIndex[ind[1]]))
+        """
+        
+        
+        
+        """
         
         """
         
@@ -146,9 +264,11 @@ class InteractionSimilarityDAO(SimilarityDAO):
         route = os.path.normpath(os.path.join(abspath, relpath))
         #print("hey")
         
+        """
         print("abspath: " + str(abspath))
         print("relpath: " + str(relpath))
         print("route: " + str(route))
+        """
 
         daoJson = DAO_json(route)
         
@@ -272,9 +392,10 @@ class InteractionSimilarityDAO(SimilarityDAO):
             
             
             # If the best match is still dissimilar
-            """
-            if (distanceMatrix_IOB_values[mostSimilarIOIndex] >= 0.4):
+            
+            if (distanceMatrix_IOB_values[mostSimilarIOIndex] >= 0.6):
                 mostSimilarIOIndex = -1
+            """
             """
             
             return mostSimilarIOIndex
@@ -337,6 +458,9 @@ class InteractionSimilarityDAO(SimilarityDAO):
         IOA = userInteractionA[IOColumn]
         IOB = userInteractionB[IOColumn]
         
+        IOA = list(map(str, IOA))
+        IOB = list(map(str, IOB))
+        
         """
         print("IO Columns")
         print(IOColumn)
@@ -366,8 +490,15 @@ class InteractionSimilarityDAO(SimilarityDAO):
                 
                 #print("objectA: " + str(objectA))
                 
-                
-                if (objectIndexB != -1):
+                if (objectIndexB != -1 and self.similarityFunction['sim_function']['name'] == "NoInteractionSimilarityDAO"):
+                    objectB = IOB[objectIndexB]
+                    distanceMatrixIndexObjectA = self.IO_distanceIndex.index(str(objectA))
+                    distanceMatrixIndexObjectB = self.IO_distanceIndex.index(str(objectB))
+                    
+                    distance = self.IO_distanceMatrix[distanceMatrixIndexObjectA,distanceMatrixIndexObjectB]
+                    print("new distance is :" + str(distance))
+                    
+                elif (objectIndexB != -1):
                     """
                     print("interactionsA: " + str(userInteractionA[self.similarityColumn]))
                     print("interactionsB: " + str(userInteractionB[self.similarityColumn]))
@@ -390,16 +521,27 @@ class InteractionSimilarityDAO(SimilarityDAO):
                     
                     """
                     
+                    
                     # Calculate distance between them
                     distance = self.interactionSimilarityMeasure.distanceValues(interactionFeatureA, interactionFeatureB)
+                    print("distance (" + str(interactionFeatureA) + "," + str(interactionFeatureB) + "): " + str(distance))
+                    distance = self.interactionSimilarityMeasure.dissimilarFlag(distance)
+                    print("distance dissimilar (" + str(interactionFeatureA) + "," + str(interactionFeatureB) + "): " + str(distance))
+                    print("\n")
+                    
 
                     # Add dominant interaction value to list (e.g., emotions = {joy: 3, sadness: 4, trust: 1} -> sadness
-                    dominantInteractionAttributeA, dominantInteractionAttributeB = self.interactionSimilarityMeasure.dominantValue(interactionFeatureA, interactionFeatureB)
+                    dominantInteractionAttributeA, dominantInteractionAttributeB = self.interactionSimilarityMeasure.dominantInteractionAttribute(interactionFeatureA, interactionFeatureB)
+                    
                     """
                     print("dominantA: " + str(dominantInteractionAttributeA))
                     print("dominantB: " + str(dominantInteractionAttributeB))
                     
+                    
+                    
                     """
+                    
+                    
 
                     if (exchanged):
                         dominantInteractionAttribute = dominantInteractionAttributeB
@@ -420,10 +562,13 @@ class InteractionSimilarityDAO(SimilarityDAO):
                 """
                 distanceTotal += distance
                 
-            """ 
+            
             distanceTotal /= len(IOA)
+            """
             print("distanceTotal (FINAL): " + str(distanceTotal))
             print("\n\n")
+            
+             
          
             """
             
@@ -452,22 +597,24 @@ class InteractionSimilarityDAO(SimilarityDAO):
             print("\n\n\n")
             
             
+        if (self.similarityFunction['sim_function']['name'] != 'NoInteractionSimilarityDAO'):
         
-        # Set dominant interaction attribute list
-        dominantInteractionAttributeList = self.data.loc[elemA][self.similarityColumn + 'DominantInteractionGenerated']
-        
-        #print(self.data[[self.similarityColumn]])
-        
-        """
-        print("dominantInteractionAttributeList: " + str(dominantInteractionAttributeList))
-        print("distanceTotal: " + str(distanceTotal))
-        print("\n\n")
-        
-        """
+            # Set dominant interaction attribute list
+            dominantInteractionAttributeList = self.data.loc[elemA][self.similarityColumn + 'DominantInteractionGenerated']
             
-        dominantInteractionAttributeList.append(dominantInteractionAttribute)
-        self.data.at[elemA, self.similarityColumn + 'DominantInteractionGenerated'] = dominantInteractionAttributeList
-        
+            #print(self.data[[self.similarityColumn]])
+            
+            """
+            print("dominantInteractionAttributeList: " + str(dominantInteractionAttributeList))
+            print("distanceTotal: " + str(distanceTotal))
+            print("\n\n")
+            
+            
+            """
+                
+            dominantInteractionAttributeList.append(dominantInteractionAttribute)
+            self.data.at[elemA, self.similarityColumn + 'DominantInteractionGenerated'] = dominantInteractionAttributeList
+            
         return distanceTotal
         
         

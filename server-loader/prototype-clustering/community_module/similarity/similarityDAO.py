@@ -21,6 +21,7 @@ class SimilarityDAO:
         
         """
         self.dao = dao
+        self.similarityFunction = similarityFunction
         if (len(similarityFunction) > 0):
             self.similarityColumn = similarityFunction['on_attribute']['att_name']
         else:
@@ -49,6 +50,12 @@ class SimilarityDAO:
             Distance between the two values.
         """
         pass
+        
+    def dissimilarFlag(self, distance):
+        if ('dissimilar' in self.similarityFunction):
+            distance = 1 - distance
+            
+        return distance
         
 
     def distance(self,elemA, elemB):
@@ -224,3 +231,47 @@ class SimilarityDAO:
             distanceMatrix = json.load(f)
                 
         return np.asarray(distanceMatrix)
+        
+        
+        
+        
+#-------------------------------------------------------------------------------------------------------------------------------
+#   To calculate dominant value in interaction attributes (always dict)
+#-------------------------------------------------------------------------------------------------------------------------------
+       
+        
+    def dominantInteractionAttribute(self, dictA, dictB):
+        """
+        Method to obtain the dominant sentiment for A and B
+        Parameters
+        ----------
+        dictA : dict
+            Keys: String
+            Values: double
+                Confidence Level
+        dictB : dict
+            Keys: String
+
+            Values: double
+                Confidence Level
+
+        Returns
+        -------
+        String
+            Dominant key
+        """
+        if (len(dictA) <= 0):
+            keyA = ""
+        else:
+            keyA = max(dictA, key=dictA.get).lower()
+            
+        if (len(dictB) <= 0):
+            keyB = ""
+        else:
+            keyB = max(dictB, key=dictB.get).lower()
+        
+        return keyA, keyB
+    
+       
+       
+       

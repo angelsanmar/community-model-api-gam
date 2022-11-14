@@ -30,7 +30,8 @@ class ComplexSimilarityDAO(SimilarityDAO):
         self.similarityDict = {}
         for similarityFunction in similarity_functions:
             similarityMeasure = self.initializeFromPerspective(dao,similarityFunction)
-            self.similarityDict[similarityMeasure] = similarityFunction['sim_function']['weight']
+            #self.similarityDict[similarityMeasure] = similarityFunction['sim_function']['weight']
+            self.similarityDict[similarityMeasure] = similarityFunction['sim_function']
         
         
     def distance(self,elemA, elemB):
@@ -50,8 +51,11 @@ class ComplexSimilarityDAO(SimilarityDAO):
         """
         complexDistance = 0
         complexWeight = 0
-        for similarity, weight in self.similarityDict.items():
-            simDistance = similarity.distance(elemA,elemB) 
+        for similarity, similarityFunction in self.similarityDict.items():
+            weight = similarityFunction['weight']
+            
+            simDistance = similarity.distance(elemA,elemB)
+            simDistance = similarity.dissimilarFlag(simDistance)
             simDistance2 = simDistance * weight
             
             complexDistance += simDistance2

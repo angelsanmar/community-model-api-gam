@@ -47,7 +47,7 @@ class TaxonomySimilarityDAO(SimilarityDAO):
             return 1 - sim
         # One of the elements is not in the taxonomy
         except Exception as e:
-            return 1.0
+            return 1
 
     def distance(self,elemA, elemB):
         """Method to obtain the distance between two element.

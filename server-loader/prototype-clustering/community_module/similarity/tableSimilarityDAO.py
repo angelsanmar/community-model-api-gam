@@ -27,7 +27,7 @@ class TableSimilarityDAO(SimilarityDAO):
         super().__init__(dao, similarityFunction)
 
         dao_csv = DAO_csv(os.path.dirname(os.path.abspath(getsourcefile(lambda:0))) + "/distanceTables/" + self.similarityColumn + ".csv", ";")
-        print(dao_csv.getPandasDataframe())
+        #print(dao_csv.getPandasDataframe())
         self.similarityTable = dao_csv.getPandasDataframe().set_index('Key')
         
     

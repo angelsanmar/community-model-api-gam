@@ -2,10 +2,16 @@
 import os
 from community_module.similarity.similarityDAO import SimilarityDAO
 
-PLUTCHIK_EMOTIONS = ['anger', 'anticipation', 'joy', 'trust', 'fear', 'surprise', 'sadness', 'disgust']
-PLUTCHIK_EMOTIONS_2 = ['Anger', 'Anticipation', 'Joy', 'Trust', 'Fear', 'Surprise', 'Sadness', 'Disgust']
+"""
+Extension of the Plutchik wheel of emotions to include the second level of emotions in addition to the basic ones
+"""
 
-class PlutchikEmotionSimilarityDAO(SimilarityDAO):
+PLUTCHIK_EMOTIONS = ['anger', 'anticipation', 'joy', 'trust', 'fear', 'surprise', 'sadness', 'disgust']
+PLUTCHIK_EMOTIONS_SECOND_LEVEL = ['annoyance','interest', 'serenity','acceptance','apprehension','distraction','pensiveness','boredom']
+PLUTCHIK_EMOTIONS_INTERMEDIATE_LEVEL = ['agressiveness', 'optimism', 'love', 'submission', 'awe', 'disapproval', 'remorse', 'contempt']
+
+
+class ExtendedPlutchikEmotionSimilarityDAO(SimilarityDAO):
     
     def __init__(self, dao, similarityFunction):
         """Construct of TaxonomySimilarity objects.
@@ -17,7 +23,14 @@ class PlutchikEmotionSimilarityDAO(SimilarityDAO):
             values contain the number of times that a taxonomy member is in an element.
         """
         super().__init__(dao, similarityFunction)
+        
+        # Combine the 3 emotions list
+        plutchikEmotions = []
+        plutchikEmotions.extend(PLUTCHIK_EMOTIONS)
+        plutchikEmotions.extend(PLUTCHIK_EMOTIONS_SECOND_LEVEL)
+        plutchikEmotions.extend(PLUTCHIK_EMOTIONS_INTERMEDIATE_LEVEL)
 
+        self.plutchikEmotions = plutchikEmotions
     
     def distanceEmotions(self, emotionA, emotionB):
         """Method to calculate the distance between 2 emotions based on PLUTCHKIN emotions.
@@ -33,17 +46,54 @@ class PlutchikEmotionSimilarityDAO(SimilarityDAO):
         -------
         double
             Distance value between emotions.
-        """
+        """        
         try: 
-            indexA = PLUTCHIK_EMOTIONS.index(emotionA)
-            indexB = PLUTCHIK_EMOTIONS.index(emotionB)
-
+            # Real index in the extended list of emotions
+            realIndexA = self.plutchikEmotions.index(emotionA)
+            realIndexB = self.plutchikEmotions.index(emotionB)
+            
+            # index in one of the list of emotions
+            indexA = realIndexA % 8
+            indexB = realIndexB % 8
+            
             if indexB > indexA:
                 indexA, indexB = indexB, indexA
+            
+            # Basic result (same list of emotions)
+            result = min( (indexA - indexB) / 4, (indexB - indexA + 8) / 4)
 
-            return min( (indexA - indexB) / 4, (indexB - indexA + 8) / 4)
+            # Update it based on the difference of emotion list
+            listA = realIndexA // 8
+            listB = realIndexB // 8
+            
+            # First and second list of emotions
+            # Increase distance by 0.075
+            if (listA + listB == 1):
+                result += 0.075
+                
+            # First or second AND third list of emotions (increase by 0.125 - half 0.25 between emotions 
+            elif (listA != listB):
+                if ( (indexA - indexB) / 4 < (indexB - indexA + 8) / 4 ):
+                    result -= 0.125
+                else:
+                    result += 0.125
+            
+            
+            #print("result emotions (" + str(emotionA) + ", " + str(emotionB) + ") = " + str(result))
+            
+            # Correction: If lower than 0 or higher than 1, correct it
+            result = min(result, 1.0)
+            result = max(result, 0.0)
+            
+            return result
+            
         # We don't have a Plutchick emotion for that user and artwork
         except ValueError:
+            print("Value error")
+            print(emotionA)
+            print(emotionB)
+            print("fin value error")
+            
             return 1.0
     
     def distanceValues(self, emotionsDictA, emotionsDictB):
@@ -65,69 +115,31 @@ class PlutchikEmotionSimilarityDAO(SimilarityDAO):
         double
             Distance between the two combination of emotions.
         """
-        
         """
-        print("distanceValues plutchik: ")
-        print(type(emotionsDictA))
-        print(type(emotionsDictB))
-        print(emotionsDictA)
-        print(emotionsDictB)
-        print("\n\n\n")
-        
-        """
-        
         emotionsDictA = dict([(x.replace("emotion:",""), y) for x, y in emotionsDictA.items() if x.startswith('emotion:')])
         emotionsDictB = dict([(x.replace("emotion:",""), y) for x, y in emotionsDictB.items() if x.startswith('emotion:')])
+        """
+        
+        emotionsDictA = dict([(x.replace("emotion:",""), y) for x, y in emotionsDictA.items() ])
+        emotionsDictB = dict([(x.replace("emotion:",""), y) for x, y in emotionsDictB.items() ])
         
         
         if (len(emotionsDictA) <= 0 or len(emotionsDictB) <= 0):
             return 1.0
         else:
             # Get emotions with highest confidence value (dominant emotion)
-            emotionA = max(emotionsDictA, key=emotionsDictA.get).lower()
-            emotionB = max(emotionsDictB, key=emotionsDictB.get).lower()
+            emotionA = max(emotionsDictA, key=emotionsDictA.get)
+            emotionB = max(emotionsDictB, key=emotionsDictB.get)
             
-            """
-            print("emotionsA: " + str(emotionsDictA))
-            print("emotionsB: " + str(emotionsDictB))
-            print("emotionA: " + str(emotionA))
-            print("emotionB: " + str(emotionB))
-            """
             
+            if (emotionsDictA[emotionA] == 0 or emotionsDictB[emotionB] == 0):
+                return 1.0
+
+            emotionA = emotionA.lower()
+            emotionB = emotionB.lower()
+
             return self.distanceEmotions(emotionA,emotionB)
         
-        
-        
-        
-        """
-        emotionsA = set(emotionsDictA.keys())
-        emotionsB = set(emotionsDictB.keys())
-        
-        commonEmotions = emotionsA.intersection(emotionsB)
-        
-        diffEmotionsA = [i for i in emotionsA if i not in commonEmotions]
-        diffEmotionsB = [i for i in emotionsB if i not in commonEmotions]
-        
-        # Set largest list to be A and the other B
-        if (len(diffEmotionsA) > len(diffEmotionsB)):
-            aux = diffEmotionsA
-            diffEmotionsA = diffEmotionsB
-            diffEmotionsB = aux
-        
-        # Get similarity between two emotions
-        
-        
-        print(self.similarityColumn)
-        
-        print("emotionsA: " + str(emotionsA))
-        print("emotionsB: " + str(emotionsB))
-        print("common emotions: " + str(commonEmotions))
-        print("diff emotions A: " + str(diffEmotionsA))
-        print("diff emotions B: " + str(diffEmotionsB))
-        print("\n")
-        
-        return 1.0
-        """
         
     def dominantValue(self, emotionsDictA, emotionsDictB):
         """
@@ -145,8 +157,13 @@ class PlutchikEmotionSimilarityDAO(SimilarityDAO):
         String
             Dominant emotion for A and B
         """
+        
+        """
         emotionsDictA = dict([(x.replace("emotion:",""), y) for x, y in emotionsDictA.items() if x.startswith('emotion:')])
         emotionsDictB = dict([(x.replace("emotion:",""), y) for x, y in emotionsDictB.items() if x.startswith('emotion:')])
+        """
+        emotionsDictA = dict([(x.replace("emotion:",""), y) for x, y in emotionsDictA.items() ])
+        emotionsDictB = dict([(x.replace("emotion:",""), y) for x, y in emotionsDictB.items() ])
         
         
         if (len(emotionsDictA) <= 0):
