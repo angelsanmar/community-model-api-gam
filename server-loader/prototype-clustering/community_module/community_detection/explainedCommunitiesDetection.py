@@ -68,6 +68,7 @@ class ExplainedCommunitiesDetection:
             
             complete_data = self.data.copy()
             complete_data['community'] = result.values()
+            self.complete_data = complete_data
 
             # Comprobamos que para cada grupo existe al menos una respuesta en común
             explainables = []
@@ -75,15 +76,26 @@ class ExplainedCommunitiesDetection:
             
             #for c in range(n_communities):
             n_clusters = min(n_communities,len(set(result2)))
-            for c in range(n_clusters):
-                community = self.communities.get_group(c)
-                community = self.simplifyInteractionAttributes(community)
-                explainables.append(self.is_explainable(community, answer_binary, percentage))
+            
+            # Cannot be explained with implicit
+            if (n_clusters < n_communities):
+                finish_search = True 
+                n_communities = n_clusters
+            else:
+                for c in range(n_communities):
+                    community = self.communities.get_group(c)
+                    community = self.simplifyInteractionAttributes(community)
+                    explainables.append(self.is_explainable(community, answer_binary, percentage))
 
-            finish_search = sum(explainables) == n_communities
-
+                finish_search = sum(explainables) == n_communities
+            
+            
             if not finish_search:
                 n_communities += 1
+            
+            
+            
+        
         
         # Get medoids
         medoids_communities = self.getMedoidsCommunities(result2)
@@ -115,9 +127,7 @@ class ExplainedCommunitiesDetection:
         df = community.copy()
         for col in self.explanaible_attributes:
             col2 = col + 'DominantInteractionGenerated'
-            
-            
-            
+
             # Get row index of community members
             communityMemberIndexes = np.nonzero(np.in1d(self.data.index,community.index))[0]
             communityMemberIndexes = np.nonzero(np.in1d(self.data.index,self.data.index))[0]
@@ -243,49 +253,71 @@ class ExplainedCommunitiesDetection:
                     each property is identified by column_name of data, and the value is
                     the common value in this column.
         """
-        community = self.communities.get_group(id_community)
-        community = self.simplifyInteractionAttributes(community)
+        try:
+            
+            community = self.communities.get_group(id_community)
+            community = self.simplifyInteractionAttributes(community)
 
-        community_user_attributes = community[self.user_attributes]
+            community_user_attributes = community[self.user_attributes]
 
-        community_data = {'name': id_community}
-        community_data['percentage'] = str(percentage * 100) + " %"
-        community_data['members'] = list(community_user_attributes.index.values)
+            community_data = {'name': id_community}
+            community_data['percentage'] = str(percentage * 100) + " %"
+            community_data['members'] = list(community_user_attributes.index.values)
 
-        explainedCommunityProperties = dict()       
+            explainedCommunityProperties = dict()       
 
-        #for col in community.columns.values:
-        for col2 in self.explanaible_attributes:
-            if col2 != 'community':
-                col = "community_" + col2
-               # print(community)
-                #print(len(community[col]))
-                #print('-', col, community[col].value_counts().index[0])
-                if answer_binary:
-                    if (len(community[col]) * percentage) <= community[col].sum():
-                        explainedCommunityProperties[col] = community[col].value_counts().index[0]
-                        # print('-', col, community[col].value_counts().index[0])
-                else:
-                    
-                    if (len(community[col]) * percentage) <= community[col].value_counts().max():
-                        # Returns dominant one
-                        # explainedCommunityProperties[col] = community[col].value_counts().index[0]
+            #for col in community.columns.values:
+            for col2 in self.explanaible_attributes:
+                if col2 != 'community':
+                    col = "community_" + col2
+                   # print(community)
+                    #print(len(community[col]))
+                    #print('-', col, community[col].value_counts().index[0])
+                    if answer_binary:
+                        if (len(community[col]) * percentage) <= community[col].sum():
+                            explainedCommunityProperties[col] = community[col].value_counts().index[0]
+                            # print('-', col, community[col].value_counts().index[0])
+                    else:
                         
-                        # Returns the values for each of them
-                        percentageColumn = community[col].value_counts(normalize=True) * 100
-                        explainedCommunityProperties[col] = percentageColumn.to_string()
-                        
-                        
-                        # Add the predominant emotion
-                        #print('-', col, community[col].value_counts().index[0])
-                        
-                        # print('-', col, community[col].value_counts().index[0])
-                        
-                        
-        # Second explanation   
-        community_data['explanation'] = []
-        community_data['explanation'].append(explainedCommunityProperties)
-        #community_data['explanation'].append(self.secondExplanation(community))
+                        if (len(community[col]) * percentage) <= community[col].value_counts().max():
+                            # Returns dominant one
+                            # explainedCommunityProperties[col] = community[col].value_counts().index[0]
+                            
+                            # Returns the values for each of them
+                            percentageColumn = community[col].value_counts(normalize=True) * 100
+                            explainedCommunityProperties[col] = percentageColumn.to_string()
+                            #explainedCommunityProperties[col] = percentageColumn.to_dict('records')
+                            
+                            
+                            
+                            
+                            
+                            # Add the predominant emotion
+                            #print('-', col, community[col].value_counts().index[0])
+                            
+                            # print('-', col, community[col].value_counts().index[0])
+                            
+                            
+            # Second explanation  
+            #print(explainedCommunityProperties)            
+            community_data['explanation'] = []
+            community_data['explanation'].append(explainedCommunityProperties)
+            #community_data['explanation'].append(self.secondExplanation(community))
+            
+        except Exception as e:
+            
+            print(str(e))
+            raise Exception("Exception retrieving community " + str(id_community))
+            
+            """
+            print("exceptions")
+            print(self.complete_data)
+            
+            """
+            
+            return -1
+            
+        
             
             
         return community_data

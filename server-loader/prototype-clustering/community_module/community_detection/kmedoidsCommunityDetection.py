@@ -29,12 +29,14 @@ class KmedoidsCommunityDetection:
         dict
             Dictionary with all elements and its corresponding community.
         """
+        #kmedoids = KMedoids(metric='precomputed',method='pam', n_clusters=n_clusters, init='build')
         kmedoids = KMedoids(metric='precomputed',method='pam', n_clusters=n_clusters, init='k-medoids++')
         kmedoids.fit(distanceMatrix)
-        
-        print("kmedoids")
-        print(n_clusters)
-        print(kmedoids.labels_)
-        print("\n")
-        
+
+        # Sometimes, it skips one of the cluster labels (returns empty clusters) (example: 6 clusters but none is asigned to cluster 5) 
+        # Rename the ones above to a lower id
+        uniqueLabels = set(kmedoids.labels_)      
+        uniqueLabels = sorted(uniqueLabels)
+        kmedoids.labels_ = [uniqueLabels.index(label) for label in kmedoids.labels_]
+
         return kmedoids.labels_
