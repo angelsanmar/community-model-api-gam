@@ -9,6 +9,10 @@ import uuid
 86ca1aa0-34aa-4e8b-a509-50c905bae2a2
 86ca1aa0-34aa-4e8b-a509-50c905bae2a2
 """
+
+import re
+
+
 class CommunityJsonGenerator:
 
     def __init__(self, interactionObjectData, data, distanceMatrix, communityDict, community_detection, perspective):
@@ -41,7 +45,9 @@ class CommunityJsonGenerator:
     
     def generateDict(self, element):
         # return {'IdArtefact': element[0], 'emotions': element[1]} 
-        return {'artwork_id': str(element[0]), 'feelings': "scettico", 'extracted_emotions': element[1]} 
+        # return {'artwork_id': str(element[0]), 'feelings': "scettico", 'extracted_emotions': element[1]} 
+        return {'artwork_id': str(element[0]), 'feelings': element[2], 'extracted_emotions': element[1]} 
+        
         #return {
     
     def generateUserInteractionColumnMaster(self):
@@ -61,9 +67,10 @@ class CommunityJsonGenerator:
             IO_columnList.append(json_df2[i].tolist())
         user_interactions = [list(a) for a in zip(*IO_columnList)]
         
+        """
         print("user_interactions: " + str(user_interactions))
         print("\n\n\n")
-        
+        """
         
         """
         for i in list(json_df2):
@@ -121,7 +128,7 @@ class CommunityJsonGenerator:
         IO_columns.extend(IO_similarityFeatures)
         print("IO_columns: " + str(IO_columns))
             
-        user_interactions = self.json_df.apply(lambda row: list(map(self.generateDict, list(zip(row[IO_id], row[IO_similarityFeatures[0]])))), axis = 1)
+        user_interactions = self.json_df.apply(lambda row: list(map(self.generateDict, list(zip(row[IO_id], row[IO_similarityFeatures[0]], row['ItMakesMeFeel'])))), axis = 1)
         #user_interactions = self.json_df.apply(lambda row: list(map(self.generateDict, list(zip(row[IO_id], row['emotions'])))), axis = 1)
         
         self.json_df['interactions'] = user_interactions
@@ -222,6 +229,8 @@ class CommunityJsonGenerator:
             
                 # Implicit community explanation
                 communityPropertiesList = []
+                communityPropertiesDict = {}
+                
                 for k in community_data['explanation'][0].keys():
                     #print('\t\t-', k)
                     #communityProperties += '\t\t-' + ' ' + str(k) + ' ' + community_data['properties'][k] + '\n'
@@ -229,22 +238,48 @@ class CommunityJsonGenerator:
                     if (self.skipPropertyValue):
                         communityPropertiesList.append("'" + str(k) + "'")
                     else:
-                        communityPropertiesList.append("'" + str(k) + "'"  + ': ' + "'" + str(community_data['explanation'][0][k]) + "'")
+                        #communityPropertiesList.append("'" + str(k) + "'"  + ': ' + "'" + str(community_data['explanation'][0][k]) + "'")
+                        #communityPropertiesList.append(community_data['explanation'][0][k])
+                        
+                        
+                        keyValueList = community_data['explanation'][0][k].split("\n")
+                        for keyValue in keyValueList:
+                            pattern = r'\W+'
+                            # empty character " " one or more times
+                            pattern = r'\s+'
+                            #keyValueSplit = keyValue.split("    ")
+                            keyValueSplit = re.split(pattern, keyValue)
+                            key = keyValueSplit[0]
+                            value = keyValueSplit[1]
+                            value = float(value)
+                            communityPropertiesDict[key] = value
+                            
+                        communityPropertiesList.append(communityPropertiesDict)
+                     
                 
                 #communityProperties = 'Similar dominant emotions while interacting with the following artworks: {'
                 #communityProperties = 'Artworks the community members interacted with: {'
+                
+                """
                 communityProperties = 'Minimum percentage of users with the representative properties: ' + community_data['percentage'] + "; "
                 communityProperties += 'Representative Properties: {'
                 
                 communityProperties += '; '.join(communityPropertiesList)
                 communityProperties += '}'
                 
+                
                 implicitAttributesJson = {'implicit_attributes': communityProperties}
+                """
                 
                 
                 explanationJson = {}
                 explanationJson['explanation_type'] = 'implicit_attributes'
-                explanationJson['explanation_data'] = implicitAttributesJson
+                explanationJson['explanation_data'] = {}
+                
+                interactionAttribute = self.communityDict['perspective']['interaction_similarity_functions'][0]['sim_function']["on_attribute"]['att_name']
+                explanationJson['explanation_data']['label'] = 'Percentage distribution of the implicit attribute ' + "(" + interactionAttribute + ")" + ":"
+                explanationJson['explanation_data']['data'] = communityPropertiesDict
+                
                 explanationJson['visible'] = False
                 
                 communityDictionary['explanations'].append(explanationJson)
@@ -258,12 +293,23 @@ class CommunityJsonGenerator:
                 communityDictionary['explanations'].append(explanationJson)
                 
                 # Get members
+                #print("community: " + str(c))
                 communityDictionary['users'] = []
-                for user in community_data['members']:
-                    communityDictionary['users'].append(str(user))
+                communityDictionary['users'] = community_data['members']
+                #for user in community_data['members']:
+                #communityDictionary['users'].append(str(user))
                 
+                """
+                df = self.json_df.loc[ self.json_df['id'] == user ]
+                print("df with members")
+                print(df[['id','label','group']])
+                """
+                    
                 # add it to communities
                 self.communityJson['communities'].append(communityDictionary)
+                
+                # Update the group to which the users belong
+                self.json_df.loc[ self.json_df['id'].isin(community_data['members']), 'group'] = len(self.communityJson['communities']) - 1
                     
             else:
                 usersWithoutCommunity.extend(community_data['members'])
@@ -271,15 +317,16 @@ class CommunityJsonGenerator:
         self.communityJson['numberOfCommunities'] = len(self.communityJson['communities'])
         
         # Add users without community
-        communityJson = {}
-        communityJson['id'] = self.communityDict['perspective']['id'] + "-" + str(len(self.communityJson['communities'])) + ' (Users without community)'
-        #communityJson['perspectiveId'] = self.communityDict['perspective']['id']
-        communityJson['community-type'] = 'inexistent'
-        communityJson['name'] = 'Community ' + str(len(self.communityJson['communities'])) + ' (Users without community)'
-        communityJson['explanations'] = []
-        communityJson['users'] = usersWithoutCommunity
-        
-        self.communityJson['communities'].append(communityJson)
+        if (len(usersWithoutCommunity) > 0):
+            communityJson = {}
+            communityJson['id'] = self.communityDict['perspective']['id'] + "-" + str(len(self.communityJson['communities'])) + ' (Users without community)'
+            #communityJson['perspectiveId'] = self.communityDict['perspective']['id']
+            communityJson['community-type'] = 'inexistent'
+            communityJson['name'] = 'Community ' + str(len(self.communityJson['communities'])) + ' (Users without community)'
+            communityJson['explanations'] = []
+            communityJson['users'] = usersWithoutCommunity
+            
+            self.communityJson['communities'].append(communityJson)
         
         # Update the group value for the users not belonging to any community
         self.json_df.loc[ self.json_df['id'].isin(usersWithoutCommunity), 'group'] = len(self.communityJson['communities']) - 1

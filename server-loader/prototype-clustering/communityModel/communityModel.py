@@ -49,22 +49,9 @@ class CommunityModel():
                 perspectiveId
                 userid: user to update
         """
-        """
-        print("current path with sys")
-        print(os.getcwd())
-        """
         self.perspective = perspective
         self.flag = flag
-        
-        """
-        self.daoRoute = os.path.normpath(os.path.join(os.path.dirname(__file__), daoRoute)) 
-        print("route: " + self.daoRoute)
-        """
         self.dao = dao
-        
-        self.percentageExplainability = 0.8
-        
-        
           
     def start(self, percentageExplainability = 0.8):
         """
@@ -86,7 +73,7 @@ class CommunityModel():
 
         self.computeDistanceMatrix()   
         
-        self.clustering()
+        self.clustering(
         
     # def initializeSimilarityMeasure(self, daoRoute = 'data/processed/GAM user_interactions.json'):
     def initializeSimilarityMeasure(self, dao):
@@ -112,14 +99,9 @@ class CommunityModel():
         -------
             distanceMatrix: np.ndarray
         """
-        #self.similarityMeasure.distance(2,10)
-        
-        # import it
-        print("distance matrix route")
         distanceMatrixFileRoute = self.distanceMatrixRoute()
-        print(distanceMatrixFileRoute)
         file_exists = os.path.exists(distanceMatrixFileRoute)
-        if file_exists and 1 == 2:
+        if file_exists:
             print("distance matrix clustering file exists")
             self.distanceMatrix = self.similarityMeasure.importDistanceMatrix(distanceMatrixFileRoute)
         else:
@@ -156,10 +138,6 @@ class CommunityModel():
         data = data.set_index('userName')
         
         interactionObjectData = self.similarityMeasure.getInteractionObjectData()
-        
-        print(self.distanceMatrix)
-        
-        print("algorithm: " + str(algorithm))
         
         # Get results
         community_detection = ExplainedCommunitiesDetection(algorithm, data, self.distanceMatrix, self.perspective)

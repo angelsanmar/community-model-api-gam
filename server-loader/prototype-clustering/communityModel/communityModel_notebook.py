@@ -49,17 +49,8 @@ class CommunityModel():
                 perspectiveId
                 userid: user to update
         """
-        """
-        print("current path with sys")
-        print(os.getcwd())
-        """
         self.perspective = perspective
         self.flag = flag
-        
-        """
-        self.daoRoute = os.path.normpath(os.path.join(os.path.dirname(__file__), daoRoute)) 
-        print("route: " + self.daoRoute)
-        """
         self.dao = dao
         
         
@@ -110,14 +101,9 @@ class CommunityModel():
         -------
             distanceMatrix: np.ndarray
         """
-        #self.similarityMeasure.distance(2,10)
-        
-        # import it
-        print("distance matrix route")
         distanceMatrixFileRoute = self.distanceMatrixRoute()
-        print(distanceMatrixFileRoute)
         file_exists = os.path.exists(distanceMatrixFileRoute)
-        if file_exists and 1 == 2:
+        if file_exists:
             print("distance matrix clustering file exists")
             self.distanceMatrix = self.similarityMeasure.importDistanceMatrix(distanceMatrixFileRoute)
         else:
@@ -130,7 +116,13 @@ class CommunityModel():
     def clusteringExportFileRoute(self, percentageExplainability):
         abspath = os.path.dirname(__file__)
         #relpath = "clustering/" + self.perspective['name'] + " " + "(" + self.perspective['algorithm']['name'] + ")" 
-        relpath = "clustering/" + '(GAMGame_stories_RN_UNITO) ' + self.perspective['name'] + " "
+        #relpath = "clustering/" + '(GAMGame_stories_RN_UNITO) ' + self.perspective['name'] + " "
+        # relpath = "clustering/" + '(GAM RN) ' + self.perspective['name'] + " "
+        relpath = "clustering/" 
+        relpath += "clusters generated/" + self.perspective["algorithm"]["name"] + "/"
+        # relpath += "clusters Mine/" + self.perspective["algorithm"]["name"] + "/"
+
+        relpath += self.perspective['name'] + " "
         relpath += " (" + str(percentageExplainability) + ")"
         relpath += ".json"
         route = os.path.normpath(os.path.join(abspath, relpath))
@@ -154,10 +146,6 @@ class CommunityModel():
         data = data.set_index('userName')
         
         interactionObjectData = self.similarityMeasure.getInteractionObjectData()
-        
-        print(self.distanceMatrix)
-        
-        print("algorithm: " + str(algorithm))
         
         # Get results
         community_detection = ExplainedCommunitiesDetection(algorithm, data, self.distanceMatrix, self.perspective)
