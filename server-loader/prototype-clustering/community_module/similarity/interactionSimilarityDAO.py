@@ -39,8 +39,9 @@ class InteractionSimilarityDAO(SimilarityDAO):
         self.interactionSimilarityMeasure = self.initializeFromPerspective(dao, self.similarityFunction)
         #print(self.interactionSimilarityMeasure)
         
-        
-        if (self.similarityFunction['sim_function']['name'] != 'NoInteractionSimilarityDAO'):
+        print("dafdsfasdf")
+        if (self.similarityFunction['sim_function']['name'] != 'NoInteractionSimilarityDAO' or 1==1):
+            print("sfdsf")
         
         
             # Remove the interactions with emotion with interactionSimilarityMeasure empty
@@ -116,10 +117,11 @@ class InteractionSimilarityDAO(SimilarityDAO):
             self.data = df4.copy()
             
             
-            """
+            
             print("\n")
             print(self.data[['userName', IOColumn, self.similarityColumn, 'ItMakesMeFeel']])
             print("\n")
+            """
             """
             
             
@@ -490,7 +492,7 @@ class InteractionSimilarityDAO(SimilarityDAO):
                 
                 #print("objectA: " + str(objectA))
                 
-                if (objectIndexB != -1 and self.similarityFunction['sim_function']['name'] == "NoInteractionSimilarityDAO"):
+                if (1 == 2 and objectIndexB != -1 and self.similarityFunction['sim_function']['name'] == "NoInteractionSimilarityDAO"):
                     objectB = IOB[objectIndexB]
                     distanceMatrixIndexObjectA = self.IO_distanceIndex.index(str(objectA))
                     distanceMatrixIndexObjectB = self.IO_distanceIndex.index(str(objectB))
@@ -524,10 +526,10 @@ class InteractionSimilarityDAO(SimilarityDAO):
                     
                     # Calculate distance between them
                     distance = self.interactionSimilarityMeasure.distanceValues(interactionFeatureA, interactionFeatureB)
-                    print("distance (" + str(interactionFeatureA) + "," + str(interactionFeatureB) + "): " + str(distance))
+                    #print("distance (" + str(interactionFeatureA) + "," + str(interactionFeatureB) + "): " + str(distance))
                     distance = self.interactionSimilarityMeasure.dissimilarFlag(distance)
-                    print("distance dissimilar (" + str(interactionFeatureA) + "," + str(interactionFeatureB) + "): " + str(distance))
-                    print("\n")
+                    #print("distance dissimilar (" + str(interactionFeatureA) + "," + str(interactionFeatureB) + "): " + str(distance))
+                    #print("\n")
                     
 
                     # Add dominant interaction value to list (e.g., emotions = {joy: 3, sadness: 4, trust: 1} -> sadness

@@ -123,6 +123,12 @@ class ExtendedPlutchikEmotionSimilarityDAO(SimilarityDAO):
         emotionsDictA = dict([(x.replace("emotion:",""), y) for x, y in emotionsDictA.items() ])
         emotionsDictB = dict([(x.replace("emotion:",""), y) for x, y in emotionsDictB.items() ])
         
+        """
+        print("emotionsDictA: " + str(emotionsDictA))
+        print("emotionsDictB: " + str(emotionsDictB))
+        print("\n\n")
+        """
+        
         
         if (len(emotionsDictA) <= 0 or len(emotionsDictB) <= 0):
             return 1.0
