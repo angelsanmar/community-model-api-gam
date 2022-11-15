@@ -14,30 +14,33 @@ const FlagDAO = db.flag;
  * no response value expected for this operation
  */
 exports.PostDataInput = function (body) {
-    return new Promise(function (resolve, reject) {
         try {
 
             var json = { data: body }
             // save data
-            InteractionData.insertData(json,
-                data => {
-                    resolve(data)
-                },
-                error => {
-                    console.log("DataInput error2: " + error);
-                    reject(error)
+            return new Promise(function (resolve, reject) {
+                InteractionData.insertData(json,
+                    data => {
+                        resolve(data)
+                    },
+                    error => {
+                        console.log("DataInput: insertData error: " + error);
+                        reject(error)
+                    })
+            })
+                .then((id) => {
+                    var data = {
+                        dataId: id
+                    }
+
+                    // post data to api_server.py
+                    return postData.post_data(data, "/postData")
+
                 })
 
-            // var newBody = {
-            //     perspectiveId: generatedId
-            // }
-
-            // post data to api_server.py
-            // return postData.post_data(newBody, "/postData")
         } catch (error) {
             console.log("PostDataInput:" + error)
         }
-    });
 }
 
 exports.getSeed = function () {

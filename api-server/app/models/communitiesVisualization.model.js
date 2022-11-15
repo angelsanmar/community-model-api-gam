@@ -59,7 +59,7 @@ module.exports = mongoose => {
     return {
         getIndex: function (onSuccess, onError) {
             let items = [];
-            CommunitiesVis.find({}, { fileId: 1, fileName: 1 }, function (error, data) {
+            CommunitiesVis.find({}, { id: 1, name: 1 }, function (error, data) {
                 let i = 0;
                 data.forEach(element => {
                     items[i] = element.toJSON();

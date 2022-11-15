@@ -5,10 +5,9 @@ var jobManager = require('./jobsRoute/jobsManager.js');
 // redirect post request to api_loader
 module.exports.postInputData = function postInputData(req, res, next) {
     try {
-
         DataInput.PostDataInput(req.body)
             .then(function (response) {
-                res.status(200).send(response);
+                res.status(200).send("200");
             })
             .catch(function (response) {
                 res.status(400).send("postInputData error");

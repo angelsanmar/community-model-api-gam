@@ -43,8 +43,8 @@ paths:
               x-content-type: application/json
         required: true
       responses:
-        "202":
-          description: Data accepted. Updating CM before returning requested data. Redirecting to jobs monitor
+        "200":
+          description: successful operation
           content:
             application/json:
               schema:

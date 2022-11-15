@@ -49,15 +49,15 @@ class DAO_db_interactionDatas(DAO_db):
         dataList = loads(dumps(list(dataList)))
         return dataList[0]
 
-    # def getInteractionData(self, id):
-    #     """
-    #     :Return:
-    #         List with all flags, Type: json List[<class 'dict'>]
-    #     """
-    #     # data = self.db_users.find({}, {"_id": 0})
-    #     dataList = self.db_interactionDatas.find({"perspectiveId": id})
-    #     dataList = loads(dumps(list(dataList)))
-    #     return dataList[0]
+    def getInteractionDataById(self, id):
+        """
+        :Return:
+            List with all flags, Type: json List[<class 'dict'>]
+        """
+        # data = self.db_users.find({}, {"_id": 0})
+        dataList = self.db_interactionData.find({"_id": id})
+        dataList = loads(dumps(list(dataList)))
+        return dataList[0]
 
     def drop(self):
         """

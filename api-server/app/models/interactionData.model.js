@@ -19,10 +19,10 @@ module.exports = mongoose => {
         InteractionData.create(data, function (err, res) {
           if (err) {
             console.log("insertData: error");
-            onError(user);
+            onError(err);
           }
           else {
-            onSuccess(null);
+            onSuccess(res._id.toString());
           }
         });
       }

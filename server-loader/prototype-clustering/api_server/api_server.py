@@ -135,17 +135,28 @@ class Handler(BaseHTTPRequestHandler):
 
         elif first_arg == "postData":
             ok = True
-            perspectiveId = loads(post_data)["perspectiveId"]
-            print("perspectiveId:", perspectiveId)
+            # Se pasa el _id de interactionData en mongoDB
+            dataId = loads(post_data)["dataId"]
+            print("dataId: ", dataId)
 
-            daoFlags = DAO_db_flags()
-            data = daoFlags.getFlag(perspectiveId)
-            # print("data:", data)
-            # handler for input data:
-            # - create perspective with inputData
-            # - when finished remove flag with {perspectiveId} from mongodb
-            daoFlags.deleteFlagById(perspectiveId)
-            pass
+            # Se obtiene el ultimo interactionData que fue pasado por la API
+            # (Se usa busca el ultimo usando el _id pasado) 
+            # (en cualquier caso se puede omitir la busqiedad por id y simplemente pedir algun interactionData,
+            # ya que voy a borrarlo despues de cada ejecucion del CM)
+            daoInteractionData = DAO_db_interactionDatas()
+            data = daoInteractionData.getInteractionDataById(ObjectId(dataId))["data"]
+            # print("data: ", data)
+
+            # retrive perspective from db
+            daoPerspective = DAO_db_perspectives()
+            perspective = daoPerspective.getPerspectives()[0]
+            # print("perspective: ", perspective)
+
+            communityModel = CommunityModel(perspective, dao=daoInteractionData)
+            communityModel.start()
+
+            daoInteractionData.drop()
+
 
         elif first_arg == "update_CM":
             #data = loads(post_data.decode('utf-8'))
@@ -174,7 +185,8 @@ class Handler(BaseHTTPRequestHandler):
 
         flags = daoFlags.getFlags()
         for flag in flags:
-            perspective = daoPerspectives.getPerspective(flag["perspectiveId"])
+            perspective = daoPerspectives.getPerspective(
+                ObjectId(flag["perspectiveId"]))
 
             # Call to the community model
             communityModel = CommunityModel(perspective, flag)
@@ -187,41 +199,6 @@ class Handler(BaseHTTPRequestHandler):
         self.send_response(code)
         self.send_header('Content-type', dataType)
         self.end_headers()
-
-    def __getIndex(self):
-        dao = DAO_db_community()
-        data = dao.getFileIndex()
-        print(data)
-        self.__set_response(200, 'application/json')
-        self.wfile.write(dumps(data).encode(encoding='utf_8'))
-
-    def __getPerspertives(self, request):
-        dao = DAO_db_perspectives()
-        perspectiveId = request[2]
-        if perspectiveId == "all":
-            data = dao.getPerspectives()
-            self.__set_response(200, 'application/json')
-            self.wfile.write(dumps(data).encode(encoding='utf_8'))
-        else:
-            if len(request) == 4 and request[3] == "communities":
-                # perspectives/{perspectiveId}/communities
-                result = []
-                coms = DAO_db_community().getCommunities()
-                for com in coms:
-                    if com["perspectiveId"] == perspectiveId:
-                        result.append(com)
-                self.__set_response(200, 'application/json')
-                self.wfile.write(dumps(result).encode(encoding='utf_8'))
-            else:
-                data = dao.getPerspective(perspectiveId)
-                print(data)
-                if data:
-                    self.__set_response(200, 'application/json')
-                    self.wfile.write(dumps(data).encode(encoding='utf_8'))
-                else:
-                    self.__set_response(404)
-                    self.wfile.write("File not found\nGET request for {}".format(
-                        self.path).encode('utf-8'))
 
     def __getSeed(self):
         # dao = DAO_db_community()
@@ -267,9 +244,17 @@ def removeData():
 
 def initData():
 
-    annotatedStories = DAO_json("app/prototype-clustering/communityModel/data/new-annotated-stories.json").getData()
-    daoInteractionData = DAO_db_interactionDatas()
-    daoInteractionData.insertInteractionData({"data": annotatedStories})
+    # annotatedStories = DAO_json(
+    #     "app/prototype-clustering/communityModel/data/new-annotated-stories.json").getData()
+    # daoInteractionData = DAO_db_interactionDatas()
+    # daoInteractionData.insertInteractionData({"data": annotatedStories})
+
+    perspective = DAO_json(
+        "app/prototype-clustering/communityModel/perspectives/GAM similar user emotions in similar artworks (iconclass) annotated-stories.json").getData()
+    # print(perspective)
+    daoPerspective = DAO_db_perspectives()
+    daoPerspective.insertPerspective(perspective)
+
     # json5 = DAO_json(
     #     "app/prototype-clustering/api_server/data/5.json").getData()
     # json6 = DAO_json("app/prototype-clustering/api_server/data/6.json").getData()

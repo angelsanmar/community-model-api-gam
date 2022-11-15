@@ -28,10 +28,10 @@ from dao.dao_db_interactionData import DAO_db_interactionDatas
 def main():
 
     route1 = r"../communityModel/data/new-annotated-stories.json"
-    route2 = r"test/data/parser_output.json"
-    route2 = r"../communityModel/perspectives/GAM similar user emotions in similar artworks (iconclass) annotated-stories.json"
+    # route2 = r"test/data/parser_output.json"
+    # route2 = r"../communityModel/perspectives/GAM similar user emotions in similar artworks (iconclass) annotated-stories.json"
     annotatedStories = DAO_json(route1).getData()
-    perspective = DAO_json(route2).getData()
+    # perspective = DAO_json(route2).getData()
 
     # api = DAO_api()
 
@@ -39,8 +39,8 @@ def main():
     print(a)
     print(a.text)
 
-    b = requests.post("http://localhost:8080/v1.1/perspective", json = perspective)
-    print(b)
-    print(b.text)
+    # b = requests.post("http://localhost:8080/v1.1/perspective", json = perspective)
+    # print(b)
+    # print(b.text)
 
 main()
