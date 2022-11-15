@@ -49,7 +49,7 @@ class DAO_db_community(DAO_db):
         else:
             self.db_communities.insert_one(temp)
 
-    def insertFileList(self, fileId, dataJSON):
+    def insertFileList(self, dataJSON):
         """
         Inserts json file to 'API Vis DB' and all communities from file to db_communities
             :Parameters:
@@ -57,10 +57,9 @@ class DAO_db_community(DAO_db):
                 communityJSON: Community, Type: <class 'dict'>
         """
         temp = copy(dataJSON)
-        temp["fileId"] = fileId
         self.db_fullListCommunities.insert_one(copy(temp))
-        for community in temp["communities"]:
-            self.db_communities.insert_one(community)
+        # for community in temp["communities"]:
+        #     self.db_communities.insert_one(community)
 
     def getFileIndex(self):
         data = self.db_fullListCommunities.find({}, {"fileId": 1, "_id": 0})

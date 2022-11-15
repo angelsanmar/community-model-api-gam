@@ -140,11 +140,12 @@ class Handler(BaseHTTPRequestHandler):
             print("dataId: ", dataId)
 
             # Se obtiene el ultimo interactionData que fue pasado por la API
-            # (Se usa busca el ultimo usando el _id pasado) 
+            # (Se usa busca el ultimo usando el _id pasado)
             # (en cualquier caso se puede omitir la busqiedad por id y simplemente pedir algun interactionData,
             # ya que voy a borrarlo despues de cada ejecucion del CM)
             daoInteractionData = DAO_db_interactionDatas()
-            data = daoInteractionData.getInteractionDataById(ObjectId(dataId))["data"]
+            data = daoInteractionData.getInteractionDataById(ObjectId(dataId))[
+                "data"]
             # print("data: ", data)
 
             # retrive perspective from db
@@ -152,11 +153,11 @@ class Handler(BaseHTTPRequestHandler):
             perspective = daoPerspective.getPerspectives()[0]
             # print("perspective: ", perspective)
 
-            communityModel = CommunityModel(perspective, dao=daoInteractionData)
+            communityModel = CommunityModel(
+                perspective, dao=daoInteractionData)
             communityModel.start()
 
             daoInteractionData.drop()
-
 
         elif first_arg == "update_CM":
             #data = loads(post_data.decode('utf-8'))
@@ -255,13 +256,16 @@ def initData():
     daoPerspective = DAO_db_perspectives()
     daoPerspective.insertPerspective(perspective)
 
-    # json5 = DAO_json(
-    #     "app/prototype-clustering/api_server/data/5.json").getData()
-    # json6 = DAO_json("app/prototype-clustering/api_server/data/6.json").getData()
+    # default data for Vis tests
+    r = "app/prototype-clustering/api_server/data/"
+    json1 = DAO_json(r + "S-emotions-S-artworks (country) agg.json").getData()
+    json2 = DAO_json(r + "S-emotions-S-artworks (country) agg.json").getData()
+    json3 = DAO_json(r + "S-emotions-S-artworks (iconclass) agg.json").getData()
 
-    # daoC = DAO_db_community()
-    # daoC.insertFileList("5", json5)
-    # daoC.insertFileList("6", json6)
+    daoC = DAO_db_community()
+    daoC.insertFileList(json1)
+    daoC.insertFileList(json2)
+    daoC.insertFileList(json3)
 
     # jsonAll = DAO_json("app/prototype-clustering/api_server/data/Allperspectives.json").getData()
     # daoP = DAO_db_perspectives()

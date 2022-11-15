@@ -45,7 +45,7 @@ module.exports = mongoose => {
 
     schema.method("toJSON", function () {
         const { __v, _id, ...object } = this.toObject();
-        // object.id = _id.toString();
+        object.id = _id.toString();
         return object;
     });
 
@@ -59,7 +59,7 @@ module.exports = mongoose => {
     return {
         getIndex: function (onSuccess, onError) {
             let items = [];
-            CommunitiesVis.find({}, { id: 1, name: 1 }, function (error, data) {
+            CommunitiesVis.find({}, { _id: 1, name: 1 }, function (error, data) {
                 let i = 0;
                 data.forEach(element => {
                     items[i] = element.toJSON();
@@ -69,7 +69,8 @@ module.exports = mongoose => {
             });
         },
         getById: function (id, onSuccess, onError) {
-            CommunitiesVis.findOne({ fileId: id }, { projection: { _id: 0 } }, function (error, data) {
+            // CommunitiesVis.findOne({ _id: id }, { projection: { _id: 0 } }, function (error, data) {
+            CommunitiesVis.findOne({ _id: id }, {}, function (error, data) {
                 if (error) {
                     onError(error);
                 } else {

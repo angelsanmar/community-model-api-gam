@@ -197,7 +197,7 @@ class CommunityModel():
         daoCommunityModelCommunity.dropFullList({'perspectiveId': self.perspective['id']})
         #daoCommunityModelCommunity.dropFullList()
         # add new data
-        daoCommunityModelCommunity.insertFileList("", jsonCommunity)
+        daoCommunityModelCommunity.insertFileList(jsonCommunity)
         
 
     
