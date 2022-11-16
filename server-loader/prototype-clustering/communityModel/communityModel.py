@@ -75,7 +75,9 @@ class CommunityModel():
 
         self.computeDistanceMatrix()   
         
-        self.clustering()
+        insertedId = self.clustering()
+        
+        return insertedId
         
     # def initializeSimilarityMeasure(self, daoRoute = 'data/processed/GAM user_interactions.json'):
     def initializeSimilarityMeasure(self, dao):
@@ -160,7 +162,9 @@ class CommunityModel():
         jsonCommunity = jsonGenerator.generateJSON(exportFile)       
         
         # Save data to database
-        self.saveDatabase(jsonCommunity)
+        insertedId = self.saveDatabase(jsonCommunity)
+        
+        return insertedId
 
     def initializeAlgorithm(self):
         algorithmName = self.perspective['algorithm']['name'] + "CommunityDetection"
@@ -197,7 +201,8 @@ class CommunityModel():
         daoCommunityModelCommunity.dropFullList({'perspectiveId': self.perspective['id']})
         #daoCommunityModelCommunity.dropFullList()
         # add new data
-        daoCommunityModelCommunity.insertFileList(jsonCommunity)
+        insertedId = daoCommunityModelCommunity.insertFileList(jsonCommunity)
+        return insertedId
         
 
     

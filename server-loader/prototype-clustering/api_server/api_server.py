@@ -191,7 +191,7 @@ class Handler(BaseHTTPRequestHandler):
 
             # Call to the community model
             communityModel = CommunityModel(perspective, flag)
-            communityModel.start()
+            insertedId = communityModel.start()
 
             # Remove flag
             daoFlags.deleteFlag(flag)

@@ -57,9 +57,13 @@ class DAO_db_community(DAO_db):
                 communityJSON: Community, Type: <class 'dict'>
         """
         temp = copy(dataJSON)
-        self.db_fullListCommunities.insert_one(copy(temp))
+        result = self.db_fullListCommunities.insert_one(copy(temp))
+        
         # for community in temp["communities"]:
         #     self.db_communities.insert_one(community)
+        
+        
+        return result.inserted_id
 
     def getFileIndex(self):
         data = self.db_fullListCommunities.find({}, {"fileId": 1, "_id": 0})

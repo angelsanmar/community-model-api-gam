@@ -280,7 +280,7 @@ class CommunityJsonGenerator:
                 explanationJson['explanation_data']['label'] = 'Percentage distribution of the implicit attribute ' + "(" + interactionAttribute + ")" + ":"
                 explanationJson['explanation_data']['data'] = communityPropertiesDict
                 
-                explanationJson['visible'] = False
+                explanationJson['visible'] = True
                 
                 communityDictionary['explanations'].append(explanationJson)
                 
