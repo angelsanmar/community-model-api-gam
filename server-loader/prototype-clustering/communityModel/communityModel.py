@@ -197,8 +197,8 @@ class CommunityModel():
         # Store community data
         daoCommunityModelCommunity = DAO_db_community()
         # drop previous data
-        daoCommunityModelCommunity.drop({'perspectiveId': self.perspective['id']})
-        daoCommunityModelCommunity.dropFullList({'perspectiveId': self.perspective['id']})
+        #daoCommunityModelCommunity.drop({'perspectiveId': self.perspective['id']})
+        #daoCommunityModelCommunity.dropFullList({'perspectiveId': self.perspective['id']})
         #daoCommunityModelCommunity.dropFullList()
         # add new data
         insertedId = daoCommunityModelCommunity.insertFileList(jsonCommunity)
