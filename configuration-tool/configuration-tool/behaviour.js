@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       let artwork_sim = document.getElementById("similarity-2");
       artwork_sim.addEventListener("change", function () {
         let theValue = this.value;
-        if (theValue === "similar") {
+        if (theValue === "similar" || theValue === "different") {
           artwork_attribs.classList.remove("hidden");
         } else {
           artwork_attribs.classList.add("hidden");
@@ -229,11 +229,33 @@ function createConfigObjWithForm(ev, configObj) {
     for (const att of configObj.artwork_attributes) {
       let key = `${artwork_prefix}-${att.sim_function.on_attribute.att_name}`;
       if (key in objData) {
+        att.sim_function.dissimilar = false;
         newArtworkAttributes.push(att);
       }
     }
   }
-
+  else if (objData["sim-2"] === "different") {
+    for (const att of configObj.artwork_attributes) {
+      let key = `${artwork_prefix}-${att.sim_function.on_attribute.att_name}`;
+      if (key in objData) {
+        att.sim_function.dissimilar = true;
+        newArtworkAttributes.push(att);
+      }
+    }
+  } // && configObj.interaction_similarity_functions[objData["sim-obj-1"]].sim_function.on_attribute.att_name == "emotions"
+  else if (objData["sim-2"] === "same" ) {
+    let sim = {
+      "sim_function": {
+        "name": "EqualSimilarityDAO",
+        "params": [],
+        "on_attribute": {
+          "att_name": "_id",
+          "att_type": "String"
+        }
+      }
+    };
+    newArtworkAttributes.push(sim);
+  }
   newConfigObj.similarity_functions = newArtworkAttributes;
 
   //Create name for the config file

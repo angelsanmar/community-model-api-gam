@@ -199,26 +199,6 @@
                     "att_type": "String"
                 }
             }
-        },
-        {
-            "sim_function": {
-                "name": "IconClassSimilarityDAO",
-                "params": [],
-                "on_attribute": {
-                    "att_name": "iconclassIDString",
-                    "att_type": "String"
-                }
-            }
-        },
-        {
-            "sim_function": {
-                "name": "IconClassSimilarityDAO",
-                "params": [],
-                "on_attribute": {
-                    "att_name": "iconclassArrayIDs",
-                    "att_type": "List"
-                }
-            }
         }
     ],
     "user_attributes": [
@@ -246,7 +226,7 @@
     "interaction_similarity_functions": [
         {
             "sim_function": {
-                "name": "ExtendedPlutchikSimilarityDAO",
+                "name": "EqualSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "emotions",

@@ -79,14 +79,6 @@
 		"Iconclass_subjects_curators": {
 			"type": "String",
 			"similarity": "IconClassSimilarityDAO"
-		},
-		"iconclassIDString": {
-			"type": "String",
-			"similarity": "IconClassSimilarityDAO"
-		},
-		"iconclassArrayIDs": {
-			"type": "List",
-			"similarity": "IconClassSimilarityDAO"
 		}
 	},
 	"users": {
@@ -102,7 +94,7 @@
 	"interactions": {
 		"emotions": {
 			"type": "String",
-			"similarity": "ExtendedPlutchikSimilarityDAO"
+			"similarity": "EqualSimilarityDAO"
 		},
 		"sentiments": {
 			"type": "String",
