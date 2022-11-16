@@ -136,7 +136,7 @@ class Handler(BaseHTTPRequestHandler):
         elif first_arg == "postData":
             ok = True
             # Se pasa el _id de interactionData en mongoDB
-            dataId = loads(post_data)["dataId"]
+            dataId = loads(post_data)
             print("dataId: ", dataId)
 
             # Se obtiene el ultimo interactionData que fue pasado por la API

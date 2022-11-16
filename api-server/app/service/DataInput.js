@@ -29,12 +29,9 @@ exports.PostDataInput = function (body) {
                     })
             })
                 .then((id) => {
-                    var data = {
-                        dataId: id
-                    }
 
                     // post data to api_server.py
-                    return postData.post_data(data, "/postData")
+                    return postData.post_data(id, "/postData")
 
                 })
 
