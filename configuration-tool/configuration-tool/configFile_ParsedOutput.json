@@ -2,7 +2,7 @@
     "artwork_attributes": [
         {
             "sim_function": {
-                "name": "equalSimilarity",
+                "name": "EqualSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Inventary",
@@ -12,7 +12,7 @@
         },
         {
             "sim_function": {
-                "name": "equalSimilarity",
+                "name": "EqualSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Collection",
@@ -22,7 +22,7 @@
         },
         {
             "sim_function": {
-                "name": "equalSimilarity",
+                "name": "EqualSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Author",
@@ -32,7 +32,7 @@
         },
         {
             "sim_function": {
-                "name": "equalSimilarity",
+                "name": "NumberSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Year",
@@ -42,7 +42,7 @@
         },
         {
             "sim_function": {
-                "name": "equalSimilarity",
+                "name": "NumberSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Artwork_start_date",
@@ -52,7 +52,37 @@
         },
         {
             "sim_function": {
-                "name": "equalSimilarity",
+                "name": "NumberSimilarityDAO",
+                "params": [],
+                "on_attribute": {
+                    "att_name": "Artwork_end_date",
+                    "att_type": "Number"
+                }
+            }
+        },
+        {
+            "sim_function": {
+                "name": "NumberSimilarityDAO",
+                "params": [],
+                "on_attribute": {
+                    "att_name": "Artist_birth_date",
+                    "att_type": "Number"
+                }
+            }
+        },
+        {
+            "sim_function": {
+                "name": "NumberSimilarityDAO",
+                "params": [],
+                "on_attribute": {
+                    "att_name": "Artist_death_date",
+                    "att_type": "Number"
+                }
+            }
+        },
+        {
+            "sim_function": {
+                "name": "EqualSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Gender",
@@ -62,7 +92,7 @@
         },
         {
             "sim_function": {
-                "name": "equalSimilarity",
+                "name": "TaxonomySimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Artist_country",
@@ -72,7 +102,17 @@
         },
         {
             "sim_function": {
-                "name": "taxonomySimilarity",
+                "name": "TaxonomySimilarityDAO",
+                "params": [],
+                "on_attribute": {
+                    "att_name": "Artist_secondary_country",
+                    "att_type": "String"
+                }
+            }
+        },
+        {
+            "sim_function": {
+                "name": "TaxonomySimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Artwork_Artistic_Movement",
@@ -82,7 +122,17 @@
         },
         {
             "sim_function": {
-                "name": "taxonomySimilarity",
+                "name": "TaxonomySimilarityDAO",
+                "params": [],
+                "on_attribute": {
+                    "att_name": "Secondary_Artwork_Artistic_Movement",
+                    "att_type": "String"
+                }
+            }
+        },
+        {
+            "sim_function": {
+                "name": "TaxonomySimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Technique",
@@ -92,7 +142,7 @@
         },
         {
             "sim_function": {
-                "name": "taxonomySimilarity",
+                "name": "EqualSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Artwork_type",
@@ -102,7 +152,7 @@
         },
         {
             "sim_function": {
-                "name": "equalSimilarity",
+                "name": "NumberSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Size_height",
@@ -112,7 +162,7 @@
         },
         {
             "sim_function": {
-                "name": "equalSimilarity",
+                "name": "NumberSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Size_width",
@@ -122,7 +172,17 @@
         },
         {
             "sim_function": {
-                "name": "taxonomySimilarity",
+                "name": "NumberSimilarityDAO",
+                "params": [],
+                "on_attribute": {
+                    "att_name": "Size_depth",
+                    "att_type": "String"
+                }
+            }
+        },
+        {
+            "sim_function": {
+                "name": "TaxonomySimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Materials",
@@ -132,11 +192,31 @@
         },
         {
             "sim_function": {
-                "name": "taxonomySimilarity",
+                "name": "IconClassSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "Iconclass_subjects_curators",
                     "att_type": "String"
+                }
+            }
+        },
+        {
+            "sim_function": {
+                "name": "IconClassSimilarityDAO",
+                "params": [],
+                "on_attribute": {
+                    "att_name": "iconclassIDString",
+                    "att_type": "String"
+                }
+            }
+        },
+        {
+            "sim_function": {
+                "name": "IconClassSimilarityDAO",
+                "params": [],
+                "on_attribute": {
+                    "att_name": "iconclassArrayIDs",
+                    "att_type": "List"
                 }
             }
         }
@@ -166,7 +246,7 @@
     "interaction_similarity_functions": [
         {
             "sim_function": {
-                "name": "emotionSimilarity",
+                "name": "ExtendedPlutchikSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "emotions",
@@ -180,7 +260,7 @@
         },
         {
             "sim_function": {
-                "name": "sentimentSimilarity",
+                "name": "SentimentSimilarityDAO",
                 "params": [],
                 "on_attribute": {
                     "att_name": "sentiments",

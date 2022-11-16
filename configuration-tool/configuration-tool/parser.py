@@ -21,33 +21,32 @@ def insert(value, key):
 
 
 if __name__ == "__main__":
-    route = "initialFile.json"
+    route = "configFile.json"
 
     f = open(route)
     data = json.load(f)
     lista_artworks = []
-    artworkAttributesFilter = ["Artwork_Artistic_Movement", "Artwork_start_date", "Artist_birth_data", "Artwork_type", "Author",
-                               "Collection", "Gender", "Materials", "Size_height", "Size_width", "Technique", "Artist_country", "Iconclass_subjects_curators",
-                               "Author", "Year", "Size_height", "Size_width", "Inventary"]
+    # artworkAttributesFilter = ["Artwork_Artistic_Movement", "Artwork_start_date", "Artist_birth_data", "Artwork_type", "Author",
+    #                            "Collection", "Gender", "Materials", "Size_height", "Size_width", "Technique", "Artist_country", "Iconclass_subjects_curators",
+    #                            "Author", "Year", "Size_height", "Size_width", "Inventary"]
     for key in data["artworks"]:
-        if key in artworkAttributesFilter:
-            value = data["artworks"][key]
-            sim_function = {
-                "sim_function": {
-                    "name": value["similarity"],
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": key,
-                        "att_type": value["type"]
-                    }
+        value = data["artworks"][key]
+        sim_function = {
+            "sim_function": {
+                "name": value["similarity"],
+                "params": [],
+                "on_attribute": {
+                    "att_name": key,
+                    "att_type": value["type"]
                 }
             }
-            lista_artworks.append(sim_function)
+        }
+        lista_artworks.append(sim_function)
 
     lista_interactions = []
-    for key in data["interactions"]["parts"]:
-        value = data["interactions"]["parts"][key]
-        if key in ["emotions", "sentiments"] :
+    for key in data["interactions"]:
+        value = data["interactions"][key]
+        if key in ["emotions", "sentiments"]:
             sim_function = insert(value, key)
             lista_interactions.append(sim_function)
         else:
@@ -87,5 +86,7 @@ if __name__ == "__main__":
         "interaction_similarity_functions": lista_interactions
     }
 
-    with open("seedFile_ParserOutput.json", "w") as outfile:
+    outfileName = route.replace('.json', '')
+    outfileName = outfileName + "_ParsedOutput.json"
+    with open(outfileName, "w") as outfile:
         outfile.write(json.dumps(config, indent=4))

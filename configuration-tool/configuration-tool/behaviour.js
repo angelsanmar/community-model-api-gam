@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   //http://localhost:8080/v1.1/seed
   // ./seedFile_ParserOutput.json
-  fetch("./seedFile_ParserOutput.json") // Call the fetch function passing the url of the API as a parameter
+  fetch("./configFile_ParsedOutput.json") // Call the fetch function passing the url of the API as a parameter
     .then(configObj => configObj.json())
     .then(function (configObj) {
       // First, hide artwork attribute selection
