@@ -2,7 +2,8 @@ module.exports = mongoose => {
     var schema = mongoose.Schema(
         {
             id: String,
-            fileId: String,
+            name: String,
+            perspectiveId: String,
             communities: [{
                 _id: false,
                 "id": String,
@@ -59,18 +60,22 @@ module.exports = mongoose => {
     return {
         getIndex: function (onSuccess, onError) {
             let items = [];
-            CommunitiesVis.find({}, { _id: 1, name: 1 }, function (error, data) {
+            CommunitiesVis.find({}, { perspectiveId: 1, name: 1 }, function (error, data) {
                 let i = 0;
                 data.forEach(element => {
-                    items[i] = element.toJSON();
+                    let e = element.toJSON();
+                    e.id = e.perspectiveId
+                    delete e.perspectiveId
+                    // console.log(e);
+                    items[i] = e;
                     i++;
                 });
                 onSuccess(items);
             });
         },
         getById: function (id, onSuccess, onError) {
-            // CommunitiesVis.findOne({ _id: id }, { projection: { _id: 0 } }, function (error, data) {
-            CommunitiesVis.findOne({ _id: id }, {}, function (error, data) {
+            CommunitiesVis.findOne({ perspectiveId: id }, { projection: { _id: 0 } }, function (error, data) {
+                // CommunitiesVis.findOne({ perspectiveId: id }, {}, function (error, data) {
                 if (error) {
                     onError(error);
                 } else {

@@ -35,7 +35,7 @@ from dao.dao_db_communities import DAO_db_community
 class CommunityModel():
 
     # def __init__(self,perspective,flag = {}, daoRoute = 'data/processed/GAM user_interactions.json'):
-    def __init__(self, perspective, dao, flag = {}):
+    def __init__(self, perspective, dao, flag = {}, perspectiveId = ""):
         """
         Construct of Community Model objects.
 
@@ -49,6 +49,7 @@ class CommunityModel():
                 perspectiveId
                 userid: user to update
         """
+        self.perspectiveId = perspectiveId
         self.perspective = perspective
         self.flag = flag
         self.dao = dao
@@ -201,6 +202,7 @@ class CommunityModel():
         #daoCommunityModelCommunity.dropFullList({'perspectiveId': self.perspective['id']})
         #daoCommunityModelCommunity.dropFullList()
         # add new data
+        jsonCommunity["perspectiveId"] = self.perspectiveId
         insertedId = daoCommunityModelCommunity.insertFileList(jsonCommunity)
         return insertedId
         

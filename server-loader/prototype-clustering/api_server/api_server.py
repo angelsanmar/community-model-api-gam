@@ -154,7 +154,7 @@ class Handler(BaseHTTPRequestHandler):
             # print("perspective: ", perspective)
 
             communityModel = CommunityModel(
-                perspective, dao=daoInteractionData)
+                perspective, daoInteractionData, {}, dataId)
             communityModel.start()
 
             daoInteractionData.drop()
@@ -190,8 +190,8 @@ class Handler(BaseHTTPRequestHandler):
                 ObjectId(flag["perspectiveId"]))
 
             # Call to the community model
-            communityModel = CommunityModel(perspective, flag)
-            insertedId = communityModel.start()
+            # communityModel = CommunityModel(perspective, flag)
+            # insertedId = communityModel.start()
 
             # Remove flag
             daoFlags.deleteFlag(flag)
@@ -258,9 +258,10 @@ def initData():
 
     # default data for Vis tests
     r = "app/prototype-clustering/api_server/data/"
-    json1 = DAO_json(r + "S-emotions-S-artworks (country) agg.json").getData()
+    json1 = DAO_json(r + "S-emotions-E-artworks agg.json").getData()
     json2 = DAO_json(r + "S-emotions-S-artworks (country) agg.json").getData()
-    json3 = DAO_json(r + "S-emotions-S-artworks (iconclass) agg.json").getData()
+    json3 = DAO_json(
+        r + "S-emotions-S-artworks (iconclass) agg.json").getData()
 
     daoC = DAO_db_community()
     daoC.insertFileList(json1)
