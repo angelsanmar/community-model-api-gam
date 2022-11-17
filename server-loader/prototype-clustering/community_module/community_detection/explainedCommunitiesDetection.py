@@ -1,4 +1,4 @@
-# Authors: José Ángel Sánchez Martín, Jose Luis Jorro-Aragoneses
+# Authors: José Ángel Sánchez Martín
 import numpy as np
 import statistics
 
@@ -51,6 +51,7 @@ class ExplainedCommunitiesDetection:
             dict: Dictionary where each user is assigned to a community.
         """
         n_communities = 2
+        maxCommunities = len(self.data)
         finish_search = False
         
 
@@ -89,7 +90,10 @@ class ExplainedCommunitiesDetection:
 
                 finish_search = sum(explainables) == n_communities
             
-            
+            # Each datapoint belongs to a different cluster  
+            if (n_communities == maxCommunities):
+                finish_search = True
+                
             if not finish_search:
                 n_communities += 1
             
@@ -109,6 +113,9 @@ class ExplainedCommunitiesDetection:
         
         return communityDict
     
+    def explainInteractionAttributes(self):
+        return len(self.perspective['interaction_similarity_functions']) > 0
+            
     def simplifyInteractionAttributes(self, community, printing = False):
         """
         Method to obtain the dominant value in the list of interaction attribute values with the other community members.
@@ -124,30 +131,35 @@ class ExplainedCommunitiesDetection:
             Updated dataframe including the dominant value for each user-interaction attribute pair in new columns.
             Column name = community_ + 'interaction attribute label'
         """
-        df = community.copy()
-        for col in self.explanaible_attributes:
-            col2 = col + 'DominantInteractionGenerated'
+        if (self.explainInteractionAttributes() == False):
+            return community
+        else:
+                    
+            df = community.copy()
+            for col in self.explanaible_attributes:
+                col2 = col + 'DominantInteractionGenerated'
 
-            # Get row index of community members
-            communityMemberIndexes = np.nonzero(np.in1d(self.data.index,community.index))[0]
-            communityMemberIndexes = np.nonzero(np.in1d(self.data.index,self.data.index))[0]
-            
-            if (printing):
-                print("col2: " + str(col2))
-                print(df[col2])
-                print("self.data.index: " + str(self.data.index))
-                print("community.index: " + str(community.index))
-                print("community member indexes: " + str(communityMemberIndexes))
-                print("\n\n")
+                # Get row index of community members
+                communityMemberIndexes = np.nonzero(np.in1d(self.data.index,community.index))[0]
+                communityMemberIndexes = np.nonzero(np.in1d(self.data.index,self.data.index))[0]
                 
-            
-            # From the attribute list, consider only the ones between the members of the community
-            # https://stackoverflow.com/questions/23763591/python-selecting-elements-in-a-list-by-indices
-            # Transform attribute list to fit community members
-            df.loc[:, ('community_' + col)] = community.apply(lambda row: self.extractDominantInteractionAttribute(row, col2, communityMemberIndexes), axis = 1)
-            # df.loc[:, ('community_' + col)] = community.apply(lambda row: statistics.mode([row[col2][i] for i in communityMemberIndexes if row[col2][i] != '']), axis = 1)
+                """
+                if (printing):
+                    print("col2: " + str(col2))
+                    print(df[col2])
+                    print("self.data.index: " + str(self.data.index))
+                    print("community.index: " + str(community.index))
+                    print("community member indexes: " + str(communityMemberIndexes))
+                    print("\n\n")
+                """   
+                
+                # From the attribute list, consider only the ones between the members of the community
+                # https://stackoverflow.com/questions/23763591/python-selecting-elements-in-a-list-by-indices
+                # Transform attribute list to fit community members
+                df.loc[:, ('community_' + col)] = community.apply(lambda row: self.extractDominantInteractionAttribute(row, col2, communityMemberIndexes), axis = 1)
+                # df.loc[:, ('community_' + col)] = community.apply(lambda row: statistics.mode([row[col2][i] for i in communityMemberIndexes if row[col2][i] != '']), axis = 1)
 
-        return df
+            return df
     
     def extractDominantInteractionAttribute(self, row, col2, communityMemberIndexes):
         communityMembers_interactionAttributeList = [row[col2][i] for i in communityMemberIndexes if row[col2][i] != '']
@@ -164,25 +176,16 @@ class ExplainedCommunitiesDetection:
         #for col in community.columns.values:
         for col2 in self.explanaible_attributes:
             if col2 != 'community':
-                col = "community_" + col2
+                if (self.explainInteractionAttributes()):
+                    col = "community_" + col2
+                else:
+                    col = col2
                 
                 # https://www.alphacodingskills.com/python/notes/python-operator-bitwise-or-assignment.php
                 # (x |= y) is equivalent to (x = x | y)
                 if answer_binary:
                     explainable_community |= (len(community[col]) * percentage)  <= community[col].sum()
                 else:
-                    """
-                    print("is_explainable")
-                    print("col: " + str(col))
-                    print("aaaa")
-                    print("community: " + str(community))
-                    print("bbgb")
-
-                    print("community[col]" + str(community[col]))
-                    print("sdffd")
-                    print("value_counts: " + str(community[col].value_counts()))
-                    print("dsnskdlfj")
-                    """
                     explainable_community |= (len(community[col]) * percentage) <= community[col].value_counts().max()
         
         return explainable_community
@@ -269,7 +272,10 @@ class ExplainedCommunitiesDetection:
             #for col in community.columns.values:
             for col2 in self.explanaible_attributes:
                 if col2 != 'community':
-                    col = "community_" + col2
+                    if (self.explainInteractionAttributes()):
+                        col = "community_" + col2
+                    else:
+                        col = col2
                    # print(community)
                     #print(len(community[col]))
                     #print('-', col, community[col].value_counts().index[0])
@@ -299,21 +305,22 @@ class ExplainedCommunitiesDetection:
                             
                             
             # Second explanation  
-            #print(explainedCommunityProperties)            
+            #print(explainedCommunityProperties)    
+            """
             community_data['explanation'] = []
             community_data['explanation'].append(explainedCommunityProperties)
+            """
+            
+            community_data['explanation'] = explainedCommunityProperties
+            
+            
             #community_data['explanation'].append(self.secondExplanation(community))
             
         except Exception as e:
             
             print(str(e))
             raise Exception("Exception retrieving community " + str(id_community))
-            
-            """
-            print("exceptions")
-            print(self.complete_data)
-            
-            """
+
             
             return -1
             

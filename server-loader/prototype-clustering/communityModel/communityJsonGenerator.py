@@ -198,15 +198,19 @@ class CommunityJsonGenerator:
     def communityJSON(self):
         self.skipPropertyValue = False
         
-        # Users without community
-        usersWithoutCommunity = []
         
         # Community Data
         self.communityJson['name'] = self.communityDict['perspective']['name']
         self.communityJson['perspectiveId'] = self.communityDict['perspective']['id']
         #self.communityJson['numberOfCommunities'] = self.communityDict['number']
         self.communityJson['communities'] = []
-
+        
+        self.implicitExplanationJSON()
+        
+    def implicitExplanationJSON(self):
+        # Users without community
+        usersWithoutCommunity = []
+        
         for c in range(self.communityDict['number']):
             community_data = self.community_detection.get_community(c, answer_binary=False, percentage=self.communityDict['percentage'])
             
@@ -215,7 +219,7 @@ class CommunityJsonGenerator:
                 # basic information
                 communityDictionary = {}
                 communityDictionary['id'] = self.communityDict['perspective']['id'] + "-" + str(len(self.communityJson['communities']))
-                #communityDictionary['perspectiveId'] = self.communityDict['perspective']['id']
+                communityDictionary['perspectiveId'] = self.communityDict['perspective']['id']
                 communityDictionary['community-type'] = 'implicit'
                 communityDictionary['name'] = 'Community ' + str(len(self.communityJson['communities']))
             
@@ -228,12 +232,13 @@ class CommunityJsonGenerator:
                 communityDictionary['explanations'].append(medoidJson)
             
                 # Implicit community explanation
-                communityPropertiesList = []
-                communityPropertiesDict = {}
+                implicitPropertyExplanations = {}
                 
-                for k in community_data['explanation'][0].keys():
+                for key in community_data['explanation'].keys():
                     #print('\t\t-', k)
                     #communityProperties += '\t\t-' + ' ' + str(k) + ' ' + community_data['properties'][k] + '\n'
+                    
+                    communityPropertiesDict = {}
 
                     if (self.skipPropertyValue):
                         communityPropertiesList.append("'" + str(k) + "'")
@@ -242,68 +247,48 @@ class CommunityJsonGenerator:
                         #communityPropertiesList.append(community_data['explanation'][0][k])
                         
                         
-                        keyValueList = community_data['explanation'][0][k].split("\n")
+                        keyValueList = community_data['explanation'][key].split("\n")
+                        print("keyValueList: " + str(keyValueList))
                         for keyValue in keyValueList:
                             pattern = r'\W+'
                             # empty character " " one or more times
                             pattern = r'\s+'
                             #keyValueSplit = keyValue.split("    ")
                             keyValueSplit = re.split(pattern, keyValue)
-                            key = keyValueSplit[0]
+                            key2 = keyValueSplit[0]
                             value = keyValueSplit[1]
                             value = float(value)
-                            communityPropertiesDict[key] = value
-                            
-                        communityPropertiesList.append(communityPropertiesDict)
-                     
-                
-                #communityProperties = 'Similar dominant emotions while interacting with the following artworks: {'
-                #communityProperties = 'Artworks the community members interacted with: {'
-                
-                """
-                communityProperties = 'Minimum percentage of users with the representative properties: ' + community_data['percentage'] + "; "
-                communityProperties += 'Representative Properties: {'
-                
-                communityProperties += '; '.join(communityPropertiesList)
-                communityProperties += '}'
+                            communityPropertiesDict[key2] = value
+                        
+                        implicitPropertyExplanations[key] = communityPropertiesDict
                 
                 
-                implicitAttributesJson = {'implicit_attributes': communityProperties}
-                """
+                # Implicit attribute (explanation)
+                for implicitAttribute in implicitPropertyExplanations.keys():
                 
+                    explanationJson = {}
+                    explanationJson['explanation_type'] = 'implicit_attributes'
+                    explanationJson['explanation_data'] = {}
+                    
+                    explanationJson['explanation_data']['label'] = 'Percentage distribution of the implicit attribute ' + "(" + implicitAttribute + ")" + ":"
+                    explanationJson['explanation_data']['data'] = implicitPropertyExplanations[implicitAttribute]
+
+                    explanationJson['visible'] = True
+                    
+                    communityDictionary['explanations'].append(explanationJson)
                 
-                explanationJson = {}
-                explanationJson['explanation_type'] = 'implicit_attributes'
-                explanationJson['explanation_data'] = {}
-                
-                interactionAttribute = self.communityDict['perspective']['interaction_similarity_functions'][0]['sim_function']["on_attribute"]['att_name']
-                explanationJson['explanation_data']['label'] = 'Percentage distribution of the implicit attribute ' + "(" + interactionAttribute + ")" + ":"
-                explanationJson['explanation_data']['data'] = communityPropertiesDict
-                
-                explanationJson['visible'] = True
-                
-                communityDictionary['explanations'].append(explanationJson)
-                
-                # Explicit attributes
+
+                # Explicit attributes (explanation)
                 explanationJson = {}
                 explanationJson['explanation_type'] = 'explicit_attributes'
                 explanationJson['explanation_data'] = {}
                 explanationJson['visible'] = True
                 
                 communityDictionary['explanations'].append(explanationJson)
-                
+
                 # Get members
-                #print("community: " + str(c))
                 communityDictionary['users'] = []
                 communityDictionary['users'] = community_data['members']
-                #for user in community_data['members']:
-                #communityDictionary['users'].append(str(user))
-                
-                """
-                df = self.json_df.loc[ self.json_df['id'] == user ]
-                print("df with members")
-                print(df[['id','label','group']])
-                """
                     
                 # add it to communities
                 self.communityJson['communities'].append(communityDictionary)
@@ -320,7 +305,7 @@ class CommunityJsonGenerator:
         if (len(usersWithoutCommunity) > 0):
             communityJson = {}
             communityJson['id'] = self.communityDict['perspective']['id'] + "-" + str(len(self.communityJson['communities'])) + ' (Users without community)'
-            #communityJson['perspectiveId'] = self.communityDict['perspective']['id']
+            communityJson['perspectiveId'] = self.communityDict['perspective']['id']
             communityJson['community-type'] = 'inexistent'
             communityJson['name'] = 'Community ' + str(len(self.communityJson['communities'])) + ' (Users without community)'
             communityJson['explanations'] = []
@@ -330,7 +315,12 @@ class CommunityJsonGenerator:
         
         # Update the group value for the users not belonging to any community
         self.json_df.loc[ self.json_df['id'].isin(usersWithoutCommunity), 'group'] = len(self.communityJson['communities']) - 1
-        
+      
+
+
+
+
+      
             
     def userJSON(self):
         # User Data

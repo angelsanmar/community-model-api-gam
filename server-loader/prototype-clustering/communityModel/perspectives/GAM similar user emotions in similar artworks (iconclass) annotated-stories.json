@@ -11,6 +11,7 @@
     {
       "sim_function": {
         "name": "IconClassSimilarityDAO",
+        "dissimilar": true,
         "params": [
         ],
         "on_attribute": {
