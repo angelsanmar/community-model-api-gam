@@ -8,7 +8,12 @@ module.exports = mongoose => {
                 _id: false,
                 "id": String,
                 "name": String,
-                "explanation": String,
+                "explanations": [{
+                    _id: false,
+                    "explanation_type": String,
+                    "explanation_data": { type: mongoose.Mixed, default: {} },
+                    "visible": Boolean
+                }],
                 "users": [String]
             }],
             users: [{
@@ -21,7 +26,7 @@ module.exports = mongoose => {
                     {
                         "artwork_id": String,
                         "feelings": String,
-                        "extracted_emotions": mongoose.Mixed
+                        "extracted_emotions": { type: mongoose.Mixed, default: {} }
                     }
                 ]
             }],
@@ -41,7 +46,7 @@ module.exports = mongoose => {
                     "image": String
                 }
             ]
-        }
+        }, { minimize: false }
     );
 
     schema.method("toJSON", function () {

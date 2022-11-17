@@ -3,10 +3,15 @@ module.exports = mongoose => {
     {
       id: String,
       name: String,
-      explanation: String,
+      "explanations": [{
+        _id: false,
+        "explanation_type": String,
+        "explanation_data": { type: mongoose.Mixed, default: {} },
+        "visible": Boolean
+      }],
       perspectiveId: String,
       users: [String]
-    }
+    }, { minimize: false }
   );
 
   schema.method("toJSON", function () {
