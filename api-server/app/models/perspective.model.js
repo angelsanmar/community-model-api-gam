@@ -67,6 +67,18 @@ module.exports = mongoose => {
         }
       });
     },
+    dropPerspectives: function (onSuccess, onError) {
+      // console.log(json);
+      Perspectives.deleteMany({}, function (err, res) {
+        if (err) {
+          console.log("dropPerspectives: error");
+          onError(err);
+        }
+        else {
+          onSuccess();
+        }
+      });
+    },
     all: function (onSuccess) {
       let items = [];
       Perspectives.find({}, { projection: { _id: 0 } }, function (error, data) {

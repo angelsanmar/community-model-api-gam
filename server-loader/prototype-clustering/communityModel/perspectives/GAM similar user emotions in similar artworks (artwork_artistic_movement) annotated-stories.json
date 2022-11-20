@@ -16,7 +16,7 @@
         "on_attribute": {
           "att_name": "Artwork_Artistic_Movement",
           "att_type": "String"
-        },
+        }
       }
     }
   ],

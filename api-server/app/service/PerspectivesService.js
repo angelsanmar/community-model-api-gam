@@ -116,14 +116,20 @@ exports.PostPerspective = function (body) {
   try {
     return new Promise(function (resolve, reject) {
       // insert perspective
+      PerspectiveDAO.dropPerspectives(
+        error => {
+          console.error("PostPerspective-PerspectiveDAO.dropPerspectives error: " + error);
+          reject(error);
+        });
+
       PerspectiveDAO.insertPerspective(body,
         data => {
           resolve(data);
         },
         error => {
           console.error("PostPerspective-PerspectiveDAO.insertPerspective error: " + error);
-          reject(error)
-        })
+          reject(error);
+        });
     })
       .then((perspectiveId) => {
         // create flag
