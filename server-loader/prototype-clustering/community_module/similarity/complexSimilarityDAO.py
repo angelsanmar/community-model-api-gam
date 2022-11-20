@@ -52,7 +52,7 @@ class ComplexSimilarityDAO(SimilarityDAO):
         complexDistance = 0
         complexWeight = 0
         for similarity, similarityFunction in self.similarityDict.items():
-            weight = similarityFunction['weight']
+            weight = similarityFunction.get('weight',0.5)
             
             simDistance = similarity.distance(elemA,elemB)
             simDistance = similarity.dissimilarFlag(simDistance)
