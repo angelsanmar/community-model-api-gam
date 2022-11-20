@@ -21,7 +21,6 @@ async function initServer() {
   app.set("apiSpec", apiSpec);
 
 
-
   const cors = require('cors');
   app.use(cors());
 

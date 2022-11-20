@@ -37,7 +37,7 @@ router.get('/file/:fileId', function (req, res, next) {
     //         });
     // }
     // else {
-    CommunitiesVis.getCommunityById(fileId)
+    CommunitiesVis.getById(fileId)
         .then(function (response) {
             res.status(200).send(response);
         })

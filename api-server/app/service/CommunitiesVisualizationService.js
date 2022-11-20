@@ -30,7 +30,7 @@ exports.getIndex = function () {
 * communityId Long ID of community to return
 * returns community
 **/
-exports.getCommunityById = function (id) {
+exports.getById = function (id) {
   return new Promise(function (resolve, reject) {
     let result = {};
     CommunitiesVisualizationDAO.getById(id,
