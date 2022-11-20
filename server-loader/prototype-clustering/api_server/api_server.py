@@ -111,19 +111,6 @@ class Handler(BaseHTTPRequestHandler):
                 ObjectId(perspectiveId))
             print("perspective: ", perspective)
 
-            # retrive interactionData
-            daoInteractionData = DAO_db_interactionDatas()
-            interactionData = daoInteractionData.getInteractionData()["data"]
-
-            # _CM_
-            communityModel = CommunityModel(
-                perspective, dao=daoInteractionData)
-            communityModel.start()
-
-            # Delete previous interaction data
-            # daoInteractionData = DAO_db_interactionDatas()
-            # daoInteractionData.drop()
-
             ok = True
 
             # remove perspective flag (user gets the persepectiveId)
