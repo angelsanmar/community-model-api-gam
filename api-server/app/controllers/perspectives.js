@@ -89,8 +89,9 @@ module.exports.PostPerspective = function PostPerspective(req, res, next) {
   try {
     Perspectives.PostPerspective(req.body)
       .then(function (perspectiveId) {
-        var jobPath = jobManager.createJob(perspectiveId, "postPerspective")
-        res.status(202).send(jobPath);
+        // var jobPath = jobManager.createJob(perspectiveId, "postPerspective")
+        var response = { insertedPerspectiveId: perspectiveId };
+        res.status(202).send(response);
       })
       .catch(function (response) {
         res.status(501);

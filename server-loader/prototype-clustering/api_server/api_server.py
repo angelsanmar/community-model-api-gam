@@ -106,10 +106,10 @@ class Handler(BaseHTTPRequestHandler):
             print("\n\n")
 
             # retrive perspective from db
-            daoPerspective = DAO_db_perspectives()
-            perspective = daoPerspective.getPerspective(
-                ObjectId(perspectiveId))
-            print("perspective: ", perspective)
+            # daoPerspective = DAO_db_perspectives()
+            # perspective = daoPerspective.getPerspective(
+            #     ObjectId(perspectiveId))
+            # print("perspective: ", perspective)
 
             ok = True
 

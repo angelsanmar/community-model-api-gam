@@ -73,7 +73,7 @@ exports.listPerspectiveCommunities = function (perspectiveId) {
     CommunityDAO.all((com) => {
       communities = com;
       if (communities.length == 0) {
-        resolve();
+        resolve(data);
       }
 
       for (var i = 0; i < communities.length; i++) {
@@ -115,40 +115,32 @@ exports.PostPerspective = function (body) {
   // return new Promise(function (resolve, reject) {
   try {
     return new Promise(function (resolve, reject) {
-      // insert perspective
+      // drop old perspective
       PerspectiveDAO.dropPerspectives(
+        () => {
+          resolve();
+        },
         error => {
           console.error("PostPerspective-PerspectiveDAO.dropPerspectives error: " + error);
           reject(error);
         });
 
-      PerspectiveDAO.insertPerspective(body,
-        data => {
-          resolve(data);
-        },
-        error => {
-          console.error("PostPerspective-PerspectiveDAO.insertPerspective error: " + error);
-          reject(error);
-        });
     })
-      .then((perspectiveId) => {
-        // create flag
-        var json = {
-          data: body,
-          perspectiveId: perspectiveId
-        };
-        FlagDAO.insertFlag(json,
-          data => {
-          },
-          error => {
-            console.log("PostPerspective-FlagDAO.insertFlag error: " + error);
-          })
-
-        // post request to api_server with "perspectiveId"
-        return postData.post_data(perspectiveId, "/perspective")
+      .then(() => {
+        return new Promise(function (resolve, reject) {
+          // insert new perspective
+          PerspectiveDAO.insertPerspective(body,
+            data => {
+              resolve(data);
+            },
+            error => {
+              console.error("PostPerspective-PerspectiveDAO.insertPerspective error: " + error);
+              reject(error);
+            });
+        })
       })
       .catch(function (error) {
-        console.error("PerspectiveDAO.insertPerspective.promise1: " + error)
+        console.error("PerspectiveDAO.dropPerspectives.promise: " + error)
       });
 
 

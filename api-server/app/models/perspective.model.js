@@ -59,7 +59,7 @@ module.exports = mongoose => {
       // console.log(json);
       Perspectives.create(data, function (err, res) {
         if (err) {
-          console.log("insertPerspective: error");
+          console.error("insertPerspective: error");
           onError(err);
         }
         else {
@@ -69,10 +69,10 @@ module.exports = mongoose => {
     },
     dropPerspectives: function (onSuccess, onError) {
       // console.log(json);
-      Perspectives.deleteMany({}, function (err, res) {
-        if (err) {
-          console.log("dropPerspectives: error");
-          onError(err);
+      Perspectives.deleteMany({}, function (error, data) {
+        if (error) {
+          console.error("dropPerspectives: error");
+          onError(error);
         }
         else {
           onSuccess();
@@ -97,7 +97,7 @@ module.exports = mongoose => {
           onError(error);
         } else {
           if (data) {
-            console.log(data.toJSON());
+            // console.log(data.toJSON());
             onSuccess(data.toJSON());
           }
           else {
