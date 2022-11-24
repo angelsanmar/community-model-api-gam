@@ -665,11 +665,13 @@ class InteractionSimilarityDAO(SimilarityDAO):
             # Get interaction similarity feature associated to IO A and IO B
             interactionFeatureA = userInteractionA[self.similarityColumn][objectIndexA]
             interactionFeatureB = userInteractionB[self.similarityColumn][objectIndexB]
-
+            
+            """
             print("interactionFeatureA: " + str(interactionFeatureA))
             print("interactionFeatureB: " + str(interactionFeatureB))
                     
             print("\n\n\n")
+            """
             
             
         if (self.similarityFunction['sim_function']['name'] != 'NoInteractionSimilarityDAO'):

@@ -20,9 +20,7 @@
                     "explanation_data": {
                         "label": "Percentage distribution of the implicit attribute (community_itMakesMeThinkAbout.sentiment):",
                         "data": {
-                            "positive": 76.0,
-                            "negative": 20.0,
-                            "neutral": 4.0
+                            "": 100.0
                         }
                     },
                     "visible": true
@@ -32,7 +30,7 @@
                     "explanation_data": {
                         "label": "Percentage distribution of the implicit attribute (community_Iconclass_subjects_curators):",
                         "data": {
-                            "undefined": 100.0
+                            "": 100.0
                         }
                     },
                     "visible": true
@@ -44,31 +42,26 @@
                 }
             ],
             "users": [
-                "3K9AMmqU",
-                "BNtsz8zb",
+                "2JfmseEG",
+                "B3N0HGw4",
                 "BTKF72et",
-                "EEm3fSZd",
-                "HoNIcWZY",
+                "Bf5Sj3ON",
+                "GV4z5ANK",
                 "KQTGApjD",
                 "LW3Klzvx",
-                "LvIeXwcT",
                 "NROrO0c9",
                 "PxrTX0Ln",
                 "R4frFK0J",
                 "Sz5Wx2XD",
                 "W7Wnqxw4",
                 "WYCImqGm",
-                "Y0WXF1LR",
-                "bSuOYLw2",
                 "cBjFhvjx",
                 "e4aM9WL7",
                 "fqybaAk8",
-                "loEoYm9R",
                 "oTT3YRMN",
                 "q2BDj1os",
                 "sXKZ1IUH",
-                "x2AUnHqw",
-                "yjlouq5U"
+                "x2AUnHqw"
             ]
         },
         {
@@ -80,7 +73,7 @@
                 {
                     "explanation_type": "medoid",
                     "explanation_data": {
-                        "id": "N72IRgFy"
+                        "id": "0bAAwK14"
                     },
                     "visible": true
                 },
@@ -89,9 +82,7 @@
                     "explanation_data": {
                         "label": "Percentage distribution of the implicit attribute (community_itMakesMeThinkAbout.sentiment):",
                         "data": {
-                            "positive": 50.0,
-                            "negative": 40.0,
-                            "": 10.0
+                            "": 100.0
                         }
                     },
                     "visible": true
@@ -101,8 +92,7 @@
                     "explanation_data": {
                         "label": "Percentage distribution of the implicit attribute (community_Iconclass_subjects_curators):",
                         "data": {
-                            "undefined": 90.0,
-                            "": 10.0
+                            "": 100.0
                         }
                     },
                     "visible": true
@@ -115,15 +105,20 @@
             ],
             "users": [
                 "0bAAwK14",
-                "2JfmseEG",
+                "3K9AMmqU",
                 "6rK3p7za",
-                "B3N0HGw4",
-                "Bf5Sj3ON",
-                "GV4z5ANK",
+                "BNtsz8zb",
+                "EEm3fSZd",
+                "HoNIcWZY",
+                "LvIeXwcT",
                 "N72IRgFy",
                 "RQ4a2nIG",
                 "WsK2A1ab",
-                "ox8G7avH"
+                "Y0WXF1LR",
+                "bSuOYLw2",
+                "loEoYm9R",
+                "ox8G7avH",
+                "yjlouq5U"
             ]
         }
     ],
@@ -171,7 +166,7 @@
         {
             "id": "2JfmseEG",
             "label": "2JfmseEG",
-            "group": 1,
+            "group": 0,
             "explicit_community": {
                 "RelationshipWithArt": "Ho un forte interesse per l'arte",
                 "RelationshipWithMuseum": "Visito spesso i musei"
@@ -203,7 +198,7 @@
         {
             "id": "3K9AMmqU",
             "label": "3K9AMmqU",
-            "group": 0,
+            "group": 1,
             "explicit_community": {
                 "RelationshipWithArt": "Ho un forte interesse per l'arte",
                 "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
@@ -337,7 +332,7 @@
         {
             "id": "B3N0HGw4",
             "label": "B3N0HGw4",
-            "group": 1,
+            "group": 0,
             "explicit_community": {
                 "RelationshipWithArt": "Ho un forte interesse per l'arte",
                 "RelationshipWithMuseum": "Visito spesso i musei"
@@ -355,7 +350,7 @@
         {
             "id": "BNtsz8zb",
             "label": "BNtsz8zb",
-            "group": 0,
+            "group": 1,
             "explicit_community": {
                 "RelationshipWithArt": "Ho un forte interesse per l'arte",
                 "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
@@ -419,7 +414,7 @@
         {
             "id": "Bf5Sj3ON",
             "label": "Bf5Sj3ON",
-            "group": 1,
+            "group": 0,
             "explicit_community": {
                 "RelationshipWithArt": "L'arte mi interessa poco",
                 "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
@@ -437,7 +432,7 @@
         {
             "id": "EEm3fSZd",
             "label": "EEm3fSZd",
-            "group": 0,
+            "group": 1,
             "explicit_community": {
                 "RelationshipWithArt": "L'arte mi interessa poco",
                 "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
@@ -455,7 +450,7 @@
         {
             "id": "GV4z5ANK",
             "label": "GV4z5ANK",
-            "group": 1,
+            "group": 0,
             "explicit_community": {
                 "RelationshipWithArt": "Ho un forte interesse per l'arte",
                 "RelationshipWithMuseum": "Visito spesso i musei"
@@ -480,7 +475,7 @@
         {
             "id": "HoNIcWZY",
             "label": "HoNIcWZY",
-            "group": 0,
+            "group": 1,
             "explicit_community": {
                 "RelationshipWithArt": "Ho un forte interesse per l'arte",
                 "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
@@ -562,7 +557,7 @@
         {
             "id": "LvIeXwcT",
             "label": "LvIeXwcT",
-            "group": 0,
+            "group": 1,
             "explicit_community": {
                 "RelationshipWithArt": "Ho un forte interesse per l'arte",
                 "RelationshipWithMuseum": "Visito spesso i musei"
@@ -868,7 +863,7 @@
         {
             "id": "Y0WXF1LR",
             "label": "Y0WXF1LR",
-            "group": 0,
+            "group": 1,
             "explicit_community": {
                 "RelationshipWithArt": "L'arte mi interessa poco",
                 "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
@@ -893,7 +888,7 @@
         {
             "id": "bSuOYLw2",
             "label": "bSuOYLw2",
-            "group": 0,
+            "group": 1,
             "explicit_community": {
                 "RelationshipWithArt": "Il mio lavoro riguarda l'arte",
                 "RelationshipWithMuseum": "Visito spesso i musei"
@@ -1175,7 +1170,7 @@
         {
             "id": "loEoYm9R",
             "label": "loEoYm9R",
-            "group": 0,
+            "group": 1,
             "explicit_community": {
                 "RelationshipWithArt": "Ho un forte interesse per l'arte",
                 "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
@@ -1346,7 +1341,7 @@
         {
             "id": "yjlouq5U",
             "label": "yjlouq5U",
-            "group": 0,
+            "group": 1,
             "explicit_community": {
                 "RelationshipWithArt": "Ho un forte interesse per l'arte",
                 "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
@@ -1373,7 +1368,7 @@
         {
             "u1": "0bAAwK14",
             "u2": "2JfmseEG",
-            "value": 0.0
+            "value": -2.0
         },
         {
             "u1": "0bAAwK14",
@@ -1383,17 +1378,17 @@
         {
             "u1": "0bAAwK14",
             "u2": "6rK3p7za",
-            "value": 0.08
+            "value": 1.0
         },
         {
             "u1": "0bAAwK14",
             "u2": "B3N0HGw4",
-            "value": 0.25
+            "value": -2.0
         },
         {
             "u1": "0bAAwK14",
             "u2": "BNtsz8zb",
-            "value": 0.25
+            "value": -1.0
         },
         {
             "u1": "0bAAwK14",
@@ -1418,7 +1413,7 @@
         {
             "u1": "0bAAwK14",
             "u2": "HoNIcWZY",
-            "value": 0.75
+            "value": 1.0
         },
         {
             "u1": "0bAAwK14",
@@ -1428,12 +1423,12 @@
         {
             "u1": "0bAAwK14",
             "u2": "LW3Klzvx",
-            "value": 0.25
+            "value": -1.0
         },
         {
             "u1": "0bAAwK14",
             "u2": "LvIeXwcT",
-            "value": 0.14
+            "value": 1.0
         },
         {
             "u1": "0bAAwK14",
@@ -1458,7 +1453,7 @@
         {
             "u1": "0bAAwK14",
             "u2": "RQ4a2nIG",
-            "value": 0.19
+            "value": 1.0
         },
         {
             "u1": "0bAAwK14",
@@ -1478,7 +1473,7 @@
         {
             "u1": "0bAAwK14",
             "u2": "WsK2A1ab",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "0bAAwK14",
@@ -1488,7 +1483,7 @@
         {
             "u1": "0bAAwK14",
             "u2": "bSuOYLw2",
-            "value": 0.13
+            "value": 0.0
         },
         {
             "u1": "0bAAwK14",
@@ -1498,12 +1493,12 @@
         {
             "u1": "0bAAwK14",
             "u2": "e4aM9WL7",
-            "value": 0.22
+            "value": -1.0
         },
         {
             "u1": "0bAAwK14",
             "u2": "fqybaAk8",
-            "value": 0.25
+            "value": -1.0
         },
         {
             "u1": "0bAAwK14",
@@ -1513,17 +1508,17 @@
         {
             "u1": "0bAAwK14",
             "u2": "oTT3YRMN",
-            "value": 0.25
+            "value": -1.0
         },
         {
             "u1": "0bAAwK14",
             "u2": "ox8G7avH",
-            "value": 0.17
+            "value": 1.0
         },
         {
             "u1": "0bAAwK14",
             "u2": "q2BDj1os",
-            "value": 0.25
+            "value": 1.0
         },
         {
             "u1": "0bAAwK14",
@@ -1538,7 +1533,7 @@
         {
             "u1": "0bAAwK14",
             "u2": "yjlouq5U",
-            "value": 0.25
+            "value": 0.0
         },
         {
             "u1": "2JfmseEG",
@@ -1548,12 +1543,12 @@
         {
             "u1": "2JfmseEG",
             "u2": "6rK3p7za",
-            "value": 0.12
+            "value": 0.0
         },
         {
             "u1": "2JfmseEG",
             "u2": "B3N0HGw4",
-            "value": 0.33
+            "value": 0.0
         },
         {
             "u1": "2JfmseEG",
@@ -1568,7 +1563,7 @@
         {
             "u1": "2JfmseEG",
             "u2": "Bf5Sj3ON",
-            "value": 0.33
+            "value": 1.0
         },
         {
             "u1": "2JfmseEG",
@@ -1578,12 +1573,12 @@
         {
             "u1": "2JfmseEG",
             "u2": "GV4z5ANK",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "2JfmseEG",
             "u2": "HoNIcWZY",
-            "value": 0.0
+            "value": -2.0
         },
         {
             "u1": "2JfmseEG",
@@ -1598,7 +1593,7 @@
         {
             "u1": "2JfmseEG",
             "u2": "LvIeXwcT",
-            "value": 0.07
+            "value": 1.0
         },
         {
             "u1": "2JfmseEG",
@@ -1623,7 +1618,7 @@
         {
             "u1": "2JfmseEG",
             "u2": "RQ4a2nIG",
-            "value": 0.31
+            "value": -3.0
         },
         {
             "u1": "2JfmseEG",
@@ -1633,7 +1628,7 @@
         {
             "u1": "2JfmseEG",
             "u2": "W7Wnqxw4",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "2JfmseEG",
@@ -1643,7 +1638,7 @@
         {
             "u1": "2JfmseEG",
             "u2": "WsK2A1ab",
-            "value": 0.33
+            "value": 1.0
         },
         {
             "u1": "2JfmseEG",
@@ -1653,7 +1648,7 @@
         {
             "u1": "2JfmseEG",
             "u2": "bSuOYLw2",
-            "value": 0.11
+            "value": 0.0
         },
         {
             "u1": "2JfmseEG",
@@ -1663,7 +1658,7 @@
         {
             "u1": "2JfmseEG",
             "u2": "e4aM9WL7",
-            "value": 0.17
+            "value": -4.0
         },
         {
             "u1": "2JfmseEG",
@@ -1683,7 +1678,7 @@
         {
             "u1": "2JfmseEG",
             "u2": "ox8G7avH",
-            "value": 0.08
+            "value": -1.0
         },
         {
             "u1": "2JfmseEG",
@@ -1708,7 +1703,7 @@
         {
             "u1": "3K9AMmqU",
             "u2": "6rK3p7za",
-            "value": 0.12
+            "value": 0.0
         },
         {
             "u1": "3K9AMmqU",
@@ -1718,12 +1713,12 @@
         {
             "u1": "3K9AMmqU",
             "u2": "BNtsz8zb",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "3K9AMmqU",
             "u2": "BTKF72et",
-            "value": 0.25
+            "value": -1.0
         },
         {
             "u1": "3K9AMmqU",
@@ -1733,7 +1728,7 @@
         {
             "u1": "3K9AMmqU",
             "u2": "EEm3fSZd",
-            "value": 0.33
+            "value": 1.0
         },
         {
             "u1": "3K9AMmqU",
@@ -1758,7 +1753,7 @@
         {
             "u1": "3K9AMmqU",
             "u2": "LvIeXwcT",
-            "value": 0.14
+            "value": 1.0
         },
         {
             "u1": "3K9AMmqU",
@@ -1783,7 +1778,7 @@
         {
             "u1": "3K9AMmqU",
             "u2": "RQ4a2nIG",
-            "value": 0.12
+            "value": 0.0
         },
         {
             "u1": "3K9AMmqU",
@@ -1813,7 +1808,7 @@
         {
             "u1": "3K9AMmqU",
             "u2": "bSuOYLw2",
-            "value": 0.13
+            "value": 1.0
         },
         {
             "u1": "3K9AMmqU",
@@ -1823,17 +1818,17 @@
         {
             "u1": "3K9AMmqU",
             "u2": "e4aM9WL7",
-            "value": 0.22
-        },
-        {
-            "u1": "3K9AMmqU",
-            "u2": "fqybaAk8",
             "value": 0.0
         },
         {
             "u1": "3K9AMmqU",
+            "u2": "fqybaAk8",
+            "value": -1.0
+        },
+        {
+            "u1": "3K9AMmqU",
             "u2": "loEoYm9R",
-            "value": 0.17
+            "value": 0.0
         },
         {
             "u1": "3K9AMmqU",
@@ -1868,7 +1863,7 @@
         {
             "u1": "6rK3p7za",
             "u2": "B3N0HGw4",
-            "value": 0.0
+            "value": -10.0
         },
         {
             "u1": "6rK3p7za",
@@ -1878,7 +1873,7 @@
         {
             "u1": "6rK3p7za",
             "u2": "BTKF72et",
-            "value": 0.15
+            "value": 0.0
         },
         {
             "u1": "6rK3p7za",
@@ -1888,17 +1883,17 @@
         {
             "u1": "6rK3p7za",
             "u2": "EEm3fSZd",
-            "value": 0.08
+            "value": 0.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "GV4z5ANK",
-            "value": 0.15
+            "value": 0.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "HoNIcWZY",
-            "value": -7.0
+            "value": 1.0
         },
         {
             "u1": "6rK3p7za",
@@ -1908,12 +1903,12 @@
         {
             "u1": "6rK3p7za",
             "u2": "LW3Klzvx",
-            "value": 0.08
+            "value": -1.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "LvIeXwcT",
-            "value": 0.31
+            "value": 0.0
         },
         {
             "u1": "6rK3p7za",
@@ -1923,7 +1918,7 @@
         {
             "u1": "6rK3p7za",
             "u2": "NROrO0c9",
-            "value": -8.0
+            "value": -4.0
         },
         {
             "u1": "6rK3p7za",
@@ -1938,12 +1933,12 @@
         {
             "u1": "6rK3p7za",
             "u2": "RQ4a2nIG",
-            "value": 0.08
+            "value": 1.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "Sz5Wx2XD",
-            "value": 0.08
+            "value": -1.0
         },
         {
             "u1": "6rK3p7za",
@@ -1958,32 +1953,32 @@
         {
             "u1": "6rK3p7za",
             "u2": "WsK2A1ab",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "Y0WXF1LR",
-            "value": 0.15
+            "value": 0.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "bSuOYLw2",
-            "value": 0.18
+            "value": 0.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "cBjFhvjx",
-            "value": 0.08
+            "value": -5.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "e4aM9WL7",
-            "value": 0.15
+            "value": 0.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "fqybaAk8",
-            "value": 0.12
+            "value": -1.0
         },
         {
             "u1": "6rK3p7za",
@@ -1993,22 +1988,22 @@
         {
             "u1": "6rK3p7za",
             "u2": "oTT3YRMN",
-            "value": 0.0
+            "value": -4.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "ox8G7avH",
-            "value": 0.19
+            "value": 1.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "q2BDj1os",
-            "value": 0.08
+            "value": 1.0
         },
         {
             "u1": "6rK3p7za",
             "u2": "sXKZ1IUH",
-            "value": 0.0
+            "value": -4.0
         },
         {
             "u1": "6rK3p7za",
@@ -2048,7 +2043,7 @@
         {
             "u1": "B3N0HGw4",
             "u2": "HoNIcWZY",
-            "value": 0.25
+            "value": -2.0
         },
         {
             "u1": "B3N0HGw4",
@@ -2063,7 +2058,7 @@
         {
             "u1": "B3N0HGw4",
             "u2": "LvIeXwcT",
-            "value": 0.14
+            "value": -5.0
         },
         {
             "u1": "B3N0HGw4",
@@ -2088,7 +2083,7 @@
         {
             "u1": "B3N0HGw4",
             "u2": "RQ4a2nIG",
-            "value": 0.06
+            "value": -6.0
         },
         {
             "u1": "B3N0HGw4",
@@ -2118,7 +2113,7 @@
         {
             "u1": "B3N0HGw4",
             "u2": "bSuOYLw2",
-            "value": 0.05
+            "value": -16.0
         },
         {
             "u1": "B3N0HGw4",
@@ -2128,7 +2123,7 @@
         {
             "u1": "B3N0HGw4",
             "u2": "e4aM9WL7",
-            "value": 0.11
+            "value": -4.0
         },
         {
             "u1": "B3N0HGw4",
@@ -2173,7 +2168,7 @@
         {
             "u1": "BNtsz8zb",
             "u2": "BTKF72et",
-            "value": 0.0
+            "value": -1.0
         },
         {
             "u1": "BNtsz8zb",
@@ -2183,7 +2178,7 @@
         {
             "u1": "BNtsz8zb",
             "u2": "EEm3fSZd",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "BNtsz8zb",
@@ -2203,12 +2198,12 @@
         {
             "u1": "BNtsz8zb",
             "u2": "LW3Klzvx",
-            "value": 0.5
+            "value": 0.0
         },
         {
             "u1": "BNtsz8zb",
             "u2": "LvIeXwcT",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "BNtsz8zb",
@@ -2263,7 +2258,7 @@
         {
             "u1": "BNtsz8zb",
             "u2": "bSuOYLw2",
-            "value": 0.03
+            "value": 0.0
         },
         {
             "u1": "BNtsz8zb",
@@ -2273,12 +2268,12 @@
         {
             "u1": "BNtsz8zb",
             "u2": "e4aM9WL7",
-            "value": 0.11
+            "value": 0.0
         },
         {
             "u1": "BNtsz8zb",
             "u2": "fqybaAk8",
-            "value": 0.33
+            "value": 0.0
         },
         {
             "u1": "BNtsz8zb",
@@ -2318,12 +2313,12 @@
         {
             "u1": "BTKF72et",
             "u2": "Bf5Sj3ON",
-            "value": 0.25
+            "value": 0.0
         },
         {
             "u1": "BTKF72et",
             "u2": "EEm3fSZd",
-            "value": 0.25
+            "value": -1.0
         },
         {
             "u1": "BTKF72et",
@@ -2343,12 +2338,12 @@
         {
             "u1": "BTKF72et",
             "u2": "LW3Klzvx",
-            "value": 0.12
+            "value": 1.0
         },
         {
             "u1": "BTKF72et",
             "u2": "LvIeXwcT",
-            "value": 0.14
+            "value": 1.0
         },
         {
             "u1": "BTKF72et",
@@ -2373,12 +2368,12 @@
         {
             "u1": "BTKF72et",
             "u2": "RQ4a2nIG",
-            "value": 0.12
+            "value": -3.0
         },
         {
             "u1": "BTKF72et",
             "u2": "Sz5Wx2XD",
-            "value": 0.12
+            "value": 1.0
         },
         {
             "u1": "BTKF72et",
@@ -2393,7 +2388,7 @@
         {
             "u1": "BTKF72et",
             "u2": "WsK2A1ab",
-            "value": 0.25
+            "value": 0.0
         },
         {
             "u1": "BTKF72et",
@@ -2403,7 +2398,7 @@
         {
             "u1": "BTKF72et",
             "u2": "bSuOYLw2",
-            "value": 0.13
+            "value": 0.0
         },
         {
             "u1": "BTKF72et",
@@ -2413,12 +2408,12 @@
         {
             "u1": "BTKF72et",
             "u2": "e4aM9WL7",
-            "value": 0.28
+            "value": 0.0
         },
         {
             "u1": "BTKF72et",
             "u2": "fqybaAk8",
-            "value": 0.12
+            "value": 1.0
         },
         {
             "u1": "BTKF72et",
@@ -2433,7 +2428,7 @@
         {
             "u1": "BTKF72et",
             "u2": "ox8G7avH",
-            "value": 0.17
+            "value": 0.0
         },
         {
             "u1": "BTKF72et",
@@ -2463,7 +2458,7 @@
         {
             "u1": "Bf5Sj3ON",
             "u2": "GV4z5ANK",
-            "value": 0.5
+            "value": 1.0
         },
         {
             "u1": "Bf5Sj3ON",
@@ -2503,12 +2498,12 @@
         {
             "u1": "Bf5Sj3ON",
             "u2": "R4frFK0J",
-            "value": 0.0
+            "value": -1.0
         },
         {
             "u1": "Bf5Sj3ON",
             "u2": "RQ4a2nIG",
-            "value": 0.0
+            "value": -3.0
         },
         {
             "u1": "Bf5Sj3ON",
@@ -2518,7 +2513,7 @@
         {
             "u1": "Bf5Sj3ON",
             "u2": "W7Wnqxw4",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "Bf5Sj3ON",
@@ -2528,7 +2523,7 @@
         {
             "u1": "Bf5Sj3ON",
             "u2": "WsK2A1ab",
-            "value": 0.5
+            "value": 0.0
         },
         {
             "u1": "Bf5Sj3ON",
@@ -2538,7 +2533,7 @@
         {
             "u1": "Bf5Sj3ON",
             "u2": "bSuOYLw2",
-            "value": 0.05
+            "value": -6.0
         },
         {
             "u1": "Bf5Sj3ON",
@@ -2548,7 +2543,7 @@
         {
             "u1": "Bf5Sj3ON",
             "u2": "e4aM9WL7",
-            "value": 0.0
+            "value": -6.0
         },
         {
             "u1": "Bf5Sj3ON",
@@ -2568,7 +2563,7 @@
         {
             "u1": "Bf5Sj3ON",
             "u2": "ox8G7avH",
-            "value": 0.08
+            "value": -1.0
         },
         {
             "u1": "Bf5Sj3ON",
@@ -2613,7 +2608,7 @@
         {
             "u1": "EEm3fSZd",
             "u2": "LvIeXwcT",
-            "value": 0.14
+            "value": 1.0
         },
         {
             "u1": "EEm3fSZd",
@@ -2668,7 +2663,7 @@
         {
             "u1": "EEm3fSZd",
             "u2": "bSuOYLw2",
-            "value": 0.08
+            "value": 0.0
         },
         {
             "u1": "EEm3fSZd",
@@ -2678,7 +2673,7 @@
         {
             "u1": "EEm3fSZd",
             "u2": "e4aM9WL7",
-            "value": 0.22
+            "value": 0.0
         },
         {
             "u1": "EEm3fSZd",
@@ -2738,7 +2733,7 @@
         {
             "u1": "GV4z5ANK",
             "u2": "LvIeXwcT",
-            "value": 0.14
+            "value": 1.0
         },
         {
             "u1": "GV4z5ANK",
@@ -2758,12 +2753,12 @@
         {
             "u1": "GV4z5ANK",
             "u2": "R4frFK0J",
-            "value": 0.33
+            "value": -1.0
         },
         {
             "u1": "GV4z5ANK",
             "u2": "RQ4a2nIG",
-            "value": 0.25
+            "value": -3.0
         },
         {
             "u1": "GV4z5ANK",
@@ -2773,7 +2768,7 @@
         {
             "u1": "GV4z5ANK",
             "u2": "W7Wnqxw4",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "GV4z5ANK",
@@ -2783,7 +2778,7 @@
         {
             "u1": "GV4z5ANK",
             "u2": "WsK2A1ab",
-            "value": 0.5
+            "value": 1.0
         },
         {
             "u1": "GV4z5ANK",
@@ -2793,7 +2788,7 @@
         {
             "u1": "GV4z5ANK",
             "u2": "bSuOYLw2",
-            "value": 0.08
+            "value": 0.0
         },
         {
             "u1": "GV4z5ANK",
@@ -2803,7 +2798,7 @@
         {
             "u1": "GV4z5ANK",
             "u2": "e4aM9WL7",
-            "value": 0.11
+            "value": -2.0
         },
         {
             "u1": "GV4z5ANK",
@@ -2823,7 +2818,7 @@
         {
             "u1": "GV4z5ANK",
             "u2": "ox8G7avH",
-            "value": 0.25
+            "value": -1.0
         },
         {
             "u1": "GV4z5ANK",
@@ -2843,7 +2838,7 @@
         {
             "u1": "GV4z5ANK",
             "u2": "yjlouq5U",
-            "value": 0.5
+            "value": 0.0
         },
         {
             "u1": "HoNIcWZY",
@@ -2858,7 +2853,7 @@
         {
             "u1": "HoNIcWZY",
             "u2": "LvIeXwcT",
-            "value": 0.14
+            "value": 1.0
         },
         {
             "u1": "HoNIcWZY",
@@ -2868,7 +2863,7 @@
         {
             "u1": "HoNIcWZY",
             "u2": "NROrO0c9",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "HoNIcWZY",
@@ -2878,12 +2873,12 @@
         {
             "u1": "HoNIcWZY",
             "u2": "R4frFK0J",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "HoNIcWZY",
             "u2": "RQ4a2nIG",
-            "value": 0.19
+            "value": 1.0
         },
         {
             "u1": "HoNIcWZY",
@@ -2903,7 +2898,7 @@
         {
             "u1": "HoNIcWZY",
             "u2": "WsK2A1ab",
-            "value": 0.0
+            "value": -1.0
         },
         {
             "u1": "HoNIcWZY",
@@ -2913,7 +2908,7 @@
         {
             "u1": "HoNIcWZY",
             "u2": "bSuOYLw2",
-            "value": 0.16
+            "value": 0.0
         },
         {
             "u1": "HoNIcWZY",
@@ -2923,7 +2918,7 @@
         {
             "u1": "HoNIcWZY",
             "u2": "e4aM9WL7",
-            "value": 0.22
+            "value": -2.0
         },
         {
             "u1": "HoNIcWZY",
@@ -2943,12 +2938,12 @@
         {
             "u1": "HoNIcWZY",
             "u2": "ox8G7avH",
-            "value": 0.17
+            "value": 1.0
         },
         {
             "u1": "HoNIcWZY",
             "u2": "q2BDj1os",
-            "value": 0.25
+            "value": -1.0
         },
         {
             "u1": "HoNIcWZY",
@@ -2958,12 +2953,12 @@
         {
             "u1": "HoNIcWZY",
             "u2": "x2AUnHqw",
-            "value": 0.12
+            "value": 1.0
         },
         {
             "u1": "HoNIcWZY",
             "u2": "yjlouq5U",
-            "value": 0.25
+            "value": 0.0
         },
         {
             "u1": "KQTGApjD",
@@ -2993,7 +2988,7 @@
         {
             "u1": "KQTGApjD",
             "u2": "R4frFK0J",
-            "value": 0.33
+            "value": -1.0
         },
         {
             "u1": "KQTGApjD",
@@ -3028,7 +3023,7 @@
         {
             "u1": "KQTGApjD",
             "u2": "bSuOYLw2",
-            "value": 0.0
+            "value": -14.0
         },
         {
             "u1": "KQTGApjD",
@@ -3038,7 +3033,7 @@
         {
             "u1": "KQTGApjD",
             "u2": "e4aM9WL7",
-            "value": 0.11
+            "value": -6.0
         },
         {
             "u1": "KQTGApjD",
@@ -3078,7 +3073,7 @@
         {
             "u1": "KQTGApjD",
             "u2": "yjlouq5U",
-            "value": 0.5
+            "value": 0.0
         },
         {
             "u1": "LW3Klzvx",
@@ -3138,22 +3133,22 @@
         {
             "u1": "LW3Klzvx",
             "u2": "bSuOYLw2",
-            "value": 0.11
+            "value": -1.0
         },
         {
             "u1": "LW3Klzvx",
             "u2": "cBjFhvjx",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "LW3Klzvx",
             "u2": "e4aM9WL7",
-            "value": 0.0
+            "value": -1.0
         },
         {
             "u1": "LW3Klzvx",
             "u2": "fqybaAk8",
-            "value": 0.67
+            "value": 1.0
         },
         {
             "u1": "LW3Klzvx",
@@ -3168,7 +3163,7 @@
         {
             "u1": "LW3Klzvx",
             "u2": "ox8G7avH",
-            "value": 0.17
+            "value": 0.0
         },
         {
             "u1": "LW3Klzvx",
@@ -3213,7 +3208,7 @@
         {
             "u1": "LvIeXwcT",
             "u2": "RQ4a2nIG",
-            "value": 0.06
+            "value": -6.0
         },
         {
             "u1": "LvIeXwcT",
@@ -3228,7 +3223,7 @@
         {
             "u1": "LvIeXwcT",
             "u2": "WYCImqGm",
-            "value": 0.14
+            "value": -2.0
         },
         {
             "u1": "LvIeXwcT",
@@ -3238,22 +3233,22 @@
         {
             "u1": "LvIeXwcT",
             "u2": "Y0WXF1LR",
-            "value": 0.14
+            "value": 1.0
         },
         {
             "u1": "LvIeXwcT",
             "u2": "bSuOYLw2",
-            "value": 0.24
+            "value": 0.0
         },
         {
             "u1": "LvIeXwcT",
             "u2": "cBjFhvjx",
-            "value": 0.14
+            "value": 0.0
         },
         {
             "u1": "LvIeXwcT",
             "u2": "e4aM9WL7",
-            "value": 0.33
+            "value": 1.0
         },
         {
             "u1": "LvIeXwcT",
@@ -3273,7 +3268,7 @@
         {
             "u1": "LvIeXwcT",
             "u2": "ox8G7avH",
-            "value": 0.07
+            "value": 1.0
         },
         {
             "u1": "LvIeXwcT",
@@ -3288,12 +3283,12 @@
         {
             "u1": "LvIeXwcT",
             "u2": "x2AUnHqw",
-            "value": 0.14
+            "value": -4.0
         },
         {
             "u1": "LvIeXwcT",
             "u2": "yjlouq5U",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "N72IRgFy",
@@ -3403,7 +3398,7 @@
         {
             "u1": "NROrO0c9",
             "u2": "R4frFK0J",
-            "value": 0.67
+            "value": 1.0
         },
         {
             "u1": "NROrO0c9",
@@ -3438,7 +3433,7 @@
         {
             "u1": "NROrO0c9",
             "u2": "bSuOYLw2",
-            "value": 0.13
+            "value": -10.0
         },
         {
             "u1": "NROrO0c9",
@@ -3453,7 +3448,7 @@
         {
             "u1": "NROrO0c9",
             "u2": "fqybaAk8",
-            "value": 0.33
+            "value": 0.0
         },
         {
             "u1": "NROrO0c9",
@@ -3473,17 +3468,17 @@
         {
             "u1": "NROrO0c9",
             "u2": "q2BDj1os",
-            "value": 0.33
+            "value": 0.0
         },
         {
             "u1": "NROrO0c9",
             "u2": "sXKZ1IUH",
-            "value": 0.33
+            "value": 0.0
         },
         {
             "u1": "NROrO0c9",
             "u2": "x2AUnHqw",
-            "value": 0.5
+            "value": 1.0
         },
         {
             "u1": "NROrO0c9",
@@ -3493,7 +3488,7 @@
         {
             "u1": "PxrTX0Ln",
             "u2": "R4frFK0J",
-            "value": 0.33
+            "value": 0.0
         },
         {
             "u1": "PxrTX0Ln",
@@ -3523,7 +3518,7 @@
         {
             "u1": "PxrTX0Ln",
             "u2": "Y0WXF1LR",
-            "value": 0.5
+            "value": 0.0
         },
         {
             "u1": "PxrTX0Ln",
@@ -3553,7 +3548,7 @@
         {
             "u1": "PxrTX0Ln",
             "u2": "oTT3YRMN",
-            "value": 0.25
+            "value": 1.0
         },
         {
             "u1": "PxrTX0Ln",
@@ -3593,7 +3588,7 @@
         {
             "u1": "R4frFK0J",
             "u2": "W7Wnqxw4",
-            "value": 0.33
+            "value": -1.0
         },
         {
             "u1": "R4frFK0J",
@@ -3603,17 +3598,17 @@
         {
             "u1": "R4frFK0J",
             "u2": "WsK2A1ab",
-            "value": 0.0
+            "value": -1.0
         },
         {
             "u1": "R4frFK0J",
             "u2": "Y0WXF1LR",
-            "value": 0.33
+            "value": 0.0
         },
         {
             "u1": "R4frFK0J",
             "u2": "bSuOYLw2",
-            "value": 0.03
+            "value": -12.0
         },
         {
             "u1": "R4frFK0J",
@@ -3623,7 +3618,7 @@
         {
             "u1": "R4frFK0J",
             "u2": "e4aM9WL7",
-            "value": 0.11
+            "value": -6.0
         },
         {
             "u1": "R4frFK0J",
@@ -3638,7 +3633,7 @@
         {
             "u1": "R4frFK0J",
             "u2": "oTT3YRMN",
-            "value": 0.17
+            "value": 0.0
         },
         {
             "u1": "R4frFK0J",
@@ -3658,12 +3653,12 @@
         {
             "u1": "R4frFK0J",
             "u2": "x2AUnHqw",
-            "value": 0.17
+            "value": 1.0
         },
         {
             "u1": "R4frFK0J",
             "u2": "yjlouq5U",
-            "value": 0.17
+            "value": -1.0
         },
         {
             "u1": "RQ4a2nIG",
@@ -3673,7 +3668,7 @@
         {
             "u1": "RQ4a2nIG",
             "u2": "W7Wnqxw4",
-            "value": 0.25
+            "value": -3.0
         },
         {
             "u1": "RQ4a2nIG",
@@ -3683,7 +3678,7 @@
         {
             "u1": "RQ4a2nIG",
             "u2": "WsK2A1ab",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "RQ4a2nIG",
@@ -3693,7 +3688,7 @@
         {
             "u1": "RQ4a2nIG",
             "u2": "bSuOYLw2",
-            "value": 0.24
+            "value": 1.0
         },
         {
             "u1": "RQ4a2nIG",
@@ -3703,7 +3698,7 @@
         {
             "u1": "RQ4a2nIG",
             "u2": "e4aM9WL7",
-            "value": 0.22
+            "value": -4.0
         },
         {
             "u1": "RQ4a2nIG",
@@ -3713,7 +3708,7 @@
         {
             "u1": "RQ4a2nIG",
             "u2": "loEoYm9R",
-            "value": 0.06
+            "value": 0.0
         },
         {
             "u1": "RQ4a2nIG",
@@ -3723,12 +3718,12 @@
         {
             "u1": "RQ4a2nIG",
             "u2": "ox8G7avH",
-            "value": 0.25
+            "value": 1.0
         },
         {
             "u1": "RQ4a2nIG",
             "u2": "q2BDj1os",
-            "value": 0.12
+            "value": 1.0
         },
         {
             "u1": "RQ4a2nIG",
@@ -3768,7 +3763,7 @@
         {
             "u1": "Sz5Wx2XD",
             "u2": "bSuOYLw2",
-            "value": 0.05
+            "value": -3.0
         },
         {
             "u1": "Sz5Wx2XD",
@@ -3783,7 +3778,7 @@
         {
             "u1": "Sz5Wx2XD",
             "u2": "fqybaAk8",
-            "value": 0.33
+            "value": 1.0
         },
         {
             "u1": "Sz5Wx2XD",
@@ -3793,12 +3788,12 @@
         {
             "u1": "Sz5Wx2XD",
             "u2": "oTT3YRMN",
-            "value": 0.5
+            "value": 0.0
         },
         {
             "u1": "Sz5Wx2XD",
             "u2": "ox8G7avH",
-            "value": 0.17
+            "value": 0.0
         },
         {
             "u1": "Sz5Wx2XD",
@@ -3838,7 +3833,7 @@
         {
             "u1": "W7Wnqxw4",
             "u2": "bSuOYLw2",
-            "value": 0.05
+            "value": -6.0
         },
         {
             "u1": "W7Wnqxw4",
@@ -3848,7 +3843,7 @@
         {
             "u1": "W7Wnqxw4",
             "u2": "e4aM9WL7",
-            "value": 0.11
+            "value": -6.0
         },
         {
             "u1": "W7Wnqxw4",
@@ -3868,7 +3863,7 @@
         {
             "u1": "W7Wnqxw4",
             "u2": "ox8G7avH",
-            "value": 0.08
+            "value": -1.0
         },
         {
             "u1": "W7Wnqxw4",
@@ -3888,7 +3883,7 @@
         {
             "u1": "W7Wnqxw4",
             "u2": "yjlouq5U",
-            "value": 0.5
+            "value": 0.0
         },
         {
             "u1": "WYCImqGm",
@@ -3903,17 +3898,17 @@
         {
             "u1": "WYCImqGm",
             "u2": "bSuOYLw2",
-            "value": 0.05
+            "value": -7.0
         },
         {
             "u1": "WYCImqGm",
             "u2": "cBjFhvjx",
-            "value": 0.33
+            "value": 0.0
         },
         {
             "u1": "WYCImqGm",
             "u2": "e4aM9WL7",
-            "value": 0.11
+            "value": 1.0
         },
         {
             "u1": "WYCImqGm",
@@ -3963,7 +3958,7 @@
         {
             "u1": "WsK2A1ab",
             "u2": "bSuOYLw2",
-            "value": 0.05
+            "value": -6.0
         },
         {
             "u1": "WsK2A1ab",
@@ -3973,7 +3968,7 @@
         {
             "u1": "WsK2A1ab",
             "u2": "e4aM9WL7",
-            "value": 0.0
+            "value": -6.0
         },
         {
             "u1": "WsK2A1ab",
@@ -3993,12 +3988,12 @@
         {
             "u1": "WsK2A1ab",
             "u2": "ox8G7avH",
-            "value": 0.25
+            "value": 1.0
         },
         {
             "u1": "WsK2A1ab",
             "u2": "q2BDj1os",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "WsK2A1ab",
@@ -4018,7 +4013,7 @@
         {
             "u1": "Y0WXF1LR",
             "u2": "bSuOYLw2",
-            "value": 0.03
+            "value": 0.0
         },
         {
             "u1": "Y0WXF1LR",
@@ -4028,7 +4023,7 @@
         {
             "u1": "Y0WXF1LR",
             "u2": "e4aM9WL7",
-            "value": 0.0
+            "value": -2.0
         },
         {
             "u1": "Y0WXF1LR",
@@ -4043,12 +4038,12 @@
         {
             "u1": "Y0WXF1LR",
             "u2": "oTT3YRMN",
-            "value": 0.25
+            "value": 0.0
         },
         {
             "u1": "Y0WXF1LR",
             "u2": "ox8G7avH",
-            "value": 0.17
+            "value": -2.0
         },
         {
             "u1": "Y0WXF1LR",
@@ -4068,27 +4063,27 @@
         {
             "u1": "Y0WXF1LR",
             "u2": "yjlouq5U",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "bSuOYLw2",
             "u2": "cBjFhvjx",
-            "value": 0.11
+            "value": -1.0
         },
         {
             "u1": "bSuOYLw2",
             "u2": "e4aM9WL7",
-            "value": 0.13
+            "value": 0.0
         },
         {
             "u1": "bSuOYLw2",
             "u2": "fqybaAk8",
-            "value": 0.16
+            "value": -3.0
         },
         {
             "u1": "bSuOYLw2",
             "u2": "loEoYm9R",
-            "value": 0.05
+            "value": 1.0
         },
         {
             "u1": "bSuOYLw2",
@@ -4098,32 +4093,32 @@
         {
             "u1": "bSuOYLw2",
             "u2": "ox8G7avH",
-            "value": 0.24
+            "value": 0.0
         },
         {
             "u1": "bSuOYLw2",
             "u2": "q2BDj1os",
-            "value": 0.11
+            "value": -10.0
         },
         {
             "u1": "bSuOYLw2",
             "u2": "sXKZ1IUH",
-            "value": 0.11
+            "value": -10.0
         },
         {
             "u1": "bSuOYLw2",
             "u2": "x2AUnHqw",
-            "value": 0.08
+            "value": -12.0
         },
         {
             "u1": "bSuOYLw2",
             "u2": "yjlouq5U",
-            "value": 0.11
+            "value": 0.0
         },
         {
             "u1": "cBjFhvjx",
             "u2": "e4aM9WL7",
-            "value": 0.11
+            "value": 1.0
         },
         {
             "u1": "cBjFhvjx",
@@ -4168,7 +4163,7 @@
         {
             "u1": "e4aM9WL7",
             "u2": "fqybaAk8",
-            "value": 0.11
+            "value": -1.0
         },
         {
             "u1": "e4aM9WL7",
@@ -4183,7 +4178,7 @@
         {
             "u1": "e4aM9WL7",
             "u2": "ox8G7avH",
-            "value": 0.17
+            "value": -2.0
         },
         {
             "u1": "e4aM9WL7",
@@ -4203,7 +4198,7 @@
         {
             "u1": "e4aM9WL7",
             "u2": "yjlouq5U",
-            "value": 0.17
+            "value": -2.0
         },
         {
             "u1": "fqybaAk8",
@@ -4213,12 +4208,12 @@
         {
             "u1": "fqybaAk8",
             "u2": "oTT3YRMN",
-            "value": 0.67
+            "value": 1.0
         },
         {
             "u1": "fqybaAk8",
             "u2": "ox8G7avH",
-            "value": 0.17
+            "value": 0.0
         },
         {
             "u1": "fqybaAk8",
@@ -4233,7 +4228,7 @@
         {
             "u1": "fqybaAk8",
             "u2": "x2AUnHqw",
-            "value": 0.17
+            "value": 0.0
         },
         {
             "u1": "fqybaAk8",
@@ -4298,7 +4293,7 @@
         {
             "u1": "ox8G7avH",
             "u2": "q2BDj1os",
-            "value": 0.0
+            "value": 1.0
         },
         {
             "u1": "ox8G7avH",
@@ -4313,12 +4308,12 @@
         {
             "u1": "ox8G7avH",
             "u2": "yjlouq5U",
-            "value": 0.17
+            "value": -2.0
         },
         {
             "u1": "q2BDj1os",
             "u2": "sXKZ1IUH",
-            "value": 0.5
+            "value": 1.0
         },
         {
             "u1": "q2BDj1os",

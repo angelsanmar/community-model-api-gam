@@ -151,7 +151,7 @@ class ExplainedCommunitiesDetection:
                 communityMemberIndexes = np.nonzero(np.in1d(self.data.index,community.index))[0]
                 communityMemberIndexes = np.nonzero(np.in1d(self.data.index,self.data.index))[0]
                 
-                
+                """
                 if (printing):
                     print("col2: " + str(col2))
                     print(df[col2])
@@ -159,7 +159,7 @@ class ExplainedCommunitiesDetection:
                     print("community.index: " + str(community.index))
                     print("community member indexes: " + str(communityMemberIndexes))
                     print("\n\n")
-                """
+                
                 """   
                 
                 # From the attribute list, consider only the ones between the members of the community
@@ -174,9 +174,11 @@ class ExplainedCommunitiesDetection:
         communityMembers_interactionAttributeList = [row[col2][i] for i in communityMemberIndexes if row[col2][i] != '']
         if (len(communityMembers_interactionAttributeList) > 0):
             #if (type(communityMembers_interactionAttributeList[0] == 
+            """
             print("extract dominant interaction attribute")
             print(type(communityMembers_interactionAttributeList[0]))
             print("\n")
+            """
             return statistics.mode(communityMembers_interactionAttributeList)
         else:
             return ''
