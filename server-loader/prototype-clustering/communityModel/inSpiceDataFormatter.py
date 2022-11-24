@@ -41,7 +41,7 @@ class InSpiceDataFormatter():
         # Get itMakesMeFeel attribute which is needed for the visualization
         df2_b = pd.json_normalize(df2_a["multimediaData"], max_level = 0)
         df2_b = pd.json_normalize(df2_b["answersToTemplates"], max_level = 0)
-        df2_b = df2_b.rename(columns = {'itMakesMeFeel':'ItMakesMeFeel'})
+        df2_b = df2_b.rename(columns = {'itMakesMeFeel':'itMakesMeFeel'})
 
         # Interactions user-artwork dataframe
         df2 = pd.concat([df2_a,df2_b], axis=1, join='inner')
@@ -91,7 +91,7 @@ class InSpiceDataFormatter():
         user_interactions = pd.merge(df6, users, on='userName', how='left')
         
         # Set default values
-        values = {'relationship_with_arts': 'unknown', 'relationship_with_museums': 'unknown'}
+        values = {'RelationshipWithArt': 'unknown', 'RelationshipWithMuseum': 'unknown'}
         user_interactions = user_interactions.fillna(value=values)
         
         print("end dao_db_interaction data")

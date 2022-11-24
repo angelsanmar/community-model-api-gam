@@ -35,8 +35,20 @@ from communityModel.communityModel import CommunityModel
 #--------------------------------------------------------------------------------------------------------------------------
 
 class CommunityModelNotebook(CommunityModel):
-        
+    
     def clustering(self, exportFile = "clustering.json"):
+        """
+        Performs clustering using the distance matrix and the algorithm specified by the perspective object.
+
+        Parameters
+        ----------
+            percentageExplainability: minimum percentage of the most frequent value among 1+ main similarity features.
+            
+        """
+        jsonCommunity = self.performClustering(exportFile)
+        return 0
+        
+    def clustering2(self, exportFile = "clustering.json"):
         """
         Performs clustering using the distance matrix and the algorithm specified by the perspective object.
 

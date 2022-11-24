@@ -11,7 +11,6 @@
     {
       "sim_function": {
         "name": "IconClassSimilarityDAO",
-        "dissimilar": true,
         "params": [
         ],
         "on_attribute": {
@@ -24,11 +23,11 @@
   ],
   "user_attributes": [
     {
-        "att_name": "relationship_with_arts",
+        "att_name": "RelationshipWithArt",
         "att_type": "String"
     },
     {
-        "att_name": "relationship_with_museums",
+        "att_name": "RelationshipWithMuseum",
         "att_type": "String"
     }
   ],

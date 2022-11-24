@@ -41,6 +41,10 @@ class CommunityJsonGenerator:
         self.io_df.rename(columns = {'Year':'year'}, inplace = True)
         self.io_df.rename(columns = {'Link':'image'}, inplace = True)
         
+        # Add _id to GAM_CATALOGUE_PLUS
+        #self.io_df['_id'] = self.io_df['@id'].astype(str)
+        #self.io_df.rename(columns = {'_id':'id'}, inplace = True)
+        
         
     
     def generateDict(self, element):
@@ -128,7 +132,7 @@ class CommunityJsonGenerator:
         IO_columns.extend(IO_similarityFeatures)
         print("IO_columns: " + str(IO_columns))
             
-        user_interactions = self.json_df.apply(lambda row: list(map(self.generateDict, list(zip(row[IO_id], row[IO_similarityFeatures[0]], row['ItMakesMeFeel'])))), axis = 1)
+        user_interactions = self.json_df.apply(lambda row: list(map(self.generateDict, list(zip(row[IO_id], row[IO_similarityFeatures[0]], row['itMakesMeFeel'])))), axis = 1)
         #user_interactions = self.json_df.apply(lambda row: list(map(self.generateDict, list(zip(row[IO_id], row['emotions'])))), axis = 1)
         
         self.json_df['interactions'] = user_interactions
@@ -248,16 +252,35 @@ class CommunityJsonGenerator:
                         
                         
                         keyValueList = community_data['explanation'][key].split("\n")
-                        print("keyValueList: " + str(keyValueList))
+                        #print("keyValueList: " + str(keyValueList))
                         for keyValue in keyValueList:
                             pattern = r'\W+'
                             # empty character " " one or more times
                             pattern = r'\s+'
+                            
+                            """
                             #keyValueSplit = keyValue.split("    ")
-                            keyValueSplit = re.split(pattern, keyValue)
+                            #keyValueSplit = re.split(pattern, keyValue)
+                            keyValueSplit = keyValue.rsplit(" ",1)
+                            print("keyValueList 2: " + str(keyValueSplit))
+                            
                             key2 = keyValueSplit[0]
-                            value = keyValueSplit[1]
+                            key2 = re.split(pattern, key2, 2)
+                            print("key2 : " + str(key2))
+                            key2 = key2[0]
+                            """
+                            
+                            keyValueSplit = re.split(pattern, keyValue)
+                            indexes = range(len(keyValueSplit) - 1)
+                            keySublist = [keyValueSplit[index] for index in indexes]
+                            key2 = " ".join(keySublist)
+                            
+                            
+                            #key2 = keyValueSplit[0]
+                            value = keyValueSplit[-1]
                             value = float(value)
+                            #print("keyValueSplit: " + str(keyValueSplit))
+                            #print("key2:" + str(key2) + "  ;  " + "value: " + str(value))
                             communityPropertiesDict[key2] = value
                         
                         implicitPropertyExplanations[key] = communityPropertiesDict
@@ -360,7 +383,10 @@ class CommunityJsonGenerator:
         interactedIO = list(map(str, interactedIO))
         
         # @id is for ints
-        io_df2 = self.io_df[self.io_df['id'].isin(interactedIO)]
+        aux_df = self.io_df.copy()
+        aux_df['@id'] = self.io_df['@id'].astype(str)
+        
+        io_df2 = aux_df[aux_df['@id'].isin(interactedIO)]
         self.communityJson['artworks'] = io_df2.to_dict('records')
         
 

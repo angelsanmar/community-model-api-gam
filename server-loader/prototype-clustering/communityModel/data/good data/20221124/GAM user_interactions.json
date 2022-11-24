@@ -5,8 +5,8 @@
         "TimeStamps": "2022-01-10 17:47:27",
         "Gender": "Maschio",
         "Age": "20-30 anni",
-        "relationship_with_arts": "Ho un forte interesse per l'arte",
-        "relationship_with_museums": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
         "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122458",
@@ -32,7 +32,7 @@
         "sessionName": [
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "forza in potenza"
         ],
         "ItMakesMeThinkAbout": [
@@ -119,8 +119,8 @@
         "TimeStamps": "2022-01-10 17:21:17",
         "Gender": "Femmina",
         "Age": "pi\u00f9 di 60",
-        "relationship_with_arts": "Il mio lavoro riguarda l'arte",
-        "relationship_with_museums": "Visito spesso i musei",
+        "RelationshipWithArt": "Il mio lavoro riguarda l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
         "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122457",
@@ -146,7 +146,7 @@
         "sessionName": [
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "solitudine"
         ],
         "ItMakesMeThinkAbout": [
@@ -233,8 +233,8 @@
         "TimeStamps": "2022-01-10 11:21:12",
         "Gender": "Preferisco non specificarlo",
         "Age": "Preferisco non specificarlo",
-        "relationship_with_arts": "Non provo nessun interesse per l'arte",
-        "relationship_with_museums": "Visito raramente musei e mostre",
+        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
         "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122457",
@@ -310,7 +310,7 @@
             "notte",
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "quando giocavo con la nonna e il nonno a scacchi;.",
             "ansia",
             "al settimo cielo",
@@ -727,8 +727,8 @@
         "TimeStamps": "2022-01-10 17:20:01",
         "Gender": "Femmina",
         "Age": "20-30 anni",
-        "relationship_with_arts": "Ho un forte interesse per l'arte",
-        "relationship_with_museums": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
         "content_breaking": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122457",
@@ -754,7 +754,7 @@
         "sessionName": [
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "ritorno a casa"
         ],
         "ItMakesMeThinkAbout": [
@@ -839,8 +839,8 @@
         "TimeStamps": "2022-01-10 14:56:53",
         "Gender": "Maschio",
         "Age": "pi\u00f9 di 60",
-        "relationship_with_arts": "L'arte mi interessa poco",
-        "relationship_with_museums": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
         "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122456",
@@ -866,7 +866,7 @@
         "sessionName": [
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "guerra"
         ],
         "ItMakesMeThinkAbout": [
@@ -949,8 +949,8 @@
         "TimeStamps": "2022-01-10 16:58:18",
         "Gender": "Maschio",
         "Age": "20-30 anni",
-        "relationship_with_arts": "Ho un forte interesse per l'arte",
-        "relationship_with_museums": "Visito spesso i musei",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
         "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122455",
@@ -981,7 +981,7 @@
             "notte",
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "Vecchiaia",
             "Vecchiaia"
         ],
@@ -1101,8 +1101,8 @@
         "TimeStamps": "2022-01-10 15:54:48",
         "Gender": "Femmina",
         "Age": "20-30 anni",
-        "relationship_with_arts": "Ho un forte interesse per l'arte",
-        "relationship_with_museums": "Visito spesso i musei",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
         "content_breaking": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122455",
@@ -1128,7 +1128,7 @@
         "sessionName": [
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "il Mondo che mi circonda fatto di alti e bassi"
         ],
         "ItMakesMeThinkAbout": [
@@ -1213,8 +1213,8 @@
         "TimeStamps": "2022-01-10 17:07:46",
         "Gender": "Femmina",
         "Age": "20-30 anni",
-        "relationship_with_arts": "Ho un forte interesse per l'arte",
-        "relationship_with_museums": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
         "content_breaking": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122454",
@@ -1240,7 +1240,7 @@
         "sessionName": [
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "rilassata"
         ],
         "ItMakesMeThinkAbout": [
@@ -1327,8 +1327,8 @@
         "TimeStamps": "2022-01-10 15:15:45",
         "Gender": "Maschio",
         "Age": "45-60",
-        "relationship_with_arts": "Ho un forte interesse per l'arte",
-        "relationship_with_museums": "Visito spesso i musei",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
         "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122452",
@@ -1354,7 +1354,7 @@
         "sessionName": [
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "due persone che fanno l'amore"
         ],
         "ItMakesMeThinkAbout": [
@@ -1441,8 +1441,8 @@
         "TimeStamps": "2022-09-30 11:16:16",
         "Gender": "Preferisco non specificarlo",
         "Age": "45-60",
-        "relationship_with_arts": "Ho un forte interesse per l'arte",
-        "relationship_with_museums": "Visito spesso i musei",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
         "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122452",
@@ -1468,7 +1468,7 @@
         "sessionName": [
             "storie"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             ""
         ],
         "ItMakesMeThinkAbout": [
@@ -1551,8 +1551,8 @@
         "TimeStamps": "2022-01-10 10:53:03",
         "Gender": "Preferisco non specificarlo",
         "Age": "45-60",
-        "relationship_with_arts": "Non provo nessun interesse per l'arte",
-        "relationship_with_museums": "Visito raramente musei e mostre",
+        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
         "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122451",
@@ -1583,7 +1583,7 @@
             "notte",
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "negli anni 30",
             "assonnata"
         ],
@@ -1699,8 +1699,8 @@
         "TimeStamps": "2022-01-10 14:06:45",
         "Gender": "Maschio",
         "Age": "20-30 anni",
-        "relationship_with_arts": "Ho un forte interesse per l'arte",
-        "relationship_with_museums": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
         "content_breaking": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122451",
@@ -1726,7 +1726,7 @@
         "sessionName": [
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "leggende"
         ],
         "ItMakesMeThinkAbout": [
@@ -1809,8 +1809,8 @@
         "TimeStamps": "2022-01-10 16:23:52",
         "Gender": "Maschio",
         "Age": "13-19 anni",
-        "relationship_with_arts": "L'arte mi interessa poco",
-        "relationship_with_museums": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
         "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122450",
@@ -1836,7 +1836,7 @@
         "sessionName": [
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             ""
         ],
         "ItMakesMeThinkAbout": [
@@ -1919,8 +1919,8 @@
         "TimeStamps": "2022-01-10 17:09:19",
         "Gender": "Femmina",
         "Age": "20-30 anni",
-        "relationship_with_arts": "L'arte mi interessa poco",
-        "relationship_with_museums": "Visito raramente musei e mostre",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
         "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
         "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
         "_timestamp_x": "1665122450",
@@ -1946,7 +1946,7 @@
         "sessionName": [
             "notte"
         ],
-        "ItMakesMeFeel": [
+        "itMakesMeFeel": [
             "sopraffatta"
         ],
         "ItMakesMeThinkAbout": [

@@ -1,0 +1,2028 @@
+[
+    {
+        "_id_x": "Sz5Wx2XD",
+        "userName": "Sz5Wx2XD",
+        "TimeStamps": "2022-01-10 17:47:27",
+        "Gender": "Maschio",
+        "Age": "20-30 anni",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122458",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "58",
+        "_updated_x": true,
+        "_id_y": [
+            55
+        ],
+        "IDStory": [
+            "6338625f758e693b2f1aea9d"
+        ],
+        "IdArtefact": [
+            35245
+        ],
+        "StoryTitle": [
+            "Forza potenziale"
+        ],
+        "sessionName": [
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "forza in potenza"
+        ],
+        "ItMakesMeThinkAbout": [
+            ""
+        ],
+        "ItRemindsMeOf": [
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765069]",
+        "_timestamp_year_y": "[2022]",
+        "_timestamp_month_y": "[10]",
+        "_timestamp_day_y": "[14]",
+        "_timestamp_hour_y": "[17]",
+        "_timestamp_minute_y": "[31]",
+        "_timestamp_second_y": "[9]",
+        "_updated_y": [
+            true
+        ],
+        "emotions": [
+            {
+                "Serenity": 0.93730426
+            }
+        ],
+        "sentiment": [
+            {
+                "Positive": 0.96760535
+            }
+        ],
+        "toxicity": [
+            []
+        ],
+        "entities": [
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "grief; loathing"
+        ],
+        "senticnet_concept_parsing": [
+            "['fora']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "SUBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEGATIVE"
+        ],
+        "senticnet_intensity_ranking": [
+            -0.853
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "50%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "50%"
+        ],
+        "@id": [
+            55
+        ]
+    },
+    {
+        "_id_x": "Y0WXF1LR",
+        "userName": "Y0WXF1LR",
+        "TimeStamps": "2022-01-10 17:21:17",
+        "Gender": "Femmina",
+        "Age": "pi\u00f9 di 60",
+        "RelationshipWithArt": "Il mio lavoro riguarda l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122457",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "57",
+        "_updated_x": true,
+        "_id_y": [
+            104
+        ],
+        "IDStory": [
+            "63385c0def7ec10976083ec4"
+        ],
+        "IdArtefact": [
+            35323
+        ],
+        "StoryTitle": [
+            "Tere"
+        ],
+        "sessionName": [
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "solitudine"
+        ],
+        "ItMakesMeThinkAbout": [
+            ""
+        ],
+        "ItRemindsMeOf": [
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765060]",
+        "_timestamp_year_y": "[2022]",
+        "_timestamp_month_y": "[10]",
+        "_timestamp_day_y": "[14]",
+        "_timestamp_hour_y": "[17]",
+        "_timestamp_minute_y": "[31]",
+        "_timestamp_second_y": "[0]",
+        "_updated_y": [
+            true
+        ],
+        "emotions": [
+            {
+                "Fear": 1
+            }
+        ],
+        "sentiment": [
+            {
+                "Negative": 1.9748701999999998
+            }
+        ],
+        "toxicity": [
+            []
+        ],
+        "entities": [
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "grief; loathing"
+        ],
+        "senticnet_concept_parsing": [
+            "['solitude']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "SUBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEGATIVE"
+        ],
+        "senticnet_intensity_ranking": [
+            -0.817
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "50%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "50%"
+        ],
+        "@id": [
+            104
+        ]
+    },
+    {
+        "_id_x": "RQ4a2nIG",
+        "userName": "RQ4a2nIG",
+        "TimeStamps": "2022-01-10 11:21:12",
+        "Gender": "Preferisco non specificarlo",
+        "Age": "Preferisco non specificarlo",
+        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122457",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "57",
+        "_updated_x": true,
+        "_id_y": [
+            21,
+            45,
+            63,
+            60,
+            77,
+            82,
+            81,
+            80,
+            84,
+            91,
+            90
+        ],
+        "IDStory": [
+            "633869df947d991ed04cf7f7",
+            "633865fd947d991ed04cf7de",
+            "6338539a138b7a5e4009c279",
+            "6338562d245527403840b7d0",
+            "633845a6ece8520d135be876",
+            "6338589cbc13414b0c0d1ec7",
+            "6338589cbc13414b0c0d1ec7",
+            "63384f33e2cc387ac313e74d",
+            "63384c4369af74768e3a7e5a",
+            "633848cbece8520d135be8b9",
+            "63385e6ac742cc6f953c8a97"
+        ],
+        "IdArtefact": [
+            39416,
+            35433,
+            39648,
+            39175,
+            35380,
+            39347,
+            39347,
+            35227,
+            39182,
+            35222,
+            35567
+        ],
+        "StoryTitle": [
+            "Gli scacchi.",
+            "Vita",
+            "Longing for happiness",
+            "EMOZIONI",
+            "Arte",
+            "L'UOMO E LA NATURA",
+            "L'UOMO E LA NATURA",
+            "Il corso della natura",
+            "Viaggio",
+            "Un bambino che ritorna dalla scuola",
+            "Suggestioni"
+        ],
+        "sessionName": [
+            "notte",
+            "notte",
+            "notte",
+            "notte",
+            "notte",
+            "notte",
+            "notte",
+            "notte",
+            "notte",
+            "notte",
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "quando giocavo con la nonna e il nonno a scacchi;.",
+            "ansia",
+            "al settimo cielo",
+            "PRANZI DI FAMIGLIA",
+            "che lei sia rilassata e che sta riflettendo",
+            "CALMO ALLA FELCITA'",
+            "CALMO ALLA FELCITA'",
+            "una giornata tranquilla e in pace con la natura",
+            "sogni; spavento",
+            "una lotta contro il bullismo",
+            "un brutto incidente"
+        ],
+        "ItMakesMeThinkAbout": [
+            "Ed era bellissimo e quando vincevo perch\u00e8 mi faceva sentire un professionista .",
+            "",
+            "un paese di montagna eremitico",
+            "",
+            "",
+            "CASA",
+            "CASA",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "ItRemindsMeOf": [
+            "",
+            "",
+            "le vacanze nei boschi",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765076, 1665765071, 1665765068, 1665765068, 1665765065, 1665765064, 1665765064, 1665765064, 1665765063, 1665765062, 1665765062]",
+        "_timestamp_year_y": "[2022, 2022, 2022, 2022, 2022, 2022, 2022, 2022, 2022, 2022, 2022]",
+        "_timestamp_month_y": "[10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]",
+        "_timestamp_day_y": "[14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]",
+        "_timestamp_hour_y": "[17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17]",
+        "_timestamp_minute_y": "[31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31]",
+        "_timestamp_second_y": "[16, 11, 8, 8, 5, 4, 4, 4, 3, 2, 2]",
+        "_updated_y": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "emotions": [
+            {
+                "Serenity": 0.5474502,
+                "Joy": 1
+            },
+            {
+                "Anticipation": 1.90175444,
+                "Fear": 1.95738137
+            },
+            {
+                "Joy": 1
+            },
+            {
+                "Joy": 0.66874564,
+                "Trust": 1
+            },
+            {
+                "Sadness": 1,
+                "Serenity": 1
+            },
+            {
+                "Serenity": 1
+            },
+            {
+                "Serenity": 1
+            },
+            {
+                "Serenity": 2.98774594,
+                "Joy": 1
+            },
+            {
+                "Fear": 1,
+                "Interest": 1
+            },
+            {},
+            {
+                "Disgust": 1
+            }
+        ],
+        "sentiment": [
+            {},
+            {
+                "Negative": 1.9813416
+            },
+            {},
+            {
+                "Positive": 0.9119556
+            },
+            {
+                "Neutral": 1
+            },
+            {
+                "Positive": 1.7120972
+            },
+            {
+                "Positive": 1.7120972
+            },
+            {
+                "Positive": 1.88238174
+            },
+            {
+                "Neutral": 1
+            },
+            {
+                "Negative": 1
+            },
+            {
+                "Negative": 1
+            }
+        ],
+        "toxicity": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "entities": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0.33333333333333304,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "grief; loathing",
+            "serenity; acceptance",
+            "ecstasy; delight",
+            "No emotions detected",
+            "rage",
+            "joy; calmness",
+            "joy; calmness",
+            "joy; calmness",
+            "No emotions detected",
+            "ecstasy",
+            "grief"
+        ],
+        "senticnet_concept_parsing": [
+            "['con'; 'none']",
+            "['ansi']",
+            "['montage']",
+            "['N'; 'o'; ' '; 'c'; 'o'; 'n'; 'c'; 'e'; 'p'; 't'; 's'; ' '; 'd'; 'e'; 't'; 'e'; 'c'; 't'; 'e'; 'd']",
+            "['rile']",
+            "['allay']",
+            "['allay']",
+            "['tranquil'; 'pace'; 'con']",
+            "['N'; 'o'; ' '; 'c'; 'o'; 'n'; 'c'; 'e'; 'p'; 't'; 's'; ' '; 'd'; 'e'; 't'; 'e'; 'c'; 't'; 'e'; 'd']",
+            "['lottery'; 'contro']",
+            "['incident']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "SUBJECTIVE",
+            "SUBJECTIVE",
+            "SUBJECTIVE",
+            "OBJECTIVE",
+            "SUBJECTIVE",
+            "SUBJECTIVE",
+            "SUBJECTIVE",
+            "SUBJECTIVE",
+            "OBJECTIVE",
+            "SUBJECTIVE",
+            "SUBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEGATIVE",
+            "POSITIVE",
+            "POSITIVE",
+            "NEUTRAL",
+            "NEGATIVE",
+            "POSITIVE",
+            "POSITIVE",
+            "POSITIVE",
+            "NEUTRAL",
+            "POSITIVE",
+            "NEGATIVE"
+        ],
+        "senticnet_intensity_ranking": [
+            -0.636,
+            0.138,
+            0.848,
+            0.0,
+            -0.893,
+            0.399,
+            0.399,
+            0.633,
+            0.0,
+            0.961,
+            -0.853
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered",
+            "No aspects discovered",
+            "No aspects discovered",
+            "No aspects discovered",
+            "No aspects discovered",
+            "No aspects discovered",
+            "No aspects discovered",
+            "No aspects discovered",
+            "No aspects discovered",
+            "No aspects discovered",
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected",
+            "No personality trait detected",
+            "No personality trait detected",
+            "No personality trait detected",
+            "No personality trait detected",
+            "No personality trait detected",
+            "No personality trait detected",
+            "No personality trait detected",
+            "No personality trait detected",
+            "No personality trait detected",
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "50%",
+            "0%",
+            "0%",
+            "0%",
+            "0%",
+            "0%",
+            "0%",
+            "0%",
+            "0%",
+            "0%",
+            "50%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "83%",
+            "0%",
+            "0%",
+            "0%",
+            "50%",
+            "0%",
+            "0%",
+            "33%",
+            "0%",
+            "0%",
+            "0%"
+        ],
+        "@id": [
+            21,
+            45,
+            63,
+            60,
+            77,
+            82,
+            81,
+            80,
+            84,
+            91,
+            90
+        ]
+    },
+    {
+        "_id_x": "yjlouq5U",
+        "userName": "yjlouq5U",
+        "TimeStamps": "2022-01-10 17:20:01",
+        "Gender": "Femmina",
+        "Age": "20-30 anni",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "content_breaking": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122457",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "57",
+        "_updated_x": true,
+        "_id_y": [
+            9
+        ],
+        "IDStory": [
+            "63385bb4f5bdab798a1a88a3"
+        ],
+        "IdArtefact": [
+            35433
+        ],
+        "StoryTitle": [
+            "A casa"
+        ],
+        "sessionName": [
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "ritorno a casa"
+        ],
+        "ItMakesMeThinkAbout": [
+            ""
+        ],
+        "ItRemindsMeOf": [
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765078]",
+        "_timestamp_year_y": "[2022]",
+        "_timestamp_month_y": "[10]",
+        "_timestamp_day_y": "[14]",
+        "_timestamp_hour_y": "[17]",
+        "_timestamp_minute_y": "[31]",
+        "_timestamp_second_y": "[18]",
+        "_updated_y": [
+            true
+        ],
+        "emotions": [
+            {}
+        ],
+        "sentiment": [
+            {
+                "Positive": 0.5029781999999999
+            }
+        ],
+        "toxicity": [
+            []
+        ],
+        "entities": [
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "No emotions detected"
+        ],
+        "senticnet_concept_parsing": [
+            "['N'; 'o'; ' '; 'c'; 'o'; 'n'; 'c'; 'e'; 'p'; 't'; 's'; ' '; 'd'; 'e'; 't'; 'e'; 'c'; 't'; 'e'; 'd']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "OBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEUTRAL"
+        ],
+        "senticnet_intensity_ranking": [
+            0.0
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "0%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "0%"
+        ],
+        "@id": [
+            9
+        ]
+    },
+    {
+        "_id_x": "WsK2A1ab",
+        "userName": "WsK2A1ab",
+        "TimeStamps": "2022-01-10 14:56:53",
+        "Gender": "Maschio",
+        "Age": "pi\u00f9 di 60",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122456",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "56",
+        "_updated_x": true,
+        "_id_y": [
+            74
+        ],
+        "IDStory": [
+            "6338389e48506113dc315697"
+        ],
+        "IdArtefact": [
+            35412
+        ],
+        "StoryTitle": [
+            "Emozioni opere"
+        ],
+        "sessionName": [
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "guerra"
+        ],
+        "ItMakesMeThinkAbout": [
+            ""
+        ],
+        "ItRemindsMeOf": [
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765065]",
+        "_timestamp_year_y": "[2022]",
+        "_timestamp_month_y": "[10]",
+        "_timestamp_day_y": "[14]",
+        "_timestamp_hour_y": "[17]",
+        "_timestamp_minute_y": "[31]",
+        "_timestamp_second_y": "[5]",
+        "_updated_y": [
+            true
+        ],
+        "emotions": [
+            {}
+        ],
+        "sentiment": [
+            {}
+        ],
+        "toxicity": [
+            []
+        ],
+        "entities": [
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "No emotions detected"
+        ],
+        "senticnet_concept_parsing": [
+            "['N'; 'o'; ' '; 'c'; 'o'; 'n'; 'c'; 'e'; 'p'; 't'; 's'; ' '; 'd'; 'e'; 't'; 'e'; 'c'; 't'; 'e'; 'd']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "OBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEUTRAL"
+        ],
+        "senticnet_intensity_ranking": [
+            0.0
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "0%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "0%"
+        ],
+        "@id": [
+            74
+        ]
+    },
+    {
+        "_id_x": "cBjFhvjx",
+        "userName": "cBjFhvjx",
+        "TimeStamps": "2022-01-10 16:58:18",
+        "Gender": "Maschio",
+        "Age": "20-30 anni",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122455",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "55",
+        "_updated_x": true,
+        "_id_y": [
+            50,
+            49
+        ],
+        "IDStory": [
+            "633857663f94ba59773bc667",
+            "633857663f94ba59773bc667"
+        ],
+        "IdArtefact": [
+            39175,
+            39175
+        ],
+        "StoryTitle": [
+            "Decadenza Erotica",
+            "Decadenza Erotica"
+        ],
+        "sessionName": [
+            "notte",
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "Vecchiaia",
+            "Vecchiaia"
+        ],
+        "ItMakesMeThinkAbout": [
+            "",
+            ""
+        ],
+        "ItRemindsMeOf": [
+            "",
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765070, 1665765070]",
+        "_timestamp_year_y": "[2022, 2022]",
+        "_timestamp_month_y": "[10, 10]",
+        "_timestamp_day_y": "[14, 14]",
+        "_timestamp_hour_y": "[17, 17]",
+        "_timestamp_minute_y": "[31, 31]",
+        "_timestamp_second_y": "[10, 10]",
+        "_updated_y": [
+            true,
+            true
+        ],
+        "emotions": [
+            {
+                "Fear": 0.91776466
+            },
+            {
+                "Fear": 0.91776466
+            }
+        ],
+        "sentiment": [
+            {
+                "Negative": 0.6164452
+            },
+            {
+                "Negative": 0.6164452
+            }
+        ],
+        "toxicity": [
+            [],
+            []
+        ],
+        "entities": [
+            [],
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "grief; loathing",
+            "grief; loathing"
+        ],
+        "senticnet_concept_parsing": [
+            "['vecchia']",
+            "['vecchia']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "SUBJECTIVE",
+            "SUBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEGATIVE",
+            "NEGATIVE"
+        ],
+        "senticnet_intensity_ranking": [
+            -0.873,
+            -0.873
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered",
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected",
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "50%",
+            "50%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "50%",
+            "50%"
+        ],
+        "@id": [
+            50,
+            49
+        ]
+    },
+    {
+        "_id_x": "WYCImqGm",
+        "userName": "WYCImqGm",
+        "TimeStamps": "2022-01-10 15:54:48",
+        "Gender": "Femmina",
+        "Age": "20-30 anni",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "content_breaking": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122455",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "55",
+        "_updated_x": true,
+        "_id_y": [
+            46
+        ],
+        "IDStory": [
+            "6338483ddf44765455526ee4"
+        ],
+        "IdArtefact": [
+            35229
+        ],
+        "StoryTitle": [
+            "Tutto gira"
+        ],
+        "sessionName": [
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "il Mondo che mi circonda fatto di alti e bassi"
+        ],
+        "ItMakesMeThinkAbout": [
+            ""
+        ],
+        "ItRemindsMeOf": [
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765071]",
+        "_timestamp_year_y": "[2022]",
+        "_timestamp_month_y": "[10]",
+        "_timestamp_day_y": "[14]",
+        "_timestamp_hour_y": "[17]",
+        "_timestamp_minute_y": "[31]",
+        "_timestamp_second_y": "[11]",
+        "_updated_y": [
+            true
+        ],
+        "emotions": [
+            {}
+        ],
+        "sentiment": [
+            {
+                "Positive": 0.5056431
+            }
+        ],
+        "toxicity": [
+            []
+        ],
+        "entities": [
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "No emotions detected"
+        ],
+        "senticnet_concept_parsing": [
+            "['N'; 'o'; ' '; 'c'; 'o'; 'n'; 'c'; 'e'; 'p'; 't'; 's'; ' '; 'd'; 'e'; 't'; 'e'; 'c'; 't'; 'e'; 'd']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "OBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEUTRAL"
+        ],
+        "senticnet_intensity_ranking": [
+            0.0
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "0%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "0%"
+        ],
+        "@id": [
+            46
+        ]
+    },
+    {
+        "_id_x": "B3N0HGw4",
+        "userName": "B3N0HGw4",
+        "TimeStamps": "2022-01-10 17:07:46",
+        "Gender": "Femmina",
+        "Age": "20-30 anni",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "content_breaking": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122454",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "54",
+        "_updated_x": true,
+        "_id_y": [
+            94
+        ],
+        "IDStory": [
+            "633858f82b631c1bf17add1d"
+        ],
+        "IdArtefact": [
+            35445
+        ],
+        "StoryTitle": [
+            "Stati d'animo"
+        ],
+        "sessionName": [
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "rilassata"
+        ],
+        "ItMakesMeThinkAbout": [
+            ""
+        ],
+        "ItRemindsMeOf": [
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765061]",
+        "_timestamp_year_y": "[2022]",
+        "_timestamp_month_y": "[10]",
+        "_timestamp_day_y": "[14]",
+        "_timestamp_hour_y": "[17]",
+        "_timestamp_minute_y": "[31]",
+        "_timestamp_second_y": "[1]",
+        "_updated_y": [
+            true
+        ],
+        "emotions": [
+            {
+                "Serenity": 1
+            }
+        ],
+        "sentiment": [
+            {
+                "Neutral": 1
+            }
+        ],
+        "toxicity": [
+            []
+        ],
+        "entities": [
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "rage"
+        ],
+        "senticnet_concept_parsing": [
+            "['rile']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "SUBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEGATIVE"
+        ],
+        "senticnet_intensity_ranking": [
+            -0.893
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "0%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "50%"
+        ],
+        "@id": [
+            94
+        ]
+    },
+    {
+        "_id_x": "q2BDj1os",
+        "userName": "q2BDj1os",
+        "TimeStamps": "2022-01-10 15:15:45",
+        "Gender": "Maschio",
+        "Age": "45-60",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122452",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "52",
+        "_updated_x": true,
+        "_id_y": [
+            39
+        ],
+        "IDStory": [
+            "63383ea41c952b2c5e786acf"
+        ],
+        "IdArtefact": [
+            39138
+        ],
+        "StoryTitle": [
+            "Amore in spiaggia"
+        ],
+        "sessionName": [
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "due persone che fanno l'amore"
+        ],
+        "ItMakesMeThinkAbout": [
+            ""
+        ],
+        "ItRemindsMeOf": [
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765072]",
+        "_timestamp_year_y": "[2022]",
+        "_timestamp_month_y": "[10]",
+        "_timestamp_day_y": "[14]",
+        "_timestamp_hour_y": "[17]",
+        "_timestamp_minute_y": "[31]",
+        "_timestamp_second_y": "[12]",
+        "_updated_y": [
+            true
+        ],
+        "emotions": [
+            {
+                "Love": 1
+            }
+        ],
+        "sentiment": [
+            {
+                "Positive": 1
+            }
+        ],
+        "toxicity": [
+            []
+        ],
+        "entities": [
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "No emotions detected"
+        ],
+        "senticnet_concept_parsing": [
+            "['N'; 'o'; ' '; 'c'; 'o'; 'n'; 'c'; 'e'; 'p'; 't'; 's'; ' '; 'd'; 'e'; 't'; 'e'; 'c'; 't'; 'e'; 'd']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "OBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEUTRAL"
+        ],
+        "senticnet_intensity_ranking": [
+            0.0
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "0%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "0%"
+        ],
+        "@id": [
+            39
+        ]
+    },
+    {
+        "_id_x": "JgevtrSb",
+        "userName": "JgevtrSb",
+        "TimeStamps": "2022-09-30 11:16:16",
+        "Gender": "Preferisco non specificarlo",
+        "Age": "45-60",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122452",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "52",
+        "_updated_x": true,
+        "_id_y": [
+            56
+        ],
+        "IDStory": [
+            "6239d6a43e14a72415517d5b"
+        ],
+        "IdArtefact": [
+            39384
+        ],
+        "StoryTitle": [
+            "Connessioni neuronali"
+        ],
+        "sessionName": [
+            "storie"
+        ],
+        "itMakesMeFeel": [
+            ""
+        ],
+        "ItMakesMeThinkAbout": [
+            "Il mare; l'estate e al calore sulla pelle"
+        ],
+        "ItRemindsMeOf": [
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765069]",
+        "_timestamp_year_y": "[2022]",
+        "_timestamp_month_y": "[10]",
+        "_timestamp_day_y": "[14]",
+        "_timestamp_hour_y": "[17]",
+        "_timestamp_minute_y": "[31]",
+        "_timestamp_second_y": "[9]",
+        "_updated_y": [
+            true
+        ],
+        "emotions": [
+            {}
+        ],
+        "sentiment": [
+            {}
+        ],
+        "toxicity": [
+            []
+        ],
+        "entities": [
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "grief; loathing"
+        ],
+        "senticnet_concept_parsing": [
+            "[NOT 'mare']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "SUBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEGATIVE"
+        ],
+        "senticnet_intensity_ranking": [
+            -0.901
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "50%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "50%"
+        ],
+        "@id": [
+            56
+        ]
+    },
+    {
+        "_id_x": "LvIeXwcT",
+        "userName": "LvIeXwcT",
+        "TimeStamps": "2022-01-10 10:53:03",
+        "Gender": "Preferisco non specificarlo",
+        "Age": "45-60",
+        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122451",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "51",
+        "_updated_x": true,
+        "_id_y": [
+            26,
+            48
+        ],
+        "IDStory": [
+            "63381c1708e9416c4d29335c",
+            "63370e3a45ee936df82d4d06"
+        ],
+        "IdArtefact": [
+            39182,
+            35323
+        ],
+        "StoryTitle": [
+            "Esotismo in salotto",
+            "Momenti tranquilli"
+        ],
+        "sessionName": [
+            "notte",
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "negli anni 30",
+            "assonnata"
+        ],
+        "ItMakesMeThinkAbout": [
+            "morbosit\u00e0",
+            "una persona sola"
+        ],
+        "ItRemindsMeOf": [
+            "",
+            "la primavera"
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b",
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765075, 1665765071]",
+        "_timestamp_year_y": "[2022, 2022]",
+        "_timestamp_month_y": "[10, 10]",
+        "_timestamp_day_y": "[14, 14]",
+        "_timestamp_hour_y": "[17, 17]",
+        "_timestamp_minute_y": "[31, 31]",
+        "_timestamp_second_y": "[15, 11]",
+        "_updated_y": [
+            true,
+            true
+        ],
+        "emotions": [
+            {},
+            {}
+        ],
+        "sentiment": [
+            {
+                "Positive": 0.76706463
+            },
+            {
+                "Negative": 0.98281974
+            }
+        ],
+        "toxicity": [
+            [],
+            []
+        ],
+        "entities": [
+            [],
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            },
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "grief; loathing",
+            "No emotions detected"
+        ],
+        "senticnet_concept_parsing": [
+            "['anny']",
+            "['N'; 'o'; ' '; 'c'; 'o'; 'n'; 'c'; 'e'; 'p'; 't'; 's'; ' '; 'd'; 'e'; 't'; 'e'; 'c'; 't'; 'e'; 'd']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "SUBJECTIVE",
+            "OBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEGATIVE",
+            "NEUTRAL"
+        ],
+        "senticnet_intensity_ranking": [
+            -0.807,
+            0.0
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered",
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected",
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "50%",
+            "0%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "50%",
+            "0%"
+        ],
+        "@id": [
+            26,
+            48
+        ]
+    },
+    {
+        "_id_x": "ZWrgWx9o",
+        "userName": "ZWrgWx9o",
+        "TimeStamps": "2022-01-10 14:06:45",
+        "Gender": "Maschio",
+        "Age": "20-30 anni",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "content_breaking": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122451",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "51",
+        "_updated_x": true,
+        "_id_y": [
+            83
+        ],
+        "IDStory": [
+            "63382d748ceb081caa6ba997"
+        ],
+        "IdArtefact": [
+            39138
+        ],
+        "StoryTitle": [
+            "L'arte ti fa volare"
+        ],
+        "sessionName": [
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "leggende"
+        ],
+        "ItMakesMeThinkAbout": [
+            ""
+        ],
+        "ItRemindsMeOf": [
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765064]",
+        "_timestamp_year_y": "[2022]",
+        "_timestamp_month_y": "[10]",
+        "_timestamp_day_y": "[14]",
+        "_timestamp_hour_y": "[17]",
+        "_timestamp_minute_y": "[31]",
+        "_timestamp_second_y": "[4]",
+        "_updated_y": [
+            true
+        ],
+        "emotions": [
+            {}
+        ],
+        "sentiment": [
+            {}
+        ],
+        "toxicity": [
+            []
+        ],
+        "entities": [
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "No emotions detected"
+        ],
+        "senticnet_concept_parsing": [
+            "['N'; 'o'; ' '; 'c'; 'o'; 'n'; 'c'; 'e'; 'p'; 't'; 's'; ' '; 'd'; 'e'; 't'; 'e'; 'c'; 't'; 'e'; 'd']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "OBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEUTRAL"
+        ],
+        "senticnet_intensity_ranking": [
+            0.0
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "0%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "0%"
+        ],
+        "@id": [
+            83
+        ]
+    },
+    {
+        "_id_x": "N72IRgFy",
+        "userName": "N72IRgFy",
+        "TimeStamps": "2022-01-10 16:23:52",
+        "Gender": "Maschio",
+        "Age": "13-19 anni",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122450",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "50",
+        "_updated_x": true,
+        "_id_y": [
+            92
+        ],
+        "IDStory": [
+            "63384f412899916df970879f"
+        ],
+        "IdArtefact": [
+            35362
+        ],
+        "StoryTitle": [
+            "Arte moderna e arte antica"
+        ],
+        "sessionName": [
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            ""
+        ],
+        "ItMakesMeThinkAbout": [
+            "una localit\u221a\u2020 di mare"
+        ],
+        "ItRemindsMeOf": [
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765062]",
+        "_timestamp_year_y": "[2022]",
+        "_timestamp_month_y": "[10]",
+        "_timestamp_day_y": "[14]",
+        "_timestamp_hour_y": "[17]",
+        "_timestamp_minute_y": "[31]",
+        "_timestamp_second_y": "[2]",
+        "_updated_y": [
+            true
+        ],
+        "emotions": [
+            {}
+        ],
+        "sentiment": [
+            {}
+        ],
+        "toxicity": [
+            []
+        ],
+        "entities": [
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "ecstasy; delight"
+        ],
+        "senticnet_concept_parsing": [
+            "['mare']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "SUBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "POSITIVE"
+        ],
+        "senticnet_intensity_ranking": [
+            0.901
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "0%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "0%"
+        ],
+        "@id": [
+            92
+        ]
+    },
+    {
+        "_id_x": "LW3Klzvx",
+        "userName": "LW3Klzvx",
+        "TimeStamps": "2022-01-10 17:09:19",
+        "Gender": "Femmina",
+        "Age": "20-30 anni",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "content_breaking": "Non mi interessano i contenuti in Lingua dei Segni",
+        "_datasetid_x": "c463550f-12ca-47d8-a1f7-8fda690781cb",
+        "_timestamp_x": "1665122450",
+        "_timestamp_year_x": "2022",
+        "_timestamp_month_x": "10",
+        "_timestamp_day_x": "7",
+        "_timestamp_hour_x": "7",
+        "_timestamp_minute_x": "0",
+        "_timestamp_second_x": "50",
+        "_updated_x": true,
+        "_id_y": [
+            22
+        ],
+        "IDStory": [
+            "6338593d2b631c1bf17add24"
+        ],
+        "IdArtefact": [
+            35364
+        ],
+        "StoryTitle": [
+            "Serate"
+        ],
+        "sessionName": [
+            "notte"
+        ],
+        "itMakesMeFeel": [
+            "sopraffatta"
+        ],
+        "ItMakesMeThinkAbout": [
+            ""
+        ],
+        "ItRemindsMeOf": [
+            ""
+        ],
+        "_datasetid_y": [
+            "cf5a766e-4d92-4946-b975-eb613a40969b"
+        ],
+        "_timestamp_y": "[1665765076]",
+        "_timestamp_year_y": "[2022]",
+        "_timestamp_month_y": "[10]",
+        "_timestamp_day_y": "[14]",
+        "_timestamp_hour_y": "[17]",
+        "_timestamp_minute_y": "[31]",
+        "_timestamp_second_y": "[16]",
+        "_updated_y": [
+            true
+        ],
+        "emotions": [
+            {}
+        ],
+        "sentiment": [
+            {
+                "Negative": 0.9388350999999999
+            }
+        ],
+        "toxicity": [
+            []
+        ],
+        "entities": [
+            []
+        ],
+        "plutchik_emotions": [
+            {
+                "anger": 0,
+                "anticipation": 0,
+                "disgust": 0,
+                "fear": 0,
+                "joy": 0,
+                "sadness": 0,
+                "surprise": 0,
+                "trust": 0
+            }
+        ],
+        "senticnet_emotion_recognition": [
+            "No emotions detected"
+        ],
+        "senticnet_concept_parsing": [
+            "['N'; 'o'; ' '; 'c'; 'o'; 'n'; 'c'; 'e'; 'p'; 't'; 's'; ' '; 'd'; 'e'; 't'; 'e'; 'c'; 't'; 'e'; 'd']"
+        ],
+        "senticnet_subjectivity_detection": [
+            "OBJECTIVE"
+        ],
+        "senticnet_polarity_classification": [
+            "NEUTRAL"
+        ],
+        "senticnet_intensity_ranking": [
+            0.0
+        ],
+        "senticnet_aspect_extraction": [
+            "No aspects discovered"
+        ],
+        "senticnet_personality_prediction": [
+            "No personality trait detected"
+        ],
+        "senticnet_depression_categorization": [
+            "0%"
+        ],
+        "senticnet_toxicity_spotting": [
+            "0%"
+        ],
+        "@id": [
+            22
+        ]
+    }
+]

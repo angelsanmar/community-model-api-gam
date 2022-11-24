@@ -124,6 +124,8 @@ class CommunityModel():
         relpath = "clustering/" 
         #relpath += "clusters generated/" + self.perspective["algorithm"]["name"] + "/"
         # relpath += "clusters Mine/" + self.perspective["algorithm"]["name"] + "/"
+        
+        print("clustering export file route")
 
         relpath += self.perspective['name'] + " "
         relpath += " (" + str(percentageExplainability) + ")"
@@ -142,6 +144,18 @@ class CommunityModel():
             percentageExplainability: minimum percentage of the most frequent value among 1+ main similarity features.
             
         """
+        jsonCommunity = self.performClustering(exportFile)
+        return self.saveDatabase(jsonCommunity)
+        
+             
+    
+    def saveDatabase(self, jsonCommunity):
+        # Save data to database
+        insertedId = self.saveDatabase(jsonCommunity)
+        
+        return insertedId
+        
+    def performClustering(self, exportFile = "clustering.json"):
         percentageExplainability = self.percentageExplainability
         
         # Initialize data
@@ -160,12 +174,9 @@ class CommunityModel():
         data.reset_index(inplace=True)
         exportFile = self.clusteringExportFileRoute(percentageExplainability)
         jsonGenerator = CommunityJsonGenerator(interactionObjectData, data, self.distanceMatrix, communityDict, community_detection, self.perspective)
-        jsonCommunity = jsonGenerator.generateJSON(exportFile)       
+        jsonCommunity = jsonGenerator.generateJSON(exportFile)  
         
-        # Save data to database
-        insertedId = self.saveDatabase(jsonCommunity)
-        
-        return insertedId
+        return jsonCommunity
 
     def initializeAlgorithm(self):
         algorithmName = self.perspective['algorithm']['name'] + "CommunityDetection"

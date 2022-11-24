@@ -1,0 +1,434 @@
+[
+    {
+        "TimeStamp": "01/10/2022 10.50.03",
+        "authorUsername": "LvIeXwcT",
+        "Gender": "Not specified",
+        "Age": "45-60 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 10.53.03",
+        "authorUsername": "JgevtrSb",
+        "Gender": "Not specified",
+        "Age": "45-60 age",
+        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 11.21.12",
+        "authorUsername": "WsK2A1ab",
+        "Gender": "Not specified",
+        "Age": "Not specified",
+        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 11.25.45",
+        "authorUsername": "oTT3YRMN",
+        "Gender": "Not specified",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 11.47.54",
+        "authorUsername": "RQ4a2nIG",
+        "Gender": "Female",
+        "Age": "31-45 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 11.55.06",
+        "authorUsername": "LW3Klzvx",
+        "Gender": "Male",
+        "Age": "45-60 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 12.25.31",
+        "authorUsername": "zZbRbDHJ",
+        "Gender": "Male",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 12.25.42",
+        "authorUsername": "KQTGApjD",
+        "Gender": "Male",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 13.34.27",
+        "authorUsername": "N72IRgFy",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "01/10/2022 14.06.45",
+        "authorUsername": "x2AUnHqw",
+        "Gender": "Male",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "01/10/2022 14.56.53",
+        "authorUsername": "Sz5Wx2XD",
+        "Gender": "Male",
+        "Age": "45-60 age",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 15.15.45",
+        "authorUsername": "FVhf7OMw",
+        "Gender": "Male",
+        "Age": "45-60 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 15.16.59",
+        "authorUsername": "yjlouq5U",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "01/10/2022 15.17.04",
+        "authorUsername": "onDqgFnI",
+        "Gender": "Male",
+        "Age": "45-60 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 15.45.38",
+        "authorUsername": "WYCImqGm",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "01/10/2022 15.54.48",
+        "authorUsername": "B3N0HGw4",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "01/10/2022 15.54.48",
+        "authorUsername": "q2BDj1os",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "01/10/2022 15.54.56",
+        "authorUsername": "cBjFhvjx",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "01/10/2022 15.54.58",
+        "authorUsername": "M38rC6wd",
+        "Gender": "Male",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 15.55.01",
+        "authorUsername": "Y0WXF1LR",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "01/10/2022 15.55.41",
+        "authorUsername": "loEoYm9R",
+        "Gender": "Male",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "01/10/2022 16.11.35",
+        "authorUsername": "8sAIqaGe",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 16.39.52",
+        "authorUsername": "fqybaAk8",
+        "Gender": "Male",
+        "Age": "45-60 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 16.58.18",
+        "authorUsername": "ox8G7avH",
+        "Gender": "Male",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 17.05.36",
+        "authorUsername": "0bAAwK14",
+        "Gender": "Male",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 17.11.59",
+        "authorUsername": "6rK3p7za",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 17.18.29",
+        "authorUsername": "BTKF72et",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 17.29.10",
+        "authorUsername": "bSuOYLw2",
+        "Gender": "Female",
+        "Age": "45-60 age",
+        "RelationshipWithArt": "Il mio lavoro riguarda l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "01/10/2022 17.30.11",
+        "authorUsername": "ZWrgWx9o",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "01/10/2022 17.31.58",
+        "authorUsername": "UjAh6XYO",
+        "Gender": "Male",
+        "Age": "45-60 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "01/10/2022 23.09.53",
+        "authorUsername": "e4aM9WL7",
+        "Gender": "Female",
+        "Age": "45-60 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.37.10",
+        "authorUsername": "R4frFK0J",
+        "Gender": "Male",
+        "Age": "31-45 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.17.11",
+        "authorUsername": "3K9AMmqU",
+        "Gender": "Male",
+        "Age": "31-45 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.18.10",
+        "authorUsername": "PxrTX0Ln",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.19.22",
+        "authorUsername": "GV4z5ANK",
+        "Gender": "Not specified",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.20.40",
+        "authorUsername": "7zL8hKS8",
+        "Gender": "Not specified",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.23.33",
+        "authorUsername": "2JfmseEG",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.27.08",
+        "authorUsername": "NROrO0c9",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.29.10",
+        "authorUsername": "W7Wnqxw4",
+        "Gender": "Male",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.40.43",
+        "authorUsername": "BNtsz8zb",
+        "Gender": "Male",
+        "Age": "31-45 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.44.22",
+        "authorUsername": "HoNIcWZY",
+        "Gender": "Male",
+        "Age": "13-19 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.48.12",
+        "authorUsername": "Bf5Sj3ON",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.56.03",
+        "authorUsername": "cmq6JZxJ",
+        "Gender": "Male",
+        "Age": "Not binary",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.55.54",
+        "authorUsername": "sXKZ1IUH",
+        "Gender": "Female",
+        "Age": "45-60 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 11.56.12",
+        "authorUsername": "anqHwMQ0",
+        "Gender": "Female",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "04/11/2022 12.18.16",
+        "authorUsername": "EEm3fSZd",
+        "Gender": "Male",
+        "Age": "31-45 age",
+        "RelationshipWithArt": "L'arte mi interessa poco",
+        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    },
+    {
+        "TimeStamp": "10/11/2022 16.40.59",
+        "authorUsername": "V337a5b8",
+        "Gender": "Female",
+        "Age": "31-45 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni"
+    },
+    {
+        "TimeStamp": "10/11/2022 16.40.59",
+        "authorUsername": "btoSxy3T",
+        "Gender": "Male",
+        "Age": "20-30 age",
+        "RelationshipWithArt": "Ho un forte interesse per l'arte",
+        "RelationshipWithMuseum": "Visito spesso i musei",
+        "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)"
+    }
+]

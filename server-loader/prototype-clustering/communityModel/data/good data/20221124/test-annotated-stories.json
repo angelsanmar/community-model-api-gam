@@ -1,0 +1,557 @@
+[
+  {
+    "_datasetid": "816c8fb3-6c73-4405-bf71-b1c765c4a79e",
+    "_id": "633869df947d991ed04cf7f7",
+    "_timestamp": 1664641503,
+    "_timestamp_day": 1,
+    "_timestamp_hour": 17,
+    "_timestamp_minute": 25,
+    "_timestamp_month": 10,
+    "_timestamp_second": 3,
+    "_timestamp_year": 2022,
+    "activityId": "62cc4f819f7c9c7e6739a46b",
+    "authorUsername": "RQ4a2nIG",
+    "parts": [
+      {
+        "artworkId": "39416",
+        "emotions": {
+          "emotion:Joy": 1.0,
+          "emotion:Serenity": 0.72991085
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "",
+            "itRemindsMeOf": "gli scacchi quando giocavo con mia nonna e mio nonno \n\n\n"
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 0.5606518
+        }
+      },
+      {
+        "artworkId": "39416",
+        "emotions": {
+          "emotion:Interest": 1.0,
+          "emotion:Joy": 1.0
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "quando giocavo con la nonna e il nonno a scacchi,.\nEd era bellissimo e quando vincevo perch\u00e9 mi faceva sentire un professionista .",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 1.0
+        }
+      }
+    ],
+    "sessionName": "notte",
+    "title": "Gli scacchi."
+  },
+  {
+    "_datasetid": "816c8fb3-6c73-4405-bf71-b1c765c4a79e",
+    "_id": "633865fd947d991ed04cf7de",
+    "_timestamp": 1664640509,
+    "_timestamp_day": 1,
+    "_timestamp_hour": 17,
+    "_timestamp_minute": 8,
+    "_timestamp_month": 10,
+    "_timestamp_second": 29,
+    "_timestamp_year": 2022,
+    "activityId": "62cc4f819f7c9c7e6739a46b",
+    "authorUsername": "RQ4a2nIG",
+    "parts": [
+      {
+        "artworkId": "39426",
+        "emotions": {
+          "emotion:Joy": 1.0,
+          "emotion:Serenity": 1.0
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "serena\n",
+            "itMakesMeThinkAbout": "",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 1.0
+        }
+      },
+      {
+        "artworkId": "35381",
+        "emotions": {
+          "emotion:Fear": 1.0
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "paura e inquietudine ",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Negative": 1.0
+        }
+      },
+      {
+        "artworkId": "35567",
+        "emotions": {
+          "emotion:Sadness": 1.0
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "nostalgia",
+            "itMakesMeThinkAbout": "",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Mixed": 0.5446536
+        }
+      },
+      {
+        "artworkId": "35433",
+        "emotions": {
+          "emotion:Anticipation": 1.0,
+          "emotion:Fear": 1.0
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "ansia",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Negative": 1.0
+        }
+      }
+    ],
+    "sessionName": "notte",
+    "title": "Vita"
+  },
+  {
+    "_datasetid": "816c8fb3-6c73-4405-bf71-b1c765c4a79e",
+    "_id": "633865ce947d991ed04cf7dc",
+    "_timestamp": 1664640462,
+    "_timestamp_day": 1,
+    "_timestamp_hour": 17,
+    "_timestamp_minute": 7,
+    "_timestamp_month": 10,
+    "_timestamp_second": 42,
+    "_timestamp_year": 2022,
+    "activityId": "62cc4f819f7c9c7e6739a46b",
+    "authorUsername": "8sAIqaGe",
+    "parts": [
+      {
+        "artworkId": "35433",
+        "emotions": {},
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "a casa",
+            "itMakesMeThinkAbout": "",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {}
+      },
+      {
+        "artworkId": "35215",
+        "emotions": {
+          "emotion:Joy": 1.0,
+          "emotion:Serenity": 1.0
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": " pace",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 1.0
+        }
+      }
+    ],
+    "sessionName": "notte",
+    "title": "Casa"
+  },
+  {
+    "_datasetid": "816c8fb3-6c73-4405-bf71-b1c765c4a79e",
+    "_id": "6338649a2df2fd104d686349",
+    "_timestamp": 1664640154,
+    "_timestamp_day": 1,
+    "_timestamp_hour": 17,
+    "_timestamp_minute": 2,
+    "_timestamp_month": 10,
+    "_timestamp_second": 34,
+    "_timestamp_year": 2022,
+    "activityId": "62cc4f819f7c9c7e6739a46b",
+    "authorUsername": "RQ4a2nIG",
+    "parts": [
+      {
+        "artworkId": "35227",
+        "emotions": {},
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "Riposo",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 1.0
+        }
+      },
+      {
+        "artworkId": "39648",
+        "emotions": {},
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "appartenenza",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Negative": 0.75268275
+        }
+      }
+    ],
+    "sessionName": "notte",
+    "title": "Ritorno alle origini"
+  },
+  {
+    "_datasetid": "816c8fb3-6c73-4405-bf71-b1c765c4a79e",
+    "_id": "6338625f758e693b2f1aea9d",
+    "_timestamp": 1664639583,
+    "_timestamp_day": 1,
+    "_timestamp_hour": 16,
+    "_timestamp_minute": 53,
+    "_timestamp_month": 10,
+    "_timestamp_second": 3,
+    "_timestamp_year": 2022,
+    "activityId": "62cc4f819f7c9c7e6739a46b",
+    "authorUsername": "Sz5Wx2XD",
+    "parts": [
+      {
+        "artworkId": "35571",
+        "emotions": {},
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "staticit\u00e0 ",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [
+            {
+              "emoji": "\ud83d\ude34",
+              "locationX": 0.0433931766610243,
+              "locationY": 0.7273215720796412
+            }
+          ],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 0.8301699
+        }
+      },
+      {
+        "artworkId": "35245",
+        "emotions": {
+          "emotion:Serenity": 0.93730426
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "forza in potenza ",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 0.96760535
+        }
+      }
+    ],
+    "sessionName": "notte",
+    "title": "Forza potenziale"
+  },
+  {
+    "_datasetid": "816c8fb3-6c73-4405-bf71-b1c765c4a79e",
+    "_id": "63385e6ac742cc6f953c8a97",
+    "_timestamp": 1664638570,
+    "_timestamp_day": 1,
+    "_timestamp_hour": 16,
+    "_timestamp_minute": 36,
+    "_timestamp_month": 10,
+    "_timestamp_second": 10,
+    "_timestamp_year": 2022,
+    "activityId": "62cc4f819f7c9c7e6739a46b",
+    "authorUsername": "RQ4a2nIG",
+    "parts": [
+      {
+        "artworkId": "35380",
+        "emotions": {
+          "emotion:Joy": 0.98717386
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "bene",
+            "itMakesMeThinkAbout": "",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 1.0
+        }
+      },
+      {
+        "artworkId": "35567",
+        "emotions": {
+          "emotion:Disgust": 1.0
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "un brutto incidente",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Negative": 1.0
+        }
+      }
+    ],
+    "sessionName": "notte",
+    "title": "Suggestioni"
+  },
+  {
+    "_datasetid": "816c8fb3-6c73-4405-bf71-b1c765c4a79e",
+    "_id": "63385c0def7ec10976083ec4",
+    "_timestamp": 1664637965,
+    "_timestamp_day": 1,
+    "_timestamp_hour": 16,
+    "_timestamp_minute": 26,
+    "_timestamp_month": 10,
+    "_timestamp_second": 5,
+    "_timestamp_year": 2022,
+    "activityId": "62cc4f819f7c9c7e6739a46b",
+    "authorUsername": "Y0WXF1LR",
+    "parts": [
+      {
+        "artworkId": "35230",
+        "emotions": {
+          "emotion:Joy": 0.6704142
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "  tango",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 0.9855657
+        }
+      },
+      {
+        "artworkId": "35288",
+        "emotions": {},
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "",
+            "itRemindsMeOf": "passato"
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 0.57145786
+        }
+      },
+      {
+        "artworkId": "35323",
+        "emotions": {
+          "emotion:Fear": 1.0
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "solitudine",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Negative": 1.0
+        }
+      }
+    ],
+    "sessionName": "notte",
+    "title": "Tere"
+  },
+  {
+    "_datasetid": "816c8fb3-6c73-4405-bf71-b1c765c4a79e",
+    "_id": "63385bc975565e5f1756534d",
+    "_timestamp": 1664637897,
+    "_timestamp_day": 1,
+    "_timestamp_hour": 16,
+    "_timestamp_minute": 24,
+    "_timestamp_month": 10,
+    "_timestamp_second": 57,
+    "_timestamp_year": 2022,
+    "activityId": "62cc4f819f7c9c7e6739a46b",
+    "authorUsername": "RQ4a2nIG",
+    "parts": [
+      {
+        "artworkId": "35230",
+        "emotions": {
+          "emotion:Love": 1.0
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "lle diverse forme della passione",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {}
+      },
+      {
+        "artworkId": "35208",
+        "emotions": {},
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "lla bellezza folgorante delle donne",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 1.0
+        }
+      },
+      {
+        "artworkId": "39138",
+        "emotions": {
+          "emotion:Joy": 0.75160944,
+          "emotion:Love": 1.0,
+          "emotion:Serenity": 1.0
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "lla bellezza e alla leggerezza dell\u2019amore",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Positive": 1.0
+        }
+      }
+    ],
+    "sessionName": "notte",
+    "title": "La forma dell\u2019amore"
+  },
+  {
+    "_datasetid": "816c8fb3-6c73-4405-bf71-b1c765c4a79e",
+    "_id": "63385bb4f5bdab798a1a88a3",
+    "_timestamp": 1664637876,
+    "_timestamp_day": 1,
+    "_timestamp_hour": 16,
+    "_timestamp_minute": 24,
+    "_timestamp_month": 10,
+    "_timestamp_second": 36,
+    "_timestamp_year": 2022,
+    "activityId": "62cc4f819f7c9c7e6739a46b",
+    "authorUsername": "yjlouq5U",
+    "parts": [
+      {
+        "artworkId": "35330",
+        "emotions": {
+          "emotion:Interest": 1.0
+        },
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "una cosa rilassante",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [
+            {
+              "emoji": "\ud83d\ude0c",
+              "locationX": 0.375,
+              "locationY": 0.3
+            }
+          ],
+          "tags": []
+        },
+        "sentiments": {
+          "marl:Negative": 0.9712573,
+          "marl:Positive": 1.0
+        }
+      },
+      {
+        "artworkId": "35433",
+        "emotions": {},
+        "multimediaData": {
+          "answersToTemplates": {
+            "itMakesMeFeel": "",
+            "itMakesMeThinkAbout": "  ritorno a casa",
+            "itRemindsMeOf": ""
+          },
+          "emojis": [
+            {
+              "emoji": "\ud83e\udd70",
+              "locationX": 0.375,
+              "locationY": 0.3
+            }
+          ],
+          "tags": []
+        },
+        "sentiments": {}
+      }
+    ],
+    "sessionName": "notte",
+    "title": "A casa"
+  }
+]

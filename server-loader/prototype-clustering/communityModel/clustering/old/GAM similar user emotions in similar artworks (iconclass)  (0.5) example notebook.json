@@ -296,8 +296,8 @@
             "label": "0bAAwK14",
             "group": 7,
             "explicit_community": {
-                "relationship_with_arts": "",
-                "relationship_with_museums": ""
+                "RelationshipWithArt": "",
+                "RelationshipWithMuseum": ""
             },
             "interactions": [
                 {
@@ -366,8 +366,8 @@
             "label": "61f29227b9936b5c047f362a",
             "group": 8,
             "explicit_community": {
-                "relationship_with_arts": "",
-                "relationship_with_museums": ""
+                "RelationshipWithArt": "",
+                "RelationshipWithMuseum": ""
             },
             "interactions": [
                 {
@@ -384,8 +384,8 @@
             "label": "6rK3p7za",
             "group": 8,
             "explicit_community": {
-                "relationship_with_arts": "",
-                "relationship_with_museums": ""
+                "RelationshipWithArt": "",
+                "RelationshipWithMuseum": ""
             },
             "interactions": [
                 {
@@ -463,8 +463,8 @@
             "label": "B3N0HGw4",
             "group": 6,
             "explicit_community": {
-                "relationship_with_arts": "Ho un forte interesse per l'arte",
-                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+                "RelationshipWithArt": "Ho un forte interesse per l'arte",
+                "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
             },
             "interactions": [
                 {
@@ -489,8 +489,8 @@
             "label": "BTKF72et",
             "group": 8,
             "explicit_community": {
-                "relationship_with_arts": "",
-                "relationship_with_museums": ""
+                "RelationshipWithArt": "",
+                "RelationshipWithMuseum": ""
             },
             "interactions": [
                 {
@@ -536,8 +536,8 @@
             "label": "FVhf7OMw",
             "group": 8,
             "explicit_community": {
-                "relationship_with_arts": "Ho un forte interesse per l'arte",
-                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+                "RelationshipWithArt": "Ho un forte interesse per l'arte",
+                "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
             },
             "interactions": [
                 {
@@ -554,8 +554,8 @@
             "label": "KQTGApjD",
             "group": 3,
             "explicit_community": {
-                "relationship_with_arts": "L'arte mi interessa poco",
-                "relationship_with_museums": "Visito raramente musei e mostre"
+                "RelationshipWithArt": "L'arte mi interessa poco",
+                "RelationshipWithMuseum": "Visito raramente musei e mostre"
             },
             "interactions": [
                 {
@@ -573,8 +573,8 @@
             "label": "L11lvHun",
             "group": 4,
             "explicit_community": {
-                "relationship_with_arts": "",
-                "relationship_with_museums": ""
+                "RelationshipWithArt": "",
+                "RelationshipWithMuseum": ""
             },
             "interactions": [
                 {
@@ -591,8 +591,8 @@
             "label": "LW3Klzvx",
             "group": 2,
             "explicit_community": {
-                "relationship_with_arts": "L'arte mi interessa poco",
-                "relationship_with_museums": "Visito raramente musei e mostre"
+                "RelationshipWithArt": "L'arte mi interessa poco",
+                "RelationshipWithMuseum": "Visito raramente musei e mostre"
             },
             "interactions": [
                 {
@@ -617,8 +617,8 @@
             "label": "LvIeXwcT",
             "group": 6,
             "explicit_community": {
-                "relationship_with_arts": "Non provo nessun interesse per l'arte",
-                "relationship_with_museums": "Visito raramente musei e mostre"
+                "RelationshipWithArt": "Non provo nessun interesse per l'arte",
+                "RelationshipWithMuseum": "Visito raramente musei e mostre"
             },
             "interactions": [
                 {
@@ -682,8 +682,8 @@
             "label": "N72IRgFy",
             "group": 5,
             "explicit_community": {
-                "relationship_with_arts": "L'arte mi interessa poco",
-                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+                "RelationshipWithArt": "L'arte mi interessa poco",
+                "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
             },
             "interactions": [
                 {
@@ -700,8 +700,8 @@
             "label": "RQ4a2nIG",
             "group": 8,
             "explicit_community": {
-                "relationship_with_arts": "Non provo nessun interesse per l'arte",
-                "relationship_with_museums": "Visito raramente musei e mostre"
+                "RelationshipWithArt": "Non provo nessun interesse per l'arte",
+                "RelationshipWithMuseum": "Visito raramente musei e mostre"
             },
             "interactions": [
                 {
@@ -926,8 +926,8 @@
             "label": "Sz5Wx2XD",
             "group": 4,
             "explicit_community": {
-                "relationship_with_arts": "Ho un forte interesse per l'arte",
-                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+                "RelationshipWithArt": "Ho un forte interesse per l'arte",
+                "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
             },
             "interactions": [
                 {
@@ -944,8 +944,8 @@
             "label": "WsK2A1ab",
             "group": 8,
             "explicit_community": {
-                "relationship_with_arts": "L'arte mi interessa poco",
-                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+                "RelationshipWithArt": "L'arte mi interessa poco",
+                "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
             },
             "interactions": [
                 {
@@ -970,8 +970,8 @@
             "label": "Y0WXF1LR",
             "group": 2,
             "explicit_community": {
-                "relationship_with_arts": "Il mio lavoro riguarda l'arte",
-                "relationship_with_museums": "Visito spesso i musei"
+                "RelationshipWithArt": "Il mio lavoro riguarda l'arte",
+                "RelationshipWithMuseum": "Visito spesso i musei"
             },
             "interactions": [
                 {
@@ -995,8 +995,8 @@
             "label": "anonymous",
             "group": 0,
             "explicit_community": {
-                "relationship_with_arts": "",
-                "relationship_with_museums": ""
+                "RelationshipWithArt": "",
+                "RelationshipWithMuseum": ""
             },
             "interactions": [
                 {
@@ -1092,8 +1092,8 @@
             "label": "cBjFhvjx",
             "group": 8,
             "explicit_community": {
-                "relationship_with_arts": "Ho un forte interesse per l'arte",
-                "relationship_with_museums": "Visito spesso i musei"
+                "RelationshipWithArt": "Ho un forte interesse per l'arte",
+                "RelationshipWithMuseum": "Visito spesso i musei"
             },
             "interactions": [
                 {
@@ -1110,8 +1110,8 @@
             "label": "e4aM9WL7",
             "group": 1,
             "explicit_community": {
-                "relationship_with_arts": "",
-                "relationship_with_museums": ""
+                "RelationshipWithArt": "",
+                "RelationshipWithMuseum": ""
             },
             "interactions": [
                 {
@@ -1136,8 +1136,8 @@
             "label": "fqybaAk8",
             "group": 0,
             "explicit_community": {
-                "relationship_with_arts": "",
-                "relationship_with_museums": ""
+                "RelationshipWithArt": "",
+                "RelationshipWithMuseum": ""
             },
             "interactions": [
                 {
@@ -1189,8 +1189,8 @@
             "label": "loEoYm9R",
             "group": 8,
             "explicit_community": {
-                "relationship_with_arts": "L'arte mi interessa poco",
-                "relationship_with_museums": "Visito raramente musei e mostre"
+                "RelationshipWithArt": "L'arte mi interessa poco",
+                "RelationshipWithMuseum": "Visito raramente musei e mostre"
             },
             "interactions": [
                 {
@@ -1209,8 +1209,8 @@
             "label": "onDqgFnI",
             "group": 5,
             "explicit_community": {
-                "relationship_with_arts": "Il mio lavoro riguarda l'arte",
-                "relationship_with_museums": "Visito spesso i musei"
+                "RelationshipWithArt": "Il mio lavoro riguarda l'arte",
+                "RelationshipWithMuseum": "Visito spesso i musei"
             },
             "interactions": [
                 {
@@ -1227,8 +1227,8 @@
             "label": "ox8G7avH",
             "group": 7,
             "explicit_community": {
-                "relationship_with_arts": "",
-                "relationship_with_museums": ""
+                "RelationshipWithArt": "",
+                "RelationshipWithMuseum": ""
             },
             "interactions": [
                 {
@@ -1312,8 +1312,8 @@
             "label": "q2BDj1os",
             "group": 8,
             "explicit_community": {
-                "relationship_with_arts": "Ho un forte interesse per l'arte",
-                "relationship_with_museums": "Visito spesso i musei"
+                "RelationshipWithArt": "Ho un forte interesse per l'arte",
+                "RelationshipWithMuseum": "Visito spesso i musei"
             },
             "interactions": [
                 {
@@ -1330,8 +1330,8 @@
             "label": "x2AUnHqw",
             "group": 3,
             "explicit_community": {
-                "relationship_with_arts": "L'arte mi interessa poco",
-                "relationship_with_museums": "Visito raramente musei e mostre"
+                "RelationshipWithArt": "L'arte mi interessa poco",
+                "RelationshipWithMuseum": "Visito raramente musei e mostre"
             },
             "interactions": [
                 {
@@ -1364,8 +1364,8 @@
             "label": "yjlouq5U",
             "group": 1,
             "explicit_community": {
-                "relationship_with_arts": "Ho un forte interesse per l'arte",
-                "relationship_with_museums": "Visito di tanto in tanto musei e mostre"
+                "RelationshipWithArt": "Ho un forte interesse per l'arte",
+                "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre"
             },
             "interactions": [
                 {
