@@ -49,7 +49,7 @@ class SimilarityDAO:
         double
             Distance between the two values.
         """
-        pass
+        return 1.0
         
     def dissimilarFlag(self, distance):
         if ('dissimilar' in self.similarityFunction):
@@ -77,7 +77,7 @@ class SimilarityDAO:
         valueB = self.data.loc[elemB][self.similarityColumn]
         
         return self.distanceValues(valueA, valueB)
-
+        
     def similarity(self,elemA, elemB):
         """Method to obtain the similarity between two element.
 
@@ -239,7 +239,6 @@ class SimilarityDAO:
 #   To calculate dominant value in interaction attributes (always dict)
 #-------------------------------------------------------------------------------------------------------------------------------
        
-        
     def dominantInteractionAttribute(self, dictA, dictB):
         """
         Method to obtain the dominant sentiment for A and B
@@ -272,6 +271,17 @@ class SimilarityDAO:
         
         return keyA, keyB
     
-       
+#-------------------------------------------------------------------------------------------------------------------------------
+#   To calculate dominant value between two values (in order to explain communities)
+#-------------------------------------------------------------------------------------------------------------------------------
+    
+    def dominantElemValue(self, elemA, elemB):
+        valueA = self.data.loc[elemA][self.similarityColumn]
+        valueB = self.data.loc[elemB][self.similarityColumn]
+        
+        return self.dominantValue(valueA,valueB)
+        
+    def dominantValue(self, valueA, valueB):
+        return valueA
        
        

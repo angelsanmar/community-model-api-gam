@@ -59,6 +59,32 @@ class IconClassSimilarityDAO(SimilarityDAO):
             sim = self.elemLayer(commonAncestor) / maxLayer
             
         return 1 - sim
+        
+    def iconclassBestMatch(self,  elemA, iconClassListB):
+        """        
+        a) It finds the iconClass elem in iconClassListB with the largest common prefix with elemA (most similar)
+        
+        Parameters
+        ----------
+        elemA: String
+            Iconclass id belonging to artwork A
+        iconClassListB: list
+            List of iconclass id belonging to artwork B
+        
+        Returns
+        -------
+            longestPrefixElemB: String
+                Iconclass id in iconClassListB that is most similar to elemA
+        """
+        longestPrefix = ""
+        longestPrefixElemB = ""
+        for elemB in iconClassListB:
+            prefix = os.path.commonprefix([elemA, elemB])
+            if (len(prefix) > len(longestPrefix) or (len(prefix) == len(longestPrefix) and len(longestPrefixElemB) > len(elemB))):
+                longestPrefix = prefix
+                longestPrefixElemB = elemB
+                
+        return longestPrefixElemB
 
     def iconClassDistance(self, elemA, iconClassListB):
         """
@@ -78,16 +104,8 @@ class IconClassSimilarityDAO(SimilarityDAO):
         -------
             distance: float
         """
-        longestPrefix = ""
-        longestPrefixElemB = ""
-        for elemB in iconClassListB:
-            prefix = os.path.commonprefix([elemA, elemB])
-            if (len(prefix) > len(longestPrefix) or (len(prefix) == len(longestPrefix) and len(longestPrefixElemB) > len(elemB))):
-                longestPrefix = prefix
-                longestPrefixElemB = elemB
-        
-        return self.taxonomyDistance(elemA,longestPrefixElemB)
-        
+        longestPrefixElemB = self.iconClassBestMatch(elemA, iconClassListB)
+        return self.taxonomyDistance(elemA,longestPrefixElemB)    
         
 
     def distance(self,elemA, elemB):
@@ -143,6 +161,23 @@ class IconClassSimilarityDAO(SimilarityDAO):
         """
         
         return distanceTotal
+        
+#-------------------------------------------------------------------------------------------------------------------------------
+#   To calculate dominant value between two values (in order to explain communities)
+#-------------------------------------------------------------------------------------------------------------------------------
+    
+    def dominantValue(self, iconClassListA, iconClassListB):
+        explainable_iconclassValues = []
+        
+        for elemA in valueA:
+            longestPrefixElemB = self.iconClassBestMatch(elemA, iconClassListB)
+            commonParent = os.path.commonprefix([elemA, longestPrefixElemB])
+            maxLayer = max(self.elemLayer(elemA), self.elemLayer(longestPrefixElemB))
+            if (self.elemLayer(commonParent) + 2 >= maxLayer):
+                explainable_iconClassValues.append(commonParent)
+
+        return explainable_iconclassValues
+    
 
     
     

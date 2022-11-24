@@ -71,7 +71,13 @@ class TaxonomySimilarityDAO(SimilarityDAO):
         
         #return 1 - self.similarity(elemA,elemB)
 
+#-------------------------------------------------------------------------------------------------------------------------------
+#   To calculate dominant value between two values (in order to explain communities)
+#-------------------------------------------------------------------------------------------------------------------------------
     
+    def dominantValue(self, valueA, valueB):
+        commonAncestor = nx.lowest_common_ancestor(self.taxonomy.getGraph(), valueA, valueB)
+        return commonAncestor
     
     
     

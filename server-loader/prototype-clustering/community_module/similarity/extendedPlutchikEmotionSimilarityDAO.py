@@ -89,10 +89,14 @@ class ExtendedPlutchikEmotionSimilarityDAO(SimilarityDAO):
             
         # We don't have a Plutchick emotion for that user and artwork
         except ValueError:
+            """
             print("Value error")
             print(emotionA)
             print(emotionB)
             print("fin value error")
+            """
+            
+            #print("Wrong Plutchick emotion: " + "emotionA: " + str(emotionA) + " ; " + "emotionB: " + str(emotionB))
             
             return 1.0
     

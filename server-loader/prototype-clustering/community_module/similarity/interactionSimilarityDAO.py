@@ -31,6 +31,31 @@ class InteractionSimilarityDAO(SimilarityDAO):
         super().__init__(dao)
         self.perspective = perspective
         
+        # Interaction object data
+        self.IO_dao = self.getInteractionObjectDAO()
+        self.IO_data = self.getInteractionObjectData()
+        
+        self.dominantAttributes = {}
+        #for similarityFunction in self.perspective["interaction_similarity_functions"] + self.perspective["similarity_functions"]:
+        for similarityFunction in self.perspective["similarity_functions"]:
+            #self.dominantAttributes.append(similarityFunction['sim_function']['on_attribute']['att_name'])
+            similarityFeature = similarityFunction['sim_function']['on_attribute']['att_name']
+            similarityMeasure = similarityFunction['sim_function']['name']
+            #self.dominantAttributes[similarityFeature] = similarityFunction
+            self.dominantAttributes[similarityFeature] = self.initializeFromPerspective(self.IO_dao, similarityFunction)
+            
+            
+        
+        """
+        print("self.dominant attributes")
+        print(self.dominantAttributes)
+        """
+        
+        """
+        print("self.IO_data")
+        print(self.IO_data)
+        """
+        
         
         # Interaction similarity function
         self.similarityFunction = self.perspective["interaction_similarity_functions"][0]
@@ -39,9 +64,9 @@ class InteractionSimilarityDAO(SimilarityDAO):
         self.interactionSimilarityMeasure = self.initializeFromPerspective(dao, self.similarityFunction)
         #print(self.interactionSimilarityMeasure)
         
-        print("dafdsfasdf")
+        #print("dafdsfasdf")
         if (self.similarityFunction['sim_function']['name'] != 'NoInteractionSimilarityDAO' or 1==1):
-            print("sfdsf")
+            #print("sfdsf")
         
         
             # Remove the interactions with emotion with interactionSimilarityMeasure empty
@@ -52,17 +77,17 @@ class InteractionSimilarityDAO(SimilarityDAO):
             
             """
             print("\n")
-            print(df3[['userName', IOColumn, self.similarityColumn, 'ItMakesMeFeel', 'relationship_with_arts', 'relationship_with_museums']])
+            print(df3[['userName', IOColumn, self.similarityColumn, 'itMakesMeFeel', 'RelationshipWithArt', 'RelationshipWithMuseum']])
             print("\n")
             
-            df4b = df3.groupby(['userName', 'relationship_with_arts']).agg(list)         
+            df4b = df3.groupby(['userName', 'RelationshipWithArt']).agg(list)         
             df4b = df4b.reset_index() 
             """
             
             """
             print("\n")
             print("df4b")
-            print(df4b[['userName', IOColumn, self.similarityColumn, 'ItMakesMeFeel', 'relationship_with_arts', 'relationship_with_museums']])
+            print(df4b[['userName', IOColumn, self.similarityColumn, 'itMakesMeFeel', 'RelationshipWithArt', 'RelationshipWithMuseum']])
             print("\n")
             """
             
@@ -80,19 +105,19 @@ class InteractionSimilarityDAO(SimilarityDAO):
             df3_2 = df3.copy()
 
             
-            keys = lambda x: (x.userName,x.relationship_with_arts, x.relationship_with_museums, x.IdArtefact)
+            keys = lambda x: (x.userName,x.RelationshipWithArt, x.RelationshipWithMuseum, x.IdArtefact)
             """
 
-            df4 = df3.groupby(['userName', 'relationship_with_arts', 'relationship_with_museums']).agg(list)         
+            df4 = df3.groupby(['userName', 'RelationshipWithArt', 'RelationshipWithMuseum']).agg(list)         
             df4 = df4.reset_index() 
             
-            itMakesMeFeel = df4.apply(lambda row: row['ItMakesMeFeel'][0], axis = 1)
-            df4['ItMakesMeFeel'] = itMakesMeFeel
+            itMakesMeFeel = df4.apply(lambda row: row['itMakesMeFeel'][0], axis = 1)
+            df4['itMakesMeFeel'] = itMakesMeFeel
             
             """
             print("\n")
             print("df4")
-            print(df4[['userName', IOColumn, self.similarityColumn, 'ItMakesMeFeel']])
+            print(df4[['userName', IOColumn, self.similarityColumn, 'itMakesMeFeel']])
             print("\n")
             """
             
@@ -102,26 +127,30 @@ class InteractionSimilarityDAO(SimilarityDAO):
             """
         
        
-            # Add column to save dominant interaction attribute
-            df4[self.similarityColumn + 'DominantInteractionGenerated'] = [[] for _ in range(len(df4))]
+            # Add columns to save dominant interaction attributes
+            for dominantAttribute in self.dominantAttributes:
+                # interaction similarity functions
+                df4[self.similarityColumn + 'DominantInteractionGenerated'] = [[] for _ in range(len(df4))]
+                # artwork similarity functions
+                df4[dominantAttribute + 'DominantInteractionGenerated'] = [[] for _ in range(len(df4))]
             
             
-            #print(self.data[['userName',self.similarityColumn, 'relationship_with_arts']])
+            #print(self.data[['userName',self.similarityColumn, 'RelationshipWithArt']])
             
             """
             print("\n")
-            print(self.data[['userName', IOColumn, self.similarityColumn, 'ItMakesMeFeel']])
+            print(self.data[['userName', IOColumn, self.similarityColumn, 'itMakesMeFeel']])
             print("\n")
             """
             
             self.data = df4.copy()
             
             
-            
-            print("\n")
-            print(self.data[['userName', IOColumn, self.similarityColumn, 'ItMakesMeFeel']])
-            print("\n")
             """
+            print("\n")
+            print(self.data[['userName', IOColumn, self.similarityColumn, 'itMakesMeFeel']])
+            print("\n")
+            
             """
             
             
@@ -179,7 +208,7 @@ class InteractionSimilarityDAO(SimilarityDAO):
             
             """
             print("df4")
-            print(df4[['userName',self.similarityColumn, 'relationship_with_arts']])
+            print(df4[['userName',self.similarityColumn, 'RelationshipWithArt']])
             """
             
             
@@ -261,7 +290,8 @@ class InteractionSimilarityDAO(SimilarityDAO):
         #route = 'data/GAM_Catalogue_plus.json'
         
         abspath = os.path.dirname(__file__)
-        relpath = "../../communityModel/data/GAM_Catalogue_plus.json"
+        #relpath = "../../communityModel/data/GAM_Catalogue_plus.json"
+        relpath = "../../communityModel/data/GAM_Catalogue_plus processed.json"
         # route = os.path.normpath(os.path.join(abspath, relpath))
         route = os.path.normpath(os.path.join(abspath, relpath))
         #print("hey")
@@ -311,12 +341,13 @@ class InteractionSimilarityDAO(SimilarityDAO):
         # Calculate interaction object (IO) similarity
         similarity_functions = self.perspective['similarity_functions']
         daoJson = self.getInteractionObjectDAO()
-        IO_similarityMeasure = ComplexSimilarityDAO(daoJson,similarity_functions)
+        IO_similarityMeasure = ComplexSimilarityDAO(daoJson,similarity_functions)        
         IO_distanceMatrix = IO_similarityMeasure.matrix_distance()
         
         # Export _id (id artefact) and distance matrix to json file
         IO_distanceDict = {}
-        IO_distanceDict['index'] = IO_similarityMeasure.data['_id'].tolist()
+        #IO_distanceDict['index'] = IO_similarityMeasure.data['_id'].tolist()
+        IO_distanceDict['index'] = list(map(str, IO_similarityMeasure.data['@id'].tolist()))
         IO_distanceDict['distanceMatrix'] = IO_distanceMatrix.tolist()
         
         exportFile = self.interactionObjectDistanceMatrixRoute()
@@ -482,6 +513,9 @@ class InteractionSimilarityDAO(SimilarityDAO):
         distanceTotal = 0
         # Dominant interaction attribute value
         dominantInteractionAttribute = ""
+        dominantValues = {}
+        for dominantAttribute in self.dominantAttributes:
+            dominantValues[dominantAttribute] = ""
         
         try:
         
@@ -489,6 +523,7 @@ class InteractionSimilarityDAO(SimilarityDAO):
             for objectIndexA in range(len(IOA)):
                 objectA = IOA[objectIndexA]
                 objectIndexB = self.getSimilarIOIndex(objectA, IOB)
+                objectB = IOB[objectIndexB]
                 
                 #print("objectA: " + str(objectA))
                 
@@ -534,6 +569,44 @@ class InteractionSimilarityDAO(SimilarityDAO):
 
                     # Add dominant interaction value to list (e.g., emotions = {joy: 3, sadness: 4, trust: 1} -> sadness
                     dominantInteractionAttributeA, dominantInteractionAttributeB = self.interactionSimilarityMeasure.dominantInteractionAttribute(interactionFeatureA, interactionFeatureB)
+                    
+                    
+                    # Add dominant value for each artwork attribute used to compute similarity between them
+                    """
+                    print("objectA: " + str(objectA))
+                    print("objectB: " + str(objectB))
+                    print("\n")
+                    """
+                    
+                    # Get objects data
+                    column = self.perspective['similarity_functions'][0]['sim_function']['on_attribute']['att_name']
+                    df = self.IO_data.loc[ self.IO_data['_id'].isin([objectA, objectB]) ]
+                    
+                    """
+                    print("df")
+                    print(df[['_id', column]] )
+                    print("\n")
+                    
+                    """
+                    
+                    
+                    # Compute & Save dominant attribute
+                    for dominantAttribute in self.dominantAttributes:
+                        similarityMeasure = self.dominantAttributes[dominantAttribute]
+                        
+                        valueA = df.loc[ df['_id'] == objectA ][dominantAttribute].to_list()[0]
+                        valueB = df.loc[ df['_id'] == objectB ][dominantAttribute].to_list()[0]
+                        dominantValue = similarityMeasure.dominantValue(valueA, valueB)
+                        dominantValues[dominantAttribute] = dominantValue
+                        #print("dominantValue: " + str(dominantValue))
+                        
+                        
+
+                    
+                    #dominant_artworkSimilarityFeature = 
+                    
+                    
+                    
                     
                     """
                     print("dominantA: " + str(dominantInteractionAttributeA))
@@ -616,6 +689,14 @@ class InteractionSimilarityDAO(SimilarityDAO):
                 
             dominantInteractionAttributeList.append(dominantInteractionAttribute)
             self.data.at[elemA, self.similarityColumn + 'DominantInteractionGenerated'] = dominantInteractionAttributeList
+            
+            
+            # I have to put it here because maybe it didnt find any similar artwork
+            for dominantAttribute in self.dominantAttributes:
+                dominantValue = dominantValues[dominantAttribute]
+                dominantValueList = self.data.loc[elemA][dominantAttribute + 'DominantInteractionGenerated']
+                dominantValueList.append(dominantValue)
+                self.data.at[elemA, dominantAttribute + 'DominantInteractionGenerated'] = dominantValueList
             
         return distanceTotal
         

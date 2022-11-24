@@ -30,7 +30,13 @@ class ExplainedCommunitiesDetection:
             self.explanaible_attributes = []
             #for similarityFunction in self.perspective['similarity_functions']:
             for similarityFunction in self.perspective['interaction_similarity_functions']:
-                self.explanaible_attributes.append(similarityFunction['sim_function']['on_attribute']['att_name'])   
+                self.explanaible_attributes.append(similarityFunction['sim_function']['on_attribute']['att_name'])
+
+            # artwork similarity features
+            self.artwork_attributes = []
+            for similarityFunction in self.perspective['similarity_functions']:
+                self.artwork_attributes.append(similarityFunction['sim_function']['on_attribute']['att_name'])
+            #self.artwork_attributes = []
             
             self.user_attributes = []
             for userAttribute in self.perspective['user_attributes']:
@@ -85,7 +91,7 @@ class ExplainedCommunitiesDetection:
             else:
                 for c in range(n_communities):
                     community = self.communities.get_group(c)
-                    community = self.simplifyInteractionAttributes(community)
+                    community = self.simplifyInteractionAttributes(community, printing = True)
                     explainables.append(self.is_explainable(community, answer_binary, percentage))
 
                 finish_search = sum(explainables) == n_communities
@@ -136,14 +142,16 @@ class ExplainedCommunitiesDetection:
         else:
                     
             df = community.copy()
-            for col in self.explanaible_attributes:
+            #for col in self.explanaible_attributes:
+            # Include similarity features between artworks too
+            for col in self.explanaible_attributes + self.artwork_attributes:
                 col2 = col + 'DominantInteractionGenerated'
 
                 # Get row index of community members
                 communityMemberIndexes = np.nonzero(np.in1d(self.data.index,community.index))[0]
                 communityMemberIndexes = np.nonzero(np.in1d(self.data.index,self.data.index))[0]
                 
-                """
+                
                 if (printing):
                     print("col2: " + str(col2))
                     print(df[col2])
@@ -151,6 +159,7 @@ class ExplainedCommunitiesDetection:
                     print("community.index: " + str(community.index))
                     print("community member indexes: " + str(communityMemberIndexes))
                     print("\n\n")
+                """
                 """   
                 
                 # From the attribute list, consider only the ones between the members of the community
@@ -164,6 +173,10 @@ class ExplainedCommunitiesDetection:
     def extractDominantInteractionAttribute(self, row, col2, communityMemberIndexes):
         communityMembers_interactionAttributeList = [row[col2][i] for i in communityMemberIndexes if row[col2][i] != '']
         if (len(communityMembers_interactionAttributeList) > 0):
+            #if (type(communityMembers_interactionAttributeList[0] == 
+            print("extract dominant interaction attribute")
+            print(type(communityMembers_interactionAttributeList[0]))
+            print("\n")
             return statistics.mode(communityMembers_interactionAttributeList)
         else:
             return ''
@@ -259,7 +272,7 @@ class ExplainedCommunitiesDetection:
         try:
             
             community = self.communities.get_group(id_community)
-            community = self.simplifyInteractionAttributes(community)
+            community = self.simplifyInteractionAttributes(community, printing = True)
 
             community_user_attributes = community[self.user_attributes]
 
@@ -270,7 +283,8 @@ class ExplainedCommunitiesDetection:
             explainedCommunityProperties = dict()       
 
             #for col in community.columns.values:
-            for col2 in self.explanaible_attributes:
+            #for col2 in self.explanaible_attributes:
+            for col2 in self.explanaible_attributes + self.artwork_attributes:
                 if col2 != 'community':
                     if (self.explainInteractionAttributes()):
                         col = "community_" + col2
