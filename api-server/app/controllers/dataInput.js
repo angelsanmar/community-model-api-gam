@@ -72,7 +72,7 @@ function getExampleSeed() {
                     "params": [],
                     "on_attribute": {
                         "att_name": "Year",
-                        "att_type": "Number"
+                        "att_type": "float"
                     }
                 }
             },
@@ -82,7 +82,7 @@ function getExampleSeed() {
                     "params": [],
                     "on_attribute": {
                         "att_name": "Artwork_start_date",
-                        "att_type": "Number"
+                        "att_type": "float"
                     }
                 }
             },
@@ -92,7 +92,7 @@ function getExampleSeed() {
                     "params": [],
                     "on_attribute": {
                         "att_name": "Artwork_end_date",
-                        "att_type": "Number"
+                        "att_type": "float"
                     }
                 }
             },
@@ -102,7 +102,7 @@ function getExampleSeed() {
                     "params": [],
                     "on_attribute": {
                         "att_name": "Artist_birth_date",
-                        "att_type": "Number"
+                        "att_type": "float"
                     }
                 }
             },
@@ -112,7 +112,7 @@ function getExampleSeed() {
                     "params": [],
                     "on_attribute": {
                         "att_name": "Artist_death_date",
-                        "att_type": "Number"
+                        "att_type": "float"
                     }
                 }
             },
@@ -192,7 +192,7 @@ function getExampleSeed() {
                     "params": [],
                     "on_attribute": {
                         "att_name": "Size_height",
-                        "att_type": "Number"
+                        "att_type": "float"
                     }
                 }
             },
@@ -202,7 +202,7 @@ function getExampleSeed() {
                     "params": [],
                     "on_attribute": {
                         "att_name": "Size_width",
-                        "att_type": "Number"
+                        "att_type": "float"
                     }
                 }
             },
@@ -235,26 +235,6 @@ function getExampleSeed() {
                         "att_type": "String"
                     }
                 }
-            },
-            {
-                "sim_function": {
-                    "name": "IconClassSimilarityDAO",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "iconclassIDString",
-                        "att_type": "String"
-                    }
-                }
-            },
-            {
-                "sim_function": {
-                    "name": "IconClassSimilarityDAO",
-                    "params": [],
-                    "on_attribute": {
-                        "att_name": "iconclassArrayIDs",
-                        "att_type": "List"
-                    }
-                }
             }
         ],
         "user_attributes": [
@@ -282,7 +262,7 @@ function getExampleSeed() {
         "interaction_similarity_functions": [
             {
                 "sim_function": {
-                    "name": "ExtendedPlutchikSimilarityDAO",
+                    "name": "ExtendedPlutchikEmotionSimilarityDAO",
                     "params": [],
                     "on_attribute": {
                         "att_name": "emotions",
