@@ -126,25 +126,29 @@ class Handler(BaseHTTPRequestHandler):
         elif first_arg == "postData":
             ok = True
             # Se pasa el _id de interactionData en mongoDB
-            dataId = loads(post_data)
-            print("dataId: ", dataId)
+            dataId_1 = loads(post_data)[0]
+            dataId_2 = loads(post_data)[1]
+            print("dataIds: ", dataId_1, dataId_2)
 
             # Se obtiene el ultimo interactionData que fue pasado por la API
             # (Se usa busca el ultimo usando el _id pasado)
             # (en cualquier caso se puede omitir la busqiedad por id y simplemente pedir algun interactionData,
             # ya que voy a borrarlo despues de cada ejecucion del CM)
             daoInteractionData = DAO_db_interactionDatas()
-            data = daoInteractionData.getInteractionDataById(ObjectId(dataId))[
-                "data"]
+            data = daoInteractionData.getInteractionDataById(ObjectId(dataId_1))["data"]
             # print("data: ", data)
 
             # retrive perspective from db
             daoPerspective = DAO_db_perspectives()
-            perspective = daoPerspective.getPerspectives()[0]
+            perspectives = daoPerspective.getPerspectives()
             # print("perspective: ", perspective)
 
             communityModel = CommunityModel(
-                perspective, daoInteractionData, {}, dataId)
+                perspectives[0], daoInteractionData, {}, dataId_1)
+            communityModel.start()
+
+            communityModel = CommunityModel(
+                perspectives[1], daoInteractionData, {}, dataId_2)
             communityModel.start()
 
             daoInteractionData.drop()
@@ -251,11 +255,14 @@ def initData():
     # daoInteractionData = DAO_db_interactionDatas()
     # daoInteractionData.insertInteractionData({"data": annotatedStories})
 
-    perspective = DAO_json(
-        "app/prototype-clustering/communityModel/perspectives/GAM similar user emotions in similar artworks (iconclass) annotated-stories.json").getData()
+    perspective1 = DAO_json(
+        "app/prototype-clustering/communityModel/perspectives/GAM similar user emotions in similar artworks (iconclass) annotated-stories.json")
+    perspective2 = DAO_json(
+        "app/prototype-clustering/communityModel/perspectives/GAM similar user emotions in similar artworks (artwork_artistic_movement) annotated-stories.json")
     # print(perspective)
     daoPerspective = DAO_db_perspectives()
-    daoPerspective.insertPerspective(perspective)
+    daoPerspective.insertPerspective(perspective1.getData())
+    daoPerspective.insertPerspective(perspective2.getData())
 
     # default data for Vis tests
     r = "app/prototype-clustering/api_server/data/"

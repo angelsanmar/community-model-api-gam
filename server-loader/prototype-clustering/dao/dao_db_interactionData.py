@@ -57,6 +57,7 @@ class DAO_db_interactionDatas(DAO_db):
         # data = self.db_users.find({}, {"_id": 0})
         dataList = self.db_interactionData.find({"_id": id})
         dataList = loads(dumps(list(dataList)))
+        print(dataList[0])
         return dataList[0]
 
     def drop(self):

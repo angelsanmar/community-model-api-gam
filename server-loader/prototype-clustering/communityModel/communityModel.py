@@ -203,6 +203,7 @@ class CommunityModel():
         #daoCommunityModelCommunity.dropFullList()
         # add new data
         jsonCommunity["perspectiveId"] = self.perspectiveId
+        jsonCommunity["_id"] = self.perspectiveId
         insertedId = daoCommunityModelCommunity.insertFileList(jsonCommunity)
         return insertedId
         
