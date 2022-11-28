@@ -116,7 +116,7 @@ class CommunityModel():
     
         return self.distanceMatrix
         
-    def clusteringExportFileRoute(self, percentageExplainability):
+    def clusteringExportFileRoute(self, percentageExplainability, algorithmName):
         abspath = os.path.dirname(__file__)
         #relpath = "clustering/" + self.perspective['name'] + " " + "(" + self.perspective['algorithm']['name'] + ")" 
         #relpath = "clustering/" + '(GAMGame_stories_RN_UNITO) ' + self.perspective['name'] + " "
@@ -127,8 +127,11 @@ class CommunityModel():
         
         print("clustering export file route")
 
-        relpath += self.perspective['name'] + " "
-        relpath += " (" + str(percentageExplainability) + ")"
+        relpath += self.perspective['name'].replace("Similar-","S-").replace("Same-","E-") + " "
+        if algorithmName != "agglomerative":
+            relpath += str(algorithmName) + " "
+        relpath += "(" + str(percentageExplainability) + ")"
+        
         relpath += ".json"
         route = os.path.normpath(os.path.join(abspath, relpath))
         
@@ -161,6 +164,12 @@ class CommunityModel():
         # Initialize data
         algorithm = self.initializeAlgorithm()
         data = self.similarityMeasure.data
+        
+        # For debugging (delete later)
+        data['userNameAuxiliar'] = data['userName']
+        data['real_index'] = data.index
+                
+        # Set index to userName to use in visualization        
         data = data.set_index('userName')
         
         interactionObjectData = self.similarityMeasure.getInteractionObjectData()
@@ -172,7 +181,7 @@ class CommunityModel():
         
         # Export to json
         data.reset_index(inplace=True)
-        exportFile = self.clusteringExportFileRoute(percentageExplainability)
+        exportFile = self.clusteringExportFileRoute(percentageExplainability, self.perspective['algorithm']['name'])
         jsonGenerator = CommunityJsonGenerator(interactionObjectData, data, self.distanceMatrix, communityDict, community_detection, self.perspective)
         jsonCommunity = jsonGenerator.generateJSON(exportFile)  
         

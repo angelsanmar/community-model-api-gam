@@ -72,7 +72,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "mi sento impegnato nel cercare quello che pi\u00f9 mi interessa!",
+                    "itMakesMeThinkAbout": "mi sento impegnato nel cercare quello che pi\u00f9 mi interessa!",
                     "itMakesMeThinkAbout": "allo shopping per le vie del centro",
                     "itRemindsMeOf": "mi ricorda una domenica mattina al mercato"
                 },
@@ -93,7 +93,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": " pensieroso come l'uomo e abbandonato come la donna",
+                    "itMakesMeThinkAbout": " pensieroso come l'uomo e abbandonato come la donna",
                     "itMakesMeThinkAbout": "la passione degli amanti nascosti",
                     "itRemindsMeOf": "mi ricorda il bacio di Klimt"
                 },
@@ -102,7 +102,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "mi fa sentire malinconico",
+                    "itMakesMeThinkAbout": "mi fa sentire malinconico",
                     "itMakesMeThinkAbout": "mi fa pensare ad una donna sola e malinconica ",
                     "itRemindsMeOf": "le tipiche donne etrusche "
                 },
@@ -123,7 +123,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "desoato e malinconico",
+                    "itMakesMeThinkAbout": "desoato e malinconico",
                     "itMakesMeThinkAbout": "un paesaggio autunnale, spoglio, triste e desolato",
                     "itRemindsMeOf": "mi ricorda le campagne dopo una lunga siccit\u00e0 come quest'anno"
                 },
@@ -138,7 +138,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "riflessivo, pensieroso",
+                    "itMakesMeThinkAbout": "riflessivo, pensieroso",
                     "itMakesMeThinkAbout": "donna in attesa, pensierosa con uno sguardo spento\n",
                     "itRemindsMeOf": "mi ricorda chi rimane assorto dai pensieri"
                 },
@@ -159,7 +159,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "mi fa sentire rigenerato ",
+                    "itMakesMeThinkAbout": "mi fa sentire rigenerato ",
                     "itMakesMeThinkAbout": "un sabato in una casa con vista sulle colline del monferrato",
                     "itRemindsMeOf": "i week end con gli amici"
                 },
@@ -190,7 +190,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "fiducioso perch\u00e8 c'\u00e8 chi ha saputo discernere la sua vocazione",
+                    "itMakesMeThinkAbout": "fiducioso perch\u00e8 c'\u00e8 chi ha saputo discernere la sua vocazione",
                     "itMakesMeThinkAbout": "una sorella in preghiera",
                     "itRemindsMeOf": "mi ricorda suor chiara delle apostole del sacro cuore"
                 },
@@ -211,7 +211,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "questa immagine mi fa sentire lontano dalla vita quotidiana, in uno spazio libero e lontano dai rumori della citt\u00e0",
+                    "itMakesMeThinkAbout": "questa immagine mi fa sentire lontano dalla vita quotidiana, in uno spazio libero e lontano dai rumori della citt\u00e0",
                     "itMakesMeThinkAbout": "Donna pensierosa",
                     "itRemindsMeOf": "Mi ricorda l'attesa, una giornata in collina"
                 },
@@ -220,7 +220,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "mi fa sentire incuriosito e concentrato",
+                    "itMakesMeThinkAbout": "mi fa sentire incuriosito e concentrato",
                     "itMakesMeThinkAbout": "gioco degli scacchi",
                     "itRemindsMeOf": "mi ricorda le serate con gli amici a giocare a scacchi!"
                 },
@@ -229,7 +229,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "mi fa pensare alla lettura",
                     "itRemindsMeOf": ""
                 },
@@ -274,7 +274,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "sample answer",
                     "itRemindsMeOf": ""
                 },
@@ -297,7 +297,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "sample",
+                    "itMakesMeThinkAbout": "sample",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -320,7 +320,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "happy",
+                    "itMakesMeThinkAbout": "happy",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -343,7 +343,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "chess"
                 },
@@ -360,7 +360,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "sss",
                     "itRemindsMeOf": ""
                 },
@@ -371,7 +371,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "s",
+                    "itMakesMeThinkAbout": "s",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -382,7 +382,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "e",
                     "itRemindsMeOf": ""
                 },
@@ -547,7 +547,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "anxious",
+                    "itMakesMeThinkAbout": "anxious",
                     "itMakesMeThinkAbout": "sufference",
                     "itRemindsMeOf": "field hospitals during wars"
                 },
@@ -568,7 +568,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "scared",
+                    "itMakesMeThinkAbout": "scared",
                     "itMakesMeThinkAbout": "poverty",
                     "itRemindsMeOf": "stories from after World War Second"
                 },
@@ -589,7 +589,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "sad and scared",
+                    "itMakesMeThinkAbout": "sad and scared",
                     "itMakesMeThinkAbout": "poverty",
                     "itRemindsMeOf": "people begging in the streets"
                 },
@@ -610,7 +610,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "solemn",
+                    "itMakesMeThinkAbout": "solemn",
                     "itMakesMeThinkAbout": "ancien greek",
                     "itRemindsMeOf": "Ovid's Metamorphosis"
                 },
@@ -631,7 +631,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "nothing in particula",
+                    "itMakesMeThinkAbout": "nothing in particula",
                     "itMakesMeThinkAbout": "Saffo...",
                     "itRemindsMeOf": "the Napoleonic era"
                 },
@@ -652,7 +652,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "neat",
+                    "itMakesMeThinkAbout": "neat",
                     "itMakesMeThinkAbout": "simmetry",
                     "itRemindsMeOf": "a greek temple or a board game"
                 },
@@ -673,7 +673,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "sick",
+                    "itMakesMeThinkAbout": "sick",
                     "itMakesMeThinkAbout": "an hangover morning",
                     "itRemindsMeOf": "a book, \"\"Le ore dell'inutile pentimento\""
                 },
@@ -694,7 +694,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "uneasy",
+                    "itMakesMeThinkAbout": "uneasy",
                     "itMakesMeThinkAbout": "abuse",
                     "itRemindsMeOf": "Thomas Mann and his relationship with his sons"
                 },
@@ -715,7 +715,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "bored (and a bit annoyed)",
+                    "itMakesMeThinkAbout": "bored (and a bit annoyed)",
                     "itMakesMeThinkAbout": "school",
                     "itRemindsMeOf": "Alessandro Manzoni and his unbearable \"buoni sentimenti\""
                 },
@@ -736,7 +736,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "tenderness",
+                    "itMakesMeThinkAbout": "tenderness",
                     "itMakesMeThinkAbout": "childhood",
                     "itRemindsMeOf": "the smell of my kids"
                 },
@@ -757,7 +757,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "in a good mood",
+                    "itMakesMeThinkAbout": "in a good mood",
                     "itMakesMeThinkAbout": "a dreamy world",
                     "itRemindsMeOf": "chassidic short stories"
                 },
@@ -778,7 +778,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "energetic",
+                    "itMakesMeThinkAbout": "energetic",
                     "itMakesMeThinkAbout": "a stroll in the city",
                     "itRemindsMeOf": "Saturday morning in New York"
                 },
@@ -799,7 +799,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "tenderness",
+                    "itMakesMeThinkAbout": "tenderness",
                     "itMakesMeThinkAbout": "Vercelli",
                     "itRemindsMeOf": "\"counting sheeps\" for sleeping"
                 },
@@ -820,7 +820,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "nostalgic",
+                    "itMakesMeThinkAbout": "nostalgic",
                     "itMakesMeThinkAbout": "September",
                     "itRemindsMeOf": "Vignale Monferrato"
                 },
@@ -841,7 +841,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "cold",
+                    "itMakesMeThinkAbout": "cold",
                     "itMakesMeThinkAbout": "poetry",
                     "itRemindsMeOf": "The Wast Land...April is the cruellest month"
                 },
@@ -862,7 +862,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "benevolent",
+                    "itMakesMeThinkAbout": "benevolent",
                     "itMakesMeThinkAbout": "dust",
                     "itRemindsMeOf": "old aunts' homes"
                 },
@@ -883,7 +883,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "nostalgic",
+                    "itMakesMeThinkAbout": "nostalgic",
                     "itMakesMeThinkAbout": "\"le piccole cose di pessimo gusto\"",
                     "itRemindsMeOf": "Signorina Felicita"
                 },
@@ -904,7 +904,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "in no particular way",
+                    "itMakesMeThinkAbout": "in no particular way",
                     "itMakesMeThinkAbout": "something sliding down",
                     "itRemindsMeOf": " the Titanic"
                 },
@@ -925,7 +925,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "jolly",
+                    "itMakesMeThinkAbout": "jolly",
                     "itMakesMeThinkAbout": "oranges",
                     "itRemindsMeOf": "nothing particular"
                 },
@@ -946,7 +946,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "bored",
+                    "itMakesMeThinkAbout": "bored",
                     "itMakesMeThinkAbout": "how a clich\u00e9 Andy Warhol is",
                     "itRemindsMeOf": "the way images lose their power once they're so common"
                 },
@@ -967,7 +967,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "sad",
+                    "itMakesMeThinkAbout": "sad",
                     "itMakesMeThinkAbout": "how studip men can be",
                     "itRemindsMeOf": "a pediatric emergency room"
                 },
@@ -988,7 +988,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "cold",
+                    "itMakesMeThinkAbout": "cold",
                     "itMakesMeThinkAbout": "San Carlo di Tigliole",
                     "itRemindsMeOf": "il giorno dei morti"
                 },
@@ -1009,7 +1009,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "cozy",
+                    "itMakesMeThinkAbout": "cozy",
                     "itMakesMeThinkAbout": "cuddles",
                     "itRemindsMeOf": "my bunny"
                 },
@@ -1030,7 +1030,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "happy",
+                    "itMakesMeThinkAbout": "happy",
                     "itMakesMeThinkAbout": "San Francesco d'Assisi",
                     "itRemindsMeOf": "my parents feedings birds"
                 },
@@ -1051,7 +1051,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "relaxed",
+                    "itMakesMeThinkAbout": "relaxed",
                     "itMakesMeThinkAbout": "the countryside",
                     "itRemindsMeOf": "Little Women novel"
                 },
@@ -1072,7 +1072,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "sad",
+                    "itMakesMeThinkAbout": "sad",
                     "itMakesMeThinkAbout": "cautionary tales",
                     "itRemindsMeOf": "lost hopes"
                 },
@@ -1093,7 +1093,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "lonely",
+                    "itMakesMeThinkAbout": "lonely",
                     "itMakesMeThinkAbout": "fall",
                     "itRemindsMeOf": "empty spaces"
                 },
@@ -1114,7 +1114,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "kind of sturm und drang",
+                    "itMakesMeThinkAbout": "kind of sturm und drang",
                     "itMakesMeThinkAbout": "a storm on the sea",
                     "itRemindsMeOf": "thhunders"
                 },
@@ -1135,7 +1135,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "proud",
+                    "itMakesMeThinkAbout": "proud",
                     "itMakesMeThinkAbout": "defiance",
                     "itRemindsMeOf": "my grandmother"
                 },
@@ -1156,7 +1156,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "hopeful",
+                    "itMakesMeThinkAbout": "hopeful",
                     "itMakesMeThinkAbout": "adolescense",
                     "itRemindsMeOf": "Immortal Beloved (the movie)"
                 },
@@ -1177,7 +1177,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "sleepy",
+                    "itMakesMeThinkAbout": "sleepy",
                     "itMakesMeThinkAbout": "not feel guilty about being lazy",
                     "itRemindsMeOf": "summer"
                 },
@@ -1217,7 +1217,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "a casa",
+                    "itMakesMeThinkAbout": "a casa",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -1226,7 +1226,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": " pace",
                     "itRemindsMeOf": ""
                 },
@@ -1262,7 +1262,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "un caldo pomeriggio",
                     "itRemindsMeOf": ""
                 },
@@ -1271,7 +1271,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "serena",
+                    "itMakesMeThinkAbout": "serena",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -1280,7 +1280,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "rilassata",
+                    "itMakesMeThinkAbout": "rilassata",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -1337,7 +1337,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "nostalgic",
+                    "itMakesMeThinkAbout": "nostalgic",
                     "itMakesMeThinkAbout": "suspended time ",
                     "itRemindsMeOf": "afternoons in the countryside "
                 },
@@ -1346,7 +1346,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "involved in the deep green of the water ",
+                    "itMakesMeThinkAbout": "involved in the deep green of the water ",
                     "itMakesMeThinkAbout": "love and loss",
                     "itRemindsMeOf": "an ancient tale"
                 },
@@ -1355,7 +1355,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "worried",
+                    "itMakesMeThinkAbout": "worried",
                     "itMakesMeThinkAbout": "fear",
                     "itRemindsMeOf": "bygone days"
                 },
@@ -1364,7 +1364,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "close to her feelings ",
+                    "itMakesMeThinkAbout": "close to her feelings ",
                     "itMakesMeThinkAbout": "untouched beauty",
                     "itRemindsMeOf": "romantic heroines' purity"
                 },
@@ -1379,7 +1379,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "involved in the red of her hair ",
+                    "itMakesMeThinkAbout": "involved in the red of her hair ",
                     "itMakesMeThinkAbout": "an angry little girl",
                     "itRemindsMeOf": "quarrels between children"
                 },
@@ -1388,7 +1388,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "n the force expressed by his fingers even without a piano",
+                    "itMakesMeThinkAbout": "n the force expressed by his fingers even without a piano",
                     "itMakesMeThinkAbout": "the power of talented young people",
                     "itRemindsMeOf": "an insecure young man "
                 },
@@ -1397,7 +1397,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "nostalgic  ",
+                    "itMakesMeThinkAbout": "nostalgic  ",
                     "itMakesMeThinkAbout": "a soffused dream ",
                     "itRemindsMeOf": "mirrored images in water viewed from a bridge "
                 },
@@ -1418,7 +1418,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "quiet",
+                    "itMakesMeThinkAbout": "quiet",
                     "itMakesMeThinkAbout": "windless quiet",
                     "itRemindsMeOf": "a quiet summer afternoon"
                 },
@@ -1439,7 +1439,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "empathic",
+                    "itMakesMeThinkAbout": "empathic",
                     "itMakesMeThinkAbout": "someone trying to hold on to something they no longer possess ",
                     "itRemindsMeOf": "lost memories "
                 },
@@ -1482,7 +1482,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "Montepulciano",
                     "itRemindsMeOf": ""
                 },
@@ -1491,7 +1491,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "a Marechiaro",
+                    "itMakesMeThinkAbout": "a Marechiaro",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -1500,7 +1500,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -1538,7 +1538,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": " solo",
+                    "itMakesMeThinkAbout": " solo",
                     "itMakesMeThinkAbout": "infanzia",
                     "itRemindsMeOf": ""
                 },
@@ -1547,7 +1547,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "allegro",
+                    "itMakesMeThinkAbout": "allegro",
                     "itMakesMeThinkAbout": "estate",
                     "itRemindsMeOf": "nonni"
                 },
@@ -1556,7 +1556,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "freddo",
+                    "itMakesMeThinkAbout": "freddo",
                     "itMakesMeThinkAbout": "vita rurale",
                     "itRemindsMeOf": "pirati dei caraibi"
                 },
@@ -1583,7 +1583,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "nnn",
                     "itRemindsMeOf": ""
                 },
@@ -1598,7 +1598,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "bbbbb",
                     "itRemindsMeOf": ""
                 },
@@ -1640,7 +1640,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "due amici che erano a parlare guardando il panorama ma hanno deciso di uscire e correre nel prato ",
                     "itRemindsMeOf": ""
                 },
@@ -1649,7 +1649,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "post serata ",
                     "itRemindsMeOf": ""
                 },
@@ -1658,7 +1658,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "festa scout",
                     "itRemindsMeOf": ""
                 },
@@ -1667,7 +1667,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -1702,7 +1702,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "sopraffatta",
+                    "itMakesMeThinkAbout": "sopraffatta",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -1764,7 +1764,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "viva",
+                    "itMakesMeThinkAbout": "viva",
                     "itMakesMeThinkAbout": "altri luoghi, altre suggestioni, alla letteratura ",
                     "itRemindsMeOf": "un viaggio a Parigi di quando ero ragazza"
                 },
@@ -1785,7 +1785,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "sazia",
+                    "itMakesMeThinkAbout": "sazia",
                     "itMakesMeThinkAbout": "un banchetto proibito",
                     "itRemindsMeOf": "i pranzi di Natale"
                 },
@@ -1800,7 +1800,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "solenne",
+                    "itMakesMeThinkAbout": "solenne",
                     "itMakesMeThinkAbout": "un silenzio assordante ",
                     "itRemindsMeOf": ""
                 },
@@ -1820,7 +1820,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "una storia a lieto fine ",
                     "itRemindsMeOf": ""
                 },
@@ -1840,7 +1840,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "negli Anni 30",
+                    "itMakesMeThinkAbout": "negli Anni 30",
                     "itMakesMeThinkAbout": "morbosit\u00e0 ",
                     "itRemindsMeOf": ""
                 },
@@ -1866,7 +1866,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "malinconica Emma tranquilla ",
+                    "itMakesMeThinkAbout": "malinconica Emma tranquilla ",
                     "itMakesMeThinkAbout": "una giornata tranquilla ",
                     "itRemindsMeOf": "la mia infanzia "
                 },
@@ -1887,7 +1887,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "pensierosa ",
+                    "itMakesMeThinkAbout": "pensierosa ",
                     "itMakesMeThinkAbout": "un pomeriggio di autunno sul fiume ",
                     "itRemindsMeOf": "quando studiavo "
                 },
@@ -1907,7 +1907,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "assonnata ",
+                    "itMakesMeThinkAbout": "assonnata ",
                     "itMakesMeThinkAbout": "una persona sola",
                     "itRemindsMeOf": "la primavera "
                 },
@@ -1942,7 +1942,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "una scacchiera ",
                     "itRemindsMeOf": ""
                 },
@@ -1951,7 +1951,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "una localit\u00e0 di mare "
                 },
@@ -2255,7 +2255,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "gli scacchi quando giocavo con mia nonna e mio nonno \n\n\n"
                 },
@@ -2264,7 +2264,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "quando giocavo con la nonna e il nonno a scacchi,.\nEd era bellissimo e quando vincevo perch\u00e9 mi faceva sentire un professionista .",
                     "itRemindsMeOf": ""
                 },
@@ -2273,7 +2273,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "serena\n",
+                    "itMakesMeThinkAbout": "serena\n",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2282,7 +2282,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "paura e inquietudine ",
                     "itRemindsMeOf": ""
                 },
@@ -2291,7 +2291,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "nostalgia",
+                    "itMakesMeThinkAbout": "nostalgia",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2300,7 +2300,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "ansia",
                     "itRemindsMeOf": ""
                 },
@@ -2309,7 +2309,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "Riposo",
                     "itRemindsMeOf": ""
                 },
@@ -2318,7 +2318,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "appartenenza",
                     "itRemindsMeOf": ""
                 },
@@ -2327,7 +2327,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "bene",
+                    "itMakesMeThinkAbout": "bene",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2336,7 +2336,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "un brutto incidente",
                     "itRemindsMeOf": ""
                 },
@@ -2345,7 +2345,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "lle diverse forme della passione",
                     "itRemindsMeOf": ""
                 },
@@ -2354,7 +2354,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "lla bellezza folgorante delle donne",
                     "itRemindsMeOf": ""
                 },
@@ -2363,7 +2363,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "lla bellezza e alla leggerezza dell\u2019amore",
                     "itRemindsMeOf": ""
                 },
@@ -2372,7 +2372,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "IN PACE",
+                    "itMakesMeThinkAbout": "IN PACE",
                     "itMakesMeThinkAbout": "CASA",
                     "itRemindsMeOf": "LA MIA INFANZIA"
                 },
@@ -2387,7 +2387,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "INCERTO",
+                    "itMakesMeThinkAbout": "INCERTO",
                     "itMakesMeThinkAbout": "ALL\u2019UOMO",
                     "itRemindsMeOf": "UNA CATTIVA INFLUENZA"
                 },
@@ -2407,7 +2407,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "CALMO",
+                    "itMakesMeThinkAbout": "CALMO",
                     "itMakesMeThinkAbout": "ALLA FELIUCITA",
                     "itRemindsMeOf": "CASA "
                 },
@@ -2427,7 +2427,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "mio figlio\nChe abita a pARIGI",
                     "itRemindsMeOf": ""
                 },
@@ -2442,7 +2442,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": " IN PACE, RILASSATA",
+                    "itMakesMeThinkAbout": " IN PACE, RILASSATA",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2451,7 +2451,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "LE MIE PASSEGGIATE  IN INVERNO CION GLI SCI DA FONDO"
                 },
@@ -2460,7 +2460,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "PRANZI DI FAMIGLIA",
                     "itRemindsMeOf": ""
                 },
@@ -2469,7 +2469,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "placida",
+                    "itMakesMeThinkAbout": "placida",
                     "itMakesMeThinkAbout": "un pomeriggio rilassante",
                     "itRemindsMeOf": "un viaggio a Parigi"
                 },
@@ -2484,7 +2484,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "al settimo cielo",
+                    "itMakesMeThinkAbout": "al settimo cielo",
                     "itMakesMeThinkAbout": "un paese di montagna eremitico",
                     "itRemindsMeOf": "le vacanze nei boschi"
                 },
@@ -2499,7 +2499,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "pensieri vari che vagano",
                     "itRemindsMeOf": ""
                 },
@@ -2508,7 +2508,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "leggerezza",
                     "itRemindsMeOf": ""
                 },
@@ -2517,7 +2517,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "relax",
                     "itRemindsMeOf": ""
                 },
@@ -2526,7 +2526,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "gioia",
                     "itRemindsMeOf": ""
                 },
@@ -2535,7 +2535,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "saziet\u00e0 ",
                     "itRemindsMeOf": ""
                 },
@@ -2544,7 +2544,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "un cavallo esausto"
                 },
@@ -2559,7 +2559,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "tranquillo, sereno",
+                    "itMakesMeThinkAbout": "tranquillo, sereno",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2579,7 +2579,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "una giornata tranquilla e in pace con la natura",
                     "itRemindsMeOf": ""
                 },
@@ -2588,7 +2588,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "guerra, denuncia",
                     "itRemindsMeOf": ""
                 },
@@ -2597,7 +2597,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "velocit\u00e0, consumismo",
                     "itRemindsMeOf": ""
                 },
@@ -2606,7 +2606,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "sogni, Freud ",
                     "itRemindsMeOf": ""
                 },
@@ -2615,7 +2615,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "realt\u00e0, racconto, povert\u00e0 ",
                     "itRemindsMeOf": ""
                 },
@@ -2624,7 +2624,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "sogni, spavento",
                     "itRemindsMeOf": ""
                 },
@@ -2633,7 +2633,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "una persona che ha la testa tra le nuvole ",
                     "itRemindsMeOf": ""
                 },
@@ -2658,7 +2658,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "una lotta contro il bullismo ",
                     "itRemindsMeOf": ""
                 },
@@ -2673,7 +2673,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "una delle coppie,innamorarti ",
                     "itRemindsMeOf": ""
                 },
@@ -2688,7 +2688,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "che lei sia rilassata e che sta riflettendo",
                     "itRemindsMeOf": ""
                 },
@@ -2703,7 +2703,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2718,7 +2718,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2733,7 +2733,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "sogno",
                     "itRemindsMeOf": ""
                 },
@@ -2742,7 +2742,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "pensieri",
                     "itRemindsMeOf": ""
                 },
@@ -2751,7 +2751,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "I like these places to visit in my free time. Here I can find a lot peace, comfort, my time and much more related to my memories. I have no idea where this place is but I really want to visit.",
                     "itRemindsMeOf": ""
                 },
@@ -2766,7 +2766,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "this is where I want to sit with someone close to me and have a cup of coffee and can chit chat with them about my thoughts and related stuff. Thanks ",
                     "itRemindsMeOf": ""
                 },
@@ -2775,7 +2775,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "I feel this piece of art, the guy in the art is feeling exhausted, worried about the world. He thinks that World is going in the wrong direction.",
                     "itRemindsMeOf": ""
                 },
@@ -2784,7 +2784,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "Even Animals thinks the same, They want to get rid out of this.",
                     "itRemindsMeOf": ""
                 },
@@ -2793,7 +2793,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2808,7 +2808,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2823,7 +2823,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2838,7 +2838,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2853,7 +2853,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2868,7 +2868,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2883,7 +2883,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2898,7 +2898,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2913,7 +2913,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2928,7 +2928,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2953,7 +2953,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2973,7 +2973,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -2988,7 +2988,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -3028,7 +3028,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "staticit\u00e0 ",
                     "itRemindsMeOf": ""
                 },
@@ -3043,7 +3043,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "forza in potenza ",
                     "itRemindsMeOf": ""
                 },
@@ -3073,7 +3073,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -3088,7 +3088,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "ranquillit\u00e0 ",
                     "itRemindsMeOf": ""
                 },
@@ -3097,7 +3097,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "il Mondo che mi circonda fatto di alti e bassi ",
                     "itRemindsMeOf": ""
                 },
@@ -3141,7 +3141,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": " solitudine",
                     "itRemindsMeOf": ""
                 },
@@ -3150,7 +3150,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "ordine",
                     "itRemindsMeOf": ""
                 },
@@ -3159,7 +3159,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "ansia",
                     "itRemindsMeOf": ""
                 },
@@ -3168,7 +3168,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "guerra",
                     "itRemindsMeOf": ""
                 },
@@ -3202,7 +3202,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "  tango",
                     "itRemindsMeOf": ""
                 },
@@ -3211,7 +3211,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "passato"
                 },
@@ -3220,7 +3220,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "solitudine",
                     "itRemindsMeOf": ""
                 },
@@ -3244,7 +3244,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "storie misteriose",
                     "itRemindsMeOf": ""
                 },
@@ -3253,7 +3253,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "leggende",
                     "itRemindsMeOf": ""
                 },
@@ -3451,7 +3451,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "annoiata",
+                    "itMakesMeThinkAbout": "annoiata",
                     "itMakesMeThinkAbout": "lla tradizione ",
                     "itRemindsMeOf": ""
                 },
@@ -3466,7 +3466,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "mondo contadino",
                     "itRemindsMeOf": "l'autunno"
                 },
@@ -3487,7 +3487,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "tranquilla",
+                    "itMakesMeThinkAbout": "tranquilla",
                     "itMakesMeThinkAbout": "pecore, pecore e ancora pecore",
                     "itRemindsMeOf": "la pianura padana"
                 },
@@ -3508,7 +3508,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "preraffaelliti",
                     "itRemindsMeOf": ""
                 },
@@ -3529,7 +3529,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "sognante",
+                    "itMakesMeThinkAbout": "sognante",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "Renoir"
                 },
@@ -3544,7 +3544,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "un grande terrore",
                     "itRemindsMeOf": "la casa dei nonni"
                 },
@@ -3575,7 +3575,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "angosciata",
+                    "itMakesMeThinkAbout": "angosciata",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -3590,7 +3590,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "un romanzo d'appendice",
                     "itRemindsMeOf": ""
                 },
@@ -3605,7 +3605,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "un vecchio"
                 },
@@ -3626,7 +3626,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "nostalgico",
+                    "itMakesMeThinkAbout": "nostalgico",
                     "itMakesMeThinkAbout": "armadio della nonna",
                     "itRemindsMeOf": ""
                 },
@@ -3641,7 +3641,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -3661,7 +3661,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -3682,7 +3682,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "\nUna gita a firenze"
                 },
@@ -3691,7 +3691,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nalla noia e alla polvere",
                     "itRemindsMeOf": ""
                 },
@@ -3700,7 +3700,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -3721,7 +3721,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nops sto cadendo",
                     "itRemindsMeOf": ""
                 },
@@ -3730,7 +3730,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "Una gita a Volpedo"
                 },
@@ -3739,7 +3739,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "un uomo che ama gli animali",
                     "itRemindsMeOf": ""
                 },
@@ -3748,7 +3748,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "innamorata ",
+                    "itMakesMeThinkAbout": "innamorata ",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -3757,7 +3757,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "quando andavo al mare"
                 },
@@ -3766,7 +3766,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "gr",
                     "itRemindsMeOf": ""
                 },
@@ -3775,7 +3775,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "ngdn",
                     "itRemindsMeOf": ""
                 },
@@ -3784,7 +3784,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "gre",
                     "itRemindsMeOf": ""
                 },
@@ -3793,7 +3793,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "r",
                     "itRemindsMeOf": ""
                 },
@@ -3802,7 +3802,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "hhhh"
                 },
@@ -3834,7 +3834,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "gggg"
                 },
@@ -3845,7 +3845,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "m",
                     "itRemindsMeOf": ""
                 },
@@ -3856,7 +3856,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "jut",
                     "itRemindsMeOf": ""
                 },
@@ -3867,7 +3867,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "al mare",
                     "itRemindsMeOf": ""
                 },
@@ -3878,7 +3878,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "triste",
+                    "itMakesMeThinkAbout": "triste",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -3901,7 +3901,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "ttttt"
                 },
@@ -3923,7 +3923,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "rrrr",
                     "itRemindsMeOf": ""
                 },
@@ -3934,7 +3934,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "mmm",
                     "itRemindsMeOf": ""
                 },
@@ -3987,7 +3987,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "bbbbb"
                 },
@@ -4004,7 +4004,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "sad ",
+                    "itMakesMeThinkAbout": "sad ",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -4015,18 +4015,18 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "ddedef"
                 },
                 "emojis": [],
                 "tags": [],
                 "text": "ddedef",
-                "textTemplate": "itMakesMeFeel"
+                "textTemplate": "itMakesMeThinkAbout"
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "gegterg"
                 },
@@ -4037,18 +4037,18 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "ergergerge"
                 },
                 "emojis": [],
                 "tags": [],
                 "text": "ergergerge",
-                "textTemplate": "itMakesMeFeel"
+                "textTemplate": "itMakesMeThinkAbout"
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "nosisejhhjj"
                 },
@@ -4081,7 +4081,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "dsaas",
                     "itRemindsMeOf": ""
                 },
@@ -4092,7 +4092,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "asdas",
                     "itRemindsMeOf": ""
                 },
@@ -4130,7 +4130,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "LSD ",
                     "itRemindsMeOf": ""
                 },
@@ -4145,7 +4145,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "Casa",
                     "itRemindsMeOf": ""
                 },
@@ -4160,7 +4160,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "Sesso",
                     "itRemindsMeOf": ""
                 },
@@ -4169,7 +4169,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "Vecchiaia",
                     "itRemindsMeOf": ""
                 },
@@ -4216,7 +4216,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "un pomeriggio di un buio giorno invernale ",
                     "itRemindsMeOf": ""
                 },
@@ -4231,7 +4231,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "perduta",
+                    "itMakesMeThinkAbout": "perduta",
                     "itMakesMeThinkAbout": "un periodo particolare della vita, la prima giovinezza ",
                     "itRemindsMeOf": "una casa vuota e solitaria, che riecheggia di suoni di tubature e scricchiolii "
                 },
@@ -4267,7 +4267,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "tranquilla ma non allegra ",
+                    "itMakesMeThinkAbout": "tranquilla ma non allegra ",
                     "itMakesMeThinkAbout": "una giornata di mezza stagione quieta e senza emozioni ",
                     "itRemindsMeOf": "le gite in collina"
                 },
@@ -4388,7 +4388,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "dei giochi per bambini",
                     "itRemindsMeOf": ""
                 },
@@ -4397,7 +4397,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "un giullare che gioca"
                 },
@@ -4406,7 +4406,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "tante case colorate",
                     "itRemindsMeOf": ""
                 },
@@ -4415,7 +4415,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "quell'artista di strada che suonava i Beatles "
                 },
@@ -4424,7 +4424,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "dei giocolieri che lanciano dei nastri colorati",
                     "itRemindsMeOf": ""
                 },
@@ -4433,7 +4433,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "quando i mercati della citt\u00e0 sono pieni",
                     "itRemindsMeOf": ""
                 },
@@ -4442,7 +4442,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "le strade affollate di gente"
                 },
@@ -4451,7 +4451,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "all'inizio dell'inverno nella campagna pavese",
                     "itRemindsMeOf": ""
                 },
@@ -4460,7 +4460,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "le lunghe giornate con gli amici in riva al fiume a pescare"
                 },
@@ -4480,7 +4480,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "quanto l'amore sia fluido e non abbia confini ",
                     "itRemindsMeOf": ""
                 },
@@ -4506,7 +4506,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "quando quella notte a Parigi..."
                 },
@@ -4521,7 +4521,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "ad una sarcedotessa greca che chiede qualcosa agli dei ",
                     "itRemindsMeOf": ""
                 },
@@ -4530,7 +4530,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "triste perch\u00e9 mi ricordo la storia della Monaca ",
+                    "itMakesMeThinkAbout": "triste perch\u00e9 mi ricordo la storia della Monaca ",
                     "itMakesMeThinkAbout": "ad",
                     "itRemindsMeOf": ""
                 },
@@ -4545,7 +4545,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "agli oggetti della mia dispensa",
                     "itRemindsMeOf": ""
                 },
@@ -4554,7 +4554,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "quando andavamo al mare a casa dei nonni"
                 },
@@ -4563,7 +4563,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "come dopo il pranzo di Natale in famiglia",
+                    "itMakesMeThinkAbout": "come dopo il pranzo di Natale in famiglia",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -4578,7 +4578,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "alle vacanze tra le colline della Toscana",
                     "itRemindsMeOf": ""
                 },
@@ -4587,7 +4587,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "una gita in campagna con mai zia che dipinge"
                 },
@@ -4596,7 +4596,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "un momento di relax",
                     "itRemindsMeOf": ""
                 },
@@ -4605,7 +4605,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "una donna che riposa",
                     "itRemindsMeOf": ""
                 },
@@ -4614,7 +4614,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "ad un amore passionale",
                     "itRemindsMeOf": ""
                 },
@@ -4623,7 +4623,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "romantica e passionale",
+                    "itMakesMeThinkAbout": "romantica e passionale",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -4632,7 +4632,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "un episodio della mitologia classica che studiavo a scuola"
                 },
@@ -4666,7 +4666,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "kk",
                     "itRemindsMeOf": ""
                 },
@@ -4675,7 +4675,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "kk"
                 },
@@ -4712,7 +4712,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -4777,7 +4777,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -4792,7 +4792,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "sensazione di pace ed inquietudine insieme",
                     "itRemindsMeOf": ""
                 },
@@ -4823,7 +4823,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -4844,7 +4844,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -4865,7 +4865,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5025,7 +5025,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nQualcosa del passato",
                     "itRemindsMeOf": ""
                 },
@@ -5034,7 +5034,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nVecchi indumenti\n",
                     "itRemindsMeOf": ""
                 },
@@ -5043,7 +5043,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5058,7 +5058,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5073,7 +5073,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "\nMi ricorda un incubo"
                 },
@@ -5082,7 +5082,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nSogno",
                     "itRemindsMeOf": ""
                 },
@@ -5091,7 +5091,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5116,7 +5116,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nMi fa pensare all'attesa",
                     "itRemindsMeOf": ""
                 },
@@ -5125,7 +5125,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nA nuove prospettive guardare oltre",
                     "itRemindsMeOf": ""
                 },
@@ -5134,7 +5134,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nRumore di bicchieri rotti",
                     "itRemindsMeOf": ""
                 },
@@ -5143,7 +5143,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5158,7 +5158,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": "\nForti temporali"
                 },
@@ -5167,7 +5167,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nEssere sgridati",
                     "itRemindsMeOf": ""
                 },
@@ -5176,7 +5176,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "\nTriste",
+                    "itMakesMeThinkAbout": "\nTriste",
                     "itMakesMeThinkAbout": "\n",
                     "itRemindsMeOf": ""
                 },
@@ -5185,7 +5185,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5200,7 +5200,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "\nSensazione di serenit\u00e0",
+                    "itMakesMeThinkAbout": "\nSensazione di serenit\u00e0",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5209,7 +5209,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5224,7 +5224,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nProfumo",
                     "itRemindsMeOf": ""
                 },
@@ -5233,7 +5233,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nLa Grecia",
                     "itRemindsMeOf": ""
                 },
@@ -5242,7 +5242,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5277,7 +5277,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "\n",
+                    "itMakesMeThinkAbout": "\n",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5292,7 +5292,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nIl momento della creazione",
                     "itRemindsMeOf": ""
                 },
@@ -5301,7 +5301,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "\nConfuso",
+                    "itMakesMeThinkAbout": "\nConfuso",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5310,7 +5310,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5325,7 +5325,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5340,7 +5340,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nSilenzio",
                     "itRemindsMeOf": ""
                 },
@@ -5349,7 +5349,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nInfinito",
                     "itRemindsMeOf": ""
                 },
@@ -5358,7 +5358,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "\nMi ricorda il mio gatto",
                     "itRemindsMeOf": ""
                 },
@@ -5367,7 +5367,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "\nSembra che si formi la figura di un animale stilizzato",
+                    "itMakesMeThinkAbout": "\nSembra che si formi la figura di un animale stilizzato",
                     "itMakesMeThinkAbout": "\nSembra che so formi la figura di un animale stilizzato",
                     "itRemindsMeOf": ""
                 },
@@ -5382,7 +5382,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "\nBella l'immagine del passero che accompagna il musicista",
+                    "itMakesMeThinkAbout": "\nBella l'immagine del passero che accompagna il musicista",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5437,7 +5437,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "un aquilone in spiaggia ",
                     "itRemindsMeOf": ""
                 },
@@ -5446,7 +5446,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "due persone che fanno l\u2019amore",
                     "itRemindsMeOf": ""
                 },
@@ -5474,7 +5474,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5489,7 +5489,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5526,7 +5526,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5541,7 +5541,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "sample",
                     "itRemindsMeOf": ""
                 },
@@ -5579,7 +5579,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "serenit\u00e0 ",
                     "itRemindsMeOf": ""
                 },
@@ -5588,7 +5588,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "momenti di spensieratezza",
                     "itRemindsMeOf": ""
                 },
@@ -5597,7 +5597,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "attimi di riflessione in solitudine",
                     "itRemindsMeOf": ""
                 },
@@ -5625,7 +5625,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "una cosa rilassante",
                     "itRemindsMeOf": ""
                 },
@@ -5640,7 +5640,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "  ritorno a casa",
                     "itRemindsMeOf": ""
                 },
@@ -5678,7 +5678,7 @@
         "multimediaData": [
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5693,7 +5693,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },
@@ -5708,7 +5708,7 @@
             },
             {
                 "answersToTemplates": {
-                    "itMakesMeFeel": "",
+                    "itMakesMeThinkAbout": "",
                     "itMakesMeThinkAbout": "",
                     "itRemindsMeOf": ""
                 },

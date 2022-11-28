@@ -375,7 +375,7 @@
                 "name": "equalSimilarity",
                 "params": [],
                 "on_attribute": {
-                    "att_name": "itMakesMeFeel",
+                    "att_name": "itMakesMeThinkAbout",
                     "att_type": "String"
                 },
                 "interaction_object": {

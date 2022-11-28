@@ -1,6 +1,6 @@
 {
-  "id": "S-Sentiments-S-Artworks (artist_country)",
-  "name": "S-Sentiments-S-Artworks (artist_country)",
+  "id": "Similar-Sentiments-Similar-Artworks (artist_country)",
+  "name": "Similar-Sentiments-Similar-Artworks (artist_country)",
   "algorithm": {
     "name": "agglomerative",
     "params": [

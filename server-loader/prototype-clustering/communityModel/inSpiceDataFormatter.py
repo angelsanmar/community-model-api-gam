@@ -38,10 +38,10 @@ class InSpiceDataFormatter():
         # Get artworkId, emotions, sentiments
         df2_a = pd.json_normalize(df["parts"], max_level = 0)
         
-        # Get itMakesMeFeel attribute which is needed for the visualization
+        # Get itMakesMeThinkAbout attribute which is needed for the visualization
         df2_b = pd.json_normalize(df2_a["multimediaData"], max_level = 0)
         df2_b = pd.json_normalize(df2_b["answersToTemplates"], max_level = 0)
-        df2_b = df2_b.rename(columns = {'itMakesMeFeel':'itMakesMeFeel'})
+        df2_b = df2_b.rename(columns = {'itMakesMeThinkAbout':'itMakesMeThinkAbout'})
 
         # Interactions user-artwork dataframe
         df2 = pd.concat([df2_a,df2_b], axis=1, join='inner')

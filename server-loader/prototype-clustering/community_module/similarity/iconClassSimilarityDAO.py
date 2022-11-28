@@ -20,11 +20,15 @@ class IconClassSimilarityDAO(SimilarityDAO):
 
     def elemLayer(self,elem):
         return len(elem)
-    
-    def getIconClassList(self, elem):
-        iconClassList = self.data.loc[elem][self.similarityColumn].split("; ")
+        
+    def getIconClassList2(self,iconClassString):
+        iconClassList = iconClassString.split("; ")
         iconClassList = [iconClass.split(" ")[0] for iconClass in iconClassList if iconClass]
         return iconClassList  
+    
+    def getIconClassList(self, elem):
+        iconClassString = self.data.loc[elem][self.similarityColumn]
+        return self.getIconClassList2(iconClassString)
     
     def taxonomyDistance(self,elemA,elemB):
         """Method to obtain the distance between two taxonomy members.
@@ -60,7 +64,7 @@ class IconClassSimilarityDAO(SimilarityDAO):
             
         return 1 - sim
         
-    def iconclassBestMatch(self,  elemA, iconClassListB):
+    def iconClassBestMatch(self, elemA, iconClassListB):
         """        
         a) It finds the iconClass elem in iconClassListB with the largest common prefix with elemA (most similar)
         
@@ -168,14 +172,32 @@ class IconClassSimilarityDAO(SimilarityDAO):
     
     def dominantValue(self, iconClassListA, iconClassListB):
         explainable_iconclassValues = []
-        
-        for elemA in valueA:
-            longestPrefixElemB = self.iconClassBestMatch(elemA, iconClassListB)
-            commonParent = os.path.commonprefix([elemA, longestPrefixElemB])
-            maxLayer = max(self.elemLayer(elemA), self.elemLayer(longestPrefixElemB))
-            if (self.elemLayer(commonParent) + 2 >= maxLayer):
-                explainable_iconClassValues.append(commonParent)
 
+        iconClassListA = self.getIconClassList2(iconClassListA)
+        iconClassListB = self.getIconClassList2(iconClassListB)
+
+        
+        try:
+            
+            for elemA in iconClassListA:
+                h4 = self.iconClassBestMatch(elemA, iconClassListB)
+                longestPrefixElemB = self.iconClassBestMatch(elemA, iconClassListB)
+                commonParent = os.path.commonprefix([elemA, longestPrefixElemB])
+                maxLayer = max(self.elemLayer(elemA), self.elemLayer(longestPrefixElemB))
+                if (self.elemLayer(commonParent) + 2 >= maxLayer):
+                    explainable_iconclassValues.append(commonParent)
+        
+        except Exception as e:
+            print("exception")
+            print(e)
+            
+            """
+            print("longestPrefixElemB: " + str(longestPrefixElemB))
+            print("commonParent: " + str(commonParent))
+            print("maxLayer: " + str(maxLayer))
+            """
+            
+        
         return explainable_iconclassValues
     
 

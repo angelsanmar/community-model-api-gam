@@ -4,8 +4,8 @@
         "userName": "0bAAwK14",
         "Gender_x": "Male",
         "Age": "20-30 age",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39416,
@@ -825,8 +825,8 @@
         "userName": "2JfmseEG",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35362,
@@ -1846,8 +1846,8 @@
         "userName": "3K9AMmqU",
         "Gender_x": "Male",
         "Age": "31-45 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35222,
@@ -2175,9 +2175,7 @@
             null
         ],
         "itMakesMeThinkAbout.emotions": [
-            {
-                "False": 1.0
-            },
+            {},
             {
                 "Joy": 0.9954855
             },
@@ -2232,8 +2230,8 @@
         "userName": "6rK3p7za",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39416,
@@ -4376,8 +4374,8 @@
         "userName": "7zL8hKS8",
         "Gender_x": "Not specified",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39200
@@ -4596,8 +4594,8 @@
         "userName": "8sAIqaGe",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             35433
@@ -4823,8 +4821,8 @@
         "userName": "B3N0HGw4",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35288,
@@ -5213,8 +5211,8 @@
         "userName": "BNtsz8zb",
         "Gender_x": "Male",
         "Age": "31-45 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35229,
@@ -5619,8 +5617,7 @@
         "itMakesMeThinkAbout.emotions": [
             {},
             {
-                "Love": 0.954951,
-                "False": 1.0
+                "Love": 0.954951
             },
             {
                 "Joy": 0.8936888
@@ -5679,8 +5676,8 @@
         "userName": "BTKF72et",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             35465,
@@ -6363,13 +6360,9 @@
         "itMakesMeThinkAbout.emotions": [
             {},
             {},
-            {
-                "False": 1.0
-            },
             {},
-            {
-                "False": 1.0
-            },
+            {},
+            {},
             {
                 "Serenity": 0.6161842
             },
@@ -6480,8 +6473,8 @@
         "userName": "Bf5Sj3ON",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35362,
@@ -6789,8 +6782,8 @@
         "userName": "EEm3fSZd",
         "Gender_x": "Male",
         "Age": "31-45 age",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35222,
@@ -7091,8 +7084,8 @@
         "userName": "FVhf7OMw",
         "Gender_x": "Male",
         "Age": "45-60 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39200,
@@ -7468,8 +7461,8 @@
         "userName": "GV4z5ANK",
         "Gender_x": "Not specified",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             35381,
@@ -7807,9 +7800,7 @@
         ],
         "itMakesMeThinkAbout.emotions": [
             {},
-            {
-                "False": 1.0
-            },
+            {},
             {
                 "Serenity": 1.0
             }
@@ -7859,8 +7850,8 @@
         "userName": "HoNIcWZY",
         "Gender_x": "Male",
         "Age": "13-19 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             39347,
@@ -8566,8 +8557,8 @@
         "userName": "JgevtrSb",
         "Gender_x": "Not specified",
         "Age": "45-60 age",
-        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
-        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "RelationshipWithArt": "I have no interest in art",
+        "RelationshipWithMuseum": "I rarely visit museums and exhibitions",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             35227,
@@ -8964,8 +8955,8 @@
         "userName": "KQTGApjD",
         "Gender_x": "Male",
         "Age": "20-30 age",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             35459,
@@ -9276,8 +9267,8 @@
         "userName": "LW3Klzvx",
         "Gender_x": "Male",
         "Age": "45-60 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39175,
@@ -9842,8 +9833,8 @@
         "userName": "LvIeXwcT",
         "Gender_x": "Not specified",
         "Age": "45-60 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39416,
@@ -10848,8 +10839,8 @@
         "userName": "M38rC6wd",
         "Gender_x": "Male",
         "Age": "20-30 age",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             35433
@@ -11075,8 +11066,8 @@
         "userName": "N72IRgFy",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
-        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "RelationshipWithArt": "I have no interest in art",
+        "RelationshipWithMuseum": "I rarely visit museums and exhibitions",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             39416,
@@ -11376,8 +11367,8 @@
         "userName": "NROrO0c9",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35456,
@@ -11839,8 +11830,8 @@
         "userName": "PxrTX0Ln",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             35381,
@@ -12147,8 +12138,8 @@
         "userName": "R4frFK0J",
         "Gender_x": "Male",
         "Age": "31-45 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             39175,
@@ -12700,8 +12691,8 @@
         "userName": "RQ4a2nIG",
         "Gender_x": "Female",
         "Age": "31-45 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I rarely visit museums and exhibitions",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39416,
@@ -14651,8 +14642,8 @@
         "userName": "Sz5Wx2XD",
         "Gender_x": "Male",
         "Age": "45-60 age",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             35245
@@ -14874,8 +14865,8 @@
         "userName": "V337a5b8",
         "Gender_x": "Female",
         "Age": "31-45 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             35310
@@ -15099,8 +15090,8 @@
         "userName": "W7Wnqxw4",
         "Gender_x": "Male",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             39347,
@@ -15400,8 +15391,8 @@
         "userName": "WYCImqGm",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I rarely visit museums and exhibitions",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35229,
@@ -15702,8 +15693,8 @@
         "userName": "WsK2A1ab",
         "Gender_x": "Not specified",
         "Age": "Not specified",
-        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
-        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "RelationshipWithArt": "I have no interest in art",
+        "RelationshipWithMuseum": "I rarely visit museums and exhibitions",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39352,
@@ -16103,8 +16094,8 @@
         "userName": "Y0WXF1LR",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35323,
@@ -16489,8 +16480,8 @@
         "userName": "ZWrgWx9o",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39138,
@@ -16790,8 +16781,8 @@
         "userName": "anqHwMQ0",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             39352,
@@ -19236,8 +19227,8 @@
         "userName": "bSuOYLw2",
         "Gender_x": "Female",
         "Age": "45-60 age",
-        "RelationshipWithArt": "Il mio lavoro riguarda l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "My work is about art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             39648,
@@ -22126,8 +22117,8 @@
         "userName": "btoSxy3T",
         "Gender_x": "Male",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             39138,
@@ -22406,12 +22397,8 @@
             null
         ],
         "itMakesMeFeel.emotions": [
-            {
-                "False": 1.0
-            },
-            {
-                "False": 1.0
-            }
+            {},
+            {}
         ],
         "itMakesMeFeel.sentiment": [
             {
@@ -22435,8 +22422,8 @@
         "userName": "cBjFhvjx",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             39648,
@@ -22908,8 +22895,8 @@
         "userName": "cmq6JZxJ",
         "Gender_x": "Male",
         "Age": "Not binary",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35381,
@@ -23366,8 +23353,8 @@
         "userName": "e4aM9WL7",
         "Gender_x": "Female",
         "Age": "45-60 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             39416,
@@ -34439,8 +34426,8 @@
         "userName": "fqybaAk8",
         "Gender_x": "Male",
         "Age": "45-60 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39175,
@@ -36021,8 +36008,8 @@
         "userName": "loEoYm9R",
         "Gender_x": "Male",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35310,
@@ -36399,8 +36386,8 @@
         "userName": "oTT3YRMN",
         "Gender_x": "Not specified",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Non provo nessun interesse per l'arte",
-        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "RelationshipWithArt": "I have no interest in art",
+        "RelationshipWithMuseum": "I rarely visit museums and exhibitions",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             35230,
@@ -36707,8 +36694,8 @@
         "userName": "onDqgFnI",
         "Gender_x": "Male",
         "Age": "45-60 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39416,
@@ -37082,8 +37069,8 @@
         "userName": "ox8G7avH",
         "Gender_x": "Male",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39352,
@@ -38835,8 +38822,8 @@
         "userName": "q2BDj1os",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito raramente musei e mostre",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I rarely visit museums and exhibitions",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             39138,
@@ -39146,8 +39133,8 @@
         "userName": "sXKZ1IUH",
         "Gender_x": "Female",
         "Age": "45-60 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito spesso i musei",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I often visit museums",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             39182,
@@ -40086,8 +40073,8 @@
         "userName": "x2AUnHqw",
         "Gender_x": "Male",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35456,
@@ -40480,8 +40467,8 @@
         "userName": "yjlouq5U",
         "Gender_x": "Female",
         "Age": "20-30 age",
-        "RelationshipWithArt": "Ho un forte interesse per l'arte",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "I have a strong interest in art",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Vorrei vedere i contenuti in Lingua dei Segni (LIS)",
         "@id_x": [
             35330,
@@ -40791,8 +40778,8 @@
         "userName": "zZbRbDHJ",
         "Gender_x": "Male",
         "Age": "20-30 age",
-        "RelationshipWithArt": "L'arte mi interessa poco",
-        "RelationshipWithMuseum": "Visito di tanto in tanto musei e mostre",
+        "RelationshipWithArt": "Art interests me little",
+        "RelationshipWithMuseum": "I visit museums and exhibitions from time to time",
         "ContentInLIS": "Non mi interessano i contenuti in Lingua dei Segni",
         "@id_x": [
             39347,

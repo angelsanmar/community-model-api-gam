@@ -1,6 +1,6 @@
 {
-  "id": "S-Sentiments-S-Artworks (materials)",
-  "name": "S-Sentiments-S-Artworks (materials)",
+  "id": "Similar-Sentiments-Similar-Artworks (materials)",
+  "name": "Similar-Sentiments-Similar-Artworks (materials)",
   "algorithm": {
     "name": "agglomerative",
     "params": [

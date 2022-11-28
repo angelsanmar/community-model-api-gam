@@ -1,6 +1,6 @@
 {
-  "id": "S-Sentiments-S-Artworks (iconclass)",
-  "name": "S-Sentiments-S-Artworks (iconclass)",
+  "id": "Similar-Sentiments-Similar-Artworks (iconclass)",
+  "name": "Similar-Sentiments-Similar-Artworks (iconclass)",
   "algorithm": {
     "name": "agglomerative",
     "params": [
