@@ -33,7 +33,7 @@ module.exports.getSeed = function getSeed(req, res, next) {
 };
 
 function getExampleSeed() {
-    let seed = require('./seedFile.json');
+    let seed = require('../src/seedFile.json');
     // console.log(seed);
     return seed;
 }

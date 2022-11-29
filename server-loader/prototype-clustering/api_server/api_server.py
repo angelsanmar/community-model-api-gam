@@ -104,6 +104,12 @@ class Handler(BaseHTTPRequestHandler):
             perspectiveId = loads(post_data)
             print(perspectiveId)
             print("\n\n")
+            
+            # perspective = daoPerspective.getPerspective(perspectiveId)
+
+            # communityModel = CommunityModel(
+            #     perspective, daoInteractionData, {}, dataId_1)
+            # communityModel.start()
 
             # retrive perspective from db
             # daoPerspective = DAO_db_perspectives()
@@ -135,7 +141,8 @@ class Handler(BaseHTTPRequestHandler):
             # (en cualquier caso se puede omitir la busqiedad por id y simplemente pedir algun interactionData,
             # ya que voy a borrarlo despues de cada ejecucion del CM)
             daoInteractionData = DAO_db_interactionDatas()
-            data = daoInteractionData.getInteractionDataById(ObjectId(dataId_1))["data"]
+            data = daoInteractionData.getInteractionDataById(ObjectId(dataId_1))[
+                "data"]
             # print("data: ", data)
 
             # retrive perspective from db

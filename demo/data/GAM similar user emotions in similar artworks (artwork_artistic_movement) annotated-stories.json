@@ -1,7 +1,7 @@
 
 {
-  "id": "GAM similar user emotions in similar artworks (Artwork_Artistic_Movement)",
-  "name": "GAM similar user emotions in similar artworks (Artwork_Artistic_Movement)",
+  "id": "GAM similar user emotions in similar artworks (artistic movement)",
+  "name": "GAM similar user emotions in similar artworks (artistic movement)",
   "algorithm": {
     "name": "agglomerative",
     "params": [
@@ -16,8 +16,7 @@
         "on_attribute": {
           "att_name": "Artwork_Artistic_Movement",
           "att_type": "String"
-        },
-        "weight": 0.8
+        }
       }
     }
   ],
@@ -42,7 +41,7 @@
           "att_type": "dict"
         },
         "interaction_object": {
-          "att_name": "IdArtefact",
+          "att_name": "artworkId",
           "att_type": "String"
         }
       }
